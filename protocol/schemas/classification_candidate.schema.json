@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "classification_candidate.schema.json",
+  "title": "Classification Candidate",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "artifact_origin",
+    "legal_authority_chain",
+    "component_id",
+    "jurisdiction",
+    "agent_stage",
+    "candidate_hs_code",
+    "gri_path",
+    "confidence_state",
+    "stability_state",
+    "handoff_route"
+  ],
+  "properties": {
+    "artifact_type": {"const": "classification_candidate"},
+    "jurisdiction": {"const": "EU"},
+    "artifact_origin": {"type": "object"},
+    "legal_authority_chain": {"type": "array"},
+    "comparison_only": {"type": "object"}
+  }
+}

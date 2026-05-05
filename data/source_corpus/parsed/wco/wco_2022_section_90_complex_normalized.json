@@ -1,0 +1,100 @@
+{
+  "document_class": "legal_statute",
+  "normalizer_name": "legal_document",
+  "normalizer_version": "1.0.0",
+  "confidence": 0.82,
+  "review_flags": [
+    "legal_signal"
+  ],
+  "payload": {
+    "sections": [
+      {
+        "section_id": "section-1",
+        "title": "Document Start",
+        "level": 1,
+        "page_numbers": [
+          1
+        ],
+        "block_count": 1,
+        "text_excerpt": "Chapter 90"
+      },
+      {
+        "section_id": "section-2",
+        "title": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+        "level": 1,
+        "page_numbers": [
+          1
+        ],
+        "block_count": 0,
+        "text_excerpt": ""
+      },
+      {
+        "section_id": "section-3",
+        "title": "Notes.",
+        "level": 2,
+        "page_numbers": [
+          1,
+          2,
+          7
+        ],
+        "block_count": 52,
+        "text_excerpt": "1.- This Chapter does not cover : (a) Articles of a kind used in machines, appliances or for other technical uses, of vulcanised rubber other than hard rubber (heading 40.16), of leather or of composition leather (heading 42.05) or of textile material (heading 59.11); (b) Supporting belts or other support articles of textile material, whose intended effect on the organ to be supported or held derives solely from their elasticity (for example, maternity belts, thoracic support bandages, abdominal support bandages, supports for joints or muscles) (Section XI); (c) Refractory goods of heading 69.03; ceramic wares for laboratory, chemical or other technical uses, of heading 69.09; (d) Glass mirrors, not optically worked, of heading 70.09, or mirrors of base metal or of precious metal, not being optical elements (heading 83.06 or Chapter 71); (e) Goods of heading 70.07, 70.08, 70.11, 70.14, 70.15 or 70.17; (f) Parts of general use, as defined in Note 2 to Section XV, of base metal (Section XV) or similar goods of plastics (Chapter 39); however, articles specially designed for use exclusively in implants in medical, surgical, dental or veterinary sciences are to be classified in heading "
+      }
+    ],
+    "citations": [
+      "Chapter 90",
+      "Chapter does",
+      "heading 40.16",
+      "heading 42.05",
+      "heading 59.11",
+      "Section XI",
+      "heading 69.03",
+      "heading 69.09",
+      "heading 70.09",
+      "heading 83.06",
+      "Chapter 71",
+      "heading 70.07",
+      "Section XV",
+      "Chapter 39",
+      "heading 90.21",
+      "heading 84.13",
+      "heading 84.23",
+      "heading 84.41",
+      "heading 84.66",
+      "heading 84.70",
+      "heading 84.81",
+      "heading 84.86",
+      "heading 85.12",
+      "heading 85.13",
+      "heading 85.19",
+      "heading 85.22",
+      "heading 85.25",
+      "heading 85.26",
+      "heading 85.36",
+      "heading 85.37",
+      "heading 85.39",
+      "heading 85.44",
+      "heading 94.05",
+      "Chapter 95",
+      "heading 96.20",
+      "heading 39.23",
+      "Chapter are",
+      "Chapter or",
+      "Chapter 84",
+      "heading 84.87",
+      "heading (including",
+      "heading 90.10",
+      "heading 90.33",
+      "Section XVI",
+      "Heading 90.05",
+      "heading 90.13",
+      "heading 90.31",
+      "Heading 90.32",
+      "Heading H.S",
+      "heading 90.14",
+      "heading 90.28"
+    ],
+    "effective_dates": [],
+    "table_count": 8
+  }
+}

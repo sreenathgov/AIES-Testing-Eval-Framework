@@ -1,0 +1,3089 @@
+{
+  "schema_name": "CanonicalDocument",
+  "schema_version": "1.0.0",
+  "source": {
+    "path": "/private/var/folders/rw/0363ypyd2ksb_3rn6nv80d3w0000gn/T/tmp.9Eo0nQfrNC/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
+    "hash": "1f2eada9662f4b6089e6bd90f8c5e50f93f032eabd7ae2a19014c06b711357c5",
+    "kind": "pdf",
+    "extension": ".pdf",
+    "ocr_model": "mistral-ocr-latest",
+    "usage_info": {
+      "pages_processed": 19,
+      "doc_size_bytes": 463121
+    }
+  },
+  "parse_decision": {
+    "source_kind": "pdf",
+    "complexity_class": "manual_complex_pdf",
+    "selected_engine": "mistral_ocr",
+    "fallback_chain": [
+      "docling"
+    ],
+    "route_reason": "Manual `_complex` tag forces Mistral OCR first."
+  },
+  "provenance": {
+    "route_reason": "Manual `_complex` tag forces Mistral OCR first.",
+    "attempts": [
+      {
+        "engine": "mistral_ocr",
+        "status": "success",
+        "version": "mistral-ocr-latest",
+        "duration_seconds": 7.37,
+        "details": {
+          "table_format": "html",
+          "extract_header": false,
+          "extract_footer": false,
+          "pages_processed": 19,
+          "doc_size_bytes": 463121
+        }
+      }
+    ],
+    "fallback_chain": [
+      "docling"
+    ]
+  },
+  "content": {
+    "pages": [
+      {
+        "page_number": 1,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 2,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 3,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 4,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 5,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 6,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 7,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 8,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 9,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 10,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 11,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 12,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 13,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 14,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 15,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 16,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 17,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 18,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      },
+      {
+        "page_number": 19,
+        "dimensions": {
+          "dpi": 200,
+          "height": 2339,
+          "width": 1654
+        },
+        "header": null,
+        "footer": null
+      }
+    ],
+    "headings": [
+      {
+        "level": 1,
+        "text": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "level": 2,
+        "text": "Notes.",
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "level": 2,
+        "text": "Subheading Notes.",
+        "page_numbers": [
+          4
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "tbl-0.html",
+        "page_numbers": [
+          4
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.01",
+            "",
+            "Electric motors and generators (excluding generating sets)."
+          ],
+          [
+            "8501.10",
+            "- Motors of an output not exceeding 37.5 W"
+          ],
+          [
+            "8501.20",
+            "- Universal AC/DC motors of an output exceeding 37.5 W"
+          ],
+          [
+            "",
+            "- Other DC motors; DC generators, other than photovoltaic generators :"
+          ],
+          [
+            "8501.31",
+            "-- Of an output not exceeding 750 W"
+          ],
+          [
+            "",
+            "8501.32",
+            "-- Of an output exceeding 750 W but not exceeding 75 kW"
+          ]
+        ],
+        "row_count": 7,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-1.html",
+        "page_numbers": [
+          5
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "",
+            "8501.33",
+            "-- Of an output exceeding 75 kW but not exceeding 375 kW"
+          ],
+          [
+            "",
+            "8501.34",
+            "-- Of an output exceeding 375 kW"
+          ],
+          [
+            "",
+            "8501.40",
+            "- Other AC motors, single-phase"
+          ],
+          [
+            "",
+            "",
+            "- Other AC motors, multi-phase :"
+          ],
+          [
+            "",
+            "8501.51",
+            "-- Of an output not exceeding 750 W"
+          ],
+          [
+            "",
+            "8501.52",
+            "-- Of an output exceeding 750 W but not exceeding 75 kW"
+          ],
+          [
+            "",
+            "8501.53",
+            "-- Of an output exceeding 75 kW"
+          ],
+          [
+            "",
+            "",
+            "- AC generators (alternators), other than photovoltaic generators :"
+          ],
+          [
+            "",
+            "8501.61",
+            "-- Of an output not exceeding 75 kVA"
+          ],
+          [
+            "",
+            "8501.62",
+            "-- Of an output exceeding 75 kVA but not exceeding 375 kVA"
+          ],
+          [
+            "",
+            "8501.63",
+            "-- Of an output exceeding 375 kVA but not exceeding 750 kVA"
+          ],
+          [
+            "",
+            "8501.64",
+            "-- Of an output exceeding 750 kVA"
+          ],
+          [
+            "",
+            "",
+            "- Photovoltaic DC generators :"
+          ],
+          [
+            "",
+            "8501.71",
+            "-- Of an output not exceeding 50 W"
+          ],
+          [
+            "",
+            "8501.72",
+            "-- Of an output exceeding 50 W"
+          ],
+          [
+            "",
+            "8501.80",
+            "- Photovoltaic AC generators"
+          ],
+          [
+            "85.02",
+            "",
+            "Electric generating sets and rotary converters."
+          ],
+          [
+            "",
+            "",
+            "- Generating sets with compression-ignition internal combustion piston engines (diesel or semi-diesel engines) :"
+          ],
+          [
+            "",
+            "8502.11",
+            "-- Of an output not exceeding 75 kVA"
+          ],
+          [
+            "",
+            "8502.12",
+            "-- Of an output exceeding 75 kVA but not exceeding 375 kVA"
+          ],
+          [
+            "",
+            "8502.13",
+            "-- Of an output exceeding 375 kVA"
+          ],
+          [
+            "",
+            "8502.20",
+            "- Generating sets with spark-ignition internal combustion piston engines"
+          ],
+          [
+            "",
+            "",
+            "- Other generating sets :"
+          ],
+          [
+            "",
+            "8502.31",
+            "-- Wind-powered"
+          ],
+          [
+            "",
+            "8502.39",
+            "-- Other"
+          ],
+          [
+            "",
+            "8502.40",
+            "- Electric rotary converters"
+          ],
+          [
+            "85.03",
+            "8503.00",
+            "Parts suitable for use solely or principally with the machines of heading 85.01 or 85.02."
+          ],
+          [
+            "85.04",
+            "",
+            "Electrical transformers, static converters (for example, rectifiers) and inductors."
+          ],
+          [
+            "",
+            "8504.10",
+            "- Ballasts for discharge lamps or tubes"
+          ],
+          [
+            "",
+            "",
+            "- Liquid dielectric transformers :"
+          ],
+          [
+            "",
+            "8504.21",
+            "-- Having a power handling capacity not exceeding 650 kVA"
+          ],
+          [
+            "",
+            "8504.22",
+            "-- Having a power handling capacity exceeding 650 kVA but not exceeding 10,000 kVA"
+          ],
+          [
+            "",
+            "8504.23",
+            "-- Having a power handling capacity exceeding 10,000 kVA"
+          ]
+        ],
+        "row_count": 34,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-2.html",
+        "page_numbers": [
+          6
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "Heading",
+            "H.S. Code",
+            "- Other transformers :"
+          ],
+          [
+            "",
+            "8504.31",
+            "-- Having a power handling capacity not exceeding 1 kVA"
+          ],
+          [
+            "",
+            "8504.32",
+            "-- Having a power handling capacity exceeding 1 kVA but not exceeding 16 kVA"
+          ],
+          [
+            "",
+            "8504.33",
+            "-- Having a power handling capacity exceeding 16 kVA but not exceeding 500 kVA"
+          ],
+          [
+            "",
+            "8504.34",
+            "-- Having a power handling capacity exceeding 500 kVA"
+          ],
+          [
+            "",
+            "8504.40",
+            "- Static converters"
+          ],
+          [
+            "",
+            "8504.50",
+            "- Other inductors"
+          ],
+          [
+            "",
+            "8504.90",
+            "- Parts"
+          ],
+          [
+            "85.05",
+            "",
+            "Electro-magnets; permanent magnets and articles intended to become permanent magnets after magnetisation; electro-magnetic or permanent magnet chucks, clamps and similar holding devices; electro-magnetic couplings, clutches and brakes; electro-magnetic lifting heads."
+          ],
+          [
+            "",
+            "",
+            "- Permanent magnets and articles intended to become permanent magnets after magnetisation :"
+          ],
+          [
+            "",
+            "8505.11",
+            "-- Of metal"
+          ],
+          [
+            "",
+            "8505.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "8505.20",
+            "- Electro-magnetic couplings, clutches and brakes"
+          ],
+          [
+            "",
+            "8505.90",
+            "- Other, including parts"
+          ],
+          [
+            "85.06",
+            "",
+            "Primary cells and primary batteries."
+          ],
+          [
+            "",
+            "8506.10",
+            "- Manganese dioxide"
+          ],
+          [
+            "",
+            "8506.30",
+            "- Mercuric oxide"
+          ],
+          [
+            "",
+            "8506.40",
+            "- Silver oxide"
+          ],
+          [
+            "",
+            "8506.50",
+            "- Lithium"
+          ],
+          [
+            "",
+            "8506.60",
+            "- Air-zinc"
+          ],
+          [
+            "",
+            "8506.80",
+            "- Other primary cells and primary batteries"
+          ],
+          [
+            "",
+            "8506.90",
+            "- Parts"
+          ],
+          [
+            "85.07",
+            "",
+            "Electric accumulators, including separators therefor, whether or not rectangular (including square)."
+          ],
+          [
+            "",
+            "8507.10",
+            "- Lead-acid, of a kind used for starting piston engines"
+          ],
+          [
+            "",
+            "8507.20",
+            "- Other lead-acid accumulators"
+          ],
+          [
+            "",
+            "8507.30",
+            "- Nickel-cadmium"
+          ],
+          [
+            "",
+            "8507.50",
+            "- Nickel-metal hydride"
+          ],
+          [
+            "",
+            "8507.60",
+            "- Lithium-ion"
+          ],
+          [
+            "",
+            "8507.80",
+            "- Other accumulators"
+          ],
+          [
+            "",
+            "8507.90",
+            "- Parts"
+          ]
+        ],
+        "row_count": 30,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-3.html",
+        "page_numbers": [
+          7
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.08",
+            "",
+            "Vacuum cleaners."
+          ],
+          [
+            "",
+            "- With self-contained electric motor :"
+          ],
+          [
+            "8508.11",
+            "-- Of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20 l"
+          ],
+          [
+            "8508.19",
+            "-- Other"
+          ],
+          [
+            "8508.60",
+            "- Other vacuum cleaners"
+          ],
+          [
+            "",
+            "8508.70",
+            "- Parts"
+          ],
+          [
+            "85.09",
+            "",
+            "Electro-mechanical domestic appliances, with self-contained electric motor, other than vacuum cleaners of heading 85.08."
+          ],
+          [
+            "8509.40",
+            "- Food grinders and mixers; fruit or vegetable juice extractors"
+          ],
+          [
+            "8509.80",
+            "- Other appliances"
+          ],
+          [
+            "8509.90",
+            "- Parts"
+          ],
+          [
+            "85.10",
+            "",
+            "Shavers, hair clippers and hair-removing appliances, with self-contained electric motor."
+          ],
+          [
+            "8510.10",
+            "- Shavers"
+          ],
+          [
+            "8510.20",
+            "- Hair clippers"
+          ],
+          [
+            "8510.30",
+            "- Hair-removing appliances"
+          ],
+          [
+            "8510.90",
+            "- Parts"
+          ],
+          [
+            "85.11",
+            "",
+            "Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamics, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines."
+          ],
+          [
+            "8511.10",
+            "- Sparking plugs"
+          ],
+          [
+            "8511.20",
+            "- Ignition magnetos; magneto-dynamics; magnetic flywheels"
+          ],
+          [
+            "8511.30",
+            "- Distributors; ignition coils"
+          ],
+          [
+            "8511.40",
+            "- Starter motors and dual purpose starter-generators"
+          ],
+          [
+            "8511.50",
+            "- Other generators"
+          ],
+          [
+            "8511.80",
+            "- Other equipment"
+          ],
+          [
+            "8511.90",
+            "- Parts"
+          ],
+          [
+            "85.12",
+            "",
+            "Electrical lighting or signalling equipment (excluding articles of heading 85.39), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles."
+          ],
+          [
+            "8512.10",
+            "- Lighting or visual signalling equipment of a kind used on bicycles"
+          ],
+          [
+            "8512.20",
+            "- Other lighting or visual signalling equipment"
+          ],
+          [
+            "8512.30",
+            "- Sound signalling equipment"
+          ],
+          [
+            "8512.40",
+            "- Windscreen wipers, defrosters and demisters"
+          ],
+          [
+            "8512.90",
+            "- Parts"
+          ]
+        ],
+        "row_count": 30,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-4.html",
+        "page_numbers": [
+          8
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.13",
+            "",
+            "Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), other than lighting equipment of heading 85.12."
+          ],
+          [
+            "",
+            "8513.10",
+            "-Lamps"
+          ],
+          [
+            "",
+            "8513.90",
+            "-Parts"
+          ],
+          [
+            "85.14",
+            "",
+            "Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss."
+          ],
+          [
+            "",
+            "",
+            "- Resistance heated furnaces and ovens :"
+          ],
+          [
+            "",
+            "8514.11",
+            "-- Hot isostatic presses"
+          ],
+          [
+            "",
+            "8514.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "8514.20",
+            "- Furnaces and ovens functioning by induction or dielectric loss"
+          ],
+          [
+            "",
+            "",
+            "- Other furnaces and ovens :"
+          ],
+          [
+            "",
+            "8514.31",
+            "-- Electron beam furnaces"
+          ],
+          [
+            "",
+            "8514.32",
+            "-- Plasma and vacuum arc furnaces"
+          ],
+          [
+            "",
+            "8514.39",
+            "-- Other"
+          ],
+          [
+            "",
+            "8514.40",
+            "- Other equipment for the heat treatment of materials by induction or dielectric loss"
+          ],
+          [
+            "",
+            "8514.90",
+            "-Parts"
+          ],
+          [
+            "85.15",
+            "",
+            "Electric (including electrically heated gas), laser or other light or photon beam, ultrasonic, electron beam, magnetic pulse or plasma arc soldering, brazing or welding machines and apparatus, whether or not capable of cutting; electric machines and apparatus for hot spraying of metals or cermets."
+          ],
+          [
+            "",
+            "",
+            "- Brazing or soldering machines and apparatus :"
+          ],
+          [
+            "",
+            "8515.11",
+            "-- Soldering irons and guns"
+          ],
+          [
+            "",
+            "8515.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Machines and apparatus for resistance welding of metal :"
+          ],
+          [
+            "",
+            "8515.21",
+            "-- Fully or partly automatic"
+          ],
+          [
+            "",
+            "8515.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Machines and apparatus for arc (including plasma arc) welding of metals :"
+          ],
+          [
+            "",
+            "8515.31",
+            "-- Fully or partly automatic"
+          ],
+          [
+            "",
+            "8515.39",
+            "-- Other"
+          ],
+          [
+            "",
+            "8515.80",
+            "- Other machines and apparatus"
+          ],
+          [
+            "",
+            "8515.90",
+            "- Parts"
+          ]
+        ],
+        "row_count": 27,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-5.html",
+        "page_numbers": [
+          9
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.16",
+            "",
+            "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electro-thermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electro-thermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 85.45."
+          ],
+          [
+            "8516.10",
+            "-Electric instantaneous or storage water heaters and immersion heaters"
+          ],
+          [
+            "",
+            "-Electric space heating apparatus and electric soil heating apparatus :"
+          ],
+          [
+            "8516.21",
+            "-- Storage heating radiators"
+          ],
+          [
+            "8516.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "-Electro-thermic hair-dressing or hand-drying apparatus :"
+          ],
+          [
+            "8516.31",
+            "-- Hair dryers"
+          ],
+          [
+            "8516.32",
+            "-- Other hair-dressing apparatus"
+          ],
+          [
+            "8516.33",
+            "-- Hand-drying apparatus"
+          ],
+          [
+            "8516.40",
+            "-Electric smoothing irons"
+          ],
+          [
+            "8516.50",
+            "-Microwave ovens"
+          ],
+          [
+            "8516.60",
+            "-Other ovens; cookers, cooking plates, boiling rings, grillers and roasters"
+          ],
+          [
+            "",
+            "-Other electro-thermic appliances :"
+          ],
+          [
+            "8516.71",
+            "-- Coffee or tea makers"
+          ],
+          [
+            "8516.72",
+            "-- Toasters"
+          ],
+          [
+            "8516.79",
+            "-- Other"
+          ],
+          [
+            "8516.80",
+            "-Electric heating resistors"
+          ],
+          [
+            "8516.90",
+            "-Parts"
+          ],
+          [
+            "85.17",
+            "",
+            "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 84.43, 85.25, 85.27 or 85.28."
+          ],
+          [
+            "",
+            "-Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks :"
+          ],
+          [
+            "8517.11",
+            "-- Line telephone sets with cordless handsets"
+          ],
+          [
+            "8517.13",
+            "-- Smartphones"
+          ],
+          [
+            "8517.14",
+            "-- Other telephones for cellular networks or for other wireless networks"
+          ],
+          [
+            "8517.18",
+            "-- Other"
+          ],
+          [
+            "",
+            "-Other apparatus for transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network) :"
+          ],
+          [
+            "8517.61",
+            "-- Base stations"
+          ]
+        ],
+        "row_count": 27,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-6.html",
+        "page_numbers": [
+          10
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "",
+            "8517.62",
+            "-- Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus"
+          ],
+          [
+            "",
+            "8517.69",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Parts :"
+          ],
+          [
+            "",
+            "8517.71",
+            "-- Aerials and aerial reflectors of all kinds; parts suitable for use therewith"
+          ],
+          [
+            "",
+            "8517.79",
+            "-- Other"
+          ],
+          [
+            "85.18",
+            "",
+            "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets."
+          ],
+          [
+            "",
+            "8518.10",
+            "- Microphones and stands therefor"
+          ],
+          [
+            "",
+            "",
+            "- Loudspeakers, whether or not mounted in their enclosures :"
+          ],
+          [
+            "",
+            "8518.21",
+            "-- Single loudspeakers, mounted in their enclosures"
+          ],
+          [
+            "",
+            "8518.22",
+            "-- Multiple loudspeakers, mounted in the same enclosure"
+          ],
+          [
+            "",
+            "8518.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "8518.30",
+            "- Headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers"
+          ],
+          [
+            "",
+            "8518.40",
+            "- Audio-frequency electric amplifiers"
+          ],
+          [
+            "",
+            "8518.50",
+            "- Electric sound amplifier sets"
+          ],
+          [
+            "",
+            "8518.90",
+            "- Parts"
+          ],
+          [
+            "85.19",
+            "",
+            "Sound recording or reproducing apparatus."
+          ],
+          [
+            "",
+            "8519.20",
+            "- Apparatus operated by coins, banknotes, bank cards, tokens or by other means of payment"
+          ],
+          [
+            "",
+            "8519.30",
+            "- Turntables (record-decks)"
+          ],
+          [
+            "",
+            "",
+            "- Other apparatus :"
+          ],
+          [
+            "",
+            "8519.81",
+            "-- Using magnetic, optical or semiconductor media"
+          ],
+          [
+            "",
+            "8519.89",
+            "-- Other"
+          ],
+          [
+            "[85.20]",
+            "",
+            ""
+          ],
+          [
+            "85.21",
+            "",
+            "Video recording or reproducing apparatus, whether or not incorporating a video tuner."
+          ],
+          [
+            "",
+            "8521.10",
+            "- Magnetic tape-type"
+          ],
+          [
+            "",
+            "8521.90",
+            "- Other"
+          ]
+        ],
+        "row_count": 26,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-7.html",
+        "page_numbers": [
+          11
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.22",
+            "",
+            "Parts and accessories suitable for use solely or principally with the apparatus of heading 85.19 or 85.21."
+          ],
+          [
+            "",
+            "8522.10",
+            "- Pick-up cartridges"
+          ],
+          [
+            "",
+            "8522.90",
+            "- Other"
+          ],
+          [
+            "85.23",
+            "",
+            "Discs, tapes, solid-state non-volatile storage devices, “smart cards” and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37."
+          ],
+          [
+            "",
+            "",
+            "- Magnetic media :"
+          ],
+          [
+            "",
+            "8523.21",
+            "-- Cards incorporating a magnetic stripe"
+          ],
+          [
+            "",
+            "8523.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Optical media :"
+          ],
+          [
+            "",
+            "8523.41",
+            "-- Unrecorded"
+          ],
+          [
+            "",
+            "8523.49",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Semiconductor media :"
+          ],
+          [
+            "",
+            "8523.51",
+            "-- Solid-state non-volatile storage devices"
+          ],
+          [
+            "",
+            "8523.52",
+            "-- “Smart cards”"
+          ],
+          [
+            "",
+            "8523.59",
+            "-- Other"
+          ],
+          [
+            "",
+            "8523.80",
+            "- Other"
+          ],
+          [
+            "85.24",
+            "",
+            "Flat panel display modules, whether or not incorporating touch-sensitive screens."
+          ],
+          [
+            "",
+            "",
+            "- Without drivers or control circuits :"
+          ],
+          [
+            "",
+            "8524.11",
+            "-- Of liquid crystals"
+          ],
+          [
+            "",
+            "8524.12",
+            "-- Of organic light-emitting diodes (OLED)"
+          ],
+          [
+            "",
+            "8524.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other :"
+          ],
+          [
+            "",
+            "8524.91",
+            "-- Of liquid crystals"
+          ],
+          [
+            "",
+            "8524.92",
+            "-- Of organic light-emitting diodes (OLED)"
+          ],
+          [
+            "",
+            "8524.99",
+            "-- Other"
+          ],
+          [
+            "85.25",
+            "",
+            "Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders."
+          ],
+          [
+            "",
+            "8525.50",
+            "- Transmission apparatus"
+          ],
+          [
+            "",
+            "8525.60",
+            "- Transmission apparatus incorporating reception apparatus"
+          ]
+        ],
+        "row_count": 28,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-8.html",
+        "page_numbers": [
+          12
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "Heading",
+            "H.S. Code",
+            "-Television cameras, digital cameras and video camera recorders :"
+          ],
+          [
+            "",
+            "8525.81",
+            "-- High-speed goods as specified in Subheading Note 1 to this Chapter"
+          ],
+          [
+            "",
+            "8525.82",
+            "-- Other, radiation-hardened or radiation-tolerant goods as specified in Subheading Note 2 to this Chapter"
+          ],
+          [
+            "",
+            "8525.83",
+            "-- Other, night vision goods as specified in Subheading Note 3 to this Chapter"
+          ],
+          [
+            "",
+            "8525.89",
+            "-- Other"
+          ],
+          [
+            "85.26",
+            "",
+            "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus."
+          ],
+          [
+            "",
+            "8526.10",
+            "- Radar apparatus"
+          ],
+          [
+            "",
+            "",
+            "- Other :"
+          ],
+          [
+            "",
+            "8526.91",
+            "-- Radio navigational aid apparatus"
+          ],
+          [
+            "",
+            "8526.92",
+            "-- Radio remote control apparatus"
+          ],
+          [
+            "85.27",
+            "",
+            "Reception apparatus for radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock."
+          ],
+          [
+            "",
+            "",
+            "- Radio-broadcast receivers capable of operating without an external source of power :"
+          ],
+          [
+            "",
+            "8527.12",
+            "-- Pocket-size radio cassette-players"
+          ],
+          [
+            "",
+            "8527.13",
+            "-- Other apparatus combined with sound recording or reproducing apparatus"
+          ],
+          [
+            "",
+            "8527.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles :"
+          ],
+          [
+            "",
+            "8527.21",
+            "-- Combined with sound recording or reproducing apparatus"
+          ],
+          [
+            "",
+            "8527.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other :"
+          ],
+          [
+            "",
+            "8527.91",
+            "-- Combined with sound recording or reproducing apparatus"
+          ],
+          [
+            "",
+            "8527.92",
+            "-- Not combined with sound recording or reproducing apparatus but combined with a clock"
+          ],
+          [
+            "",
+            "8527.99",
+            "-- Other"
+          ],
+          [
+            "85.28",
+            "",
+            "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus."
+          ],
+          [
+            "",
+            "",
+            "- Cathode-ray tube monitors :"
+          ],
+          [
+            "",
+            "8528.42",
+            "-- Capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71"
+          ]
+        ],
+        "row_count": 25,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-9.html",
+        "page_numbers": [
+          13
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "",
+            "8528.49",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other monitors :"
+          ],
+          [
+            "",
+            "8528.52",
+            "-- Capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71"
+          ],
+          [
+            "",
+            "8528.59",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Projectors :"
+          ],
+          [
+            "",
+            "8528.62",
+            "-- Capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71"
+          ],
+          [
+            "",
+            "8528.69",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus :"
+          ],
+          [
+            "",
+            "8528.71",
+            "-- Not designed to incorporate a video display or screen"
+          ],
+          [
+            "",
+            "8528.72",
+            "-- Other, colour"
+          ],
+          [
+            "",
+            "8528.73",
+            "-- Other, monochrome"
+          ],
+          [
+            "85.29",
+            "",
+            "Parts suitable for use solely or principally with the apparatus of headings 85.24 to 85.28."
+          ],
+          [
+            "",
+            "8529.10",
+            "- Aerials and aerial reflectors of all kinds; parts suitable for use therewith"
+          ],
+          [
+            "",
+            "8529.90",
+            "- Other"
+          ],
+          [
+            "85.30",
+            "",
+            "Electrical signalling, safety or traffic control equipment for railways, tramways, roads, inland waterways, parking facilities, port installations or airfields (other than those of heading 86.08)."
+          ],
+          [
+            "",
+            "8530.10",
+            "- Equipment for railways or tramways"
+          ],
+          [
+            "",
+            "8530.80",
+            "- Other equipment"
+          ],
+          [
+            "",
+            "8530.90",
+            "- Parts"
+          ],
+          [
+            "85.31",
+            "",
+            "Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 85.12 or 85.30."
+          ],
+          [
+            "",
+            "8531.10",
+            "- Burglar or fire alarms and similar apparatus"
+          ],
+          [
+            "",
+            "8531.20",
+            "- Indicator panels incorporating liquid crystal devices (LCD) or light-emitting diodes (LED)"
+          ],
+          [
+            "",
+            "8531.80",
+            "- Other apparatus"
+          ],
+          [
+            "",
+            "8531.90",
+            "- Parts"
+          ]
+        ],
+        "row_count": 24,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-10.html",
+        "page_numbers": [
+          14
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.32",
+            "",
+            "Electrical capacitors, fixed, variable or adjustable (pre-set)."
+          ],
+          [
+            "8532.10",
+            "- Fixed capacitors designed for use in 50/60 Hz circuits and having a reactive power handling capacity of not less than 0.5 kvar (power capacitors)"
+          ],
+          [
+            "",
+            "- Other fixed capacitors :"
+          ],
+          [
+            "8532.21",
+            "-- Tantalum"
+          ],
+          [
+            "8532.22",
+            "-- Aluminium electrolytic"
+          ],
+          [
+            "8532.23",
+            "-- Ceramic dielectric, single layer"
+          ],
+          [
+            "8532.24",
+            "-- Ceramic dielectric, multilayer"
+          ],
+          [
+            "8532.25",
+            "-- Dielectric of paper or plastics"
+          ],
+          [
+            "8532.29",
+            "-- Other"
+          ],
+          [
+            "8532.30",
+            "- Variable or adjustable (pre-set) capacitors"
+          ],
+          [
+            "8532.90",
+            "- Parts"
+          ],
+          [
+            "85.33",
+            "",
+            "Electrical resistors (including rheostats and potentiometers), other than heating resistors."
+          ],
+          [
+            "8533.10",
+            "- Fixed carbon resistors, composition or film types"
+          ],
+          [
+            "",
+            "- Other fixed resistors :"
+          ],
+          [
+            "8533.21",
+            "-- For a power handling capacity not exceeding 20 W"
+          ],
+          [
+            "8533.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "- Wirewound variable resistors, including rheostats and potentiometers :"
+          ],
+          [
+            "8533.31",
+            "-- For a power handling capacity not exceeding 20 W"
+          ],
+          [
+            "8533.39",
+            "-- Other"
+          ],
+          [
+            "8533.40",
+            "- Other variable resistors, including rheostats and potentiometers"
+          ],
+          [
+            "8533.90",
+            "- Parts"
+          ],
+          [
+            "85.34",
+            "8534.00",
+            "Printed circuits."
+          ],
+          [
+            "85.35",
+            "",
+            "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and other connectors, junction boxes), for a voltage exceeding 1,000 volts."
+          ],
+          [
+            "8535.10",
+            "- Fuses"
+          ],
+          [
+            "",
+            "- Automatic circuit breakers :"
+          ],
+          [
+            "8535.21",
+            "-- For a voltage of less than 72.5 kV"
+          ],
+          [
+            "8535.29",
+            "-- Other"
+          ],
+          [
+            "8535.30",
+            "- Isolating switches and make-and-break switches"
+          ],
+          [
+            "8535.40",
+            "- Lightning arresters, voltage limiters and surge suppressors"
+          ]
+        ],
+        "row_count": 30,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-11.html",
+        "page_numbers": [
+          15
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.36",
+            "",
+            "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders and other connectors, junction boxes), for a voltage not exceeding 1,000 volts; connectors for optical fibres, optical fibre bundles or cables."
+          ],
+          [
+            "8536.10",
+            "- Fuses"
+          ],
+          [
+            "8536.20",
+            "- Automatic circuit breakers"
+          ],
+          [
+            "8536.30",
+            "- Other apparatus for protecting electrical circuits"
+          ],
+          [
+            "",
+            "- Relays :"
+          ],
+          [
+            "8536.41",
+            "-- For a voltage not exceeding 60 V"
+          ],
+          [
+            "8536.49",
+            "-- Other"
+          ],
+          [
+            "8536.50",
+            "- Other switches"
+          ],
+          [
+            "",
+            "- Lamp-holders, plugs and sockets :"
+          ],
+          [
+            "8536.61",
+            "-- Lamp-holders"
+          ],
+          [
+            "8536.69",
+            "-- Other"
+          ],
+          [
+            "8536.70",
+            "- Connectors for optical fibres, optical fibre bundles or cables"
+          ],
+          [
+            "8536.90",
+            "- Other apparatus"
+          ],
+          [
+            "85.37",
+            "",
+            "Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 85.35 or 85.36, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 85.17."
+          ],
+          [
+            "8537.10",
+            "- For a voltage not exceeding 1,000 V"
+          ],
+          [
+            "8537.20",
+            "- For a voltage exceeding 1,000 V"
+          ],
+          [
+            "85.38",
+            "",
+            "Parts suitable for use solely or principally with the apparatus of heading 85.35, 85.36 or 85.37."
+          ],
+          [
+            "8538.10",
+            "- Boards, panels, consoles, desks, cabinets and other bases for the goods of heading 85.37, not equipped with their apparatus"
+          ],
+          [
+            "8538.90",
+            "- Other"
+          ],
+          [
+            "85.39",
+            "",
+            "Electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps; arc-lamps; light-emitting diode (LED) light sources."
+          ],
+          [
+            "8539.10",
+            "- Sealed beam lamp units"
+          ],
+          [
+            "",
+            "- Other filament lamps, excluding ultra-violet or infra-red lamps :"
+          ],
+          [
+            "8539.21",
+            "-- Tungsten halogen"
+          ],
+          [
+            "8539.22",
+            "-- Other, of a power not exceeding 200 W and for a voltage exceeding 100 V"
+          ],
+          [
+            "",
+            "8539.29",
+            "-- Other"
+          ]
+        ],
+        "row_count": 26,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-12.html",
+        "page_numbers": [
+          16
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "",
+            "",
+            "- Discharge lamps, other than ultra-violet lamps :"
+          ],
+          [
+            "",
+            "8539.31",
+            "-- Fluorescent, hot cathode"
+          ],
+          [
+            "",
+            "8539.32",
+            "-- Mercury or sodium vapour lamps; metal halide lamps"
+          ],
+          [
+            "",
+            "8539.39",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Ultra-violet or infra-red lamps; arc-lamps :"
+          ],
+          [
+            "",
+            "8539.41",
+            "-- Arc-lamps"
+          ],
+          [
+            "",
+            "8539.49",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Light-emitting diode (LED) light sources :"
+          ],
+          [
+            "",
+            "8539.51",
+            "-- Light-emitting diode (LED) modules"
+          ],
+          [
+            "",
+            "8539.52",
+            "-- Light-emitting diode (LED) lamps"
+          ],
+          [
+            "",
+            "8539.90",
+            "- Parts"
+          ],
+          [
+            "85.40",
+            "",
+            "Thermionic, cold cathode or photo-cathode valves and tubes (for example, vacuum or vapour or gas filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray tubes, television camera tubes)."
+          ],
+          [
+            "",
+            "",
+            "- Cathode-ray television picture tubes, including video monitor cathode-ray tubes :"
+          ],
+          [
+            "",
+            "8540.11",
+            "-- Colour"
+          ],
+          [
+            "",
+            "8540.12",
+            "-- Monochrome"
+          ],
+          [
+            "",
+            "8540.20",
+            "- Television camera tubes; image converters and intensifiers; other photo-cathode tubes"
+          ],
+          [
+            "",
+            "8540.40",
+            "- Data/graphic display tubes, monochrome; data/graphic display tubes, colour, with a phosphor dot screen pitch smaller than 0.4 mm"
+          ],
+          [
+            "",
+            "8540.60",
+            "- Other cathode-ray tubes"
+          ],
+          [
+            "",
+            "",
+            "- Microwave tubes (for example, magnetrons, klystrons, travelling wave tubes, carcinotrons), excluding grid-controlled tubes :"
+          ],
+          [
+            "",
+            "8540.71",
+            "-- Magnetrons"
+          ],
+          [
+            "",
+            "8540.79",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other valves and tubes :"
+          ],
+          [
+            "",
+            "8540.81",
+            "-- Receiver or amplifier valves and tubes"
+          ],
+          [
+            "",
+            "8540.89",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Parts :"
+          ],
+          [
+            "",
+            "8540.91",
+            "-- Of cathode-ray tubes"
+          ],
+          [
+            "",
+            "8540.99",
+            "-- Other"
+          ]
+        ],
+        "row_count": 28,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-13.html",
+        "page_numbers": [
+          17
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.41",
+            "",
+            "Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals."
+          ],
+          [
+            "",
+            "8541.10",
+            "- Diodes, other than photosensitive or light-emitting diodes (LED)"
+          ],
+          [
+            "",
+            "",
+            "- Transistors, other than photosensitive transistors :"
+          ],
+          [
+            "",
+            "8541.21",
+            "-- With a dissipation rate of less than 1 W"
+          ],
+          [
+            "",
+            "8541.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "8541.30",
+            "- Thyristors, diacs and triacs, other than photosensitive devices"
+          ],
+          [
+            "",
+            "",
+            "- Photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED) :"
+          ],
+          [
+            "",
+            "8541.41",
+            "-- Light-emitting diodes (LED)"
+          ],
+          [
+            "",
+            "8541.42",
+            "-- Photovoltaic cells not assembled in modules or made up into panels"
+          ],
+          [
+            "",
+            "8541.43",
+            "-- Photovoltaic cells assembled in modules or made up into panels"
+          ],
+          [
+            "",
+            "8541.49",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other semiconductor devices :"
+          ],
+          [
+            "",
+            "8541.51",
+            "-- Semiconductor-based transducers"
+          ],
+          [
+            "",
+            "8541.59",
+            "-- Other"
+          ],
+          [
+            "",
+            "8541.60",
+            "- Mounted piezo-electric crystals"
+          ],
+          [
+            "",
+            "8541.90",
+            "- Parts"
+          ],
+          [
+            "85.42",
+            "",
+            "Electronic integrated circuits."
+          ],
+          [
+            "",
+            "",
+            "- Electronic integrated circuits :"
+          ],
+          [
+            "",
+            "8542.31",
+            "-- Processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits"
+          ],
+          [
+            "",
+            "8542.32",
+            "-- Memories"
+          ],
+          [
+            "",
+            "8542.33",
+            "-- Amplifiers"
+          ],
+          [
+            "",
+            "8542.39",
+            "-- Other"
+          ],
+          [
+            "",
+            "8542.90",
+            "- Parts"
+          ],
+          [
+            "85.43",
+            "",
+            "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this Chapter."
+          ],
+          [
+            "",
+            "8543.10",
+            "- Particle accelerators"
+          ],
+          [
+            "",
+            "8543.20",
+            "- Signal generators"
+          ],
+          [
+            "",
+            "8543.30",
+            "- Machines and apparatus for electroplating, electrolysis or electrophoresis"
+          ],
+          [
+            "",
+            "8543.40",
+            "- Electronic cigarettes and similar personal electric vaporising devices"
+          ]
+        ],
+        "row_count": 29,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-14.html",
+        "page_numbers": [
+          18
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "",
+            "8543.70",
+            "- Other machines and apparatus"
+          ],
+          [
+            "",
+            "8543.90",
+            "- Parts"
+          ],
+          [
+            "85.44",
+            "",
+            "Insulated (including enamelled or anodised) wire, cable (including co-axial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors."
+          ],
+          [
+            "",
+            "",
+            "- Winding wire :"
+          ],
+          [
+            "",
+            "8544.11",
+            "-- Of copper"
+          ],
+          [
+            "",
+            "8544.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "8544.20",
+            "- Co-axial cable and other co-axial electric conductors"
+          ],
+          [
+            "",
+            "8544.30",
+            "- Ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships"
+          ],
+          [
+            "",
+            "",
+            "- Other electric conductors, for a voltage not exceeding 1,000 V :"
+          ],
+          [
+            "",
+            "8544.42",
+            "-- Fitted with connectors"
+          ],
+          [
+            "",
+            "8544.49",
+            "-- Other"
+          ],
+          [
+            "",
+            "8544.60",
+            "- Other electric conductors, for a voltage exceeding 1,000 V"
+          ],
+          [
+            "",
+            "8544.70",
+            "- Optical fibre cables"
+          ],
+          [
+            "85.45",
+            "",
+            "Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes."
+          ],
+          [
+            "",
+            "",
+            "- Electrodes :"
+          ],
+          [
+            "",
+            "8545.11",
+            "-- Of a kind used for furnaces"
+          ],
+          [
+            "",
+            "8545.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "8545.20",
+            "- Brushes"
+          ],
+          [
+            "",
+            "8545.90",
+            "- Other"
+          ],
+          [
+            "85.46",
+            "",
+            "Electrical insulators of any material."
+          ],
+          [
+            "",
+            "8546.10",
+            "- Of glass"
+          ],
+          [
+            "",
+            "8546.20",
+            "- Of ceramics"
+          ],
+          [
+            "",
+            "8546.90",
+            "- Other"
+          ],
+          [
+            "85.47",
+            "",
+            "Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating material apart from any minor components of metal (for example, threaded sockets) incorporated during moulding solely for purposes of assembly, other than insulators of heading 85.46; electrical conduit tubing and joints therefor, of base metal lined with insulating material."
+          ],
+          [
+            "",
+            "8547.10",
+            "- Insulating fittings of ceramics"
+          ],
+          [
+            "",
+            "8547.20",
+            "- Insulating fittings of plastics"
+          ],
+          [
+            "",
+            "8547.90",
+            "- Other"
+          ]
+        ],
+        "row_count": 28,
+        "column_count": 3,
+        "source_format": "html"
+      },
+      {
+        "id": "tbl-15.html",
+        "page_numbers": [
+          19
+        ],
+        "headers": [],
+        "rows": [
+          [
+            "85.48",
+            "8548.00",
+            "Electrical parts of machinery or apparatus, not specified or included elsewhere in this Chapter."
+          ],
+          [
+            "85.49",
+            "",
+            "Electrical and electronic waste and scrap."
+          ],
+          [
+            "",
+            "",
+            "- Waste and scrap of primary cells, primary batteries and electric accumulators; spent primary cells, spent primary batteries and spent electric accumulators :"
+          ],
+          [
+            "",
+            "8549.11",
+            "-- Waste and scrap of lead-acid accumulators; spent lead-acid accumulators"
+          ],
+          [
+            "",
+            "8549.12",
+            "-- Other, containing lead, cadmium or mercury"
+          ],
+          [
+            "",
+            "8549.13",
+            "-- Sorted by chemical type and not containing lead, cadmium or mercury"
+          ],
+          [
+            "",
+            "8549.14",
+            "-- Unsorted and not containing lead, cadmium or mercury"
+          ],
+          [
+            "",
+            "8549.19",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Of a kind used principally for the recovery of precious metal :"
+          ],
+          [
+            "",
+            "8549.21",
+            "-- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs)"
+          ],
+          [
+            "",
+            "8549.29",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other electrical and electronic assemblies and printed circuit boards :"
+          ],
+          [
+            "",
+            "8549.31",
+            "-- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs)"
+          ],
+          [
+            "",
+            "8549.39",
+            "-- Other"
+          ],
+          [
+            "",
+            "",
+            "- Other :"
+          ],
+          [
+            "",
+            "8549.91",
+            "-- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs)"
+          ],
+          [
+            "",
+            "8549.99",
+            "-- Other"
+          ]
+        ],
+        "row_count": 18,
+        "column_count": 3,
+        "source_format": "html"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "block-1",
+        "type": "text",
+        "text": "Chapter 85",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-2",
+        "type": "heading",
+        "text": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+        "level": 1,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-3",
+        "type": "heading",
+        "text": "Notes.",
+        "level": 2,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-4",
+        "type": "text",
+        "text": "1.- This Chapter does not cover :",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-5",
+        "type": "text",
+        "text": "(a) Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing, footwear or ear pads or other electrically warmed articles worn on or about the person;",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-6",
+        "type": "text",
+        "text": "(b) Articles of glass of heading 70.11;",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-7",
+        "type": "text",
+        "text": "(c) Machines and apparatus of heading 84.86;",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-8",
+        "type": "text",
+        "text": "(d) Vacuum apparatus of a kind used in medical, surgical, dental or veterinary sciences (heading 90.18); or",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-9",
+        "type": "text",
+        "text": "(e) Electrically heated furniture of Chapter 94.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-10",
+        "type": "text",
+        "text": "2.- Headings 85.01 to 85.04 do not apply to goods described in heading 85.11, 85.12, 85.40, 85.41 or 85.42.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-11",
+        "type": "text",
+        "text": "However, metal tank mercury arc rectifiers remain classified in heading 85.04.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-12",
+        "type": "text",
+        "text": "3.- For the purposes of heading 85.07, the expression \"electric accumulators\" includes those presented with ancillary components which contribute to the accumulator's function of storing and supplying energy or protect it from damage, such as electrical connectors, temperature control devices (for example, thermistors) and circuit protection devices. They may also include a portion of the protective housing of the goods in which they are to be used.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-13",
+        "type": "text",
+        "text": "4.- Heading 85.09 covers only the following electro-mechanical machines of the kind commonly used for domestic purposes :",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-14",
+        "type": "text",
+        "text": "(a) Floor polishers, food grinders and mixers, and fruit or vegetable juice extractors, of any weight;",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-15",
+        "type": "text",
+        "text": "(b) Other machines provided the weight of such machines does not exceed 20 kg.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-16",
+        "type": "text",
+        "text": "The heading does not, however, apply to fans or ventilating or recycling hoods incorporating a fan, whether or not fitted with filters (heading 84.14), centrifugal clothes-dryers (heading 84.21), dish washing machines (heading 84.22), household washing machines (heading 84.50), roller or other ironing machines (heading 84.20 or 84.51), sewing machines (heading 84.52), electric scissors (heading 84.67) or to electro-thermic appliances (heading 85.16).",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-17",
+        "type": "text",
+        "text": "5.- For the purposes of heading 85.17, the term \"smartphones\" means telephones for cellular networks, equipped with a mobile operating system designed to perform the functions of an automatic data processing machine such as downloading and running multiple applications simultaneously, including third-party applications, and whether or not integrating other features such as digital cameras and navigational aid systems.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-18",
+        "type": "text",
+        "text": "6.- For the purposes of heading 85.23 :",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-19",
+        "type": "text",
+        "text": "(a) \"Solid-state non-volatile storage devices\" (for example, \"flash memory cards\" or \"flash electronic storage cards\") are storage devices with a connecting socket, comprising in the same housing one or more flash memories (for example, \"FLASH E/PROM\") in the form of integrated circuits mounted on a printed circuit board. They may include a controller in the form of an integrated circuit and discrete passive components, such as capacitors and resistors;",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-20",
+        "type": "text",
+        "text": "(b) The term \"smart cards\" means cards which have embedded in them one or more electronic integrated circuits (a microprocessor, random access memory (RAM) or read-only memory (ROM)) in the form of chips. These cards may contain contacts, a magnetic stripe or an embedded antenna but do not contain any other active or passive circuit elements.",
+        "level": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      {
+        "id": "block-21",
+        "type": "text",
+        "text": "7.- For the purposes of heading 85.24, “flat panel display modules” refer to devices or apparatus for the display of information, equipped at a minimum with a display screen, which are designed to be incorporated into articles of other headings prior to use. Display screens for flat panel display modules include, but are not limited to, those which are flat, curved, flexible, foldable or stretchable in form. Flat panel display modules may incorporate additional elements, including those necessary for receiving video signals and the allocation of those signals to pixels on the display. However, heading 85.24 does not include display modules which are equipped with components for converting video signals (e.g., a scaler IC, decoder IC or application processor) or have otherwise assumed the character of goods of other headings.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-22",
+        "type": "text",
+        "text": "For the classification of flat panel display modules defined in this Note, heading 85.24 shall take precedence over any other heading in the Nomenclature.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-23",
+        "type": "text",
+        "text": "8.- For the purposes of heading 85.34 “printed circuits” are circuits obtained by forming on an insulating base, by any printing process (for example, embossing, plating-up, etching) or by the “film circuit” technique, conductor elements, contacts or other printed components (for example, inductances, resistors, capacitors) alone or interconnected according to a pre-established pattern, other than elements which can produce, rectify, modulate or amplify an electrical signal (for example, semiconductor elements).",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-24",
+        "type": "text",
+        "text": "The expression “printed circuits” does not cover circuits combined with elements other than those obtained during the printing process, nor does it cover individual, discrete resistors, capacitors or inductances. Printed circuits may, however, be fitted with non-printed connecting elements.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-25",
+        "type": "text",
+        "text": "Thin- or thick-film circuits comprising passive and active elements obtained during the same technological process are to be classified in heading 85.42.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-26",
+        "type": "text",
+        "text": "9.- For the purpose of heading 85.36, “connectors for optical fibres, optical fibre bundles or cables” means connectors that simply mechanically align optical fibres end to end in a digital line system. They perform no other function, such as the amplification, regeneration or modification of a signal.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-27",
+        "type": "text",
+        "text": "10.- Heading 85.37 does not include cordless infrared devices for the remote control of television receivers or other electrical equipment (heading 85.43).",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-28",
+        "type": "text",
+        "text": "11.- For the purposes of heading 85.39, the expression “light-emitting diode (LED) light sources” covers:",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-29",
+        "type": "text",
+        "text": "(a) “Light-emitting diode (LED) modules” which are electrical light sources based on light-emitting diodes (LED) arranged in electrical circuits and containing further elements like electrical, mechanical, thermal or optical elements. They also contain discrete active elements, discrete passive elements, or articles of heading 85.36 or 85.42 for the purposes of providing power supply or power control. Light-emitting diode (LED) modules do not have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-30",
+        "type": "text",
+        "text": "(b) “Light-emitting diode (LED) lamps” which are electrical light sources containing one or more LED modules containing further elements like electrical, mechanical, thermal or optical elements. The distinction between light-emitting diode (LED) modules and light-emitting diode (LED) lamps is that lamps have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-31",
+        "type": "text",
+        "text": "12.- For the purposes of headings 85.41 and 85.42:",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-32",
+        "type": "text",
+        "text": "(a) (i) “Semiconductor devices” are semiconductor devices the operation of which depends on variations in resistivity on the application of an electric field or semiconductor-based transducers.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-33",
+        "type": "text",
+        "text": "Semiconductor devices may also include assembly of plural elements, whether or not equipped with active and passive device ancillary functions.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-34",
+        "type": "text",
+        "text": "“Semiconductor-based transducers” are, for the purposes of this definition, semiconductor-based sensors, semiconductor-based actuators, semiconductor-based resonators and semiconductor-based oscillators, which are types of discrete semiconductor-based devices, which perform an intrinsic function, which are able to convert any kind of physical or chemical phenomena or an action into an electrical signal or an electrical signal into any type of physical phenomenon or an action.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-35",
+        "type": "text",
+        "text": "All the elements in semiconductor-based transducers are individually combined, and may also include necessary materials individually attached, that enable their construction or function.",
+        "level": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      {
+        "id": "block-36",
+        "type": "text",
+        "text": "The following expressions mean :",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-37",
+        "type": "text",
+        "text": "(1) \"Semiconductor-based\" means built or manufactured on a semiconductor substrate or made of semiconductor materials, manufactured by semiconductor technology, in which the semiconductor substrate or material plays a critical and unreplaceable role of transducer function and performance, and the operation of which is based on semiconductor properties including physical, electrical, chemical and optical properties.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-38",
+        "type": "text",
+        "text": "(2) \"Physical or chemical phenomena\" relate to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-39",
+        "type": "text",
+        "text": "(3) \"Semiconductor-based sensor\" is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical quantities and converting these into electric signals caused by resulting variations in electric properties or displacement of a mechanical structure.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-40",
+        "type": "text",
+        "text": "(4) \"Semiconductor-based actuator\" is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-41",
+        "type": "text",
+        "text": "(5) \"Semiconductor-based oscillator\" is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-42",
+        "type": "text",
+        "text": "(i) \"Light-emitting diodes (LED)\" are semiconductor devices based on semiconductor materials which convert electrical energy into visible, infra-red or ultra-violet rays, whether or not electrically connected among each other and whether or not combined with protective diodes. Light-emitting diodes (LED) of heading 85.41 do not incorporate elements for the purposes of providing power supply or power control;",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-43",
+        "type": "text",
+        "text": "(b) \"Electronic integrated circuits\" are :",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-44",
+        "type": "text",
+        "text": "(i) Monolithic integrated circuits in which the circuit elements (diodes, transistors, resistors, capacitors, inductances, etc.) are created in the mass (essentially) and on the surface of a semiconductor or compound semiconductor material (for example, doped silicon, gallium arsenide, silicon germanium, indium phosphide) and are inseparably associated;",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-45",
+        "type": "text",
+        "text": "(ii) Hybrid integrated circuits in which passive elements (resistors, capacitors, inductances, etc.), obtained by thin- or thick-film technology, and active elements (diodes, transistors, monolithic integrated circuits, etc.), obtained by semiconductor technology, are combined to all intents and purposes indivisibly, by interconnections or interconnecting cables, on a single insulating substrate (glass, ceramic, etc.). These circuits may also include discrete components;",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-46",
+        "type": "text",
+        "text": "(iii) Multichip integrated circuits consisting of two or more interconnected monolithic integrated circuits combined to all intents and purposes indivisibly, whether or not on one or more insulating substrates, with or without leadframes, but with no other active or passive circuit elements.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-47",
+        "type": "text",
+        "text": "(iv) Multi-component integrated circuits (MCOs): a combination of one or more monolithic, hybrid, or multi-chip integrated circuits with at least one of the following components: silicon-based sensors, actuators, oscillators, resonators or combinations thereof, or components performing the functions of articles classifiable under heading 85.32, 85.33, 85.41, or inductors classifiable under heading 85.04, formed to all intents and purposes indivisibly into a single body like an integrated circuit, as a component of a kind used for assembly onto a printed circuit board (PCB) or other carrier, through the connecting of pins, leads, balls, lands, bumps, or pads.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-48",
+        "type": "text",
+        "text": "For the purpose of this definition :",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-49",
+        "type": "text",
+        "text": "1. \"Components\" may be discrete, manufactured independently then assembled onto the rest of the MCO, or integrated into other components.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-50",
+        "type": "text",
+        "text": "2. \"Silicon based\" means built on a silicon substrate, or made of silicon materials, or manufactured onto integrated circuit die.",
+        "level": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      {
+        "id": "block-51",
+        "type": "text",
+        "text": "3. (a) \"Silicon-based sensors\" consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical phenomena and transducing these into electric signals, caused by resulting variations in electric properties or displacement of a mechanical structure. \"Physical or chemical phenomena\" relates to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-52",
+        "type": "text",
+        "text": "(b) \"Silicon based actuators\" consist of microelectronic and mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of converting electrical signals into physical movement.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-53",
+        "type": "text",
+        "text": "(c) \"Silicon based resonators\" are components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-54",
+        "type": "text",
+        "text": "(d) \"Silicon based oscillators\" are active components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-55",
+        "type": "text",
+        "text": "For the classification of the articles defined in this Note, headings 85.41 and 85.42 shall take precedence over any other heading in the Nomenclature, except in the case of heading 85.23, which might cover them by reference to, in particular, their function.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-56",
+        "type": "heading",
+        "text": "Subheading Notes.",
+        "level": 2,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-57",
+        "type": "text",
+        "text": "1.- Subheading 8525.81 covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics :",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-58",
+        "type": "text",
+        "text": "- writing speed exceeding 0.5 mm per microsecond;",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-59",
+        "type": "text",
+        "text": "- time resolution 50 nanoseconds or less;",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-60",
+        "type": "text",
+        "text": "- frame rate exceeding 225,000 frames per second.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-61",
+        "type": "text",
+        "text": "2.- In respect of subheading 8525.82, radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least $50 \\times 10^{3}$ Gy(silicon) ($5 \\times 10^{6}$ RAD (silicon)), without operational degradation.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-62",
+        "type": "text",
+        "text": "3.- Subheading 8525.83 covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading 8525.89).",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-63",
+        "type": "text",
+        "text": "4.- Subheading 8527.12 covers only cassette-players with built-in amplifier, without built-in loudspeaker, capable of operating without an external source of electric power and the dimensions of which do not exceed $170\\mathrm{mm}\\times 100\\mathrm{mm}\\times 45\\mathrm{mm}$.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      {
+        "id": "block-64",
+        "type": "text",
+        "text": "5.- For the purposes of subheadings 8549.11 to 8549.19, \"spent primary cells, spent primary batteries and spent electric accumulators\" are those which are neither usable as such because of breakage, cutting-up, wear or other reasons, nor capable of being recharged.",
+        "level": null,
+        "page_numbers": [
+          4
+        ]
+      }
+    ],
+    "text": "Chapter 85\nElectrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles\nNotes.\n1.- This Chapter does not cover :\n(a) Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing, footwear or ear pads or other electrically warmed articles worn on or about the person;\n(b) Articles of glass of heading 70.11;\n(c) Machines and apparatus of heading 84.86;\n(d) Vacuum apparatus of a kind used in medical, surgical, dental or veterinary sciences (heading 90.18); or\n(e) Electrically heated furniture of Chapter 94.\n2.- Headings 85.01 to 85.04 do not apply to goods described in heading 85.11, 85.12, 85.40, 85.41 or 85.42.\nHowever, metal tank mercury arc rectifiers remain classified in heading 85.04.\n3.- For the purposes of heading 85.07, the expression \"electric accumulators\" includes those presented with ancillary components which contribute to the accumulator's function of storing and supplying energy or protect it from damage, such as electrical connectors, temperature control devices (for example, thermistors) and circuit protection devices. They may also include a portion of the protective housing of the goods in which they are to be used.\n4.- Heading 85.09 covers only the following electro-mechanical machines of the kind commonly used for domestic purposes :\n(a) Floor polishers, food grinders and mixers, and fruit or vegetable juice extractors, of any weight;\n(b) Other machines provided the weight of such machines does not exceed 20 kg.\nThe heading does not, however, apply to fans or ventilating or recycling hoods incorporating a fan, whether or not fitted with filters (heading 84.14), centrifugal clothes-dryers (heading 84.21), dish washing machines (heading 84.22), household washing machines (heading 84.50), roller or other ironing machines (heading 84.20 or 84.51), sewing machines (heading 84.52), electric scissors (heading 84.67) or to electro-thermic appliances (heading 85.16).\n5.- For the purposes of heading 85.17, the term \"smartphones\" means telephones for cellular networks, equipped with a mobile operating system designed to perform the functions of an automatic data processing machine such as downloading and running multiple applications simultaneously, including third-party applications, and whether or not integrating other features such as digital cameras and navigational aid systems.\n6.- For the purposes of heading 85.23 :\n(a) \"Solid-state non-volatile storage devices\" (for example, \"flash memory cards\" or \"flash electronic storage cards\") are storage devices with a connecting socket, comprising in the same housing one or more flash memories (for example, \"FLASH E/PROM\") in the form of integrated circuits mounted on a printed circuit board. They may include a controller in the form of an integrated circuit and discrete passive components, such as capacitors and resistors;\n(b) The term \"smart cards\" means cards which have embedded in them one or more electronic integrated circuits (a microprocessor, random access memory (RAM) or read-only memory (ROM)) in the form of chips. These cards may contain contacts, a magnetic stripe or an embedded antenna but do not contain any other active or passive circuit elements.\n7.- For the purposes of heading 85.24, “flat panel display modules” refer to devices or apparatus for the display of information, equipped at a minimum with a display screen, which are designed to be incorporated into articles of other headings prior to use. Display screens for flat panel display modules include, but are not limited to, those which are flat, curved, flexible, foldable or stretchable in form. Flat panel display modules may incorporate additional elements, including those necessary for receiving video signals and the allocation of those signals to pixels on the display. However, heading 85.24 does not include display modules which are equipped with components for converting video signals (e.g., a scaler IC, decoder IC or application processor) or have otherwise assumed the character of goods of other headings.\nFor the classification of flat panel display modules defined in this Note, heading 85.24 shall take precedence over any other heading in the Nomenclature.\n8.- For the purposes of heading 85.34 “printed circuits” are circuits obtained by forming on an insulating base, by any printing process (for example, embossing, plating-up, etching) or by the “film circuit” technique, conductor elements, contacts or other printed components (for example, inductances, resistors, capacitors) alone or interconnected according to a pre-established pattern, other than elements which can produce, rectify, modulate or amplify an electrical signal (for example, semiconductor elements).\nThe expression “printed circuits” does not cover circuits combined with elements other than those obtained during the printing process, nor does it cover individual, discrete resistors, capacitors or inductances. Printed circuits may, however, be fitted with non-printed connecting elements.\nThin- or thick-film circuits comprising passive and active elements obtained during the same technological process are to be classified in heading 85.42.\n9.- For the purpose of heading 85.36, “connectors for optical fibres, optical fibre bundles or cables” means connectors that simply mechanically align optical fibres end to end in a digital line system. They perform no other function, such as the amplification, regeneration or modification of a signal.\n10.- Heading 85.37 does not include cordless infrared devices for the remote control of television receivers or other electrical equipment (heading 85.43).\n11.- For the purposes of heading 85.39, the expression “light-emitting diode (LED) light sources” covers:\n(a) “Light-emitting diode (LED) modules” which are electrical light sources based on light-emitting diodes (LED) arranged in electrical circuits and containing further elements like electrical, mechanical, thermal or optical elements. They also contain discrete active elements, discrete passive elements, or articles of heading 85.36 or 85.42 for the purposes of providing power supply or power control. Light-emitting diode (LED) modules do not have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact.\n(b) “Light-emitting diode (LED) lamps” which are electrical light sources containing one or more LED modules containing further elements like electrical, mechanical, thermal or optical elements. The distinction between light-emitting diode (LED) modules and light-emitting diode (LED) lamps is that lamps have a cap designed to allow easy installation or replacement in a luminaire and ensure mechanical and electrical contact.\n12.- For the purposes of headings 85.41 and 85.42:\n(a) (i) “Semiconductor devices” are semiconductor devices the operation of which depends on variations in resistivity on the application of an electric field or semiconductor-based transducers.\nSemiconductor devices may also include assembly of plural elements, whether or not equipped with active and passive device ancillary functions.\n“Semiconductor-based transducers” are, for the purposes of this definition, semiconductor-based sensors, semiconductor-based actuators, semiconductor-based resonators and semiconductor-based oscillators, which are types of discrete semiconductor-based devices, which perform an intrinsic function, which are able to convert any kind of physical or chemical phenomena or an action into an electrical signal or an electrical signal into any type of physical phenomenon or an action.\nAll the elements in semiconductor-based transducers are individually combined, and may also include necessary materials individually attached, that enable their construction or function.\nThe following expressions mean :\n(1) \"Semiconductor-based\" means built or manufactured on a semiconductor substrate or made of semiconductor materials, manufactured by semiconductor technology, in which the semiconductor substrate or material plays a critical and unreplaceable role of transducer function and performance, and the operation of which is based on semiconductor properties including physical, electrical, chemical and optical properties.\n(2) \"Physical or chemical phenomena\" relate to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.\n(3) \"Semiconductor-based sensor\" is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical quantities and converting these into electric signals caused by resulting variations in electric properties or displacement of a mechanical structure.\n(4) \"Semiconductor-based actuator\" is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input.\n(5) \"Semiconductor-based oscillator\" is a type of semiconductor device, which consists of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.\n(i) \"Light-emitting diodes (LED)\" are semiconductor devices based on semiconductor materials which convert electrical energy into visible, infra-red or ultra-violet rays, whether or not electrically connected among each other and whether or not combined with protective diodes. Light-emitting diodes (LED) of heading 85.41 do not incorporate elements for the purposes of providing power supply or power control;\n(b) \"Electronic integrated circuits\" are :\n(i) Monolithic integrated circuits in which the circuit elements (diodes, transistors, resistors, capacitors, inductances, etc.) are created in the mass (essentially) and on the surface of a semiconductor or compound semiconductor material (for example, doped silicon, gallium arsenide, silicon germanium, indium phosphide) and are inseparably associated;\n(ii) Hybrid integrated circuits in which passive elements (resistors, capacitors, inductances, etc.), obtained by thin- or thick-film technology, and active elements (diodes, transistors, monolithic integrated circuits, etc.), obtained by semiconductor technology, are combined to all intents and purposes indivisibly, by interconnections or interconnecting cables, on a single insulating substrate (glass, ceramic, etc.). These circuits may also include discrete components;\n(iii) Multichip integrated circuits consisting of two or more interconnected monolithic integrated circuits combined to all intents and purposes indivisibly, whether or not on one or more insulating substrates, with or without leadframes, but with no other active or passive circuit elements.\n(iv) Multi-component integrated circuits (MCOs): a combination of one or more monolithic, hybrid, or multi-chip integrated circuits with at least one of the following components: silicon-based sensors, actuators, oscillators, resonators or combinations thereof, or components performing the functions of articles classifiable under heading 85.32, 85.33, 85.41, or inductors classifiable under heading 85.04, formed to all intents and purposes indivisibly into a single body like an integrated circuit, as a component of a kind used for assembly onto a printed circuit board (PCB) or other carrier, through the connecting of pins, leads, balls, lands, bumps, or pads.\nFor the purpose of this definition :\n1. \"Components\" may be discrete, manufactured independently then assembled onto the rest of the MCO, or integrated into other components.\n2. \"Silicon based\" means built on a silicon substrate, or made of silicon materials, or manufactured onto integrated circuit die.\n3. (a) \"Silicon-based sensors\" consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of detecting physical or chemical phenomena and transducing these into electric signals, caused by resulting variations in electric properties or displacement of a mechanical structure. \"Physical or chemical phenomena\" relates to phenomena, such as pressure, acoustic waves, acceleration, vibration, movement, orientation, strain, magnetic field strength, electric field strength, light, radioactivity, humidity, flow, chemicals concentration, etc.\n(b) \"Silicon based actuators\" consist of microelectronic and mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of converting electrical signals into physical movement.\n(c) \"Silicon based resonators\" are components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures in response to an external input.\n(d) \"Silicon based oscillators\" are active components that consist of microelectronic or mechanical structures that are created in the mass or on the surface of a semiconductor and that have the function of generating a mechanical or electrical oscillation of a predefined frequency that depends on the physical geometry of these structures.\nFor the classification of the articles defined in this Note, headings 85.41 and 85.42 shall take precedence over any other heading in the Nomenclature, except in the case of heading 85.23, which might cover them by reference to, in particular, their function.\nSubheading Notes.\n1.- Subheading 8525.81 covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics :\n- writing speed exceeding 0.5 mm per microsecond;\n- time resolution 50 nanoseconds or less;\n- frame rate exceeding 225,000 frames per second.\n2.- In respect of subheading 8525.82, radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least $50 \\times 10^{3}$ Gy(silicon) ($5 \\times 10^{6}$ RAD (silicon)), without operational degradation.\n3.- Subheading 8525.83 covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading 8525.89).\n4.- Subheading 8527.12 covers only cassette-players with built-in amplifier, without built-in loudspeaker, capable of operating without an external source of electric power and the dimensions of which do not exceed $170\\mathrm{mm}\\times 100\\mathrm{mm}\\times 45\\mathrm{mm}$.\n5.- For the purposes of subheadings 8549.11 to 8549.19, \"spent primary cells, spent primary batteries and spent electric accumulators\" are those which are neither usable as such because of breakage, cutting-up, wear or other reasons, nor capable of being recharged.\n85.01 | Electric motors and generators (excluding generating sets).\n8501.10 | - Motors of an output not exceeding 37.5 W\n8501.20 | - Universal AC/DC motors of an output exceeding 37.5 W\n- Other DC motors; DC generators, other than photovoltaic generators :\n8501.31 | -- Of an output not exceeding 750 W\n8501.32 | -- Of an output exceeding 750 W but not exceeding 75 kW\n8501.33 | -- Of an output exceeding 75 kW but not exceeding 375 kW\n8501.34 | -- Of an output exceeding 375 kW\n8501.40 | - Other AC motors, single-phase\n- Other AC motors, multi-phase :\n8501.51 | -- Of an output not exceeding 750 W\n8501.52 | -- Of an output exceeding 750 W but not exceeding 75 kW\n8501.53 | -- Of an output exceeding 75 kW\n- AC generators (alternators), other than photovoltaic generators :\n8501.61 | -- Of an output not exceeding 75 kVA\n8501.62 | -- Of an output exceeding 75 kVA but not exceeding 375 kVA\n8501.63 | -- Of an output exceeding 375 kVA but not exceeding 750 kVA\n8501.64 | -- Of an output exceeding 750 kVA\n- Photovoltaic DC generators :\n8501.71 | -- Of an output not exceeding 50 W\n8501.72 | -- Of an output exceeding 50 W\n8501.80 | - Photovoltaic AC generators\n85.02 | Electric generating sets and rotary converters.\n- Generating sets with compression-ignition internal combustion piston engines (diesel or semi-diesel engines) :\n8502.11 | -- Of an output not exceeding 75 kVA\n8502.12 | -- Of an output exceeding 75 kVA but not exceeding 375 kVA\n8502.13 | -- Of an output exceeding 375 kVA\n8502.20 | - Generating sets with spark-ignition internal combustion piston engines\n- Other generating sets :\n8502.31 | -- Wind-powered\n8502.39 | -- Other\n8502.40 | - Electric rotary converters\n85.03 | 8503.00 | Parts suitable for use solely or principally with the machines of heading 85.01 or 85.02.\n85.04 | Electrical transformers, static converters (for example, rectifiers) and inductors.\n8504.10 | - Ballasts for discharge lamps or tubes\n- Liquid dielectric transformers :\n8504.21 | -- Having a power handling capacity not exceeding 650 kVA\n8504.22 | -- Having a power handling capacity exceeding 650 kVA but not exceeding 10,000 kVA\n8504.23 | -- Having a power handling capacity exceeding 10,000 kVA\nHeading | H.S. Code | - Other transformers :\n8504.31 | -- Having a power handling capacity not exceeding 1 kVA\n8504.32 | -- Having a power handling capacity exceeding 1 kVA but not exceeding 16 kVA\n8504.33 | -- Having a power handling capacity exceeding 16 kVA but not exceeding 500 kVA\n8504.34 | -- Having a power handling capacity exceeding 500 kVA\n8504.40 | - Static converters\n8504.50 | - Other inductors\n8504.90 | - Parts\n85.05 | Electro-magnets; permanent magnets and articles intended to become permanent magnets after magnetisation; electro-magnetic or permanent magnet chucks, clamps and similar holding devices; electro-magnetic couplings, clutches and brakes; electro-magnetic lifting heads.\n- Permanent magnets and articles intended to become permanent magnets after magnetisation :\n8505.11 | -- Of metal\n8505.19 | -- Other\n8505.20 | - Electro-magnetic couplings, clutches and brakes\n8505.90 | - Other, including parts\n85.06 | Primary cells and primary batteries.\n8506.10 | - Manganese dioxide\n8506.30 | - Mercuric oxide\n8506.40 | - Silver oxide\n8506.50 | - Lithium\n8506.60 | - Air-zinc\n8506.80 | - Other primary cells and primary batteries\n8506.90 | - Parts\n85.07 | Electric accumulators, including separators therefor, whether or not rectangular (including square).\n8507.10 | - Lead-acid, of a kind used for starting piston engines\n8507.20 | - Other lead-acid accumulators\n8507.30 | - Nickel-cadmium\n8507.50 | - Nickel-metal hydride\n8507.60 | - Lithium-ion\n8507.80 | - Other accumulators\n8507.90 | - Parts\n85.08 | Vacuum cleaners.\n- With self-contained electric motor :\n8508.11 | -- Of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20 l\n8508.19 | -- Other\n8508.60 | - Other vacuum cleaners\n8508.70 | - Parts\n85.09 | Electro-mechanical domestic appliances, with self-contained electric motor, other than vacuum cleaners of heading 85.08.\n8509.40 | - Food grinders and mixers; fruit or vegetable juice extractors\n8509.80 | - Other appliances\n8509.90 | - Parts\n85.10 | Shavers, hair clippers and hair-removing appliances, with self-contained electric motor.\n8510.10 | - Shavers\n8510.20 | - Hair clippers\n8510.30 | - Hair-removing appliances\n8510.90 | - Parts\n85.11 | Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamics, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines.\n8511.10 | - Sparking plugs\n8511.20 | - Ignition magnetos; magneto-dynamics; magnetic flywheels\n8511.30 | - Distributors; ignition coils\n8511.40 | - Starter motors and dual purpose starter-generators\n8511.50 | - Other generators\n8511.80 | - Other equipment\n8511.90 | - Parts\n85.12 | Electrical lighting or signalling equipment (excluding articles of heading 85.39), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles.\n8512.10 | - Lighting or visual signalling equipment of a kind used on bicycles\n8512.20 | - Other lighting or visual signalling equipment\n8512.30 | - Sound signalling equipment\n8512.40 | - Windscreen wipers, defrosters and demisters\n8512.90 | - Parts\n85.13 | Portable electric lamps designed to function by their own source of energy (for example, dry batteries, accumulators, magnetos), other than lighting equipment of heading 85.12.\n8513.10 | -Lamps\n8513.90 | -Parts\n85.14 | Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss.\n- Resistance heated furnaces and ovens :\n8514.11 | -- Hot isostatic presses\n8514.19 | -- Other\n8514.20 | - Furnaces and ovens functioning by induction or dielectric loss\n- Other furnaces and ovens :\n8514.31 | -- Electron beam furnaces\n8514.32 | -- Plasma and vacuum arc furnaces\n8514.39 | -- Other\n8514.40 | - Other equipment for the heat treatment of materials by induction or dielectric loss\n8514.90 | -Parts\n85.15 | Electric (including electrically heated gas), laser or other light or photon beam, ultrasonic, electron beam, magnetic pulse or plasma arc soldering, brazing or welding machines and apparatus, whether or not capable of cutting; electric machines and apparatus for hot spraying of metals or cermets.\n- Brazing or soldering machines and apparatus :\n8515.11 | -- Soldering irons and guns\n8515.19 | -- Other\n- Machines and apparatus for resistance welding of metal :\n8515.21 | -- Fully or partly automatic\n8515.29 | -- Other\n- Machines and apparatus for arc (including plasma arc) welding of metals :\n8515.31 | -- Fully or partly automatic\n8515.39 | -- Other\n8515.80 | - Other machines and apparatus\n8515.90 | - Parts\n85.16 | Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electro-thermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electro-thermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 85.45.\n8516.10 | -Electric instantaneous or storage water heaters and immersion heaters\n-Electric space heating apparatus and electric soil heating apparatus :\n8516.21 | -- Storage heating radiators\n8516.29 | -- Other\n-Electro-thermic hair-dressing or hand-drying apparatus :\n8516.31 | -- Hair dryers\n8516.32 | -- Other hair-dressing apparatus\n8516.33 | -- Hand-drying apparatus\n8516.40 | -Electric smoothing irons\n8516.50 | -Microwave ovens\n8516.60 | -Other ovens; cookers, cooking plates, boiling rings, grillers and roasters\n-Other electro-thermic appliances :\n8516.71 | -- Coffee or tea makers\n8516.72 | -- Toasters\n8516.79 | -- Other\n8516.80 | -Electric heating resistors\n8516.90 | -Parts\n85.17 | Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network), other than transmission or reception apparatus of heading 84.43, 85.25, 85.27 or 85.28.\n-Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks :\n8517.11 | -- Line telephone sets with cordless handsets\n8517.13 | -- Smartphones\n8517.14 | -- Other telephones for cellular networks or for other wireless networks\n8517.18 | -- Other\n-Other apparatus for transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network) :\n8517.61 | -- Base stations\n8517.62 | -- Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus\n8517.69 | -- Other\n- Parts :\n8517.71 | -- Aerials and aerial reflectors of all kinds; parts suitable for use therewith\n8517.79 | -- Other\n85.18 | Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets.\n8518.10 | - Microphones and stands therefor\n- Loudspeakers, whether or not mounted in their enclosures :\n8518.21 | -- Single loudspeakers, mounted in their enclosures\n8518.22 | -- Multiple loudspeakers, mounted in the same enclosure\n8518.29 | -- Other\n8518.30 | - Headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers\n8518.40 | - Audio-frequency electric amplifiers\n8518.50 | - Electric sound amplifier sets\n8518.90 | - Parts\n85.19 | Sound recording or reproducing apparatus.\n8519.20 | - Apparatus operated by coins, banknotes, bank cards, tokens or by other means of payment\n8519.30 | - Turntables (record-decks)\n- Other apparatus :\n8519.81 | -- Using magnetic, optical or semiconductor media\n8519.89 | -- Other\n[85.20]\n85.21 | Video recording or reproducing apparatus, whether or not incorporating a video tuner.\n8521.10 | - Magnetic tape-type\n8521.90 | - Other\n85.22 | Parts and accessories suitable for use solely or principally with the apparatus of heading 85.19 or 85.21.\n8522.10 | - Pick-up cartridges\n8522.90 | - Other\n85.23 | Discs, tapes, solid-state non-volatile storage devices, “smart cards” and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37.\n- Magnetic media :\n8523.21 | -- Cards incorporating a magnetic stripe\n8523.29 | -- Other\n- Optical media :\n8523.41 | -- Unrecorded\n8523.49 | -- Other\n- Semiconductor media :\n8523.51 | -- Solid-state non-volatile storage devices\n8523.52 | -- “Smart cards”\n8523.59 | -- Other\n8523.80 | - Other\n85.24 | Flat panel display modules, whether or not incorporating touch-sensitive screens.\n- Without drivers or control circuits :\n8524.11 | -- Of liquid crystals\n8524.12 | -- Of organic light-emitting diodes (OLED)\n8524.19 | -- Other\n- Other :\n8524.91 | -- Of liquid crystals\n8524.92 | -- Of organic light-emitting diodes (OLED)\n8524.99 | -- Other\n85.25 | Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders.\n8525.50 | - Transmission apparatus\n8525.60 | - Transmission apparatus incorporating reception apparatus\nHeading | H.S. Code | -Television cameras, digital cameras and video camera recorders :\n8525.81 | -- High-speed goods as specified in Subheading Note 1 to this Chapter\n8525.82 | -- Other, radiation-hardened or radiation-tolerant goods as specified in Subheading Note 2 to this Chapter\n8525.83 | -- Other, night vision goods as specified in Subheading Note 3 to this Chapter\n8525.89 | -- Other\n85.26 | Radar apparatus, radio navigational aid apparatus and radio remote control apparatus.\n8526.10 | - Radar apparatus\n- Other :\n8526.91 | -- Radio navigational aid apparatus\n8526.92 | -- Radio remote control apparatus\n85.27 | Reception apparatus for radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock.\n- Radio-broadcast receivers capable of operating without an external source of power :\n8527.12 | -- Pocket-size radio cassette-players\n8527.13 | -- Other apparatus combined with sound recording or reproducing apparatus\n8527.19 | -- Other\n- Radio-broadcast receivers not capable of operating without an external source of power, of a kind used in motor vehicles :\n8527.21 | -- Combined with sound recording or reproducing apparatus\n8527.29 | -- Other\n- Other :\n8527.91 | -- Combined with sound recording or reproducing apparatus\n8527.92 | -- Not combined with sound recording or reproducing apparatus but combined with a clock\n8527.99 | -- Other\n85.28 | Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus.\n- Cathode-ray tube monitors :\n8528.42 | -- Capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71\n8528.49 | -- Other\n- Other monitors :\n8528.52 | -- Capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71\n8528.59 | -- Other\n- Projectors :\n8528.62 | -- Capable of directly connecting to and designed for use with an automatic data processing machine of heading 84.71\n8528.69 | -- Other\n- Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus :\n8528.71 | -- Not designed to incorporate a video display or screen\n8528.72 | -- Other, colour\n8528.73 | -- Other, monochrome\n85.29 | Parts suitable for use solely or principally with the apparatus of headings 85.24 to 85.28.\n8529.10 | - Aerials and aerial reflectors of all kinds; parts suitable for use therewith\n8529.90 | - Other\n85.30 | Electrical signalling, safety or traffic control equipment for railways, tramways, roads, inland waterways, parking facilities, port installations or airfields (other than those of heading 86.08).\n8530.10 | - Equipment for railways or tramways\n8530.80 | - Other equipment\n8530.90 | - Parts\n85.31 | Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 85.12 or 85.30.\n8531.10 | - Burglar or fire alarms and similar apparatus\n8531.20 | - Indicator panels incorporating liquid crystal devices (LCD) or light-emitting diodes (LED)\n8531.80 | - Other apparatus\n8531.90 | - Parts\n85.32 | Electrical capacitors, fixed, variable or adjustable (pre-set).\n8532.10 | - Fixed capacitors designed for use in 50/60 Hz circuits and having a reactive power handling capacity of not less than 0.5 kvar (power capacitors)\n- Other fixed capacitors :\n8532.21 | -- Tantalum\n8532.22 | -- Aluminium electrolytic\n8532.23 | -- Ceramic dielectric, single layer\n8532.24 | -- Ceramic dielectric, multilayer\n8532.25 | -- Dielectric of paper or plastics\n8532.29 | -- Other\n8532.30 | - Variable or adjustable (pre-set) capacitors\n8532.90 | - Parts\n85.33 | Electrical resistors (including rheostats and potentiometers), other than heating resistors.\n8533.10 | - Fixed carbon resistors, composition or film types\n- Other fixed resistors :\n8533.21 | -- For a power handling capacity not exceeding 20 W\n8533.29 | -- Other\n- Wirewound variable resistors, including rheostats and potentiometers :\n8533.31 | -- For a power handling capacity not exceeding 20 W\n8533.39 | -- Other\n8533.40 | - Other variable resistors, including rheostats and potentiometers\n8533.90 | - Parts\n85.34 | 8534.00 | Printed circuits.\n85.35 | Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and other connectors, junction boxes), for a voltage exceeding 1,000 volts.\n8535.10 | - Fuses\n- Automatic circuit breakers :\n8535.21 | -- For a voltage of less than 72.5 kV\n8535.29 | -- Other\n8535.30 | - Isolating switches and make-and-break switches\n8535.40 | - Lightning arresters, voltage limiters and surge suppressors\n85.36 | Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders and other connectors, junction boxes), for a voltage not exceeding 1,000 volts; connectors for optical fibres, optical fibre bundles or cables.\n8536.10 | - Fuses\n8536.20 | - Automatic circuit breakers\n8536.30 | - Other apparatus for protecting electrical circuits\n- Relays :\n8536.41 | -- For a voltage not exceeding 60 V\n8536.49 | -- Other\n8536.50 | - Other switches\n- Lamp-holders, plugs and sockets :\n8536.61 | -- Lamp-holders\n8536.69 | -- Other\n8536.70 | - Connectors for optical fibres, optical fibre bundles or cables\n8536.90 | - Other apparatus\n85.37 | Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 85.35 or 85.36, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 85.17.\n8537.10 | - For a voltage not exceeding 1,000 V\n8537.20 | - For a voltage exceeding 1,000 V\n85.38 | Parts suitable for use solely or principally with the apparatus of heading 85.35, 85.36 or 85.37.\n8538.10 | - Boards, panels, consoles, desks, cabinets and other bases for the goods of heading 85.37, not equipped with their apparatus\n8538.90 | - Other\n85.39 | Electric filament or discharge lamps, including sealed beam lamp units and ultra-violet or infra-red lamps; arc-lamps; light-emitting diode (LED) light sources.\n8539.10 | - Sealed beam lamp units\n- Other filament lamps, excluding ultra-violet or infra-red lamps :\n8539.21 | -- Tungsten halogen\n8539.22 | -- Other, of a power not exceeding 200 W and for a voltage exceeding 100 V\n8539.29 | -- Other\n- Discharge lamps, other than ultra-violet lamps :\n8539.31 | -- Fluorescent, hot cathode\n8539.32 | -- Mercury or sodium vapour lamps; metal halide lamps\n8539.39 | -- Other\n- Ultra-violet or infra-red lamps; arc-lamps :\n8539.41 | -- Arc-lamps\n8539.49 | -- Other\n- Light-emitting diode (LED) light sources :\n8539.51 | -- Light-emitting diode (LED) modules\n8539.52 | -- Light-emitting diode (LED) lamps\n8539.90 | - Parts\n85.40 | Thermionic, cold cathode or photo-cathode valves and tubes (for example, vacuum or vapour or gas filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray tubes, television camera tubes).\n- Cathode-ray television picture tubes, including video monitor cathode-ray tubes :\n8540.11 | -- Colour\n8540.12 | -- Monochrome\n8540.20 | - Television camera tubes; image converters and intensifiers; other photo-cathode tubes\n8540.40 | - Data/graphic display tubes, monochrome; data/graphic display tubes, colour, with a phosphor dot screen pitch smaller than 0.4 mm\n8540.60 | - Other cathode-ray tubes\n- Microwave tubes (for example, magnetrons, klystrons, travelling wave tubes, carcinotrons), excluding grid-controlled tubes :\n8540.71 | -- Magnetrons\n8540.79 | -- Other\n- Other valves and tubes :\n8540.81 | -- Receiver or amplifier valves and tubes\n8540.89 | -- Other\n- Parts :\n8540.91 | -- Of cathode-ray tubes\n8540.99 | -- Other\n85.41 | Semiconductor devices (for example, diodes, transistors, semiconductor-based transducers); photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED), whether or not assembled with other light-emitting diodes (LED); mounted piezo-electric crystals.\n8541.10 | - Diodes, other than photosensitive or light-emitting diodes (LED)\n- Transistors, other than photosensitive transistors :\n8541.21 | -- With a dissipation rate of less than 1 W\n8541.29 | -- Other\n8541.30 | - Thyristors, diacs and triacs, other than photosensitive devices\n- Photosensitive semiconductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light-emitting diodes (LED) :\n8541.41 | -- Light-emitting diodes (LED)\n8541.42 | -- Photovoltaic cells not assembled in modules or made up into panels\n8541.43 | -- Photovoltaic cells assembled in modules or made up into panels\n8541.49 | -- Other\n- Other semiconductor devices :\n8541.51 | -- Semiconductor-based transducers\n8541.59 | -- Other\n8541.60 | - Mounted piezo-electric crystals\n8541.90 | - Parts\n85.42 | Electronic integrated circuits.\n- Electronic integrated circuits :\n8542.31 | -- Processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits\n8542.32 | -- Memories\n8542.33 | -- Amplifiers\n8542.39 | -- Other\n8542.90 | - Parts\n85.43 | Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this Chapter.\n8543.10 | - Particle accelerators\n8543.20 | - Signal generators\n8543.30 | - Machines and apparatus for electroplating, electrolysis or electrophoresis\n8543.40 | - Electronic cigarettes and similar personal electric vaporising devices\n8543.70 | - Other machines and apparatus\n8543.90 | - Parts\n85.44 | Insulated (including enamelled or anodised) wire, cable (including co-axial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors.\n- Winding wire :\n8544.11 | -- Of copper\n8544.19 | -- Other\n8544.20 | - Co-axial cable and other co-axial electric conductors\n8544.30 | - Ignition wiring sets and other wiring sets of a kind used in vehicles, aircraft or ships\n- Other electric conductors, for a voltage not exceeding 1,000 V :\n8544.42 | -- Fitted with connectors\n8544.49 | -- Other\n8544.60 | - Other electric conductors, for a voltage exceeding 1,000 V\n8544.70 | - Optical fibre cables\n85.45 | Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes.\n- Electrodes :\n8545.11 | -- Of a kind used for furnaces\n8545.19 | -- Other\n8545.20 | - Brushes\n8545.90 | - Other\n85.46 | Electrical insulators of any material.\n8546.10 | - Of glass\n8546.20 | - Of ceramics\n8546.90 | - Other\n85.47 | Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating material apart from any minor components of metal (for example, threaded sockets) incorporated during moulding solely for purposes of assembly, other than insulators of heading 85.46; electrical conduit tubing and joints therefor, of base metal lined with insulating material.\n8547.10 | - Insulating fittings of ceramics\n8547.20 | - Insulating fittings of plastics\n8547.90 | - Other\n85.48 | 8548.00 | Electrical parts of machinery or apparatus, not specified or included elsewhere in this Chapter.\n85.49 | Electrical and electronic waste and scrap.\n- Waste and scrap of primary cells, primary batteries and electric accumulators; spent primary cells, spent primary batteries and spent electric accumulators :\n8549.11 | -- Waste and scrap of lead-acid accumulators; spent lead-acid accumulators\n8549.12 | -- Other, containing lead, cadmium or mercury\n8549.13 | -- Sorted by chemical type and not containing lead, cadmium or mercury\n8549.14 | -- Unsorted and not containing lead, cadmium or mercury\n8549.19 | -- Other\n- Of a kind used principally for the recovery of precious metal :\n8549.21 | -- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs)\n8549.29 | -- Other\n- Other electrical and electronic assemblies and printed circuit boards :\n8549.31 | -- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs)\n8549.39 | -- Other\n- Other :\n8549.91 | -- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs)\n8549.99 | -- Other",
+    "stats": {
+      "page_count": 19,
+      "heading_count": 3,
+      "table_count": 16,
+      "block_count": 64,
+      "word_count": 6254,
+      "character_count": 41152
+    },
+    "markdown_projection": ""
+  },
+  "validation": {
+    "status": "pass",
+    "reasons": [],
+    "metrics": {
+      "page_count": 19,
+      "table_count": 16,
+      "heading_count": 3,
+      "word_count": 6254,
+      "repetition_ratio": 0.0086
+    }
+  },
+  "normalized": {
+    "document_class": "legal_statute",
+    "normalizer_name": "legal_document",
+    "normalizer_version": "1.0.0",
+    "confidence": 0.82,
+    "review_flags": [
+      "legal_signal"
+    ],
+    "payload": {
+      "sections": [
+        {
+          "section_id": "section-1",
+          "title": "Document Start",
+          "level": 1,
+          "page_numbers": [
+            1
+          ],
+          "block_count": 1,
+          "text_excerpt": "Chapter 85"
+        },
+        {
+          "section_id": "section-2",
+          "title": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+          "level": 1,
+          "page_numbers": [
+            1
+          ],
+          "block_count": 0,
+          "text_excerpt": ""
+        },
+        {
+          "section_id": "section-3",
+          "title": "Notes.",
+          "level": 2,
+          "page_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "block_count": 52,
+          "text_excerpt": "1.- This Chapter does not cover : (a) Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing, footwear or ear pads or other electrically warmed articles worn on or about the person; (b) Articles of glass of heading 70.11; (c) Machines and apparatus of heading 84.86; (d) Vacuum apparatus of a kind used in medical, surgical, dental or veterinary sciences (heading 90.18); or (e) Electrically heated furniture of Chapter 94. 2.- Headings 85.01 to 85.04 do not apply to goods described in heading 85.11, 85.12, 85.40, 85.41 or 85.42. However, metal tank mercury arc rectifiers remain classified in heading 85.04. 3.- For the purposes of heading 85.07, the expression \"electric accumulators\" includes those presented with ancillary components which contribute to the accumulator's function of storing and supplying energy or protect it from damage, such as electrical connectors, temperature control devices (for example, thermistors) and circuit protection devices. They may also include a portion of the protective housing of the goods in which they are to be used. 4.- Heading 85.09 covers only the following electro-mechanical machines of the kind commonly used"
+        },
+        {
+          "section_id": "section-4",
+          "title": "Subheading Notes.",
+          "level": 2,
+          "page_numbers": [
+            4
+          ],
+          "block_count": 8,
+          "text_excerpt": "1.- Subheading 8525.81 covers only high-speed television cameras, digital cameras and video camera recorders having one or more of the following characteristics : - writing speed exceeding 0.5 mm per microsecond; - time resolution 50 nanoseconds or less; - frame rate exceeding 225,000 frames per second. 2.- In respect of subheading 8525.82, radiation-hardened or radiation-tolerant television cameras, digital cameras and video camera recorders are designed or shielded to enable operation in a high-radiation environment. These cameras are designed to withstand a total radiation dose of at least $50 \\times 10^{3}$ Gy(silicon) ($5 \\times 10^{6}$ RAD (silicon)), without operational degradation. 3.- Subheading 8525.83 covers night vision television cameras, digital cameras and video camera recorders which use a photocathode to convert available light to electrons, which can be amplified and converted to yield a visible image. This subheading excludes thermal imaging cameras (generally subheading 8525.89). 4.- Subheading 8527.12 covers only cassette-players with built-in amplifier, without built-in loudspeaker, capable of operating without an external source of electric power and the dime"
+        }
+      ],
+      "citations": [
+        "Chapter 85",
+        "Chapter does",
+        "heading 70.11",
+        "heading 84.86",
+        "heading 90.18",
+        "Chapter 94",
+        "heading 85.11",
+        "heading 85.04",
+        "heading 85.07",
+        "Heading 85.09",
+        "heading does",
+        "heading 84.14",
+        "heading 84.21",
+        "heading 84.22",
+        "heading 84.50",
+        "heading 84.20",
+        "heading 84.52",
+        "heading 84.67",
+        "heading 85.16",
+        "heading 85.17",
+        "heading 85.23",
+        "heading 85.24",
+        "heading in",
+        "heading 85.34",
+        "heading 85.42",
+        "heading 85.36",
+        "Heading 85.37",
+        "heading 85.43",
+        "heading 85.39",
+        "heading 85.41",
+        "heading 85.32",
+        "Subheading Notes",
+        "Subheading 8525.81",
+        "subheading 8525.82",
+        "Subheading 8525.83",
+        "subheading excludes",
+        "subheading 8525.89",
+        "Subheading 8527.12",
+        "heading 85.01",
+        "heading 85.08",
+        "heading 85.12",
+        "heading 85.45",
+        "heading 84.43",
+        "heading 85.19",
+        "Chapter 37",
+        "Subheading Note",
+        "Chapter 8525.82",
+        "Chapter 8525.83",
+        "Chapter 8525.89",
+        "heading 84.71",
+        "heading 86.08",
+        "heading 85.35",
+        "Chapter 90",
+        "heading 85.37",
+        "heading 85.46"
+      ],
+      "effective_dates": [],
+      "table_count": 16
+    }
+  }
+}

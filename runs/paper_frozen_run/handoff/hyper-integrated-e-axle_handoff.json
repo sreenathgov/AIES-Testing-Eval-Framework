@@ -1,0 +1,11 @@
+{
+  "component_ref": "ent_269",
+  "component_slug": "hyper-integrated-e-axle",
+  "handoff_id": "HANDOFF_EU_hyper-integrated-e-axle",
+  "human_review_required": true,
+  "review_reason_codes": [
+    "gri_3b_requires_adjudication_review"
+  ],
+  "route": "review",
+  "source_artifact": "AA_EU_hyper-integrated-e-axle"
+}

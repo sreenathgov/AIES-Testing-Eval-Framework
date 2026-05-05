@@ -1,0 +1,51 @@
+[
+  {"edge_id": "E_GOOD_OBC_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:on_board_charger:EU", "target_node_id": "component:on_board_charger"},
+  {"edge_id": "E_GOOD_OBC_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:on_board_charger:EU", "target_node_id": "hs_code:8504.40.90:EU"},
+  {"edge_id": "E_GOOD_OBC_SUPPORTED_EU_EN", "edge_type": "supported_by", "source_node_id": "candidate:on_board_charger:EU", "target_node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS", "authority_class": "interpretive_legal_note", "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS"},
+  {"edge_id": "E_GOOD_OBC_SUPPORTED_EU_CN", "edge_type": "supported_by", "source_node_id": "candidate:on_board_charger:EU", "target_node_id": "source:SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8504_40_90"},
+  {"edge_id": "E_GOOD_OBC_SUPPORTED_WCO", "edge_type": "supported_by", "source_node_id": "candidate:on_board_charger:EU", "target_node_id": "source:SRC_WCO_GRI_2017", "authority_class": "primary_legal_text", "anchor_id": "WCO_GRI_1"},
+
+  {"edge_id": "E_GOOD_CONNECTORS_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:high_voltage_connectors:EU", "target_node_id": "component:high_voltage_connectors"},
+  {"edge_id": "E_GOOD_CONNECTORS_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:high_voltage_connectors:EU", "target_node_id": "hs_code:8536.69.90:EU"},
+  {"edge_id": "E_GOOD_CONNECTORS_SUPPORTED_EU_CN", "edge_type": "supported_by", "source_node_id": "candidate:high_voltage_connectors:EU", "target_node_id": "source:SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8536_69_90"},
+  {"edge_id": "E_GOOD_CONNECTORS_SUPPORTED_EU_EN", "edge_type": "supported_by", "source_node_id": "candidate:high_voltage_connectors:EU", "target_node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS", "authority_class": "interpretive_legal_note", "anchor_id": "EU_CN_EN_8536_CONNECTORS"},
+
+  {"edge_id": "E_GOOD_INVERTER_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:traction_inverter:EU", "target_node_id": "component:traction_inverter"},
+  {"edge_id": "E_GOOD_INVERTER_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:traction_inverter:EU", "target_node_id": "hs_code:8504.40.87:EU"},
+  {"edge_id": "E_GOOD_INVERTER_SUPPORTED_EU_CN", "edge_type": "supported_by", "source_node_id": "candidate:traction_inverter:EU", "target_node_id": "source:SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8504_40_87"},
+
+  {"edge_id": "E_GOOD_PACK_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:hv_battery_pack:EU:bti_supported", "target_node_id": "component:hv_battery_pack"},
+  {"edge_id": "E_GOOD_PACK_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:hv_battery_pack:EU:bti_supported", "target_node_id": "hs_code:8507.60.00:EU"},
+  {"edge_id": "E_GOOD_PACK_SUPPORTED_BTI", "edge_type": "supported_by", "source_node_id": "candidate:hv_battery_pack:EU:bti_supported", "target_node_id": "source:SRC_EU_BTI_SAMPLE", "authority_class": "classification_decision", "anchor_id": "BTI_ROW_DEBTI45911_25_1"},
+  {"edge_id": "E_GOOD_PACK_SUPPORTED_EU_CN", "edge_type": "supported_by", "source_node_id": "candidate:hv_battery_pack:EU:bti_supported", "target_node_id": "source:SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8507_60_00"},
+
+  {"edge_id": "E_GOOD_CELL_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:lithium_ion_cell:EU", "target_node_id": "component:lithium_ion_cell"},
+  {"edge_id": "E_GOOD_CELL_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:lithium_ion_cell:EU", "target_node_id": "hs_code:8507.60.00:EU"},
+  {"edge_id": "E_GOOD_CELL_SUPPORTED_EU_CN", "edge_type": "supported_by", "source_node_id": "candidate:lithium_ion_cell:EU", "target_node_id": "source:SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8507_60_00"},
+
+  {"edge_id": "E_BAD_85044084_SUPPORTED_INTERNAL", "edge_type": "supported_by", "source_node_id": "hs_code:8504.40.84:EU", "target_node_id": "source:SRC_INTERNAL_CANDIDATE_ARTIFACT", "authority_class": "internal_generated_candidate", "anchor_id": "INTERNAL_CANDIDATE_FILE"},
+  {"edge_id": "E_BAD_PTA_PACK_DESCRIBES", "edge_type": "describes", "source_node_id": "statutory_record:hv_battery_pack:EU", "target_node_id": "component:hv_battery_pack"},
+  {"edge_id": "E_BAD_PTA_PACK_PROPOSES", "edge_type": "proposes_code", "source_node_id": "statutory_record:hv_battery_pack:EU", "target_node_id": "hs_code:8507.60.00:EU"},
+  {"edge_id": "E_BAD_PTA_PACK_SUPPORTED_EU_CN", "edge_type": "supported_by", "source_node_id": "statutory_record:hv_battery_pack:EU", "target_node_id": "source:SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8507_60_00"},
+  {"edge_id": "E_BAD_OBC_REVERSED_CLASSIFIED_AS", "edge_type": "classified_as", "source_node_id": "hs_code:8504.40.90:EU", "target_node_id": "component:on_board_charger"},
+  {"edge_id": "E_BAD_SEPARATOR_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:separator_pe_pp:EU:inflated", "target_node_id": "component:separator_pe_pp"},
+  {"edge_id": "E_BAD_SEPARATOR_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:separator_pe_pp:EU:inflated", "target_node_id": "hs_code:8507.90.31:EU"},
+  {"edge_id": "E_BAD_SEPARATOR_SUPPORTED_EU_EN", "edge_type": "supported_by", "source_node_id": "candidate:separator_pe_pp:EU:inflated", "target_node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS", "authority_class": "interpretive_legal_note", "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"},
+  {"edge_id": "E_BAD_UNSUPPORTED_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:unsupported_power_unit:EU", "target_node_id": "component:unsupported_power_unit"},
+  {"edge_id": "E_BAD_UNSUPPORTED_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:unsupported_power_unit:EU", "target_node_id": "hs_code:8504.40.90:EU"},
+
+  {"edge_id": "E_BORDER_CELL_DESCRIBES", "edge_type": "describes", "source_node_id": "engineering_identity:lithium_ion_cell", "target_node_id": "component:lithium_ion_cell"},
+  {"edge_id": "E_BORDER_CELL_CLASSIFIED_AS", "edge_type": "classified_as", "source_node_id": "component:lithium_ion_cell", "target_node_id": "hs_code:8507.60.00:EU"},
+  {"edge_id": "E_BORDER_PACK_DESCRIBES", "edge_type": "describes", "source_node_id": "statutory_record:hv_battery_pack:EU:review", "target_node_id": "component:hv_battery_pack"},
+  {"edge_id": "E_BORDER_PACK_PROPOSES", "edge_type": "proposes_code", "source_node_id": "statutory_record:hv_battery_pack:EU:review", "target_node_id": "hs_code:8507.60.00:EU"},
+  {"edge_id": "E_BORDER_PACK_SUPPORTED_WCO", "edge_type": "supported_by", "source_node_id": "statutory_record:hv_battery_pack:EU:review", "target_node_id": "source:SRC_WCO_GRI_2017", "authority_class": "primary_legal_text", "anchor_id": "WCO_GRI_3B"},
+  {"edge_id": "E_BORDER_SEPARATOR_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:separator_pe_pp:EU", "target_node_id": "component:separator_pe_pp"},
+  {"edge_id": "E_BORDER_SEPARATOR_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:separator_pe_pp:EU", "target_node_id": "hs_code:8507.90.31:EU"},
+  {"edge_id": "E_BORDER_SEPARATOR_SUPPORTED_EU_EN", "edge_type": "supported_by", "source_node_id": "candidate:separator_pe_pp:EU", "target_node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS", "authority_class": "interpretive_legal_note", "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"},
+  {"edge_id": "E_BORDER_SEPARATOR_ROUTE", "edge_type": "routes", "source_node_id": "handoff:separator_pe_pp:EU", "target_node_id": "candidate:separator_pe_pp:EU"},
+  {"edge_id": "E_BORDER_EAXLE_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:integrated_e_axle:EU", "target_node_id": "component:integrated_e_axle"},
+  {"edge_id": "E_BORDER_EAXLE_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:integrated_e_axle:EU", "target_node_id": "hs_code:8708.99.97:EU"},
+  {"edge_id": "E_BORDER_EAXLE_SUPPORTED_WCO", "edge_type": "supported_by", "source_node_id": "candidate:integrated_e_axle:EU", "target_node_id": "source:SRC_WCO_GRI_2017", "authority_class": "primary_legal_text", "anchor_id": "WCO_GRI_3B"},
+  {"edge_id": "E_BORDER_NOES_DESCRIBES", "edge_type": "describes", "source_node_id": "candidate:noes_core:EU", "target_node_id": "component:noes_core"},
+  {"edge_id": "E_BORDER_NOES_PROPOSES", "edge_type": "proposes_code", "source_node_id": "candidate:noes_core:EU", "target_node_id": "hs_code:7226.19.10:EU"}
+]

@@ -1,0 +1,53 @@
+{
+  "source_file": "/Users/sreenathgovindarajan/Documents/sector-watch/drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
+  "source_hash": "0d146bef9020324f9d9bc28be149c8df10992ee6b64c1b195aded7a0aab974ff",
+  "source_kind": "pdf",
+  "page_count": 31,
+  "table_count": 28,
+  "heading_tree": [
+    {
+      "level": 2,
+      "text": "Chapter 84",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Notes.",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Subheading Notes.",
+      "page_numbers": [
+        3
+      ]
+    }
+  ],
+  "parse_duration_seconds": 86.56,
+  "docling_version": "2.79.0",
+  "selected_engine": "docling",
+  "complexity_class": "digital_pdf",
+  "route_reason": "Digital PDF detected; use Docling first.",
+  "fallback_chain": [],
+  "fallback_used": false,
+  "normalized_document_class": "tariff_schedule",
+  "normalized_confidence": 0.95,
+  "normalized_review_flags": [
+    "table_heavy_tariff_layout",
+    "tariff_specific_adapter"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

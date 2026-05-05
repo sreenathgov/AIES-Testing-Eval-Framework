@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "AABundle",
+  "title": "AA Bundle",
+  "description": "Canonical authored AA review artifact. One per component. Carries shared reasoning plus jurisdiction-specific outcomes for founder review and bundle-to-projection generation.",
+  "type": "object",
+  "required": [
+    "agent",
+    "component",
+    "entity_id",
+    "gri_path"
+  ],
+  "properties": {
+    "agent": {
+      "type": "string",
+      "const": "AA"
+    },
+    "component": {
+      "type": "string"
+    },
+    "entity_id": {
+      "type": "string",
+      "pattern": "^ent_.*"
+    },
+    "batch": {
+      "type": "string"
+    },
+    "pilot_batch": {
+      "type": "string"
+    },
+    "gri_path": {
+      "type": "string"
+    },
+    "jurisdiction_divergence": {
+      "type": "boolean"
+    },
+    "jurisdictional_divergence": {
+      "type": "boolean",
+      "description": "Deprecated alias. Use jurisdiction_divergence."
+    },
+    "stability": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "stability_us": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"]
+    },
+    "stability_eu": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"]
+    },
+    "stability_india": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"]
+    },
+    "confidence_us": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "confidence_eu": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "confidence_india": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "hs_code_us": {
+      "type": "string"
+    },
+    "hs_code_eu": {
+      "type": "string"
+    },
+    "hs_code_india": {
+      "type": "string"
+    },
+    "india_itc_hs": {
+      "type": "string"
+    },
+    "source_docs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_pta_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority_chain": {
+      "type": "array"
+    },
+    "requires_human_review": {
+      "type": "boolean"
+    },
+    "d_ruling_handoff": {
+      "type": "boolean"
+    },
+    "ruling_anchor": {
+      "type": "string"
+    },
+    "ruling_anchor_us": {
+      "type": "string"
+    },
+    "ruling_anchor_eu": {
+      "type": "string"
+    },
+    "ruling_anchor_india": {
+      "type": "string"
+    },
+    "founder_override_provenance": {
+      "type": "boolean"
+    },
+    "founder_override_scope": {
+      "type": "string"
+    },
+    "founder_override_basis": {
+      "type": "string"
+    },
+    "founder_override_note": {
+      "type": "string"
+    },
+    "primary_text_status": {
+      "type": "string",
+      "enum": ["acquired", "partial", "not_yet_acquired"]
+    },
+    "secondary_authority_sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "override_applies_to_jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["US", "EU", "IN", "India"]
+      }
+    },
+    "override_review_required_when_primary_acquired": {
+      "type": "boolean"
+    }
+  }
+}

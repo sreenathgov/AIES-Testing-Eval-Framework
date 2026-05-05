@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "adjudication_bundle.schema.json",
+  "title": "Adjudication Bundle",
+  "type": "object",
+  "required": ["artifact_id", "artifact_type", "component_id", "jurisdiction", "legal_authority_chain", "handoff_route"],
+  "properties": {
+    "artifact_type": {"const": "adjudication_bundle"},
+    "component_id": {"type": "string"},
+    "jurisdiction": {"const": "EU"},
+    "legal_authority_chain": {"type": "array"},
+    "handoff_route": {"type": "string"}
+  }
+}

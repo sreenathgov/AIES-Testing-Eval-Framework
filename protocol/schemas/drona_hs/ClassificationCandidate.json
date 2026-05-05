@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ClassificationCandidate",
+  "title": "Classification Candidate (Legacy Jurisdiction Projection)",
+  "description": "Legacy per-jurisdiction AA projection schema. The canonical authored AA artifact is now the AA bundle; this schema remains as a machine-facing jurisdiction decision contract for derived outputs and compatibility.",
+  "type": "object",
+  "required": [
+    "agent",
+    "component_ref",
+    "jurisdiction",
+    "hs_code_final_candidate",
+    "hs_description",
+    "classification_basis",
+    "authority_chain",
+    "override_applied",
+    "override_type",
+    "jurisdiction_divergence",
+    "classification_stability",
+    "stability_confidence",
+    "gri_path_taken",
+    "pre_gri_exclusion_applied",
+    "requires_human_review",
+    "track_1_result",
+    "track_2_result",
+    "track_3_result",
+    "ev_subsystem",
+    "source_docs",
+    "d_class_eng_entity",
+    "drona_domain",
+    "drona_sub_agent",
+    "extraction_timestamp",
+    "extractor_model"
+  ],
+  "properties": {
+    "agent": {
+      "type": "string",
+      "const": "AA"
+    },
+    "component_ref": {
+      "type": "string",
+      "pattern": "^ent_"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["IN", "US", "EU", "universal"],
+      "description": "The jurisdiction this candidate applies to. 'universal' only when no jurisdiction divergence exists."
+    },
+    "hs_code_final_candidate": {
+      "type": "string",
+      "description": "The AA's recommended HS code for this component in this jurisdiction"
+    },
+    "hs_description": {
+      "type": "string",
+      "description": "Official heading text description"
+    },
+    "classification_basis": {
+      "type": "string",
+      "description": "Summary of the determinative logic (e.g. 'GRI 1 + Pre-GRI Filter (Section XVII Note 2(f))')"
+    },
+    "authority_chain": {
+      "type": "array",
+      "description": "Ordered chain of authorities that informed this classification",
+      "items": {
+        "type": "object",
+        "required": ["source"],
+        "properties": {
+          "source": {"type": "string", "description": "PTA, PRA, or ruling_id"},
+          "code": {"type": "string"},
+          "basis": {"type": "string"},
+          "outcome": {
+            "type": "string",
+            "enum": ["confirms", "modifies", "contradicts", "baseline"]
+          },
+          "ruling": {"type": "string"}
+        }
+      }
+    },
+    "ruling_used_for_classification": {
+      "type": ["string", "null"],
+      "description": "Ruling ID if a ruling modified or confirmed the PTA baseline. Null if PTA alone."
+    },
+    "override_applied": {
+      "type": "boolean",
+      "description": "True only when a ruling produced a different code than PTA and all four override conditions were met"
+    },
+    "override_type": {
+      "type": "string",
+      "enum": ["none", "advisory_confirmation", "ruling_modified_pta", "ruling_contradicts_pta"],
+      "description": "Nature of the ruling's effect on the PTA baseline"
+    },
+    "jurisdiction_divergence": {
+      "type": "boolean",
+      "description": "True when this component classifies differently in different jurisdictions. Requires separate AA records per jurisdiction."
+    },
+    "contradictions_surfaced": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "ContradictionRecord IDs for contradictions related to this component"
+    },
+    "d_ruling_handoff_items": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Descriptions of items queued for D-RULING from this classification"
+    },
+    "classification_stability": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"]
+    },
+    "stability_confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "stability_note": {
+      "type": ["string", "null"],
+      "description": "Explanation of why this classification is stable/contested/fragile"
+    },
+    "gri_path_taken": {
+      "type": "string",
+      "enum": ["GRI_1", "GRI_1+2a", "GRI_1+2b+3a", "GRI_1+2b+3b", "GRI_1+2b+3c", "GRI_4", "GRI_5", "GRI_6"]
+    },
+    "pre_gri_exclusion_applied": {
+      "type": "string",
+      "enum": ["Section XVII Note 2(f)", "Section XV Note 2", "Chapter 90 Note 2", "none"]
+    },
+    "competing_headings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["heading", "rejected_at", "rejection_reason"],
+        "properties": {
+          "heading": {"type": "string"},
+          "rejected_at": {
+            "type": "string",
+            "enum": ["GRI_1", "GRI_2a", "GRI_3a", "GRI_3b", "GRI_3c", "legal_note", "ruling_override"]
+          },
+          "rejection_reason": {"type": "string"}
+        }
+      }
+    },
+    "requires_human_review": {
+      "type": "boolean",
+      "description": "Must be true for all contradicted and jurisdiction-divergent cases"
+    },
+    "human_review_reason": {
+      "type": ["string", "null"],
+      "description": "Required when requires_human_review is true"
+    },
+    "track_1_result": {
+      "type": "string",
+      "enum": ["pass", "exclusion_applied"],
+      "description": "Section XV Note 2 (parts of general use) check result"
+    },
+    "track_2_result": {
+      "type": "string",
+      "enum": ["pass", "exclusion_applied"],
+      "description": "Section XVII Note 2(f) (electrical exclusion) check result"
+    },
+    "track_3_result": {
+      "type": "string",
+      "enum": ["pass", "not_applicable"],
+      "description": "GRI 3(b) essential character analysis result. 'not_applicable' for non-composite goods."
+    },
+    "essential_character_reasoning": {
+      "type": ["string", "null"],
+      "description": "Required when track_3_result is 'pass'. Explains which sub-component gives essential character and why."
+    },
+    "ev_subsystem": {
+      "type": "string",
+      "enum": ["energy_storage", "power_electronics", "drivetrain", "thermal", "adas", "structural"]
+    },
+    "source_docs": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1,
+      "description": "All source_doc filenames from PTA, PRA, DA records that informed this candidate"
+    },
+    "d_class_eng_entity": {
+      "type": "string",
+      "pattern": "^ent_",
+      "description": "The D-CLASS-ENG entity this classification is for"
+    },
+    "drona_domain": {"type": "string", "const": "d_class_hs"},
+    "drona_sub_agent": {"type": "string", "const": "AA"},
+    "extraction_timestamp": {"type": "string", "format": "date-time"},
+    "extractor_model": {"type": "string"}
+  },
+  "if": {
+    "properties": {"track_3_result": {"const": "pass"}}
+  },
+  "then": {
+    "required": ["essential_character_reasoning"]
+  }
+}

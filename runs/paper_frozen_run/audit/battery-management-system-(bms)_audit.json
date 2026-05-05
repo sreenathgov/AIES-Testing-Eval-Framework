@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_battery-management-system-(bms)",
+  "authority_status": "pass",
+  "component_ref": "ent_217",
+  "component_slug": "battery-management-system-(bms)",
+  "evaluated_artifact": "AA_EU_battery-management-system-(bms)",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "StatutoryClassificationRecord",
+  "title": "Statutory Classification Record",
+  "description": "Output of the Primary Text Agent (PTA). Represents the baseline GRI-derived classification from tariff heading text alone, before any ruling is consulted.",
+  "type": "object",
+  "required": [
+    "agent",
+    "component_ref",
+    "jurisdiction",
+    "hs_code_candidate",
+    "gri_path_taken",
+    "pre_gri_exclusion_applied",
+    "exclusion_checks_run",
+    "heading_text_cited",
+    "classification_stability_preliminary",
+    "confidence",
+    "requires_gri_3b",
+    "source_doc",
+    "drona_domain",
+    "drona_sub_agent",
+    "extraction_timestamp",
+    "extractor_model"
+  ],
+  "properties": {
+    "agent": {
+      "type": "string",
+      "const": "PTA"
+    },
+    "component_ref": {
+      "type": "string",
+      "description": "D-CLASS-ENG entity ID from taxonomy-handoff.md (e.g. ent_042)",
+      "pattern": "^ent_"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["universal", "IN", "US", "EU"],
+      "description": "Jurisdiction whose tariff schedule was used for this classification"
+    },
+    "hs_code_candidate": {
+      "type": "string",
+      "description": "4 or 6-digit HS code derived from heading text",
+      "pattern": "^[0-9]{4}(\\.?[0-9]{2})?(\\.?[0-9]{2})?$"
+    },
+    "gri_path_taken": {
+      "type": "string",
+      "enum": ["GRI_1", "GRI_1+2a", "GRI_1+2b+3a", "GRI_1+2b+3b", "GRI_1+2b+3c", "GRI_4", "GRI_5", "GRI_6"],
+      "description": "GRI rules applied in sequence. Cannot start at GRI_3b without GRI_1 record."
+    },
+    "pre_gri_exclusion_applied": {
+      "type": "string",
+      "enum": [
+        "Section XVII Note 2(f)",
+        "Section XV Note 2",
+        "Chapter 90 Note 2",
+        "none"
+      ],
+      "description": "Which Pre-GRI Exclusion Filter fired, or 'none' if all passed"
+    },
+    "pre_gri_exclusion_note_text": {
+      "type": ["string", "null"],
+      "description": "Exact statutory text of the note that fired. Required when pre_gri_exclusion_applied != 'none'"
+    },
+    "pre_gri_exclusion_rationale": {
+      "type": ["string", "null"],
+      "description": "Component-specific explanation for why the filter applies. Required when pre_gri_exclusion_applied != 'none'"
+    },
+    "exclusion_checks_run": {
+      "type": "array",
+      "description": "All three filters must be listed as checked regardless of outcome",
+      "items": {
+        "type": "string",
+        "enum": ["Section XVII Note 2(f)", "Section XV Note 2", "Chapter 90 Note 2"]
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "competing_headings_before_resolution": {
+      "type": "array",
+      "description": "Headings that were plausibly applicable before GRI resolution",
+      "items": {
+        "type": "object",
+        "required": ["heading", "rejected_at", "reason"],
+        "properties": {
+          "heading": {"type": "string"},
+          "rejected_at": {
+            "type": "string",
+            "enum": ["GRI_1", "GRI_2a", "GRI_3a", "GRI_3b", "GRI_3c", "legal_note"]
+          },
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "heading_text_cited": {
+      "type": "string",
+      "description": "Exact statutory heading text from the tariff schedule that determined the classification"
+    },
+    "section_chapter_note_cited": {
+      "type": ["string", "null"],
+      "description": "Exact text of any Section or Chapter Note that was determinative"
+    },
+    "classification_stability_preliminary": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"],
+      "description": "PTA's initial stability assessment before rulings are consulted"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Categorical confidence. NO numeric values."
+    },
+    "requires_gri_3b": {
+      "type": "boolean",
+      "description": "True if component is composite and requires full essential character analysis"
+    },
+    "source_doc": {
+      "type": "string",
+      "description": "Exact filename from drona/corpus/. No record accepted without this."
+    },
+    "drona_domain": {
+      "type": "string",
+      "const": "d_class_hs"
+    },
+    "drona_sub_agent": {
+      "type": "string",
+      "const": "PTA"
+    },
+    "extraction_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extractor_model": {
+      "type": "string",
+      "description": "e.g. claude-sonnet-4-6"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  },
+  "if": {
+    "properties": {"pre_gri_exclusion_applied": {"not": {"const": "none"}}}
+  },
+  "then": {
+    "required": ["pre_gri_exclusion_note_text", "pre_gri_exclusion_rationale"]
+  }
+}

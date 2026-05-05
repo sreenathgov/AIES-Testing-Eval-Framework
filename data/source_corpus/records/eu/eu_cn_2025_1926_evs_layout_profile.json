@@ -1,0 +1,57 @@
+{
+  "source_id": "SRC_EU_CN_2025_1926_EVS",
+  "source_type": "tariff_table_pdf",
+  "inferred_layout_type": "tariff table",
+  "visual_engine": "pymupdf",
+  "sample_pages": [
+    {
+      "page": 1,
+      "block_count": 22,
+      "code_like_block_count": 2,
+      "table_header_signal": false,
+      "sample_text": [
+        "COMMISSION IMPLEMENTING REGULATION (EU) 2025/1926",
+        "of 22 September 2025",
+        "amending Annex I to Council Regulation (EEC) No 2658/87 on the tariff and statistical nomenclature and on the",
+        "Common Customs Tariff",
+        "THE EUROPEAN COMMISSION,",
+        "Having regard to the Treaty on the Functioning of the European Union,",
+        "Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), and in particular Article 9(1) and Article 12 thereof,",
+        "Whereas:"
+      ]
+    },
+    {
+      "page": 80,
+      "block_count": 17,
+      "code_like_block_count": 1,
+      "table_header_signal": false,
+      "sample_text": [
+        "7. For the purposes of heading 8524, ‘flat panel display modules’ refer to devices or apparatus for the display of information, equipped at a minimum with a display screen, which are designed to be incorporated into articles of other headings prior to use. Display screens for flat panel display modules include, but are not limited to, those which are flat, curved, flexible, foldable or stretchable in form. Flat panel display modules may incorporate additional elements, including those necessary for receiving video signals and the allocation of those signals to pixels on the display. However, heading 8524 does not include display modules which are equipped with components for converting video signals (e.g., a scaler IC, decoder IC or application processer) or have otherwise assumed the character of goods of other headings.",
+        "For the classification of flat panel display modules defined in this note, heading 8524 shall take precedence over any other heading in the nomenclature.",
+        "8. For the purposes of heading 8534, ‘printed circuits’ are circuits obtained by forming on an insulating base, by any printing process (for example, embossing, plating-up, etching) or by the ‘film circuit’ technique, conductor elements, contacts or other printed components (for example, inductances, resistors, capacitors) alone or interconnected according to a pre-established pattern, other than elements which can produce, rectify, modulate or amplify an electrical signal (for example, semiconductor elements).",
+        "The expression ‘printed circuits’ does not cover circuits combined with elements other than those obtained during the printing process, nor does it cover individual, discrete resistors, capacitors or inductances. Printed circuits may, however, be fitted with non- printed connecting elements.",
+        "Thin- or thick-film circuits comprising passive and active elements obtained during the same technological process are to be classified in heading 8542.",
+        "9. For the purpose of heading 8536, ‘connectors for optical fibres, optical-fibre bundles or cables’ means connectors that simply mechanically align optical fibres end to end in a digital line system. They perform no other function, such as the amplification, regeneration or modification of a signal.",
+        "10. Heading 8537 does not include cordless infrared devices for the remote control of television receivers or other electrical equipment",
+        "(heading 8543)."
+      ]
+    },
+    {
+      "page": 158,
+      "block_count": 21,
+      "code_like_block_count": 10,
+      "table_header_signal": true,
+      "sample_text": [
+        "CN code / TARIC",
+        "code Description Supplementary unit",
+        "1 2 3",
+        "8418 61 00 – – Heat pumps other than air conditioning machines of heading 8415",
+        "– – – Other (than for use in civil aircraft)",
+        "8418 61 00 91 – – – – Pre-charged with hydrofluorocarbons (HFCs) t. CO2",
+        "8418 69 00 – – Other",
+        "– – – Other (than for use in civil aircraft)"
+      ]
+    }
+  ],
+  "review_flags": []
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "PTA",
+  "candidate_cn_code": "8541.29",
+  "classification_stability_preliminary": "stable",
+  "comparison_only": {},
+  "component_ref": "ent_209",
+  "component_slug": "silicon-carbide-(sic)-mosfets",
+  "confidence": "high",
+  "drona_domain": "d_class_hs",
+  "drona_sub_agent": "PTA",
+  "exclusion_checks_run": [
+    "Section XVII Note 2(f)",
+    "Section XV Note 2",
+    "Chapter 90 Note 2"
+  ],
+  "extraction_timestamp": "2026-05-05T09:47:55+00:00",
+  "extractor_model": "harness_replay_template_v1",
+  "gri_path_taken": "GRI_1",
+  "heading_text_cited": "EU/WCO heading anchor for candidate 8541.29.",
+  "hs_code_candidate": "8541.29",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "authority_class": "primary_legal_text",
+      "record_id": "WCO_GRI_1",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "record_id": "EU_CN_EN_RECORDS",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+    }
+  ],
+  "notes": "Replay-safe DRONA-shaped PTA artifact generated from clean engineering input and EU/WCO source records.",
+  "pre_gri_exclusion_applied": "Section XVII Note 2(f)",
+  "pre_gri_exclusion_note_text": "Electrical machinery and equipment remain classified in their own headings where applicable.",
+  "pre_gri_exclusion_rationale": "Engineering identity indicates electrical apparatus.",
+  "requires_gri_3b": false,
+  "section_chapter_note_cited": "WCO GRI 1 and GRI 6 record anchors.",
+  "source_doc": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_records.json",
+  "source_record_refs": [
+    "WCO_GRI_1",
+    "WCO_GRI_6",
+    "EU_CN_2025_1926_EVS_RECORDS"
+  ]
+}

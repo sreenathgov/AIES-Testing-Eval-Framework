@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ClassifiedAsEdge",
+  "title": "Classified-As Edge",
+  "description": "The ontology edge created when a ClassificationCandidate is promoted by the founder. One edge per component per jurisdiction. Jurisdiction and ruling provenance are carried on the edge, not inside the hs_code node.",
+  "type": "object",
+  "required": [
+    "edge_type",
+    "from_node",
+    "to_node",
+    "jurisdiction",
+    "classification_basis",
+    "gri_path",
+    "classification_stability",
+    "stability_confidence",
+    "verification_status",
+    "source_doc",
+    "drona_domain",
+    "extraction_timestamp"
+  ],
+  "properties": {
+    "edge_type": {
+      "type": "string",
+      "const": "classified_as"
+    },
+    "from_node": {
+      "type": "string",
+      "description": "product_component node ID (e.g. product_component:battery-management-system)"
+    },
+    "to_node": {
+      "type": "string",
+      "description": "hs_code node ID (e.g. hs_code:8537.10)"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["IN", "US", "EU", "universal"],
+      "description": "Jurisdiction this classification applies to. Carried on the edge, not the hs_code node."
+    },
+    "jurisdiction_divergence": {
+      "type": "boolean",
+      "description": "True when another jurisdiction classifies the same component differently. Triggers D-RULING handoff."
+    },
+    "classification_basis": {
+      "type": "string",
+      "description": "The determinative logic (e.g. 'GRI 1 + Pre-GRI Filter (Section XVII Note 2(f))')"
+    },
+    "gri_path": {
+      "type": "string",
+      "enum": ["GRI_1", "GRI_1+2a", "GRI_1+2b+3a", "GRI_1+2b+3b", "GRI_1+2b+3c"]
+    },
+    "pre_gri_exclusion_applied": {
+      "type": "string",
+      "enum": ["Section XVII Note 2(f)", "Section XV Note 2", "Chapter 90 Note 2", "none"]
+    },
+    "ruling_cited": {
+      "type": ["string", "null"],
+      "description": "Ruling ID that confirmed or modified the classification. Null if PTA alone."
+    },
+    "classification_stability": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile"]
+    },
+    "stability_confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["staging", "pending_gate", "verified", "superseded"],
+      "description": "Lifecycle state. Promoted edges begin at 'staging' in drona/knowledge/staging/."
+    },
+    "verified_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "reviewer_id": {
+      "type": ["string", "null"],
+      "description": "e.g. 'sreenath'"
+    },
+    "source_doc": {
+      "type": "string",
+      "description": "Primary source_doc from the ClassificationCandidate"
+    },
+    "drona_domain": {
+      "type": "string",
+      "const": "d_class_hs"
+    },
+    "extraction_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "superseded_by": {
+      "type": ["string", "null"],
+      "description": "ID of the edge that supersedes this one. Null if current."
+    }
+  }
+}

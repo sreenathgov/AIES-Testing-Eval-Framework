@@ -1,0 +1,60 @@
+{
+  "handoff_id": "DRH-003",
+  "component_ref": "ent_218",
+  "reason_for_handoff": "appellate_override_required",
+  "d_class_hs_position": "US 8537.10.91 stable/high; EU 8537.10.91 stable/high; India 8537.10.00 contested/medium because CAAR Valco held VCU/PCU at 8708.99.00 on an in personam basis.",
+  "aa_classification_candidate": {
+    "component": "Vehicle Control Unit (VCU)",
+    "entity_id": "ent_218",
+    "gri_path": "GRI_1",
+    "jurisdiction_divergence": false,
+    "classification_stability_us": "stable",
+    "classification_stability_eu": "stable",
+    "classification_stability_india": "contested",
+    "confidence_us": "high",
+    "confidence_eu": "high",
+    "confidence_india": "medium",
+    "hs_code_us": "8537.10.91",
+    "hs_code_eu": "8537.10.91",
+    "hs_code_india": "8537.10.00",
+    "caar_conflict_india": "CAAR Valco (India, late 2024) ruled VCU/PCU = 8708.99.00. In personam and not generally binding, but directly conflicts with the Chapter 85 control-apparatus route."
+  },
+  "ruling_records_involved": [
+    "CAAR Valco VCU/PCU ruling (India)",
+    "Chapter 84 Note 5(E) exclusion analysis",
+    "Section XVII Note 2(f) routing analysis"
+  ],
+  "contradiction_record": null,
+  "open_question_for_d_ruling": "Does later India authority, appellate treatment, or related VCU/ECU jurisprudence require overriding the current 8537.10.00 position in favor of 8708.99.00 for VCU imports, or should CAAR Valco remain confined to an in personam, non-generalizable conflict signal?",
+  "founder_override_provenance": true,
+  "founder_override_scope": "missing_primary_text_india_case_law",
+  "founder_override_basis": "ey_pwc_secondary_authority",
+  "founder_override_note": "Founder-approved temporary provenance bridge for missing or incompletely acquired Indian primary text. EY and PwC secondary summaries are accepted for the test run only and must be replaced when the underlying India judgments/orders are acquired.",
+  "primary_text_status": "partial",
+  "secondary_authority_sources": [
+    {
+      "source": "PwC Customs & Trade Newsletter (Oct 2024)",
+      "citation": "2024-VIL-1345-CESTAT-CHE-CU",
+      "forum": "CESTAT (Chennai)",
+      "date": "2024-10",
+      "holding_summary": "ECU retained under 8537 against a proposed 8708 reclassification because the evidentiary basis for automotive-parts routing was insufficient.",
+      "source_type": "secondary",
+      "source_publisher": "PwC",
+      "primary_text_status": "not_yet_acquired"
+    },
+    {
+      "source": "PwC Customs & Trade Newsletter / TaxGuru synthesis",
+      "citation": "In re Valeo India Pvt. Ltd. (CAAR Mumbai Ruling No. 07/2025)",
+      "forum": "CAAR (Mumbai)",
+      "date": "2025-04-17",
+      "holding_summary": "VCU/PCU treated as integral automotive parts under Chapter 87, creating a direct India-side conflict against the Chapter 85 control-apparatus route.",
+      "source_type": "secondary",
+      "source_publisher": "PwC",
+      "primary_text_status": "partial"
+    }
+  ],
+  "override_applies_to_jurisdictions": ["IN"],
+  "override_review_required_when_primary_acquired": true,
+  "jurisdiction_divergence_detail": null,
+  "created_at": "2026-04-09T09:22:00Z"
+}

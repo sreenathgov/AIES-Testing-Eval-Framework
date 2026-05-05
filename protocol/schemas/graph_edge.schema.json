@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "graph_edge.schema.json",
+  "title": "Graph Edge",
+  "type": "object",
+  "required": ["edge_id", "edge_type", "source_node_id", "target_node_id"],
+  "properties": {
+    "edge_id": {"type": "string"},
+    "edge_type": {
+      "type": "string",
+      "enum": ["artifact_origin", "describes", "proposes_code", "classified_as", "supported_by", "contains", "evaluates", "routes", "comparison_only"]
+    },
+    "source_node_id": {"type": "string"},
+    "target_node_id": {"type": "string"},
+    "authority_class": {"type": "string"},
+    "anchor_id": {"type": "string"}
+  }
+}

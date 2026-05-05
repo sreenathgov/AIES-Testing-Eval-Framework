@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "AAJurisdictionDecision",
+  "title": "AA Jurisdiction Decision",
+  "description": "Derived machine-facing jurisdiction decision generated deterministically from an AA bundle.",
+  "type": "object",
+  "required": [
+    "component_ref",
+    "jurisdiction",
+    "hs_code_final_candidate",
+    "classification_stability",
+    "stability_confidence",
+    "promotable_to_d_reg",
+    "handoff_route",
+    "requires_founder_review",
+    "provenance_anchors",
+    "authority_anchors",
+    "derived_from_bundle"
+  ],
+  "properties": {
+    "component_ref": {
+      "type": "string"
+    },
+    "entity_id": {
+      "type": ["string", "null"],
+      "pattern": "^ent_.*"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["US", "EU", "IN"]
+    },
+    "hs_code_final_candidate": {
+      "type": "string"
+    },
+    "classification_stability": {
+      "type": "string",
+      "enum": ["stable", "contested", "fragile", "gap", "parity_failure"]
+    },
+    "stability_confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "unknown"]
+    },
+    "promotable_to_d_reg": {
+      "type": "boolean"
+    },
+    "handoff_route": {
+      "type": "string",
+      "enum": ["promote", "d_ruling", "unresolved", "blocked"]
+    },
+    "requires_founder_review": {
+      "type": "boolean"
+    },
+    "client_fact_required": {
+      "type": "boolean"
+    },
+    "provenance_anchors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "authority_anchors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority_support_status": {
+      "type": "string",
+      "enum": ["primary_supported", "founder_overridden_secondary_supported", "unsupported"]
+    },
+    "founder_override_secondary_authority": {
+      "type": "boolean"
+    },
+    "derived_from_bundle": {
+      "type": "string"
+    }
+  }
+}

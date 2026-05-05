@@ -1,0 +1,53 @@
+{
+  "source_id": "SRC_WCO_SECTION_90",
+  "source_type": "wco_heading_table_pdf",
+  "inferred_layout_type": "WCO heading-code table",
+  "visual_engine": "pymupdf",
+  "sample_pages": [
+    {
+      "page": 1,
+      "block_count": 25,
+      "code_like_block_count": 14,
+      "table_header_signal": false,
+      "sample_text": [
+        "Chapter 90",
+        "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+        "Notes.",
+        "1.- This Chapter does not cover :",
+        "(a) Articles of a kind used in machines, appliances or for other technical uses, of vulcanised rubber other",
+        "than hard rubber (heading 40.16), of leather or of composition leather (heading 42.05) or of textile material (heading 59.11);",
+        "(b) Supporting belts or other support articles of textile material, whose intended effect on the organ to be",
+        "supported or held derives solely from their elasticity (for example, maternity belts, thoracic support bandages, abdominal support bandages, supports for joints or muscles) (Section XI);"
+      ]
+    },
+    {
+      "page": 6,
+      "block_count": 8,
+      "code_like_block_count": 5,
+      "table_header_signal": true,
+      "sample_text": [
+        "Heading H.S. Code",
+        "90.18 Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electro-medical apparatus and sight-testing instruments.",
+        "- Electro-diagnostic apparatus (including apparatus for functional",
+        "exploratory examination or for checking physiological parameters) :",
+        "9018.11 -- Electro-cardiographs 9018.12 -- Ultrasonic scanning apparatus 9018.13 -- Magnetic resonance imaging apparatus 9018.14 -- Scintigraphic apparatus 9018.19 -- Other 9018.20 - Ultra-violet or infra-red ray apparatus - Syringes, needles, catheters, cannulae and the like : 9018.31 -- Syringes, with or without needles 9018.32 -- Tubular metal needles and needles for sutures 9018.39 -- Other - Other instruments and appliances, used in dental sciences : 9018.41 -- Dental drill engines, whether or not combined on a single base",
+        "with other dental equipment 9018.49 -- Other 9018.50 - Other ophthalmic instruments and appliances 9018.90 - Other instruments and appliances 90.19 Mechano-therapy appliances; massage apparatus; psychological aptitude-testing apparatus; ozone therapy, oxygen therapy, aerosol therapy, artificial respiration or other therapeutic respiration apparatus. 9019.10 - Mechano-therapy appliances; massage apparatus; psychological",
+        "aptitude-testing apparatus 9019.20 - Ozone therapy, oxygen therapy, aerosol therapy, artificial",
+        "respiration or other therapeutic respiration apparatus 90.20 9020.00 Other breathing appliances and gas masks, excluding protective masks having neither mechanical parts nor replaceable filters."
+      ]
+    },
+    {
+      "page": 10,
+      "block_count": 4,
+      "code_like_block_count": 2,
+      "table_header_signal": true,
+      "sample_text": [
+        "Heading H.S. Code",
+        "90.31 Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this Chapter; profile projectors. 9031.10 - Machines for balancing mechanical parts 9031.20 - Test benches - Other optical instruments and appliances : 9031.41 -- For inspecting semiconductor wafers or devices (including",
+        "integrated circuits) or for inspecting photomasks or reticles used in manufacturing semiconductor devices (including integrated circuits) 9031.49 -- Other 9031.80 - Other instruments, appliances and machines 9031.90 - Parts and accessories 90.32 Automatic regulating or controlling instruments and apparatus. 9032.10 - Thermostats 9032.20 - Manostats - Other instruments and apparatus : 9032.81 -- Hydraulic or pneumatic 9032.89 -- Other 9032.90 - Parts and accessories 90.33 9033.00 Parts and accessories (not specified or included elsewhere in this Chapter) for machines, appliances, instruments or apparatus of Chapter 90.",
+        "_________________"
+      ]
+    }
+  ],
+  "review_flags": []
+}

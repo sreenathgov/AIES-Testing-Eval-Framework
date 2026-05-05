@@ -1,0 +1,527 @@
+[
+  {
+    "scenario_id": "SCN_001_STABLE_EU_WCO",
+    "artifact_id": "FX_GOOD_OBC_AA_EU",
+    "description": "Stable EU/WCO-supported classification.",
+    "expected_route": "promote",
+    "expected_control_state": "stable",
+    "expected_failure_categories": [],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8504_STATIC_CONVERTERS",
+      "EU_CN_8504_40_90"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail"
+    ],
+    "human_review_required": false,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "stable"
+    },
+    "review_reason_codes": []
+  },
+  {
+    "scenario_id": "SCN_002_STABLE_EU_CN",
+    "artifact_id": "FX_GOOD_HV_CONNECTORS_EU",
+    "description": "Stable classification with EU CN source support.",
+    "expected_route": "promote",
+    "expected_control_state": "stable",
+    "expected_failure_categories": [],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8536_69_90",
+      "EU_CN_EN_8536_CONNECTORS"
+    ],
+    "prohibited_claims": [
+      "document_level_only_authority"
+    ],
+    "human_review_required": false,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "stable"
+    },
+    "review_reason_codes": []
+  },
+  {
+    "scenario_id": "SCN_003_STABLE_EU_CN",
+    "artifact_id": "FX_GOOD_TRACTION_INVERTER_EU",
+    "description": "Stable classification with primary EU CN subheading support.",
+    "expected_route": "promote",
+    "expected_control_state": "stable",
+    "expected_failure_categories": [],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8504_40_87"
+    ],
+    "prohibited_claims": [
+      "unanchored_static_converter_claim"
+    ],
+    "human_review_required": false,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "stable"
+    },
+    "review_reason_codes": []
+  },
+  {
+    "scenario_id": "SCN_004_STABLE_BTI",
+    "artifact_id": "FX_GOOD_HV_BATTERY_PACK_BTI_EU",
+    "description": "Stable classification with BTI support.",
+    "expected_route": "promote",
+    "expected_control_state": "stable",
+    "expected_failure_categories": [],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "classification_decision"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8507_60_00",
+      "BTI_ROW_DEBTI45911_25_1"
+    ],
+    "prohibited_claims": [
+      "bti_overrides_primary_text_without_cn_anchor"
+    ],
+    "human_review_required": false,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "stable"
+    },
+    "review_reason_codes": []
+  },
+  {
+    "scenario_id": "SCN_005_MISSING_BTI_PRIMARY_OK",
+    "artifact_id": "FX_GOOD_LI_ION_CELL_EU",
+    "description": "Missing BTI but sufficient primary and interpretive support.",
+    "expected_route": "promote",
+    "expected_control_state": "stable",
+    "expected_failure_categories": [],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "prohibited_claims": [
+      "bti_required_when_primary_text_sufficient"
+    ],
+    "human_review_required": false,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "stable"
+    },
+    "review_reason_codes": []
+  },
+  {
+    "scenario_id": "SCN_006_INTERNAL_SOURCE_ONLY",
+    "artifact_id": "FX_BAD_HS_85044084_INTERNAL_AUTHORITY",
+    "description": "Internal-source-only artifact must fail provenance and authority.",
+    "expected_route": "blocked",
+    "expected_control_state": "gap",
+    "expected_failure_categories": [
+      "internal_source_as_authority",
+      "missing_external_authority"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8504_40_90"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "fail",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "fail",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "gap"
+    },
+    "review_reason_codes": [
+      "internal_source_as_authority",
+      "missing_external_authority"
+    ]
+  },
+  {
+    "scenario_id": "SCN_007_PTA_OVERREACH",
+    "artifact_id": "FX_BAD_HV_BATTERY_PACK_PTA_OVERREACH",
+    "description": "PTA overreach into final adjudication must require AA review.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "pta_final_adjudication_overreach"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_3B",
+      "EU_CN_8507_60_00"
+    ],
+    "prohibited_claims": [
+      "pta_promotes_final_classification"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "contested",
+      "agent_role_boundary_compliance": "review"
+    },
+    "review_reason_codes": [
+      "pta_final_adjudication_overreach"
+    ]
+  },
+  {
+    "scenario_id": "SCN_008_EDGE_DIRECTION_FAILURE",
+    "artifact_id": "FX_BAD_OBC_EDGE_DIRECTION",
+    "description": "Edge-direction or graph-parity failure.",
+    "expected_route": "blocked",
+    "expected_control_state": "parity_failure",
+    "expected_failure_categories": [
+      "edge_direction_invalid",
+      "missing_proposes_code_edge"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8504_40_90"
+    ],
+    "prohibited_claims": [
+      "hs_code_as_parent_of_component"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "fail",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "parity_failure"
+    },
+    "review_reason_codes": [
+      "edge_direction_invalid",
+      "missing_proposes_code_edge"
+    ]
+  },
+  {
+    "scenario_id": "SCN_009_CONFIDENCE_INFLATION",
+    "artifact_id": "FX_BAD_SEPARATOR_CONFIDENCE_INFLATION",
+    "description": "Confidence inflation from contested/divergent to stable promotion.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "confidence_inflation",
+      "divergence_collapsed",
+      "unsupported_promotion"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "prohibited_claims": [
+      "collapse_comparison_only_divergence"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "review",
+      "handoff_review_governance": "contested"
+    },
+    "review_reason_codes": [
+      "confidence_inflation",
+      "divergence_collapsed",
+      "unsupported_promotion"
+    ]
+  },
+  {
+    "scenario_id": "SCN_010_UNSUPPORTED_PROMOTION",
+    "artifact_id": "FX_BAD_UNSUPPORTED_PROMOTION",
+    "description": "Unsupported promotion must be blocked.",
+    "expected_route": "blocked",
+    "expected_control_state": "gap",
+    "expected_failure_categories": [
+      "missing_external_authority",
+      "missing_source_anchor",
+      "unsupported_promotion"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8504_40_90"
+    ],
+    "prohibited_claims": [
+      "promote_without_external_authority"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "fail",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "fail",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "gap"
+    },
+    "review_reason_codes": [
+      "missing_external_authority",
+      "missing_source_anchor",
+      "unsupported_promotion"
+    ]
+  },
+  {
+    "scenario_id": "SCN_011_PRODUCT_NODE_MIXED_STATE",
+    "artifact_id": "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE",
+    "description": "Product node mixes engineering identity with classification state.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "EU_CN_8507_60_00"
+    ],
+    "prohibited_claims": [
+      "hs_code_as_conceptual_parent"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "contested",
+      "agent_role_boundary_compliance": "review"
+    },
+    "review_reason_codes": [
+      "product_identity_mixed_with_classification_state"
+    ]
+  },
+  {
+    "scenario_id": "SCN_012_PTA_GRI3B_REVIEW",
+    "artifact_id": "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW",
+    "description": "PTA may identify GRI 3(b), but promotion requires adjudication.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "pta_requires_aa_review"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_3B",
+      "EU_CN_8507_60_00"
+    ],
+    "prohibited_claims": [
+      "pta_promotes_final_classification"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "pass",
+      "handoff_review_governance": "contested",
+      "agent_role_boundary_compliance": "review"
+    },
+    "review_reason_codes": [
+      "pta_requires_aa_review"
+    ]
+  },
+  {
+    "scenario_id": "SCN_013_DIVERGENCE_NOT_COLLAPSED",
+    "artifact_id": "FX_BORDERLINE_SEPARATOR_DIVERGENCE",
+    "description": "Conflict/divergence must not be collapsed.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "jurisdictional_divergence_preserved"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "prohibited_claims": [
+      "comparison_only_drives_eu_pass_fail"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "review",
+      "handoff_review_governance": "contested"
+    },
+    "review_reason_codes": [
+      "jurisdictional_divergence_preserved"
+    ]
+  },
+  {
+    "scenario_id": "SCN_014_COMPARISON_ONLY_DIVERGENCE",
+    "artifact_id": "FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY",
+    "description": "US/India divergence is preserved as comparison-only metadata.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "comparison_only_divergence_preserved"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text",
+      "interpretive_legal_note"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_3B",
+      "WCO_SECTION_XVII_NOTE_2F"
+    ],
+    "prohibited_claims": [
+      "non_eu_scope_controls_pass_fail"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "review",
+      "handoff_review_governance": "contested"
+    },
+    "review_reason_codes": [
+      "comparison_only_divergence_preserved"
+    ]
+  },
+  {
+    "scenario_id": "SCN_015_CLIENT_FACT_DEPENDENT",
+    "artifact_id": "FX_BORDERLINE_NOES_CLIENT_FACT",
+    "description": "Client-fact dependent classification must preserve uncertainty.",
+    "expected_route": "review",
+    "expected_control_state": "contested",
+    "expected_failure_categories": [
+      "client_fact_required"
+    ],
+    "required_authority_classes": [
+      "primary_legal_text"
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6"
+    ],
+    "prohibited_claims": [
+      "stable_promotion_without_required_client_fact"
+    ],
+    "human_review_required": true,
+    "expected_control_family_outcomes": {
+      "corpus_source_integrity": "pass",
+      "source_grounding_anchor_verification": "pass",
+      "authority_chain_sufficiency": "pass",
+      "material_capture_completeness": "pass",
+      "representation_integrity": "pass",
+      "graph_artifact_parity": "pass",
+      "supported_synthesis_control": "pass",
+      "conflict_uncertainty_gap_preservation": "review",
+      "handoff_review_governance": "contested"
+    },
+    "review_reason_codes": [
+      "client_fact_required"
+    ]
+  }
+]

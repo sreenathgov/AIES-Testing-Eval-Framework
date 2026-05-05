@@ -1,0 +1,23 @@
+<!-- Reviewer-safe sanitized forensic artifact. This file evidences artifact origin only and is not external legal authority. -->
+
+{
+  "node_id": "hs_code:8536-69-90:EU",
+  "entity_type": "hs_code",
+  "canonical_name": "HS 8536.69.90 (EU)",
+  "jurisdiction": "EU",
+  "layer": 3,
+  "properties": {
+    "hs_code_value": "8536.69.90",
+    "chapter": "85",
+    "heading": "8536",
+    "description": "Other plugs, sockets and connectors.",
+    "jurisdiction_variants": {}
+  },
+  "provenance": {
+    "source_doc": "high-voltage-connectors_classification_candidate.md",
+    "drona_domain": "D-CLASS-HS",
+    "row": "GATE1_BACKFILL",
+    "column": "hs_code_eu"
+  },
+  "verification_status": "staging"
+}

@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_217",
+  "component_slug": "battery-management-system-(bms)",
+  "handoff_id": "HANDOFF_EU_battery-management-system-(bms)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_battery-management-system-(bms)"
+}

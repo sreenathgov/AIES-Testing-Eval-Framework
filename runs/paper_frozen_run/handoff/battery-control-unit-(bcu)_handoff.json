@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_169",
+  "component_slug": "battery-control-unit-(bcu)",
+  "handoff_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_battery-control-unit-(bcu)"
+}

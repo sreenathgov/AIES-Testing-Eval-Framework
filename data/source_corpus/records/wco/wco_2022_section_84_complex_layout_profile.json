@@ -1,0 +1,48 @@
+{
+  "source_id": "SRC_WCO_SECTION_84",
+  "source_type": "wco_heading_table_pdf",
+  "inferred_layout_type": "WCO heading-code table",
+  "visual_engine": "pymupdf",
+  "sample_pages": [
+    {
+      "page": 1,
+      "block_count": 21,
+      "code_like_block_count": 11,
+      "table_header_signal": false,
+      "sample_text": [
+        "Chapter 84",
+        "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+        "Notes.",
+        "1.- This Chapter does not cover :",
+        "(a) Millstones, grindstones or other articles of Chapter 68;",
+        "(b) Machinery or appliances (for example, pumps) of ceramic material and ceramic parts of machinery",
+        "or appliances of any material (Chapter 69);",
+        "(c) Laboratory glassware (heading 70.17); machinery, appliances or other articles for technical uses or"
+      ]
+    },
+    {
+      "page": 16,
+      "block_count": 4,
+      "code_like_block_count": 2,
+      "table_header_signal": true,
+      "sample_text": [
+        "Heading H.S. Code",
+        "84.39 Machinery for making pulp of fibrous cellulosic material or for making or finishing paper or paperboard. 8439.10 - Machinery for making pulp of fibrous cellulosic material 8439.20 - Machinery for making paper or paperboard 8439.30 - Machinery for finishing paper or paperboard - Parts : 8439.91 -- Of machinery for making pulp of fibrous cellulosic material 8439.99 -- Other 84.40 Book-binding machinery, including book-sewing machines. 8440.10 - Machinery 8440.90 - Parts 84.41 Other machinery for making up paper pulp, paper or paperboard, including cutting machines of all kinds. 8441.10 - Cutting machines 8441.20 - Machines for making bags, sacks or envelopes 8441.30 - Machines for making cartons, boxes, cases, tubes, drums or similar",
+        "containers, other than by moulding 8441.40 - Machines for moulding articles in paper pulp, paper or paperboard 8441.80 - Other machinery 8441.90 - Parts 84.42 Machinery, apparatus and equipment (other than the machines of headings 84.56 to 84.65) for preparing or making plates, cylinders or other printing components; plates, cylinders and other printing components; plates, cylinders and lithographic stones, prepared for printing purposes (for example, planed, grained or polished). 8442.30 - Machinery, apparatus and equipment 8442.40 - Parts of the foregoing machinery, apparatus or equipment 8442.50 - Plates, cylinders and other printing components; plates, cylinders",
+        "and lithographic stones, prepared for printing purposes (for example, planed, grained or polished)"
+      ]
+    },
+    {
+      "page": 31,
+      "block_count": 3,
+      "code_like_block_count": 1,
+      "table_header_signal": true,
+      "sample_text": [
+        "Heading H.S. Code",
+        "84.87 Machinery parts, not containing electrical connectors, insulators, coils, contacts or other electrical features, not specified or included elsewhere in this Chapter. 8487.10 - Ships' or boats' propellers and blades therefor 8487.90 - Other",
+        "_________________"
+      ]
+    }
+  ],
+  "review_flags": []
+}

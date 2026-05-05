@@ -1,0 +1,1013 @@
+{
+  "inference_edges": [
+    {
+      "component_id": "ent_tb3_02",
+      "edge_id": "inference:anode-active-material-graphite:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_02",
+      "edge_id": "inference:anode-active-material-graphite:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "3801.90"
+    },
+    {
+      "component_id": "ent_tb3_06",
+      "edge_id": "inference:anode-substrate-cu-foil:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_06",
+      "edge_id": "inference:anode-substrate-cu-foil:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "7410.21"
+    },
+    {
+      "component_id": "ent_169",
+      "edge_id": "inference:battery-control-unit-(bcu):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_169",
+      "edge_id": "inference:battery-control-unit-(bcu):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8537.10"
+    },
+    {
+      "component_id": "ent_171",
+      "edge_id": "inference:battery-disconnect-unit-(bdu):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_171",
+      "edge_id": "inference:battery-disconnect-unit-(bdu):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8536.50"
+    },
+    {
+      "component_id": "ent_217",
+      "edge_id": "inference:battery-management-system-(bms):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_217",
+      "edge_id": "inference:battery-management-system-(bms):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8537.10"
+    },
+    {
+      "component_id": "ent_tb3_01",
+      "edge_id": "inference:cathode-active-material-nmc:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_01",
+      "edge_id": "inference:cathode-active-material-nmc:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "2841.90"
+    },
+    {
+      "component_id": "ent_tb3_05",
+      "edge_id": "inference:cathode-substrate-al-foil:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_05",
+      "edge_id": "inference:cathode-substrate-al-foil:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "7607.19"
+    },
+    {
+      "component_id": "ent_170",
+      "edge_id": "inference:cell-supervisor-unit-(csu):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_170",
+      "edge_id": "inference:cell-supervisor-unit-(csu):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8537.10"
+    },
+    {
+      "component_id": "ent_267",
+      "edge_id": "inference:combo-power-electronics-unit:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1+2b+3b"
+    },
+    {
+      "component_id": "ent_267",
+      "edge_id": "inference:combo-power-electronics-unit:method-to-conclusion",
+      "from": "GRI_1+2b+3b",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8504.40"
+    },
+    {
+      "component_id": "ent_216",
+      "edge_id": "inference:dc-dc-converter:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_216",
+      "edge_id": "inference:dc-dc-converter:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8504.40"
+    },
+    {
+      "component_id": "ent_tb3_03",
+      "edge_id": "inference:electrolyte-lipf6-solution:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_03",
+      "edge_id": "inference:electrolyte-lipf6-solution:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "3824.99"
+    },
+    {
+      "component_id": "ent_133",
+      "edge_id": "inference:high-voltage-battery-module:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1+2b+3b"
+    },
+    {
+      "component_id": "ent_133",
+      "edge_id": "inference:high-voltage-battery-module:method-to-conclusion",
+      "from": "GRI_1+2b+3b",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8507.60"
+    },
+    {
+      "component_id": "ent_100",
+      "edge_id": "inference:high-voltage-battery-pack-assembly:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1+2b+3b"
+    },
+    {
+      "component_id": "ent_100",
+      "edge_id": "inference:high-voltage-battery-pack-assembly:method-to-conclusion",
+      "from": "GRI_1+2b+3b",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8507.60"
+    },
+    {
+      "component_id": "ent_182",
+      "edge_id": "inference:high-voltage-connectors:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_182",
+      "edge_id": "inference:high-voltage-connectors:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8536.69"
+    },
+    {
+      "component_id": "ent_144",
+      "edge_id": "inference:high-voltage-contactor:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_144",
+      "edge_id": "inference:high-voltage-contactor:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8536.50"
+    },
+    {
+      "component_id": "ent_269",
+      "edge_id": "inference:hyper-integrated-e-axle:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1+2b+3b"
+    },
+    {
+      "component_id": "ent_269",
+      "edge_id": "inference:hyper-integrated-e-axle:method-to-conclusion",
+      "from": "GRI_1+2b+3b",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8708.99"
+    },
+    {
+      "component_id": "ent_187",
+      "edge_id": "inference:integrated-e-axle:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1+2b+3b"
+    },
+    {
+      "component_id": "ent_187",
+      "edge_id": "inference:integrated-e-axle:method-to-conclusion",
+      "from": "GRI_1+2b+3b",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8708.99"
+    },
+    {
+      "component_id": "ent_147",
+      "edge_id": "inference:lithium-ion-battery-cell:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1+2b+3b"
+    },
+    {
+      "component_id": "ent_147",
+      "edge_id": "inference:lithium-ion-battery-cell:method-to-conclusion",
+      "from": "GRI_1+2b+3b",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8507.60"
+    },
+    {
+      "component_id": "ent_207",
+      "edge_id": "inference:ndfeb-permanent-magnets:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_207",
+      "edge_id": "inference:ndfeb-permanent-magnets:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8505.11"
+    },
+    {
+      "component_id": "ent_215",
+      "edge_id": "inference:on-board-charger-(obc):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_215",
+      "edge_id": "inference:on-board-charger-(obc):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8504.40"
+    },
+    {
+      "component_id": "ent_219",
+      "edge_id": "inference:power-distribution-unit-(pdu):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_219",
+      "edge_id": "inference:power-distribution-unit-(pdu):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8537.10"
+    },
+    {
+      "component_id": "ent_tb3_04",
+      "edge_id": "inference:separator-pe-pp-film:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_04",
+      "edge_id": "inference:separator-pe-pp-film:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "3920.10"
+    },
+    {
+      "component_id": "ent_tb3_07",
+      "edge_id": "inference:silicon-alloyed-electrical-steel-core-noes:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_tb3_07",
+      "edge_id": "inference:silicon-alloyed-electrical-steel-core-noes:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "7226.19"
+    },
+    {
+      "component_id": "ent_209",
+      "edge_id": "inference:silicon-carbide-(sic)-mosfets:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_209",
+      "edge_id": "inference:silicon-carbide-(sic)-mosfets:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8541.29"
+    },
+    {
+      "component_id": "ent_210",
+      "edge_id": "inference:silicon-igbts:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_210",
+      "edge_id": "inference:silicon-igbts:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8541.29"
+    },
+    {
+      "component_id": "ent_196",
+      "edge_id": "inference:traction-inverter-module:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_196",
+      "edge_id": "inference:traction-inverter-module:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8504.40"
+    },
+    {
+      "component_id": "ent_221",
+      "edge_id": "inference:traction-motor:engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_221",
+      "edge_id": "inference:traction-motor:method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8501.53"
+    },
+    {
+      "component_id": "ent_218",
+      "edge_id": "inference:vehicle-control-unit-(vcu):engineering-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "GRI_1"
+    },
+    {
+      "component_id": "ent_218",
+      "edge_id": "inference:vehicle-control-unit-(vcu):method-to-conclusion",
+      "from": "GRI_1",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "8537.10"
+    }
+  ],
+  "required_rule_items": [
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "anode-active-material-graphite:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "anode-active-material-graphite:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "anode-substrate-cu-foil:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "anode-substrate-cu-foil:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "battery-control-unit-(bcu):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "battery-control-unit-(bcu):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "battery-disconnect-unit-(bdu):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "battery-disconnect-unit-(bdu):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "battery-management-system-(bms):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "battery-management-system-(bms):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "cathode-active-material-nmc:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "cathode-active-material-nmc:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "cathode-substrate-al-foil:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "cathode-substrate-al-foil:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "cell-supervisor-unit-(csu):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "cell-supervisor-unit-(csu):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "combo-power-electronics-unit:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "combo-power-electronics-unit:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "combo-power-electronics-unit:WCO_GRI_3B",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "dc-dc-converter:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "dc-dc-converter:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "electrolyte-lipf6-solution:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "electrolyte-lipf6-solution:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "high-voltage-battery-module:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "high-voltage-battery-module:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "high-voltage-battery-module:WCO_GRI_3B",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "high-voltage-battery-pack-assembly:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "high-voltage-battery-pack-assembly:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "high-voltage-battery-pack-assembly:WCO_GRI_3B",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "high-voltage-connectors:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "high-voltage-connectors:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "high-voltage-contactor:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "high-voltage-contactor:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "hyper-integrated-e-axle:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "hyper-integrated-e-axle:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "hyper-integrated-e-axle:WCO_GRI_3B",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "integrated-e-axle:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "integrated-e-axle:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "integrated-e-axle:WCO_GRI_3B",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "lithium-ion-battery-cell:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "lithium-ion-battery-cell:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "lithium-ion-battery-cell:WCO_GRI_3B",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "ndfeb-permanent-magnets:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "ndfeb-permanent-magnets:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "on-board-charger-(obc):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "on-board-charger-(obc):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "power-distribution-unit-(pdu):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "power-distribution-unit-(pdu):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "separator-pe-pp-film:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "separator-pe-pp-film:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "silicon-alloyed-electrical-steel-core-noes:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "silicon-alloyed-electrical-steel-core-noes:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "silicon-carbide-(sic)-mosfets:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "silicon-carbide-(sic)-mosfets:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "silicon-igbts:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "silicon-igbts:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "traction-inverter-module:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "traction-inverter-module:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "component_id": "ent_221",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "traction-motor:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "component_id": "ent_221",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "traction-motor:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "vehicle-control-unit-(vcu):WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "vehicle-control-unit-(vcu):WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    }
+  ],
+  "run_id": "paper_frozen_run"
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "paper_claim": "A governed legal extraction pipeline can be evaluated through a minimum control profile that tests whether legal authority, provenance, role boundaries, graph parity, uncertainty, conflict, and handoff safety survive transformation into structured artifacts.",
+  "scope_rule": "Only EU/WCO/BTI authorities affect pass/fail in the first paper run. US/India material is comparison_only metadata.",
+  "control_families": [
+    {
+      "family_id": "corpus_source_integrity",
+      "name": "Corpus And Source Integrity",
+      "validator": "source_integrity_validator",
+      "report_status": "source_integrity_status",
+      "failure_categories": ["source_assets_missing", "parsed_assets_missing", "fixture_lineage_missing"]
+    },
+    {
+      "family_id": "source_grounding_anchor_verification",
+      "name": "Source Grounding And Anchor Verification",
+      "validator": "provenance_validator",
+      "report_status": "provenance_status",
+      "failure_categories": ["missing_source_anchor", "source_anchor_not_resolved", "document_level_only_source_anchor"]
+    },
+    {
+      "family_id": "quote_span_fidelity",
+      "name": "Quote And Parsed-Source Fidelity",
+      "validator": "quote_fidelity_validator",
+      "report_status": "quote_fidelity_status",
+      "failure_categories": ["quote_anchor_unresolved", "quote_span_missing", "parsed_source_text_unavailable"]
+    },
+    {
+      "family_id": "authority_chain_sufficiency",
+      "name": "Authority Chain Sufficiency",
+      "validator": "authority_boundary_validator",
+      "report_status": "authority_status",
+      "failure_categories": ["internal_source_as_authority", "unknown_authority_class", "non_paper_scope_authority_used"]
+    },
+    {
+      "family_id": "agent_role_boundary_compliance",
+      "name": "Agent Role Boundary Compliance",
+      "validator": "agent_role_validator",
+      "report_status": "details.review_trigger_status",
+      "failure_categories": ["pta_final_adjudication_overreach", "aa_invented_authority", "audit_created_legal_proposition"]
+    },
+    {
+      "family_id": "material_capture_completeness",
+      "name": "Material Capture Completeness",
+      "validator": "material_capture_validator",
+      "report_status": "capture_status",
+      "failure_categories": ["material_legal_propositions_missing", "required_source_anchor_not_captured", "required_gri_path_element_missing"]
+    },
+    {
+      "family_id": "representation_integrity",
+      "name": "Representation Integrity",
+      "validator": "representation_integrity_validator",
+      "report_status": "representation_status",
+      "failure_categories": ["representation_scope_broadened", "legal_hierarchy_incomplete", "product_identity_mixed_with_classification_state"]
+    },
+    {
+      "family_id": "graph_artifact_parity",
+      "name": "Graph-Artifact Parity",
+      "validator": "graph_adapter",
+      "report_status": "graph_parity_status",
+      "failure_categories": ["missing_graph_node", "edge_direction_invalid", "missing_proposes_code_edge"]
+    },
+    {
+      "family_id": "legal_method_validity",
+      "name": "GRI, HS/CN, Ruling, And Temporal Validity",
+      "validator": "legal_method_validator",
+      "report_status": "legal_method_status",
+      "failure_categories": ["cn_code_syntax_invalid", "gri_3b_anchor_missing", "ruling_binding_status_missing", "source_temporal_context_missing"]
+    },
+    {
+      "family_id": "supported_synthesis_control",
+      "name": "Supported Synthesis Control",
+      "validator": "supported_synthesis_validator",
+      "report_status": "synthesis_status",
+      "failure_categories": ["missing_external_authority", "internal_source_as_authority", "unsupported_promotion"]
+    },
+    {
+      "family_id": "conflict_uncertainty_gap_preservation",
+      "name": "Conflict, Uncertainty, And Gap Preservation",
+      "validator": "uncertainty_validator",
+      "report_status": "uncertainty_status",
+      "failure_categories": ["confidence_inflation", "divergence_collapsed", "jurisdictional_divergence_preserved", "client_fact_required"]
+    },
+    {
+      "family_id": "handoff_review_governance",
+      "name": "Handoff And Review Governance",
+      "validator": "handoff_validator",
+      "report_status": "handoff_status",
+      "failure_categories": ["unsupported_promotion", "review_trigger_missing_route", "blocked_route_declared"]
+    }
+  ],
+  "metric_dispositions": [
+    {
+      "source_metric": "Authority-boundary compliance",
+      "disposition": "adopt",
+      "framework_family": "authority_chain_sufficiency",
+      "notes": "Use source-class and role-boundary gates."
+    },
+    {
+      "source_metric": "Recall",
+      "disposition": "rename",
+      "framework_family": "material_capture_completeness",
+      "notes": "Use material omission controls instead of generic percentage recall."
+    },
+    {
+      "source_metric": "Provenance sufficiency",
+      "disposition": "adopt",
+      "framework_family": "source_grounding_anchor_verification",
+      "notes": "Granular anchors matter more than generic citation density."
+    },
+    {
+      "source_metric": "Cryptographic Metadata Hashing",
+      "disposition": "demote_to_diagnostic",
+      "framework_family": "corpus_source_integrity",
+      "notes": "Hashes prove bundle integrity; they do not prove legal provenance."
+    },
+    {
+      "source_metric": "Primary-authority dependence / Authority Ratio",
+      "disposition": "rename",
+      "framework_family": "authority_chain_sufficiency",
+      "notes": "Authority ratio is legally misleading; evaluate sufficiency and hierarchy."
+    },
+    {
+      "source_metric": "NLI entailment / Unsupported synthesis rate",
+      "disposition": "future_work",
+      "framework_family": "supported_synthesis_control",
+      "notes": "The minimum protocol uses deterministic support checks, not LLM-as-judge."
+    },
+    {
+      "source_metric": "Expected Calibration Error",
+      "disposition": "reject",
+      "framework_family": "conflict_uncertainty_gap_preservation",
+      "notes": "Requires large prediction sets and is the wrong level for the v1 legal protocol."
+    },
+    {
+      "source_metric": "Post-Edit Distance",
+      "disposition": "future_work",
+      "framework_family": "handoff_review_governance",
+      "notes": "Useful later for operational review analytics, not v1 legal validity."
+    }
+  ]
+}

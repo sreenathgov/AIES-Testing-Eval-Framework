@@ -1,0 +1,258 @@
+{
+  "decisions": [
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "component_id": "ent_221",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": true,
+      "route": "promote"
+    }
+  ],
+  "run_id": "paper_frozen_run",
+  "stress_tests": [
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "authority_boundary_compliance",
+      "stress_test_type": "cross_source_agent_misuse"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "material_legal_capture",
+      "stress_test_type": "missing_decisive_gri_rule"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "provenance_sufficiency",
+      "stress_test_type": "missing_source_anchor"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "primary_authority_sufficiency",
+      "stress_test_type": "secondary_only_authority_chain"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "critical_omission_rate",
+      "stress_test_type": "counterfactual_rule_removal"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "unsupported_synthesis_rate",
+      "stress_test_type": "ungrounded_therefore_inference"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "false_certainty_rate",
+      "stress_test_type": "high_confidence_ambiguous_case"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "conflict_preservation",
+      "stress_test_type": "collapsed_conflict"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "evidence_gap_detection",
+      "stress_test_type": "missing_material_composition"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "handoff_safety",
+      "stress_test_type": "unsafe_promotion"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "human_review_trigger_correctness",
+      "stress_test_type": "missing_review_trigger"
+    }
+  ]
+}

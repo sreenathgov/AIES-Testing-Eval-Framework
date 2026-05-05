@@ -1,0 +1,10 @@
+{
+  "record_count": 10,
+  "duplicate_record_ids": [],
+  "missing_source_locator_record_ids": [],
+  "review_flag_counts": {},
+  "missing_expected_rules": [],
+  "source_id": "SRC_WCO_GRI_2017",
+  "compiler_profile": "wco_gri_rules",
+  "layout_profile_inferred_type": "single-flow legal text"
+}

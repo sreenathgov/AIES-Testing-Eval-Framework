@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_218",
+  "component_slug": "vehicle-control-unit-(vcu)",
+  "handoff_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_vehicle-control-unit-(vcu)"
+}

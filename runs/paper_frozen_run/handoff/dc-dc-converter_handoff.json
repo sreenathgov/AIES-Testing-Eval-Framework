@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_216",
+  "component_slug": "dc-dc-converter",
+  "handoff_id": "HANDOFF_EU_dc-dc-converter",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_dc-dc-converter"
+}

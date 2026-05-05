@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_219",
+  "component_slug": "power-distribution-unit-(pdu)",
+  "handoff_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_power-distribution-unit-(pdu)"
+}

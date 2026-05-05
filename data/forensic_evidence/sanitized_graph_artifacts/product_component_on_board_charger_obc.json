@@ -1,0 +1,30 @@
+<!-- Reviewer-safe sanitized forensic artifact. This file evidences artifact origin only and is not external legal authority. -->
+
+{
+  "node_id": "product_component:on-board-charger-obc",
+  "entity_type": "product_component",
+  "canonical_name": "On-Board Charger (OBC)",
+  "jurisdiction": null,
+  "layer": 1,
+  "properties": {
+    "taxonomy_level": "L2",
+    "fundamental_function": "ENERGY_CONVERSION",
+    "integration_pattern": "PART_OF_SYSTEM",
+    "supply_chain_position": "DOWNSTREAM_ASSEMBLY",
+    "is_electrical": true,
+    "is_composite": false,
+    "aliases": [],
+    "material_composition_notes": "Power electronics assembly for AC to DC conversion.",
+    "entity_id": "ent_215",
+    "classification_batch": "TB-1",
+    "classification_stability": "stable",
+    "classification_confidence": "high"
+  },
+  "provenance": {
+    "source_doc": "on-board-charger-(obc)_classification_candidate.md",
+    "drona_domain": "D-CLASS-HS",
+    "row": "ent_215",
+    "column": "classification_candidate"
+  },
+  "verification_status": "staging"
+}

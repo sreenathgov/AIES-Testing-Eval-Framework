@@ -1,0 +1,1783 @@
+{
+  "source_file": "/Users/sreenathgovindarajan/Documents/legal-extraction-eval-harness/data/source_corpus/originals/eu/eu_cn_explanatory_notes_evs.pdf",
+  "source_hash": "e17140ebf23882bb423af104c97b1d887329170d16504bf6b94fbc31762ae15f",
+  "source_kind": "pdf",
+  "page_count": 80,
+  "table_count": 0,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "SUMMARY",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section I",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Live animals; animal products",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section II",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Vegetable products",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section III",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Animal or vegetable fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section IV",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Prepared foodstuffs; beverages, spirits and vinegar; tobacco and manufactured tobacco substitutes",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section V",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Mineral products",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section VI",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Products of the chemical or allied industries",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section VII",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Plastics and articles thereof; rubber and articles thereof",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section VIII",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Raw hides and skins, leather, furskins and articles thereof; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silkworm gut)",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section IX",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Wood and articles of wood; wood charcoal; cork and articles of cork; manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XIV",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XV",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XVI",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XVII",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XVIII",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XIX",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Arms and ammunition; parts and accessories thereof",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Section XX",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Miscellaneous manufactured articles",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 1,
+      "text": "FOREWORD",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION I",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "LIVE ANIMALS; ANIMAL PRODUCTS",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CHAPTER 1",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "LIVE ANIMALS",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 4,
+      "text": "0101 29 10 and 0101 29 90",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0101 30 00",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0101 90 00",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 4,
+      "text": "0102 21 10 to 0102 29 99",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0102 31 00 to 0102 39 90",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0102 39 10",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0102 39 90",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0102 90 20 to 0102 90 99",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 3,
+      "text": "0102 90 91",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 84",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "General",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8402 19 90",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8405 10 00",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8407 21 10 to 8407 29 00",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8408 10 11 to 8408 10 99",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8419 20 00",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Medical, surgical or laboratory sterilisers",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8419 50 20 and 8419 50 80",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Heat-exchange units",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8419 89 10",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Cooling towers and similar plant for direct cooling (without a separating wall) by means of recirculated water",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8442 50 00",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8443 39 00",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Parts and accessories",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Electronic assemblies",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Machines for preparing textile fibres; spinning, doubling or twisting machines and other machinery for producing textile yarns; textile reeling or winding (including weft-winding) machines and machines for preparing textile yarns for use on the machines of heading 8446 or 8447",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Weaving machines (looms)",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Knitting machines, stitch-bonding machines and machines for making gimped yarn, tulle, lace, embroidery, trimmings, braid or net and machines for tufting",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Flat knitting machines; stitch-bonding machines",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Machinery for working rubber or plastics or for the manufacture of products from these materials, not specified or included elsewhere in this chapter",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Rope- or cable-making machines",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Machines and apparatus specified in note 9(C) to this chapter",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 85",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Electric motors and generators (excluding generating sets)",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Electric generating sets and rotary converters",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8502 39 20",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Turbo-generators",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Parts suitable for use solely or principally with the machines of heading 8501 or 8502",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Electrical transformers, static converters (for example, rectifiers) and inductors",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 40 30",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 90 05",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 90 91",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8505 90 29",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8506 10 11",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8506 10 91",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8517 18 00",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8517 62 00",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8517 69 10",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Videophones",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8517 69 30",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Reception apparatus for radio-telephony or radio-telegraphy",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8517 69 90",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Sound recording or reproducing apparatus",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8519 81 15",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Pocket-size cassette-players",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8519 81 35",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8523 41 90",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8523 52 00",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "text": "'Smart cards'",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8525 60 00",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Transmission apparatus incorporating reception apparatus",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8525 80 11 to 8525 80 99",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Television cameras, digital cameras and video camera recorders",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8525 80 30",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Digital cameras",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8525 80 91 and 8525 80 99",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Video camera recorders",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8525 80 99",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Reception apparatus for radio broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8527 12 10 and 8527 12 90",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Pocket-size radio cassette players",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8527 13 10",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "With laser reading system",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8527 13 99",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8527 21 20",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "With laser reading system",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8527 21 70",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 3,
+      "text": "With laser reading system",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Combined with sound recording or reproducing apparatus",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Within the same housing one or more loudspeakers",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "With laser reading system",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Projectors",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Video tuners",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Push-button switches",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "For coaxial cables",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "For printed circuits",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8536 70 00",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Connectors for optical fibres, optical-fibre bundles or cables",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8536 90 01",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Prefabricated elements for electrical circuits",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Connections and contact elements for wires and cables",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Programmable memory controllers",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Electronic assemblies",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8539 90 10 and 8539 90 90",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Parts",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8540 11 00",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Colour",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8540 60 00",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other cathode ray tubes",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8540 71 00 and 8540 79 00",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8540 81 00 and 8540 89 00",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other valves and tubes",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8541 40 90",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8541 90 00",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Parts",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Electronic integrated circuits",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8542 31 11 to 8542 31 90",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Goods specified in note 9(b)(3 and 4) to this chapter",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8544 70 00",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Optical-fibre cables",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8545 90 90",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8547 20 00",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Insulating fittings of plastics",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8547 90 00",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XVII",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CHAPTER 86",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "RAILWAY OR TRAMWAY LOCOMOTIVES, ROLLING STOCK AND PARTS THEREOF; RAILWAY OR TRAMWAY TRACK FIXTURES AND FITTINGS AND PARTS THEREOF; MECHANICAL (INCLUDING ELECTROMECHANICAL) TRAFFIC SIGNALLING EQUIPMENT OF ALL KINDS",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CHAPTER 87",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "General",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8701 Tractors (other than tractors of heading 8709)",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 3,
+      "text": "8701 10 00",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 4,
+      "text": "Single axle tractors",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 3,
+      "text": "8701 30 00",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 4,
+      "text": "Track-laying tractors",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 3,
+      "text": "8701 91 10 to 8701 95 90",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 4,
+      "text": "Other, of an engine power",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other vehicles, with only spark-ignition internal combustion reciprocating piston engine",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other vehicles, with only compression-ignition internal combustion piston engine (diesel or semi-diesel)",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Motor vehicles for the transport of goods",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Dumpers designed for off-highway use",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Bicycles and other cycles (including delivery tricycles), not motorised",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Parts and accessories of vehicles of headings 8711 to 8713",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 94 20",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Brakes",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 94 90",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Parts",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 96 30",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Crank-gear",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Derailleur gears",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 88",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 1,
+      "text": "AIRCRAFT, SPACECRAFT, AND PARTS THEREOF",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Subheading note 1",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other aircraft (for example, helicopters, aeroplanes); spacecraft (including satellites) and suborbital and spacecraft launch vehicles",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8802 11 00",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Helicopters",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "8802 12 00",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Of an unladen weight not exceeding 2 000 kg",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XVIII",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CHAPTER 90",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9001 10 10 and 9001 10 90",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Optical fibres, optical-fibre bundles and cables",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9001 20 00",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Sheets and plates of polarising material",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9001 90 00",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Non-optical",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9021 10 10",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Orthopaedic appliances",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Hearing aids, excluding parts and accessories",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Pacemakers for stimulating heart muscles, excluding parts and accessories",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9022 12 00",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Computed tomography apparatus",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9022 90 20",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Parts and accessories of apparatus based on the use of X-rays",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9025 11 20 and 9025 11 80",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Liquid-filled, for direct reading",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9026 20 20 to 9026 20 80",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 3,
+      "text": "For measuring or checking pressure",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9027 10 10",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 3,
+      "text": "Electronic",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9031 20 00",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Test benches",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9031 80 20",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "For measuring or checking geometrical quantities",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CHAPTER 91",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CLOCKS AND WATCHES AND PARTS THEREOF",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9114 10 00",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 2,
+      "text": "9114 90 00",
+      "page_numbers": [
+        80
+      ]
+    }
+  ],
+  "parse_duration_seconds": 12.59,
+  "docling_version": "unknown",
+  "selected_engine": "mistral_ocr",
+  "complexity_class": "paper_scope_hybrid_pdf",
+  "route_reason": "Paper-scope EU HS rerun: Mistral OCR primary for explanatory-note legal PDF, Docling fallback.",
+  "fallback_chain": [
+    "docling"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "legal_statute",
+  "normalized_confidence": 0.82,
+  "normalized_review_flags": [
+    "legal_signal"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

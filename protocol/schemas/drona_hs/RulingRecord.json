@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "RulingRecord",
+  "title": "Ruling Record",
+  "description": "Output of the Precedent Agent (PRA). Records what a specific authority decided about a specific product. Does NOT adjudicate override chains — that belongs to D-RULING.",
+  "type": "object",
+  "required": [
+    "agent",
+    "ruling_id",
+    "jurisdiction",
+    "authority",
+    "authority_tier",
+    "validity_status",
+    "component_ref",
+    "hs_code_assigned_by_ruling",
+    "ruling_conclusion_vs_pta",
+    "override_claim_level",
+    "d_ruling_deferred",
+    "source_doc",
+    "extraction_source",
+    "drona_domain",
+    "drona_sub_agent",
+    "extraction_timestamp",
+    "extractor_model"
+  ],
+  "properties": {
+    "agent": {
+      "type": "string",
+      "const": "PRA"
+    },
+    "ruling_id": {
+      "type": "string",
+      "description": "Official ruling identifier (e.g. NY N329827, HQ H176833, CAAR-Valco-2023)"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["US", "IN", "EU", "WCO"],
+      "description": "Jurisdiction of the issuing authority"
+    },
+    "authority": {
+      "type": "string",
+      "description": "Issuing body (e.g. CBP National Import Specialist, CAAR Mumbai, CESTAT Delhi)"
+    },
+    "authority_tier": {
+      "type": "string",
+      "enum": ["advance_ruling", "appellate", "court", "wco_committee", "bti"],
+      "description": "Authority level — determines override weight within jurisdiction hierarchy"
+    },
+    "date_issued": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "YYYY-MM-DD. Null if unknown."
+    },
+    "validity_status": {
+      "type": "string",
+      "enum": ["current", "superseded", "expired", "unknown"],
+      "description": "Current validity of the ruling. 'unknown' triggers requires_human_review = true on the AA output."
+    },
+    "superseded_by": {
+      "type": ["string", "null"],
+      "description": "Ruling ID that supersedes this one. Null if current."
+    },
+    "validity_period_note": {
+      "type": ["string", "null"],
+      "description": "For BTIs: expiry date. For CAAR: validity term. Null if permanent or unknown."
+    },
+    "component_ref": {
+      "type": "string",
+      "description": "D-CLASS-ENG entity ID this ruling applies to",
+      "pattern": "^ent_"
+    },
+    "hs_code_assigned_by_ruling": {
+      "type": "string",
+      "description": "HS code the authority assigned"
+    },
+    "hs_codes_rejected_by_ruling": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "HS codes the authority explicitly rejected"
+    },
+    "gri_applied_in_ruling": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "GRI rules cited in the ruling (as stated in the ruling text)"
+    },
+    "legal_notes_cited_in_ruling": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Section/Chapter Notes cited in the ruling"
+    },
+    "ruling_conclusion_vs_pta": {
+      "type": "string",
+      "enum": ["confirms", "modifies", "contradicts", "not_applicable"],
+      "description": "How this ruling's code compares to the PTA baseline. 'not_applicable' if no PTA record exists for this jurisdiction yet."
+    },
+    "override_claim_level": {
+      "type": "string",
+      "enum": ["none", "advisory", "binding_transaction", "binding_jurisdiction"],
+      "description": "Strength of override claim. 'none' = record only, deferred to D-RULING for adjudication."
+    },
+    "d_ruling_deferred": {
+      "type": "boolean",
+      "const": true,
+      "description": "Always true. PRA never adjudicates override chains."
+    },
+    "source_doc": {
+      "type": "string",
+      "description": "Exact filename from drona/corpus/"
+    },
+    "extraction_source": {
+      "type": "string",
+      "enum": ["primary_ruling_pdf", "deep_research_dossier"],
+      "description": "Whether extracted from primary ruling PDF (preferred) or dossier (navigation aid)"
+    },
+    "raw_extract": {
+      "type": ["string", "null"],
+      "description": "Key paragraph from the ruling explaining the classification reasoning"
+    },
+    "drona_domain": {
+      "type": "string",
+      "const": "d_class_hs"
+    },
+    "drona_sub_agent": {
+      "type": "string",
+      "const": "PRA"
+    },
+    "extraction_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extractor_model": {
+      "type": "string"
+    }
+  }
+}

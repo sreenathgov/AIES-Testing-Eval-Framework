@@ -1,0 +1,69 @@
+{
+  "agent": "AA",
+  "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+  "artifact_origin": {
+    "pra_artifact": "PRA_EU_power-distribution-unit-(pdu)",
+    "pta_artifact": "PTA_EU_power-distribution-unit-(pdu)",
+    "run_id": "fresh_eu_run"
+  },
+  "candidate_cn_code": "8537.10",
+  "comparison_only": {},
+  "component_name": "Power Distribution Unit (PDU)",
+  "component_ref": "ent_219",
+  "component_slug": "power-distribution-unit-(pdu)",
+  "confidence": "high",
+  "gri_path": "GRI_1",
+  "handoff_route": "promote",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "authority_class": "primary_legal_text",
+      "record_id": "WCO_GRI_1",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "record_id": "EU_CN_EN_RECORDS",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "record_id": "EU_BTI_DEBTI58842_24_1",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    }
+  ],
+  "legal_proposition": "For EU paper-scope review, Power Distribution Unit (PDU) is proposed under CN/HS anchor 8537.10, subject to recorded GRI caveats.",
+  "requires_human_review": false,
+  "source_ids": [
+    "SRC_WCO_GRI_2017",
+    "SRC_EU_CN_2025_1926_EVS",
+    "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+  ],
+  "source_pra_files": [
+    "runs/fresh_eu_run/pra/power-distribution-unit-(pdu)_eu.json"
+  ],
+  "source_pta_files": [
+    "runs/fresh_eu_run/pta/power-distribution-unit-(pdu)_eu.json"
+  ],
+  "source_record_refs": [
+    "WCO_GRI_1",
+    "WCO_GRI_6",
+    "EU_CN_2025_1926_EVS_RECORDS"
+  ],
+  "stability": "stable"
+}

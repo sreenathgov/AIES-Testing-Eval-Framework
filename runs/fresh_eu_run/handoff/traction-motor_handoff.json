@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_221",
+  "component_slug": "traction-motor",
+  "handoff_id": "HANDOFF_EU_traction-motor",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_traction-motor"
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "AuditReport",
+  "title": "Audit Report",
+  "description": "Output of the Knowledge Auditor (KA). One per D-CLASS-HS batch run. Goes to the founder alongside AA outputs for human review gate.",
+  "type": "object",
+  "required": [
+    "run_id",
+    "batch_description",
+    "total_components_in_batch",
+    "invariant_check_results",
+    "promotion_ready",
+    "promotion_blocked",
+    "created_at"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "description": "e.g. d-class-hs-run-001-batch-1"
+    },
+    "batch_description": {
+      "type": "string",
+      "description": "Which component group this batch covers (e.g. 'Batch 1: Section XVII Note 2(f) electrical exclusion candidates')"
+    },
+    "total_components_in_batch": {
+      "type": "integer"
+    },
+    "classified_per_jurisdiction": {
+      "type": "object",
+      "properties": {
+        "universal": {"type": "integer"},
+        "IN": {"type": "integer"},
+        "US": {"type": "integer"},
+        "EU": {"type": "integer"}
+      }
+    },
+    "requires_human_review_count": {
+      "type": "integer",
+      "description": "Count of AA records with requires_human_review: true"
+    },
+    "jurisdiction_divergences": {
+      "type": "array",
+      "description": "All components with jurisdiction_divergence: true in AA output",
+      "items": {
+        "type": "object",
+        "properties": {
+          "component_ref": {"type": "string"},
+          "jurisdictions": {"type": "array", "items": {"type": "string"}},
+          "codes": {"type": "object"}
+        }
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["contradiction_id", "component_ref", "type", "severity"],
+        "properties": {
+          "contradiction_id": {"type": "string"},
+          "component_ref": {"type": "string"},
+          "type": {"type": "string"},
+          "description": {"type": "string"},
+          "severity": {"type": "string", "enum": ["blocking", "warning", "note"]}
+        }
+      }
+    },
+    "invariant_check_results": {
+      "type": "object",
+      "description": "All four hard invariants must pass before batch promotion",
+      "required": [
+        "I1_section_xvii_exclusion_applied",
+        "I2_raw_precursors_not_in_ch85_87",
+        "I3_general_use_parts_in_base_chapters",
+        "I4_gri3b_composites_have_essential_character"
+      ],
+      "properties": {
+        "I1_section_xvii_exclusion_applied": {
+          "type": "object",
+          "properties": {
+            "pass": {"type": "boolean"},
+            "checked_count": {"type": "integer"},
+            "failed_components": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "I2_raw_precursors_not_in_ch85_87": {
+          "type": "object",
+          "properties": {
+            "pass": {"type": "boolean"},
+            "checked_count": {"type": "integer"},
+            "failed_components": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "I3_general_use_parts_in_base_chapters": {
+          "type": "object",
+          "properties": {
+            "pass": {"type": "boolean"},
+            "checked_count": {"type": "integer"},
+            "failed_components": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "I4_gri3b_composites_have_essential_character": {
+          "type": "object",
+          "properties": {
+            "pass": {"type": "boolean"},
+            "checked_count": {"type": "integer"},
+            "failed_components": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "all_source_docs_in_corpus": {
+          "type": "object",
+          "properties": {
+            "pass": {"type": "boolean"},
+            "missing_docs": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "missing_coverage": {
+      "type": "array",
+      "description": "Components where AA could not produce a confident candidate",
+      "items": {
+        "type": "object",
+        "properties": {
+          "component_ref": {"type": "string"},
+          "reason": {
+            "type": "string",
+            "enum": [
+              "no_ruling_found",
+              "heading_ambiguous",
+              "composite_unresolved",
+              "novel_product_no_precedent"
+            ]
+          }
+        }
+      }
+    },
+    "d_ruling_handoff_queue": {
+      "type": "array",
+      "description": "DRulingHandoffPackage IDs queued for D-RULING",
+      "items": {"type": "string"}
+    },
+    "promotion_ready": {
+      "type": "array",
+      "description": "component_ref values whose AA candidates passed all checks and can be promoted",
+      "items": {"type": "string"}
+    },
+    "promotion_blocked": {
+      "type": "array",
+      "description": "component_ref values blocked from promotion and why",
+      "items": {
+        "type": "object",
+        "properties": {
+          "component_ref": {"type": "string"},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gold_case.schema.json",
+  "title": "Gold Case",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "artifact_id",
+    "expected_route",
+    "expected_control_state",
+    "expected_failure_categories",
+    "required_authority_classes",
+    "required_source_anchors",
+    "prohibited_claims",
+    "human_review_required"
+  ],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "artifact_id": {"type": "string"},
+    "expected_route": {"type": "string", "enum": ["promote", "review", "unresolved", "blocked"]},
+    "expected_control_state": {"type": "string", "enum": ["stable", "contested", "gap", "parity_failure", "fragile"]},
+    "expected_failure_categories": {"type": "array", "items": {"type": "string"}},
+    "required_authority_classes": {"type": "array", "items": {"type": "string"}},
+    "required_source_anchors": {"type": "array", "items": {"type": "string"}},
+    "prohibited_claims": {"type": "array", "items": {"type": "string"}},
+    "human_review_required": {"type": "boolean"}
+  }
+}

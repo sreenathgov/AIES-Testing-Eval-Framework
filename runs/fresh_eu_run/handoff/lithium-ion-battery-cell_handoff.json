@@ -1,0 +1,11 @@
+{
+  "component_ref": "ent_147",
+  "component_slug": "lithium-ion-battery-cell",
+  "handoff_id": "HANDOFF_EU_lithium-ion-battery-cell",
+  "human_review_required": true,
+  "review_reason_codes": [
+    "gri_3b_requires_adjudication_review"
+  ],
+  "route": "review",
+  "source_artifact": "AA_EU_lithium-ion-battery-cell"
+}

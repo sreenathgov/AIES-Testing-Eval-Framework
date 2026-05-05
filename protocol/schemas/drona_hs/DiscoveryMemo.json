@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "DiscoveryMemo",
+  "title": "Discovery Memo",
+  "description": "Output of the Discovery Agent (DA). Uses secondary synthesis sources to flag coverage gaps and suggest candidate headings. NOT ontology-eligible. Cannot be the basis for final code selection.",
+  "type": "object",
+  "required": [
+    "agent",
+    "component_ref",
+    "confidence_note",
+    "source_doc",
+    "drona_domain",
+    "drona_sub_agent",
+    "extraction_timestamp",
+    "extractor_model"
+  ],
+  "properties": {
+    "agent": {
+      "type": "string",
+      "const": "DA"
+    },
+    "component_ref": {
+      "type": "string",
+      "description": "D-CLASS-ENG entity ID",
+      "pattern": "^ent_"
+    },
+    "suggested_candidate_headings": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Headings noted in secondary sources as plausibly applicable. For human consideration, not final selection."
+    },
+    "discovery_rationale": {
+      "type": ["string", "null"],
+      "description": "Explanation of why these headings were noted — which source and why"
+    },
+    "confidence_note": {
+      "type": "string",
+      "const": "secondary_source_only — not ontology eligible",
+      "description": "ALWAYS this value. DA records cannot be promoted or used as sole classification basis."
+    },
+    "flags": {
+      "type": "object",
+      "properties": {
+        "poor_pta_coverage": {
+          "type": "boolean",
+          "description": "True if secondary sources suggest the heading text is ambiguous for this component"
+        },
+        "novel_product_type": {
+          "type": "boolean",
+          "description": "True if the component is a recently emerged product type with limited tariff schedule coverage"
+        },
+        "industry_debate_noted": {
+          "type": "boolean",
+          "description": "True if secondary sources document ongoing industry or customs authority debate on classification"
+        }
+      }
+    },
+    "source_doc": {
+      "type": "string",
+      "description": "Exact filename from drona/corpus/ (secondary sources only)"
+    },
+    "drona_domain": {
+      "type": "string",
+      "const": "d_class_hs"
+    },
+    "drona_sub_agent": {
+      "type": "string",
+      "const": "DA"
+    },
+    "extraction_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extractor_model": {
+      "type": "string"
+    }
+  }
+}

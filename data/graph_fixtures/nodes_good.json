@@ -1,0 +1,840 @@
+[
+  {
+    "artifact_id": "FX_GOOD_OBC_AA_EU",
+    "scenario_id": "SCN_001_STABLE_EU_WCO",
+    "fixture_class": "good",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:on-board-charger-obc",
+    "sanitized_node_id": "candidate:on_board_charger:EU",
+    "component_id": "component:on_board_charger",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "on-board-charger-obc classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_EU_CN_2025_1926_EVS",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8504_40_90"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_EN_8504_STATIC_CONVERTERS",
+      "EU_CN_8504_40_90"
+    ],
+    "legal_proposition": "An on-board charger whose principal function is AC-to-DC rectification is classified in the EU as a static converter under CN 8504.40.90.",
+    "candidate_hs_code": "8504.40",
+    "candidate_cn_code": "8504.40.90",
+    "gri_path": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "Section XVII Note 2(f) considered",
+      "Section XVI Note 3 considered"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "promote",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:on_board_charger:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:on_board_charger",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8504.40.90:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "node_type": "source"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_2025_1926_EVS",
+        "node_type": "source"
+      },
+      {
+        "node_id": "source:SRC_WCO_GRI_2017",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_OBC_DESCRIBES",
+      "E_GOOD_OBC_PROPOSES",
+      "E_GOOD_OBC_SUPPORTED_EU_EN",
+      "E_GOOD_OBC_SUPPORTED_EU_CN",
+      "E_GOOD_OBC_SUPPORTED_WCO"
+    ],
+    "known_issue_tags": [],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8504.40"
+      },
+      "IN": {
+        "candidate_code": "8504.40.90"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_OBC",
+      "FOR_GRAPH_PC_OBC",
+      "FOR_GRAPH_HS_85044090_EU"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_GOOD_OBC_AA_EU_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "An on-board charger whose principal function is AC-to-DC rectification is classified in the EU as a static converter under CN 8504.40.90.",
+        "source_anchor_ids": [
+          "WCO_GRI_1",
+          "WCO_GRI_6",
+          "EU_CN_EN_8504_STATIC_CONVERTERS",
+          "EU_CN_8504_40_90"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_EN_8504_STATIC_CONVERTERS",
+      "EU_CN_8504_40_90"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_GOOD_HV_CONNECTORS_EU",
+    "scenario_id": "SCN_002_STABLE_EU_CN",
+    "fixture_class": "good",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:high-voltage-connectors",
+    "sanitized_node_id": "candidate:high_voltage_connectors:EU",
+    "component_id": "component:high_voltage_connectors",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "high-voltage connectors classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_EU_CN_2025_1926_EVS",
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8536_69_90"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8536_CONNECTORS"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8536_69_90",
+      "EU_CN_EN_8536_CONNECTORS"
+    ],
+    "legal_proposition": "High-voltage electrical connectors are classified in the EU under CN 8536.69.90 as other connectors.",
+    "candidate_hs_code": "8536.69",
+    "candidate_cn_code": "8536.69.90",
+    "gri_path": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "Section XVII Note 2(f) considered"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "promote",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:high_voltage_connectors:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:high_voltage_connectors",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8536.69.90:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_2025_1926_EVS",
+        "node_type": "source"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_CONNECTORS_DESCRIBES",
+      "E_GOOD_CONNECTORS_PROPOSES",
+      "E_GOOD_CONNECTORS_SUPPORTED_EU_CN",
+      "E_GOOD_CONNECTORS_SUPPORTED_EU_EN"
+    ],
+    "known_issue_tags": [],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8536.69.80"
+      },
+      "IN": {
+        "candidate_code": "8536.69.90"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_HV_CONNECTORS",
+      "FOR_GRAPH_HS_85366990_EU"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_GOOD_HV_CONNECTORS_EU_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "High-voltage electrical connectors are classified in the EU under CN 8536.69.90 as other connectors.",
+        "source_anchor_ids": [
+          "WCO_GRI_1",
+          "WCO_GRI_6",
+          "EU_CN_8536_69_90",
+          "EU_CN_EN_8536_CONNECTORS"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8536_69_90",
+      "EU_CN_EN_8536_CONNECTORS"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_GOOD_TRACTION_INVERTER_EU",
+    "scenario_id": "SCN_003_STABLE_EU_CN",
+    "fixture_class": "good",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:traction-inverter-module",
+    "sanitized_node_id": "candidate:traction_inverter:EU",
+    "component_id": "component:traction_inverter",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "traction inverter module classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_EU_CN_2025_1926_EVS",
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8504_40_87"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8504_40_87",
+      "EU_CN_EN_8504_STATIC_CONVERTERS"
+    ],
+    "legal_proposition": "A traction inverter module is classified in the EU as a static converter under CN 8504.40.87.",
+    "candidate_hs_code": "8504.40",
+    "candidate_cn_code": "8504.40.87",
+    "gri_path": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "Section XVII Note 2(f) considered"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "promote",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:traction_inverter:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:traction_inverter",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8504.40.87:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_INVERTER_DESCRIBES",
+      "E_GOOD_INVERTER_PROPOSES",
+      "E_GOOD_INVERTER_SUPPORTED_EU_CN"
+    ],
+    "known_issue_tags": [],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8504.40.40"
+      },
+      "IN": {
+        "candidate_code": "8504.40.10"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_TRACTION_INVERTER"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_GOOD_TRACTION_INVERTER_EU_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "A traction inverter module is classified in the EU as a static converter under CN 8504.40.87.",
+        "source_anchor_ids": [
+          "WCO_GRI_1",
+          "WCO_GRI_6",
+          "EU_CN_8504_40_87",
+          "EU_CN_EN_8504_STATIC_CONVERTERS"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8504_40_87",
+      "EU_CN_EN_8504_STATIC_CONVERTERS"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_GOOD_HV_BATTERY_PACK_BTI_EU",
+    "scenario_id": "SCN_004_STABLE_BTI",
+    "fixture_class": "good",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:high-voltage-battery-pack-assembly",
+    "sanitized_node_id": "candidate:hv_battery_pack:EU:bti_supported",
+    "component_id": "component:hv_battery_pack",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "high-voltage battery pack classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_EU_CN_2025_1926_EVS",
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_EU_BTI_SAMPLE",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      },
+      {
+        "source_id": "SRC_EU_BTI_SAMPLE",
+        "authority_class": "classification_decision",
+        "anchor_id": "BTI_ROW_DEBTI45911_25_1"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_3B",
+      "WCO_GRI_6",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS",
+      "BTI_ROW_DEBTI45911_25_1"
+    ],
+    "legal_proposition": "A high-voltage lithium-ion battery pack whose cells provide essential character is classified in the EU under CN 8507.60.00, with BTI sample support.",
+    "candidate_hs_code": "8507.60",
+    "candidate_cn_code": "8507.60.00",
+    "gri_path": [
+      "GRI_3b",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "Section XVII Note 2(f) considered",
+      "essential character recorded"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "promote",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:hv_battery_pack:EU:bti_supported",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:hv_battery_pack",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "source:SRC_EU_BTI_SAMPLE",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_PACK_DESCRIBES",
+      "E_GOOD_PACK_PROPOSES",
+      "E_GOOD_PACK_SUPPORTED_BTI",
+      "E_GOOD_PACK_SUPPORTED_EU_CN"
+    ],
+    "known_issue_tags": [],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8507.60.00"
+      },
+      "IN": {
+        "candidate_code": "8507.60.00"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_BTI_SAMPLE_ORIGINAL",
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_BTI_SAMPLE_JSON",
+      "SRC_ASSET_EU_BTI_SAMPLE_MD",
+      "SRC_ASSET_EU_BTI_SAMPLE_META_JSON",
+      "SRC_ASSET_EU_BTI_SAMPLE_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_HV_BATTERY_PACK",
+      "FOR_AGENT_PRA_EU_BTI",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_GOOD_HV_BATTERY_PACK_BTI_EU_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "A high-voltage lithium-ion battery pack whose cells provide essential character is classified in the EU under CN 8507.60.00, with BTI sample support.",
+        "source_anchor_ids": [
+          "WCO_GRI_3B",
+          "WCO_GRI_6",
+          "EU_CN_8507_60_00",
+          "EU_CN_EN_8507_ACCUMULATORS",
+          "BTI_ROW_DEBTI45911_25_1"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_3B",
+      "WCO_GRI_6",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS",
+      "BTI_ROW_DEBTI45911_25_1"
+    ],
+    "required_gri_path_elements": [
+      "GRI_3b",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {
+      "binding_status": "sample_bti",
+      "product_similarity": "curated targeted BTI sample supports comparable lithium-ion battery pack classification",
+      "jurisdiction": "EU"
+    }
+  },
+  {
+    "artifact_id": "FX_GOOD_LI_ION_CELL_EU",
+    "scenario_id": "SCN_005_MISSING_BTI_PRIMARY_OK",
+    "fixture_class": "good",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:lithium-ion-battery-cell",
+    "sanitized_node_id": "candidate:lithium_ion_cell:EU",
+    "component_id": "component:lithium_ion_cell",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "lithium-ion battery cell classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_EU_CN_2025_1926_EVS",
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "legal_proposition": "A lithium-ion battery cell is classified in the EU under CN 8507.60.00 even where the curated BTI sample lacks a direct cell row.",
+    "candidate_hs_code": "8507.60",
+    "candidate_cn_code": "8507.60.00",
+    "gri_path": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "BTI absence explicitly noted",
+      "primary CN support recorded"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "promote",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:lithium_ion_cell:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:lithium_ion_cell",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_CELL_DESCRIBES",
+      "E_GOOD_CELL_PROPOSES",
+      "E_GOOD_CELL_SUPPORTED_EU_CN"
+    ],
+    "known_issue_tags": [
+      "bti_absent_but_not_required"
+    ],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8507.60"
+      },
+      "IN": {
+        "candidate_code": "8507.60.00"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_LI_ION_CELL",
+      "FOR_GRAPH_PC_LI_ION_CELL",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_GOOD_LI_ION_CELL_EU_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "A lithium-ion battery cell is classified in the EU under CN 8507.60.00 even where the curated BTI sample lacks a direct cell row.",
+        "source_anchor_ids": [
+          "WCO_GRI_1",
+          "WCO_GRI_6",
+          "EU_CN_8507_60_00",
+          "EU_CN_EN_8507_ACCUMULATORS"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  }
+]

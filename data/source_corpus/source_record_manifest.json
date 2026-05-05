@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-05-05T09:47:54+00:00",
+  "manifest_type": "source_record_manifest",
+  "records": [
+    {
+      "authority_class": "ruling_or_precedent",
+      "compiler_profile": "bti_csv_rows",
+      "harness_relative_path": "data/source_corpus/records/bti/ebti_sample_targeted_test_run_records.json",
+      "jurisdiction": "EU",
+      "markdown_review_path": "data/source_corpus/records/bti/ebti_sample_targeted_test_run_records.md",
+      "record_asset_id": "EBTI_SAMPLE_TARGETED_TEST_RUN_RECORDS",
+      "record_count": 30,
+      "sha256": "e9f3d78d602271de6fcfbcb69e3cb447ad28328c3d505ebda7007853a9ed6095",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "compiler_profile": "eu_cn_tariff_table",
+      "harness_relative_path": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_records.json",
+      "jurisdiction": "EU",
+      "markdown_review_path": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_records.md",
+      "record_asset_id": "EU_CN_2025_1926_EVS_RECORDS",
+      "record_count": 952,
+      "sha256": "aa79b38224e3df2123e1da8cabc8cc949e0ce146a8c201aac86331b95b9b6f6b",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "compiler_profile": "eu_cn_explanatory_notes_layout",
+      "harness_relative_path": "data/source_corpus/records/eu/eu_cn_explanatory_notes_evs_records.json",
+      "jurisdiction": "EU",
+      "markdown_review_path": "data/source_corpus/records/eu/eu_cn_explanatory_notes_evs_records.md",
+      "record_asset_id": "EU_CN_EXPLANATORY_NOTES_EVS_RECORDS",
+      "record_count": 409,
+      "sha256": "043f6251ad91aafaf56f4aa553c44027863cb42a2ede7148dc28a1d14e0f4bb2",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "compiler_profile": "wco_heading_table",
+      "harness_relative_path": "data/source_corpus/records/wco/wco_2022_section_84_complex_records.json",
+      "jurisdiction": "WCO",
+      "markdown_review_path": "data/source_corpus/records/wco/wco_2022_section_84_complex_records.md",
+      "record_asset_id": "WCO_2022_SECTION_84_COMPLEX_RECORDS",
+      "record_count": 766,
+      "sha256": "c4440319bce4f4658271add1d37d3f4d53ba6a952d0932088b8035c1c30a4127",
+      "source_id": "SRC_WCO_SECTION_84"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "compiler_profile": "wco_heading_table",
+      "harness_relative_path": "data/source_corpus/records/wco/wco_2022_section_85_complex_records.json",
+      "jurisdiction": "WCO",
+      "markdown_review_path": "data/source_corpus/records/wco/wco_2022_section_85_complex_records.md",
+      "record_asset_id": "WCO_2022_SECTION_85_COMPLEX_RECORDS",
+      "record_count": 463,
+      "sha256": "bb5135e4155baea456ae4f021ef4351beb45d7d08c7fcfda6c36060fe75372af",
+      "source_id": "SRC_WCO_SECTION_85"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "compiler_profile": "wco_heading_table",
+      "harness_relative_path": "data/source_corpus/records/wco/wco_2022_section_87_complex_records.json",
+      "jurisdiction": "WCO",
+      "markdown_review_path": "data/source_corpus/records/wco/wco_2022_section_87_complex_records.md",
+      "record_asset_id": "WCO_2022_SECTION_87_COMPLEX_RECORDS",
+      "record_count": 129,
+      "sha256": "c0134c0d8f04152fbf4ede2f69b496e8bbf43cab66e9d7ab2698b0083aec19d8",
+      "source_id": "SRC_WCO_SECTION_87"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "compiler_profile": "wco_heading_table",
+      "harness_relative_path": "data/source_corpus/records/wco/wco_2022_section_90_complex_records.json",
+      "jurisdiction": "WCO",
+      "markdown_review_path": "data/source_corpus/records/wco/wco_2022_section_90_complex_records.md",
+      "record_asset_id": "WCO_2022_SECTION_90_COMPLEX_RECORDS",
+      "record_count": 196,
+      "sha256": "c27039c1670295f039387ea54d99583f6385df4e7ad894ccbab7adbc26c22ae7",
+      "source_id": "SRC_WCO_SECTION_90"
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "compiler_profile": "wco_gri_rules",
+      "harness_relative_path": "data/source_corpus/records/wco/wco_gri_rules_2017_records.json",
+      "jurisdiction": "WCO",
+      "markdown_review_path": "data/source_corpus/records/wco/wco_gri_rules_2017_records.md",
+      "record_asset_id": "WCO_GRI_RULES_2017_RECORDS",
+      "record_count": 10,
+      "sha256": "25ba04304045120abb0e457aec5d098793b0e71f53e802652d165611d40029d1",
+      "source_id": "SRC_WCO_GRI_2017"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "handoff_package.schema.json",
+  "title": "Handoff Package",
+  "type": "object",
+  "required": ["artifact_id", "artifact_type", "source_artifact_id", "route", "reason"],
+  "properties": {
+    "artifact_type": {"const": "handoff_package"},
+    "source_artifact_id": {"type": "string"},
+    "route": {"type": "string", "enum": ["promote", "review", "unresolved", "blocked"]},
+    "reason": {"type": "string"}
+  }
+}

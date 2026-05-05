@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "scope_rule": "Only EU/WCO/BTI authorities are evaluated. US and India material is comparison_only and cannot affect pass/fail outcomes.",
+  "sources": [
+    {
+      "source_id": "SRC_WCO_GRI_2017",
+      "title": "WCO General Rules for the Interpretation of the Harmonized System",
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "source_path": "data/source_corpus/SOURCE_ASSET_MANIFEST.json",
+      "anchors": [
+        {
+          "anchor_id": "WCO_GRI_1",
+          "anchor_type": "rule",
+          "locator": "GRI 1",
+          "label": "Classification by headings and legal notes",
+          "quoted_span": "classification shall be determined according to the terms of the headings and any relative Section or Chapter Notes",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "WCO_GRI_3B",
+          "anchor_type": "rule",
+          "locator": "GRI 3(b)",
+          "label": "Composite goods by essential character",
+          "quoted_span": "composite goods ... shall be classified as if they consisted of the material or component which gives them their essential character",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "WCO_GRI_6",
+          "anchor_type": "rule",
+          "locator": "GRI 6",
+          "label": "Subheading-level classification",
+          "quoted_span": "classification of goods in the subheadings ... shall be determined according to the terms of those subheadings",
+          "document_level_only": false
+        }
+      ],
+      "source_asset_ids": [
+        "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+      ],
+      "parsed_asset_ids": [
+        "SRC_ASSET_WCO_GRI_2017_MD",
+        "SRC_ASSET_WCO_GRI_2017_JSON",
+        "SRC_ASSET_WCO_GRI_2017_META_JSON",
+        "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+      ],
+      "source_version": "2017/2022 curated extract",
+      "validity_status": "paper_scope_reference"
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_XVI",
+      "title": "WCO HS Explanatory Notes, Section XVI",
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "WCO",
+      "source_path": "data/source_corpus/SOURCE_ASSET_MANIFEST.json",
+      "anchors": [
+        {
+          "anchor_id": "WCO_SECTION_XVI_NOTE_3",
+          "anchor_type": "section_note",
+          "locator": "Section XVI Note 3",
+          "label": "Composite machines and principal function",
+          "quoted_span": "composite machines ... are to be classified as if consisting only of that component or as being that machine which performs the principal function",
+          "document_level_only": false
+        }
+      ],
+      "source_asset_ids": [
+        "SRC_ASSET_WCO_SECTION_84_ORIGINAL",
+        "SRC_ASSET_WCO_SECTION_85_ORIGINAL"
+      ],
+      "parsed_asset_ids": [
+        "SRC_ASSET_WCO_SECTION_84_MD",
+        "SRC_ASSET_WCO_SECTION_84_JSON",
+        "SRC_ASSET_WCO_SECTION_84_META_JSON",
+        "SRC_ASSET_WCO_SECTION_84_NORMALIZED_JSON",
+        "SRC_ASSET_WCO_SECTION_85_MD",
+        "SRC_ASSET_WCO_SECTION_85_JSON",
+        "SRC_ASSET_WCO_SECTION_85_META_JSON",
+        "SRC_ASSET_WCO_SECTION_85_NORMALIZED_JSON"
+      ],
+      "source_version": "2017/2022 curated extract",
+      "validity_status": "paper_scope_reference"
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_XVII",
+      "title": "WCO HS Explanatory Notes, Section XVII",
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "WCO",
+      "source_path": "data/source_corpus/SOURCE_ASSET_MANIFEST.json",
+      "anchors": [
+        {
+          "anchor_id": "WCO_SECTION_XVII_NOTE_2F",
+          "anchor_type": "section_note",
+          "locator": "Section XVII Note 2(f)",
+          "label": "Electrical machinery exclusion from vehicle-parts classification",
+          "quoted_span": "electrical machinery or equipment of Chapter 85 is excluded from classification as parts of vehicles",
+          "document_level_only": false
+        }
+      ],
+      "source_asset_ids": [
+        "SRC_ASSET_WCO_SECTION_87_ORIGINAL"
+      ],
+      "parsed_asset_ids": [
+        "SRC_ASSET_WCO_SECTION_87_MD",
+        "SRC_ASSET_WCO_SECTION_87_JSON",
+        "SRC_ASSET_WCO_SECTION_87_META_JSON",
+        "SRC_ASSET_WCO_SECTION_87_NORMALIZED_JSON"
+      ],
+      "source_version": "2017/2022 curated extract",
+      "validity_status": "paper_scope_reference"
+    },
+    {
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "title": "Commission Implementing Regulation (EU) 2025/1926, EV-relevant CN extracts",
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "source_path": "data/source_corpus/SOURCE_ASSET_MANIFEST.json",
+      "anchors": [
+        {
+          "anchor_id": "EU_CN_8504_40_87",
+          "anchor_type": "subheading",
+          "locator": "CN 8504.40.87",
+          "label": "Other static converters",
+          "quoted_span": "8504 40 87 - Other",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_8504_40_90",
+          "anchor_type": "subheading",
+          "locator": "CN 8504.40.90",
+          "label": "Other static converters residual line",
+          "quoted_span": "8504 40 90 - Other",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_8507_60_00",
+          "anchor_type": "subheading",
+          "locator": "CN 8507.60.00",
+          "label": "Lithium-ion accumulators",
+          "quoted_span": "8507 60 00 - Lithium-ion",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_8536_69_90",
+          "anchor_type": "subheading",
+          "locator": "CN 8536.69.90",
+          "label": "Other plugs, sockets and connectors",
+          "quoted_span": "8536 69 90 - Other",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_8537_10_91",
+          "anchor_type": "subheading",
+          "locator": "CN 8537.10.91",
+          "label": "Programmable memory controllers",
+          "quoted_span": "8537 10 91 - Programmable memory controllers",
+          "document_level_only": false
+        }
+      ],
+      "source_asset_ids": [
+        "SRC_ASSET_EU_CN_2025_1926_ORIGINAL"
+      ],
+      "parsed_asset_ids": [
+        "SRC_ASSET_EU_CN_2025_1926_MD",
+        "SRC_ASSET_EU_CN_2025_1926_JSON",
+        "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+        "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON"
+      ],
+      "source_version": "2025/1926",
+      "validity_status": "paper_scope_current"
+    },
+    {
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "title": "Explanatory Notes to the Combined Nomenclature of the European Union, EV-relevant extracts",
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "source_path": "data/source_corpus/SOURCE_ASSET_MANIFEST.json",
+      "anchors": [
+        {
+          "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS",
+          "anchor_type": "heading",
+          "locator": "Heading 8504",
+          "label": "Static converters including rectifiers",
+          "quoted_span": "Heading 8504 covers electrical transformers, static converters and inductors",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_EN_8507_ACCUMULATORS",
+          "anchor_type": "heading",
+          "locator": "Heading 8507",
+          "label": "Electric accumulators",
+          "quoted_span": "Heading 8507 covers electric accumulators, including separators therefor",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_EN_8501_MOTORS",
+          "anchor_type": "heading",
+          "locator": "Heading 8501",
+          "label": "Electric motors",
+          "quoted_span": "Heading 8501 covers electric motors and generators",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "EU_CN_EN_8536_CONNECTORS",
+          "anchor_type": "heading",
+          "locator": "Heading 8536",
+          "label": "Electrical apparatus for connections",
+          "quoted_span": "Heading 8536 covers electrical apparatus for switching or protecting electrical circuits, or for making connections",
+          "document_level_only": false
+        }
+      ],
+      "source_asset_ids": [
+        "SRC_ASSET_EU_CN_EN_ORIGINAL"
+      ],
+      "parsed_asset_ids": [
+        "SRC_ASSET_EU_CN_EN_MD",
+        "SRC_ASSET_EU_CN_EN_JSON",
+        "SRC_ASSET_EU_CN_EN_META_JSON",
+        "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON"
+      ],
+      "source_version": "curated paper-scope source",
+      "validity_status": "paper_scope_reference"
+    },
+    {
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "title": "EU BTI targeted EV sample",
+      "authority_class": "classification_decision",
+      "jurisdiction": "EU",
+      "source_path": "data/source_corpus/SOURCE_ASSET_MANIFEST.json",
+      "anchors": [
+        {
+          "anchor_id": "BTI_ROW_CZBTI34_018997_2025",
+          "anchor_type": "bti_row",
+          "locator": "CZBTI34/018997/2025-580000-04/01",
+          "label": "80 kW AC traction motor with integrated inverter",
+          "quoted_span": "NOMENCLATURE_CODE 8501535010; goods described as traction electric asynchronous motor with power electronics for BEV propulsion",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "BTI_ROW_DEBTI45911_25_1",
+          "anchor_type": "bti_row",
+          "locator": "DEBTI45911/25-1",
+          "label": "High-voltage lithium-ion battery for electric vehicle",
+          "quoted_span": "NOMENCLATURE_CODE 8507600090; high-voltage battery made of lithium-ion accumulator cells for use as energy source in an electric vehicle",
+          "document_level_only": false
+        },
+        {
+          "anchor_id": "BTI_ROW_FRBTI_2025_03118",
+          "anchor_type": "bti_row",
+          "locator": "FRBTIFR-BTI-2025-03118",
+          "label": "Rectifier / current converter",
+          "quoted_span": "NOMENCLATURE_CODE 8504408390; function transforms alternating current into direct current for vehicle battery supply",
+          "document_level_only": false
+        }
+      ],
+      "source_asset_ids": [
+        "SRC_ASSET_EU_BTI_SAMPLE_ORIGINAL"
+      ],
+      "parsed_asset_ids": [
+        "SRC_ASSET_EU_BTI_SAMPLE_MD",
+        "SRC_ASSET_EU_BTI_SAMPLE_JSON",
+        "SRC_ASSET_EU_BTI_SAMPLE_META_JSON",
+        "SRC_ASSET_EU_BTI_SAMPLE_NORMALIZED_JSON"
+      ],
+      "source_version": "targeted sample run",
+      "validity_status": "paper_scope_sample"
+    },
+    {
+      "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT",
+      "title": "Sanitized internal extraction candidate artifact",
+      "authority_class": "internal_generated_candidate",
+      "jurisdiction": "internal",
+      "source_path": null,
+      "anchors": [
+        {
+          "anchor_id": "INTERNAL_CANDIDATE_FILE",
+          "anchor_type": "internal_file",
+          "locator": "sanitized internal candidate file",
+          "label": "Generation artifact only",
+          "quoted_span": null,
+          "document_level_only": true
+        }
+      ],
+      "source_asset_ids": [],
+      "parsed_asset_ids": [],
+      "source_version": "internal-artifact",
+      "validity_status": "origin_only"
+    }
+  ]
+}

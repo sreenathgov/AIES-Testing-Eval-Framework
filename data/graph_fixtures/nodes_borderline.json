@@ -1,0 +1,692 @@
+[
+  {
+    "artifact_id": "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE",
+    "scenario_id": "SCN_011_PRODUCT_NODE_MIXED_STATE",
+    "fixture_class": "borderline",
+    "artifact_type": "engineering_identity_record",
+    "original_node_id": "product_component:lithium-ion-battery-cell",
+    "sanitized_node_id": "engineering_identity:lithium_ion_cell",
+    "component_id": "component:lithium_ion_cell",
+    "jurisdiction": "EU",
+    "agent_stage": "GRAPH_PROJECTION",
+    "artifact_origin": {
+      "origin_type": "internal_graph_projection",
+      "origin_label": "lithium-ion battery cell product component node",
+      "origin_stage": "graph_projection"
+    },
+    "source_ids": [
+      "SRC_EU_CN_2025_1926_EVS"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "EU_CN_8507_60_00"
+    ],
+    "legal_proposition": "A product/component node carries engineering identity while also carrying classification stability and confidence state.",
+    "candidate_hs_code": "8507.60",
+    "candidate_cn_code": "8507.60.00",
+    "gri_path": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "anti-overloading check required"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "review",
+    "graph_nodes": [
+      {
+        "node_id": "engineering_identity:lithium_ion_cell",
+        "node_type": "engineering_identity_record"
+      },
+      {
+        "node_id": "component:lithium_ion_cell",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_CELL_DESCRIBES",
+      "E_BORDER_CELL_CLASSIFIED_AS"
+    ],
+    "known_issue_tags": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8507.60"
+      },
+      "IN": {
+        "candidate_code": "8507.60.00"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_LI_ION_CELL",
+      "FOR_GRAPH_PC_LI_ION_CELL",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "A product/component node carries engineering identity while also carrying classification stability and confidence state.",
+        "source_anchor_ids": [
+          "EU_CN_8507_60_00"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "EU_CN_8507_60_00"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW",
+    "scenario_id": "SCN_012_PTA_GRI3B_REVIEW",
+    "fixture_class": "borderline",
+    "artifact_type": "statutory_classification_record",
+    "original_node_id": "internal:pta:high-voltage-battery-pack-assembly-eu",
+    "sanitized_node_id": "statutory_record:hv_battery_pack:EU:review",
+    "component_id": "component:hv_battery_pack",
+    "jurisdiction": "EU",
+    "agent_stage": "PTA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "high-voltage battery pack EU PTA record",
+      "origin_stage": "primary_text_analysis"
+    },
+    "source_ids": [
+      "SRC_EU_CN_2025_1926_EVS",
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_3B",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "legal_proposition": "The primary-text agent identifies a plausible GRI 3(b) path for a composite battery pack but should hand off to adjudication before promotion.",
+    "candidate_hs_code": "8507.60",
+    "candidate_cn_code": "8507.60.00",
+    "gri_path": [
+      "GRI_3b",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "essential character recorded"
+    ],
+    "confidence_state": "high",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "review",
+    "graph_nodes": [
+      {
+        "node_id": "statutory_record:hv_battery_pack:EU:review",
+        "node_type": "statutory_classification_record"
+      },
+      {
+        "node_id": "component:hv_battery_pack",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_PACK_DESCRIBES",
+      "E_BORDER_PACK_PROPOSES",
+      "E_BORDER_PACK_SUPPORTED_WCO"
+    ],
+    "known_issue_tags": [
+      "pta_requires_aa_review"
+    ],
+    "comparison_only": {},
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_HV_BATTERY_PACK",
+      "FOR_AGENT_PTA_HV_BATTERY_PACK_EU",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "The primary-text agent identifies a plausible GRI 3(b) path for a composite battery pack but should hand off to adjudication before promotion.",
+        "source_anchor_ids": [
+          "WCO_GRI_3B",
+          "EU_CN_8507_60_00",
+          "EU_CN_EN_8507_ACCUMULATORS"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_3B",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "required_gri_path_elements": [
+      "GRI_3b",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [
+      "pta_requires_aa_review"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_BORDERLINE_SEPARATOR_DIVERGENCE",
+    "scenario_id": "SCN_013_DIVERGENCE_NOT_COLLAPSED",
+    "fixture_class": "borderline",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:separator-pe-pp-film",
+    "sanitized_node_id": "candidate:separator_pe_pp:EU",
+    "component_id": "component:separator_pe_pp",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "separator PE/PP film classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "SRC_WCO_GRI_2017"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "legal_proposition": "EU treatment of PE/PP separator film is preserved as a jurisdiction-specific battery-part candidate rather than collapsed into non-EU comparison outcomes.",
+    "candidate_hs_code": "8507.90",
+    "candidate_cn_code": "8507.90.31",
+    "gri_path": [
+      "GRI_1"
+    ],
+    "exclusion_or_note_checks": [
+      "divergence preserved"
+    ],
+    "confidence_state": "medium",
+    "stability_state": "contested",
+    "review_status": "curated_fixture",
+    "handoff_route": "review",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:separator_pe_pp:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:separator_pe_pp",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.90.31:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "handoff:separator_pe_pp:EU",
+        "node_type": "handoff_package"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_SEPARATOR_DESCRIBES",
+      "E_BORDER_SEPARATOR_PROPOSES",
+      "E_BORDER_SEPARATOR_SUPPORTED_EU_EN",
+      "E_BORDER_SEPARATOR_ROUTE"
+    ],
+    "known_issue_tags": [
+      "jurisdictional_divergence_preserved"
+    ],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "3921.19",
+        "status": "comparison_only_conflict"
+      },
+      "IN": {
+        "candidate_code": "3921.19",
+        "status": "comparison_only_conflict"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_SEPARATOR",
+      "FOR_GRAPH_HS_85079031_EU_MD"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_BORDERLINE_SEPARATOR_DIVERGENCE_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "EU treatment of PE/PP separator film is preserved as a jurisdiction-specific battery-part candidate rather than collapsed into non-EU comparison outcomes.",
+        "source_anchor_ids": [
+          "WCO_GRI_1",
+          "EU_CN_EN_8507_ACCUMULATORS"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [
+      "jurisdictional_divergence_preserved"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY",
+    "scenario_id": "SCN_014_COMPARISON_ONLY_DIVERGENCE",
+    "fixture_class": "borderline",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:integrated-e-axle",
+    "sanitized_node_id": "candidate:integrated_e_axle:EU",
+    "component_id": "component:integrated_e_axle",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "integrated e-axle classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_WCO_GRI_2017",
+      "SRC_WCO_SECTION_XVII"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_WCO_SECTION_XVII",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "WCO_SECTION_XVII_NOTE_2F"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_3B",
+      "WCO_SECTION_XVII_NOTE_2F"
+    ],
+    "legal_proposition": "The EU-facing integrated e-axle fixture preserves non-EU divergence as comparison metadata and does not let it drive EU pass/fail.",
+    "candidate_hs_code": "8708.99",
+    "candidate_cn_code": "8708.99.97",
+    "gri_path": [
+      "GRI_3b",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "Section XVII context recorded"
+    ],
+    "confidence_state": "medium",
+    "stability_state": "contested",
+    "review_status": "curated_fixture",
+    "handoff_route": "review",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:integrated_e_axle:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:integrated_e_axle",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8708.99.97:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_EAXLE_DESCRIBES",
+      "E_BORDER_EAXLE_PROPOSES",
+      "E_BORDER_EAXLE_SUPPORTED_WCO"
+    ],
+    "known_issue_tags": [
+      "comparison_only_non_eu_divergence"
+    ],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "8708.99.68",
+        "status": "comparison_only"
+      },
+      "IN": {
+        "candidate_code": "8708.99.00",
+        "status": "comparison_only_contested"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL",
+      "SRC_ASSET_WCO_SECTION_87_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_SECTION_87_JSON",
+      "SRC_ASSET_WCO_SECTION_87_MD",
+      "SRC_ASSET_WCO_SECTION_87_META_JSON",
+      "SRC_ASSET_WCO_SECTION_87_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_INTEGRATED_E_AXLE",
+      "FOR_GRAPH_HS_87089997_EU_MD"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "The EU-facing integrated e-axle fixture preserves non-EU divergence as comparison metadata and does not let it drive EU pass/fail.",
+        "source_anchor_ids": [
+          "WCO_GRI_3B",
+          "WCO_SECTION_XVII_NOTE_2F"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_3B",
+      "WCO_SECTION_XVII_NOTE_2F"
+    ],
+    "required_gri_path_elements": [
+      "GRI_3b",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [
+      "comparison_only_non_eu_divergence"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  },
+  {
+    "artifact_id": "FX_BORDERLINE_NOES_CLIENT_FACT",
+    "scenario_id": "SCN_015_CLIENT_FACT_DEPENDENT",
+    "fixture_class": "borderline",
+    "artifact_type": "classification_candidate",
+    "original_node_id": "internal:aa:silicon-alloyed-electrical-steel-core-noes",
+    "sanitized_node_id": "candidate:noes_core:EU",
+    "component_id": "component:noes_core",
+    "jurisdiction": "EU",
+    "agent_stage": "AA",
+    "artifact_origin": {
+      "origin_type": "internal_extraction_artifact",
+      "origin_label": "NOES core classification candidate",
+      "origin_stage": "adjudication"
+    },
+    "source_ids": [
+      "SRC_WCO_GRI_2017",
+      "SRC_EU_CN_2025_1926_EVS"
+    ],
+    "legal_authority_chain": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      }
+    ],
+    "quoted_span_or_row_ref": [
+      "WCO_GRI_1",
+      "WCO_GRI_6"
+    ],
+    "legal_proposition": "NOES steel-core classification depends on factual width/coil state and must retain client-fact uncertainty.",
+    "candidate_hs_code": "7226.19",
+    "candidate_cn_code": "7226.19.10",
+    "gri_path": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "exclusion_or_note_checks": [
+      "client_fact: coil_width_mm required"
+    ],
+    "confidence_state": "medium",
+    "stability_state": "stable",
+    "review_status": "curated_fixture",
+    "handoff_route": "review",
+    "graph_nodes": [
+      {
+        "node_id": "candidate:noes_core:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:noes_core",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:7226.19.10:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_NOES_DESCRIBES",
+      "E_BORDER_NOES_PROPOSES"
+    ],
+    "known_issue_tags": [
+      "client_fact_required"
+    ],
+    "comparison_only": {
+      "US": {
+        "candidate_code": "7226.19.1000"
+      },
+      "IN": {
+        "candidate_code": "7226.19.00"
+      }
+    },
+    "source_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_artifact_ids": [
+      "FOR_AGENT_AA_NOES",
+      "FOR_GRAPH_HS_722619_EU_MD"
+    ],
+    "material_legal_propositions": [
+      {
+        "claim_id": "FX_BORDERLINE_NOES_CLIENT_FACT_CLAIM_001",
+        "claim_type": "classification_claim",
+        "claim_scope": "EU",
+        "text": "NOES steel-core classification depends on factual width/coil state and must retain client-fact uncertainty.",
+        "source_anchor_ids": [
+          "WCO_GRI_1",
+          "WCO_GRI_6"
+        ]
+      }
+    ],
+    "required_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6"
+    ],
+    "required_gri_path_elements": [
+      "GRI_1",
+      "GRI_6"
+    ],
+    "competing_codes_considered": [],
+    "rejected_codes": [],
+    "legal_hierarchy_expectations": [
+      "primary_text_before_interpretive_notes",
+      "BTI_support_is_decision_support_not_primary_law",
+      "internal_origin_is_not_legal_authority"
+    ],
+    "source_temporal_context": {
+      "tariff_year": "2025",
+      "validity_basis": "curated EU/WCO/BTI paper-scope fixture"
+    },
+    "review_reason_codes": [
+      "client_fact_required"
+    ],
+    "prohibited_claims": [
+      "internal_candidate_as_legal_authority",
+      "non_eu_scope_controls_pass_fail",
+      "unsupported_final_classification"
+    ],
+    "prohibited_claims_made": [],
+    "ruling_applicability": {}
+  }
+]

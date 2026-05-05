@@ -1,0 +1,527 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-04T13:50:13+00:00",
+  "copy_policy": "copy-only from source repository; no mutation of source repository",
+  "assets": [
+    {
+      "asset_id": "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/national_tariffs/eu/EU - HS - COMMISSION IMPLEMENTING REGULATION (EU) 2025_1926 - EVs.pdf",
+      "harness_relative_path": "data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
+      "sha256": "0b221f5e63c80ae98546ed13bd98aeb7917f5662b55a4e0f70444225a45e414b",
+      "byte_size": 2648955,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_2025_1926_EVS"
+      ],
+      "notes": "Original EU Combined Nomenclature regulation PDF for EV-relevant tariff lines."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/national_tariffs/eu/EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION - EVs.pdf",
+      "harness_relative_path": "data/source_corpus/originals/eu/eu_cn_explanatory_notes_evs.pdf",
+      "sha256": "e17140ebf23882bb423af104c97b1d887329170d16504bf6b94fbc31762ae15f",
+      "byte_size": 1234170,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+      ],
+      "notes": "Original EU CN Explanatory Notes PDF used for interpretive anchors."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_ORIGINAL",
+      "asset_type": "original_csv",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/rulings/eu/bti/EBTI-Sample-Targeted-Test-Run.csv",
+      "harness_relative_path": "data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
+      "sha256": "1f2298a0894077ecbf7d6cf8dcdc17620672eaf2c7a45dc65ffa4fcd3836a00b",
+      "byte_size": 38134,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_BTI_SAMPLE"
+      ],
+      "notes": "Original targeted EU BTI CSV sample."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_GRI_2017_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO-GRI-Rules-2017.pdf",
+      "harness_relative_path": "data/source_corpus/originals/wco/wco_gri_rules_2017.pdf",
+      "sha256": "7b3aa532e8a170b85257d71929f4dfa857fba56255fcea262051c70a57c6aa43",
+      "byte_size": 8088,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_GRI_2017"
+      ],
+      "notes": "Original WCO GRI source PDF."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_84_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
+      "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_84_complex.pdf",
+      "sha256": "0d146bef9020324f9d9bc28be149c8df10992ee6b64c1b195aded7a0aab974ff",
+      "byte_size": 541574,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Original WCO Chapter 84 material used for Section XVI context."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_85_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
+      "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_85_complex.pdf",
+      "sha256": "1f2eada9662f4b6089e6bd90f8c5e50f93f032eabd7ae2a19014c06b711357c5",
+      "byte_size": 463121,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Original WCO Chapter 85 material used for Section XVI and EV electrical classification context."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_87_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 87_complex.pdf",
+      "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_87_complex.pdf",
+      "sha256": "e806a55e1f9808e54b60304de9b77ba6cc15b4a36022f48357e8098654020904",
+      "byte_size": 180487,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVII"
+      ],
+      "notes": "Original WCO Chapter 87 material used for vehicle-parts boundary context."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_90_ORIGINAL",
+      "asset_type": "original_pdf",
+      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 90_complex.pdf",
+      "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_90_complex.pdf",
+      "sha256": "4e9484c1bb2a64e3233e7a6592b1479cfc3e0210e5ae5734299b697b9c6b53be",
+      "byte_size": 237413,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Original WCO Chapter 90 material used for exclusion and note-check context."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_2025_1926_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs.md",
+      "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs.md",
+      "sha256": "768710caa6fab9aa24fddf7fcb050f6522b2a9e163385ea8691a889e46ca2778",
+      "byte_size": 325423,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_2025_1926_EVS"
+      ],
+      "notes": "Parsed EU CN regulation."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs.json",
+      "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs.json",
+      "sha256": "a785efe0945f992f0210e709d9cd894eb62ccdbcc2e56474a44fd9fc5621573b",
+      "byte_size": 4378316,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_2025_1926_EVS"
+      ],
+      "notes": "Parsed EU CN regulation."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs_meta.json",
+      "sha256": "1760303233246d943953aff92767317a1d0bfa42459e3be4bffc12671bedd173",
+      "byte_size": 12291,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_2025_1926_EVS"
+      ],
+      "notes": "Parsed EU CN regulation."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs_normalized.json",
+      "sha256": "5cb21a8f354c73932d856a62bc80473445a380de33b3b4f8dbdebd23965882b4",
+      "byte_size": 3077398,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_2025_1926_EVS"
+      ],
+      "notes": "Parsed EU CN regulation."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_EN_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.md",
+      "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.md",
+      "sha256": "a0613b79621950fa39576b955333566b6e05149ce527c70d654df8f3aead2463",
+      "byte_size": 215080,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+      ],
+      "notes": "Parsed EU CN Explanatory Notes."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_EN_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.json",
+      "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.json",
+      "sha256": "920f2716c55eb08e84c59f3ecae1d106e527c0558e0b902540297e207cbe22e1",
+      "byte_size": 995838,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+      ],
+      "notes": "Parsed EU CN Explanatory Notes."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_EN_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_meta.json",
+      "sha256": "d1bfd144c0eca9de41f446648cc39619c2ca2c8cf1aec5cd91ce14f1179eedea",
+      "byte_size": 82349,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+      ],
+      "notes": "Parsed EU CN Explanatory Notes."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_normalized.json",
+      "sha256": "e9560ddc8b6d9d0ac8eaabd3c1cae59c2cf9b8687cbd72b6680894cc4d0a8535",
+      "byte_size": 258297,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
+      ],
+      "notes": "Parsed EU CN Explanatory Notes."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run.md",
+      "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run.md",
+      "sha256": "71cc980af07ff024485e8c8333b4ed1b7e9007d94acf374064f136bb92ec1c73",
+      "byte_size": 38977,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_BTI_SAMPLE"
+      ],
+      "notes": "Parsed targeted EU BTI sample."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run.json",
+      "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run.json",
+      "sha256": "100b414369e2d09e12bf1b7767aef79cfb1f70bb38a3e3d9ee408560ae7cc848",
+      "byte_size": 87887,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_BTI_SAMPLE"
+      ],
+      "notes": "Parsed targeted EU BTI sample."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run_meta.json",
+      "sha256": "b5ed72cd8860063fa55d7f568ed01138cca383a28b0cddb7e595719fa9e94ef2",
+      "byte_size": 946,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_BTI_SAMPLE"
+      ],
+      "notes": "Parsed targeted EU BTI sample."
+    },
+    {
+      "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run_normalized.json",
+      "sha256": "b274d333c4d14ff7adeaaba912fe8e0d85deceb3d180c12d5d24eb6a095724bc",
+      "byte_size": 875,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_EU_BTI_SAMPLE"
+      ],
+      "notes": "Parsed targeted EU BTI sample."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_GRI_2017_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017.md",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017.md",
+      "sha256": "8930aff380b5981e5645a74cf7c0bcee1e44908161ebaf3ad851a61d183879f8",
+      "byte_size": 4368,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_GRI_2017"
+      ],
+      "notes": "Parsed WCO GRI rules."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_GRI_2017_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017.json",
+      "sha256": "9b4ea4366c0f699caf6cabe88c4ebd7830bdf0a6497da42956e7dbe7cc946adb",
+      "byte_size": 15208,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_GRI_2017"
+      ],
+      "notes": "Parsed WCO GRI rules."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017_meta.json",
+      "sha256": "c156609bff7fb7203671fb12b196c669730e47e3739d1538f0a23ae79fd15611",
+      "byte_size": 1063,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_GRI_2017"
+      ],
+      "notes": "Parsed WCO GRI rules."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017_normalized.json",
+      "sha256": "3a7fe056f329739d344d4266a5da748e1828bb5abe2fa1e6e2246379aa01bd79",
+      "byte_size": 2092,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_GRI_2017"
+      ],
+      "notes": "Parsed WCO GRI rules."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_84_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex.md",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex.md",
+      "sha256": "82ecb6250f1bfc0fca90d94c8b07be75eafd4b84cd117620f48dcd1f0771c20f",
+      "byte_size": 61633,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 84 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_84_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex.json",
+      "sha256": "e969eb8d290635d9e852fd28faafcfe0b8f14d5d4eac2fa7b2732d2068b3a5e6",
+      "byte_size": 652678,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 84 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_84_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex_meta.json",
+      "sha256": "e8f0d7bc9f516983d8c493b329c9e065bc2f30f36a2f39c9bea61afe6db3aab2",
+      "byte_size": 1312,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 84 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_84_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex_normalized.json",
+      "sha256": "d81fe0c14860b820b2a96ccbd75a9195ee483d3489bbfccf53ce5228cc4343dc",
+      "byte_size": 482531,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 84 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_85_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex.md",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex.md",
+      "sha256": "4cfc719485dc1835d823e9d9706c1797ebe9ecde95ed74bb96032ab4e7e5e67e",
+      "byte_size": 44860,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 85 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_85_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex.json",
+      "sha256": "42fca221bf61e55aa846e7148948330afbdec1b49676b87463e0e55d26bcae42",
+      "byte_size": 134097,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 85 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_85_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex_meta.json",
+      "sha256": "a12eeab01b24b028c4ec21c37f6494e4f13b3bf42226c165c33cfac3813fd086",
+      "byte_size": 1313,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 85 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_85_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex_normalized.json",
+      "sha256": "30bf1f351e23e5a254194838ad5bf8a3fef194e0528eb4cbb52cf1875448e3b0",
+      "byte_size": 5039,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 85 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_87_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex.md",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex.md",
+      "sha256": "977dde06dfe1fe2bc92d62003d034264393936e70663e7cb366fe371268a3dbf",
+      "byte_size": 18988,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVII"
+      ],
+      "notes": "Parsed WCO Chapter 87 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_87_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex.json",
+      "sha256": "8cbfa6d8a0d800321f1421242415a1062f1c0456c28e8eed4a38de6961eeaf2a",
+      "byte_size": 127739,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVII"
+      ],
+      "notes": "Parsed WCO Chapter 87 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_87_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex_meta.json",
+      "sha256": "c05c40b68e83ebabd8f057022f461936879e74d27e46472ef7d2a3f03a2a5904",
+      "byte_size": 1261,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVII"
+      ],
+      "notes": "Parsed WCO Chapter 87 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_87_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex_normalized.json",
+      "sha256": "dc76da7370b46a5f1c9131d638e066f4bf7ca7db4c6a606deb63e7133d5abc60",
+      "byte_size": 87767,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVII"
+      ],
+      "notes": "Parsed WCO Chapter 87 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_90_MD",
+      "asset_type": "parsed_markdown",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex.md",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex.md",
+      "sha256": "a4dfa4a1dc0de0ff740c14b601f7fb0380817d11e2dfe3bdf1ab6489a138e5a2",
+      "byte_size": 34093,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 90 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_90_JSON",
+      "asset_type": "parsed_raw_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex.json",
+      "sha256": "a72fbb83fe5546cc50036d1248882aa86e15c4059577cb87c670280e1f2a2c90",
+      "byte_size": 67781,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 90 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_90_META_JSON",
+      "asset_type": "parsed_meta_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex_meta.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex_meta.json",
+      "sha256": "ac3fd10490c1305c8c270af5c2601ee7a9a22bb761229254d1cd0792a0708e15",
+      "byte_size": 1170,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 90 material."
+    },
+    {
+      "asset_id": "SRC_ASSET_WCO_SECTION_90_NORMALIZED_JSON",
+      "asset_type": "parsed_normalized_json",
+      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex_normalized.json",
+      "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex_normalized.json",
+      "sha256": "ded62b9af87dd8315b1fcf9853a80d828602f77b3064aa8975ef19234601c245",
+      "byte_size": 3431,
+      "copied_at": "2026-05-04T13:50:13+00:00",
+      "source_id_links": [
+        "SRC_WCO_SECTION_XVI"
+      ],
+      "notes": "Parsed WCO Chapter 90 material."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_tb3_02",
+  "direction_valid": true,
+  "edge_id": "edge:anode-active-material-graphite:proposes:3801.90",
+  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "source_node_id": "AA_EU_anode-active-material-graphite",
+  "target_node_id": "cn_code:3801-90:eu"
+}

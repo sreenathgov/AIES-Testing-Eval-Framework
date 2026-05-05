@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Cathode Substrate (Al Foil)",
+  "component_ref": "ent_tb3_05",
+  "node_id": "product_component:cathode-substrate-al-foil",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

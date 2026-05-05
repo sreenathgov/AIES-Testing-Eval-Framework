@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "description": "Curated forensic fixture snapshot for the HS legal extraction evaluation harness.",
+  "scope_rule": "EU/WCO/BTI claims are evaluated. US/India material is comparison_only.",
+  "fixture_files": {
+    "good": "data/graph_fixtures/nodes_good.json",
+    "bad": "data/graph_fixtures/nodes_bad.json",
+    "borderline": "data/graph_fixtures/nodes_borderline.json",
+    "edges": "data/graph_fixtures/edges.json"
+  },
+  "fixture_counts": {
+    "good": 5,
+    "bad": 5,
+    "borderline": 5
+  },
+  "admission_rules": [
+    "recognized artifact type",
+    "not README, scratch, log, or notes file",
+    "parseable legal artifact content",
+    "at least one legal proposition, graph node, or route state",
+    "explicit fixture class",
+    "source linkage available or intentionally absent for a bad fixture"
+  ],
+  "canonical_edge_directions": {
+    "describes": ["classification_candidate|statutory_classification_record|engineering_identity_record", "product_component"],
+    "proposes_code": ["classification_candidate|statutory_classification_record", "hs_code"],
+    "classified_as": ["product_component", "hs_code"],
+    "supported_by": ["classification_candidate|statutory_classification_record|ruling_record|hs_code", "source"],
+    "routes": ["handoff_package", "classification_candidate|statutory_classification_record"],
+    "evaluates": ["audit_report", "classification_candidate|statutory_classification_record"],
+    "contains": ["source", "legal_proposition"]
+  },
+  "non_canonical_or_sensitive_edges_excluded": [
+    "eligible_for",
+    "subject_to",
+    "triggers",
+    "sourced_from",
+    "contains_provision"
+  ],
+  "notes": [
+    "The fixture graph is not a full graph export.",
+    "Internal extraction files are artifact origins only, not legal authority.",
+    "The central ontology snapshot in the source repository was not used as canonical truth."
+  ]
+}

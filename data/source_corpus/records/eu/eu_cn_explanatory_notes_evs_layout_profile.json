@@ -1,0 +1,57 @@
+{
+  "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+  "source_type": "two_column_code_note_pdf",
+  "inferred_layout_type": "two-column code/note layout",
+  "visual_engine": "pymupdf",
+  "sample_pages": [
+    {
+      "page": 1,
+      "block_count": 9,
+      "code_like_block_count": 0,
+      "table_header_signal": false,
+      "sample_text": [
+        "II",
+        "(Information)",
+        "INFORMATION FROM EUROPEAN UNION INSTITUTIONS, BODIES, OFFICES AND AGENCIES",
+        "EUROPEAN COMMISSION",
+        "EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION",
+        "(2019/C 0/01)",
+        "Publication made in accordance with Article 9(1) of Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1)",
+        "29.3.2019 EN Official Journal of the European Union C 119/1"
+      ]
+    },
+    {
+      "page": 41,
+      "block_count": 27,
+      "code_like_block_count": 11,
+      "table_header_signal": false,
+      "sample_text": [
+        "8519 81 45 Other",
+        "The explanatory note to subheading 8519 81 35 applies, mutatis mutandis.",
+        "8519 81 95 Other",
+        "The explanatory note to subheading 8519 81 35 applies, mutatis mutandis.",
+        "8522 Parts and accessories suitable for use solely or principally with the apparatus of heading 8519 or 8521",
+        "8522 90 41 and 8522 90 49",
+        "Electronic assemblies",
+        "See the explanatory note to subheading 8443 99 10"
+      ]
+    },
+    {
+      "page": 80,
+      "block_count": 23,
+      "code_like_block_count": 4,
+      "table_header_signal": false,
+      "sample_text": [
+        "CHAPTER 91",
+        "CLOCKS AND WATCHES AND PARTS THEREOF",
+        "9102 Wristwatches, pocket-watches and other watches, including stopwatches, other than those of heading 9101",
+        "This heading includes combinations of a watch with an electronic calculating machine which together have the appearance of a wrist-watch or pocket-watch.",
+        "It does not include electronic calculators with a time-and-date display and an alarm (subheading 8470 10 00, 8470 21 00 or 8470 29 00).",
+        "9111 Watch cases and parts thereof",
+        "Watch straps, bands or bracelets attached to watch cases are classified with the watch-cases. However, when presented with watch-cases but not attached thereto, they are classified under their respective heading in the same way as watch straps, bands or bracelets presented separately (heading 9113).",
+        "9114 Other clock or watch parts"
+      ]
+    }
+  ],
+  "review_flags": []
+}

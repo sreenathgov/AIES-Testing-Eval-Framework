@@ -1,0 +1,54 @@
+{
+  "source_id": "SRC_WCO_SECTION_85",
+  "source_type": "wco_heading_table_pdf",
+  "inferred_layout_type": "WCO heading-code table",
+  "visual_engine": "pymupdf",
+  "sample_pages": [
+    {
+      "page": 1,
+      "block_count": 31,
+      "code_like_block_count": 11,
+      "table_header_signal": false,
+      "sample_text": [
+        "Chapter 85",
+        "Electrical machinery and equipment and parts thereof;",
+        "sound recorders and reproducers, television image and sound recorders and reproducers, and",
+        "parts and accessories of such articles",
+        "Notes.",
+        "1.- This Chapter does not cover :",
+        "(a) Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing,",
+        "footwear or ear pads or other electrically warmed articles worn on or about the person;"
+      ]
+    },
+    {
+      "page": 10,
+      "block_count": 6,
+      "code_like_block_count": 5,
+      "table_header_signal": true,
+      "sample_text": [
+        "Heading H.S. Code",
+        "8517.62 -- Machines for the reception, conversion and transmission or",
+        "regeneration of voice, images or other data, including switching and routing apparatus 8517.69 -- Other - Parts : 8517.71 -- Aerials and aerial reflectors of all kinds; parts suitable for use",
+        "therewith 8517.79 -- Other 85.18 Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio- frequency electric amplifiers; electric sound amplifier sets. 8518.10 - Microphones and stands therefor - Loudspeakers, whether or not mounted in their enclosures : 8518.21 -- Single loudspeakers, mounted in their enclosures 8518.22 -- Multiple loudspeakers, mounted in the same enclosure 8518.29 -- Other 8518.30 - Headphones and earphones, whether or not combined with a",
+        "microphone, and sets consisting of a microphone and one or more loudspeakers 8518.40 - Audio-frequency electric amplifiers 8518.50 - Electric sound amplifier sets 8518.90 - Parts 85.19 Sound recording or reproducing apparatus. 8519.20 - Apparatus operated by coins, banknotes, bank cards, tokens or by",
+        "other means of payment 8519.30 - Turntables (record-decks) - Other apparatus : 8519.81 -- Using magnetic, optical or semiconductor media 8519.89 -- Other [85.20] 85.21 Video recording or reproducing apparatus, whether or not incorporating a video tuner. 8521.10 - Magnetic tape-type 8521.90 - Other"
+      ]
+    },
+    {
+      "page": 19,
+      "block_count": 7,
+      "code_like_block_count": 5,
+      "table_header_signal": true,
+      "sample_text": [
+        "Heading H.S. Code",
+        "85.48 8548.00 Electrical parts of machinery or apparatus, not specified or included elsewhere in this Chapter. 85.49 Electrical and electronic waste and scrap. - Waste and scrap of primary cells, primary batteries and electric",
+        "accumulators; spent primary cells, spent primary batteries and spent electric accumulators : 8549.11 -- Waste and scrap of lead-acid accumulators; spent lead-acid",
+        "accumulators 8549.12 -- Other, containing lead, cadmium or mercury 8549.13 -- Sorted by chemical type and not containing lead, cadmium or",
+        "mercury 8549.14 -- Unsorted and not containing lead, cadmium or mercury 8549.19 -- Other - Of a kind used principally for the recovery of precious metal : 8549.21 -- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs) 8549.29 -- Other - Other electrical and electronic assemblies and printed circuit",
+        "boards : 8549.31 -- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs) 8549.39 -- Other - Other : 8549.91 -- Containing primary cells, primary batteries, electric accumulators, mercury-switches, glass from cathode-ray tubes or other activated glass, or electrical or electronic components containing cadmium, mercury, lead or polychlorinated biphenyls (PCBs) 8549.99 -- Other",
+        "_________________"
+      ]
+    }
+  ],
+  "review_flags": []
+}

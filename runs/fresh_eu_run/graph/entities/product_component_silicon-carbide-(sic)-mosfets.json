@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Silicon Carbide (SiC) MOSFETs",
+  "component_ref": "ent_209",
+  "node_id": "product_component:silicon-carbide-(sic)-mosfets",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ruling_record.schema.json",
+  "title": "Ruling Record",
+  "type": "object",
+  "required": ["artifact_id", "artifact_type", "jurisdiction", "legal_authority_chain", "quoted_span_or_row_ref"],
+  "properties": {
+    "artifact_type": {"const": "ruling_record"},
+    "jurisdiction": {"const": "EU"},
+    "legal_authority_chain": {"type": "array"},
+    "quoted_span_or_row_ref": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "statutory_classification_record.schema.json",
+  "title": "Statutory Classification Record",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "agent_stage",
+    "jurisdiction",
+    "legal_authority_chain",
+    "candidate_hs_code",
+    "gri_path",
+    "handoff_route"
+  ],
+  "properties": {
+    "artifact_type": {"const": "statutory_classification_record"},
+    "agent_stage": {"const": "PTA"},
+    "jurisdiction": {"const": "EU"},
+    "legal_authority_chain": {"type": "array"},
+    "candidate_hs_code": {"type": "string"},
+    "candidate_cn_code": {"type": ["string", "null"]},
+    "gri_path": {"type": "array", "items": {"type": "string"}},
+    "handoff_route": {"type": "string"}
+  }
+}

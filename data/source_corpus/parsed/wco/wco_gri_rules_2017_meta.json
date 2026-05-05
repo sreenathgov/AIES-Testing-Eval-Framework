@@ -1,0 +1,40 @@
+{
+  "source_file": "/private/var/folders/rw/0363ypyd2ksb_3rn6nv80d3w0000gn/T/tmp.GaZYwuHP15/02_hs_classification/wco/WCO-GRI-Rules-2017.pdf",
+  "source_hash": "7b3aa532e8a170b85257d71929f4dfa857fba56255fcea262051c70a57c6aa43",
+  "source_kind": "pdf",
+  "page_count": 1,
+  "table_count": 0,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "GENERAL RULES FOR THE INTERPRETATION OF THE HARMONIZED SYSTEM",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "______________",
+      "page_numbers": [
+        1
+      ]
+    }
+  ],
+  "parse_duration_seconds": 10.02,
+  "docling_version": "2.79.0",
+  "selected_engine": "docling",
+  "complexity_class": "digital_pdf",
+  "route_reason": "Digital PDF detected; use Docling first.",
+  "fallback_chain": [
+    "mistral_ocr"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "legal_statute",
+  "normalized_confidence": 0.82,
+  "normalized_review_flags": [
+    "legal_signal"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

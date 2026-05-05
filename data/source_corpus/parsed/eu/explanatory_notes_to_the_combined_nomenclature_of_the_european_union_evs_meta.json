@@ -1,0 +1,4267 @@
+{
+  "source_file": "/Users/sreenathgovindarajan/Documents/sector-watch/drona/corpus/02_hs_classification/national_tariffs/eu/EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION - EVs.pdf",
+  "source_hash": "e17140ebf23882bb423af104c97b1d887329170d16504bf6b94fbc31762ae15f",
+  "source_kind": "pdf",
+  "page_count": 80,
+  "table_count": 27,
+  "heading_tree": [
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/1",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "II",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "INFORMATION FROM EUROPEAN UNION INSTITUTIONS, BODIES, OFFICES AND AGENCIES",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "EUROPEAN COMMISSION",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/3",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SUMMARY",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/4",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        4
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/5",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/6",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Section  XIV",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/7",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Section  XIX",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/9",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 1,
+      "text": "FOREWORD",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 1,
+      "text": "WORLD CUSTOMS ORGANISATION (WCO)",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Customs Cooperation Council (CCC),",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 1,
+      "text": "30,  rue  du  Marché,",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 1,
+      "text": "B-1210 Brussels",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/11",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 1,
+      "text": "A. General rules for  the  interpretation  of  the  Combined  Nomenclature",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 1,
+      "text": "C. General rules applicable both to nomenclature and to duties",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/13",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION I",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "LIVE ANIMALS; ANIMAL PRODUCTS",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 1",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "LIVE ANIMALS",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/326",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "General",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8402 Steam or other vapour generating boilers (other than central heating hot water boilers capable also of  producing low pressure steam); superheated water boilers",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8402 19 90 Other",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8405 10 00 Producer gas or water gas generators, with or without their purifiers; acetylene gas generators and similar water process gas generators, with or  without their  purifiers",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8407 Spark-ignition reciprocating or  rotary  internal combustion piston engines",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8408 Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8409 Parts  suitable  for  use  solely or  principally  with  the  engines  of  heading  8407  or  8408",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 84",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 1,
+      "text": "NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
+      "page_numbers": [
+        14
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/327",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8409 99 00 Other",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8411 Turbojets, turbopropellers and other gas  turbines",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8411 11 00 Turbojets",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8411 99 00 Other",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8412 Other engines and motors",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8412 21 20 Hydraulic power engines and motors",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8412 21 20 Linear  acting  (cylinders)",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8413 Pumps for liquids, whether or  not fitted with a measuring device; liquid elevators",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8413 50 20 Hydraulic units",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Hydraulic units",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Radial  flow pumps",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8413 60 20",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8413 70 51 to 8413 70 75",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8413 70 81 Other centrifugal pumps",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8413 81 00 and 8413 82 00 Other  pumps; liquid elevators These subheadings do not cover:",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/328",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/329",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8419 Machinery,  plant or  laboratory equipment,  whether  or  not  electrically  heated  (excluding  furnaces, ovens and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilising, pasteurising, steaming, drying, evaporating, vaporising, condensing or cooling, other than machinery or  plant of  a  kind  used  for  domestic  purposes;  instantaneous  or  storage  water  heaters, non-electric",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8419 20 00",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8419 50 20",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Medical, surgical or  laboratory  sterilisers",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Heat-exchange units",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8419 89 10 Cooling towers and similar  plant for direct cooling (without  a separating wall) by means of recirculated water",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/330",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/331",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/332",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8426 Ships'  derricks;  cranes,  including  cable  cranes;  mobile  lifting  frames,  straddle  carriers  and  works trucks  fitted  with  a  crane",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8426 41 00 Other  machinery, self-propelled",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8428 Other  lifting,  handling,  loading  or  unloading  machinery  (for  example,  lifts,  escalators,  conveyors, teleferics)",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8429 Self-propelled  bulldozers,  angledozers,  graders,  levellers,  scrapers,  mechanical  shovels,  excavators, shovel loaders,  tamping  machines and roadrollers",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8429 30 00 Scrapers",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        21
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        21
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        21
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/333",
+      "page_numbers": [
+        21
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/334",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8441 10 70",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8442 30 00",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Machinery, apparatus and equipment",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/335",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Plates, cylinders and other printing components; plates, cylinders and lithographic stones, prepared for printing",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8442 50 00 purposes (for example, planed, grained or  polished)",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8443 Printing machinery used for printing by means of plates, cylinders and other printing components of  heading  8442;  other  printers,  copying  machines  and  facsimile  machines,  whether  or  not",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/336",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8443 99 10 Electronic assemblies",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8445 Machines for preparing textile fibres; spinning, doubling or twisting machines and other machinery for  producing  textile  yarns;  textile  reeling  or  winding  (including  weft-winding)  machines  and machines for  preparing textile yarns for  use on the machines of heading 8446 or 8447",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8446 Weaving machines (looms)",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8447 Knitting  machines,  stitch-bonding  machines  and  machines  for  making  gimped  yarn,  tulle,  lace, embroidery, trimmings, braid or  net  and machines for  tufting",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8447 20 20 Flat  knitting  machines;  stitch-bonding machines",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/337",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Auxiliary machinery for  machines of heading 8444, 8445, 8446 or 8447",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8451 90 00 Parts",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/338",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8456 Machine tools for  working  any material  by removal  of  material,  by  laser  or  other  light  or  photon beam,  ultrasonic, electrodischarge, electrochemical,  electron  beam,  ionic-beam  or plasma  arc processes; water-jet cutting machines",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8456 11 10 Of a kind used solely or principally for the manufacture of printed circuits, printed circuit assemblies, parts of heading 8517, or  parts of automatic data  processing machines",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8456 30 11 Wire-cut",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8457 Machining centres, unit construction machines (single station) and multi-station transfer machines, for  working metal",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8457 10 10 Horizontal",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8457 10 90 Other",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8458 Lathes (including turning centres) for  removing metal",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8459 Machine  tools  (including  way-type  unit  head  machines)  for  drilling,  boring,  milling,  threading  or tapping by removing metal, other  than lathes (including turning centres) of heading 8458",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8459 10 00 Way-type unit head machines",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/339",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other boring-milling machines",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Flat-surface  grinding  machines",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8460 22 00 Other grinding machines",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8460 22 00 Centreless grinding machines, numerically controlled",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8460 23 00 Other cylindrical grinding machines, numerically controlled",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8460 24 00 Other, numerically controlled",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8460 29 10 For cylindrical  surfaces",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/340",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8461 Machine tools for planing, shaping, slotting, broaching, gear cutting, gear grinding or gear finishing, sawing, cutting-off and other machine tools working by removing metal or cermets, not elsewhere specified  or  included",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8461 30 10 Broaching machines",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8461 40 11 For cutting cylindrical gears",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8461 40 31 For cutting other gears",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8461 40 71 and 8461 40 79 Fitted with a micrometric adjusting system, in which the positioning in any one axis can be set up to an accuracy of  at  least  0,01  mm",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8470 10 00 Electronic  calculators  capable  of  operation  without  an  external  source  of  electric  power  and  pocket-size  datarecording, reproducing and displaying machines with calculating functions",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/341",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8470 30 00 Other calculating machines",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8470 90 00 Other",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8471 Automatic  data-processing  machines  and  units  thereof;  magnetic  or  optical  readers,  machines  for transcribing  data  onto  data  media  in  coded  form  and  machines  for  processing  such  data,  not elsewhere specified or  included",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8471 70 30",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Optical,  including  magneto-optical",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8472 Other  office machines  (for  example,  hectograph  or  stencil duplicating  machines,  addressing machines,  automatic  banknote  dispensers,  coin-sorting  machines,  coin-counting  or  -wrapping machines, pencil-sharpening machines, perforating or stapling machines)",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8472 90 90 Other",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8473 Parts  and  accessories  (other  than  covers,  carrying  cases  and  the  like)  suitable  for  use  solely  or principally  with  machines of headings 8470 to 8472",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/342",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8473 21 10 Electronic assemblies",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8473 29 10 Electronic assemblies",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8473 30 20 Parts  and  accessories  of  the  machines  of  heading  8471",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Electronic assemblies",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8473 30 80 Other  parts and accessories  of  the  machines of heading  8471",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Electronic assemblies",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8473 50 20 Electronic assemblies",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8474 80 90 Other",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/343",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8477 Machinery for working rubber or plastics or for the manufacture of products from these materials, not specified or  included elsewhere in this chapter",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8479 Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8479 40 00 Rope- or cable-making machines",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/344",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8481 Taps,  cocks,  valves  and  similar  appliances  for  pipes,  boiler  shells,  tanks,  vats  or  the  like,  including pressure-reducing valves and thermostatically controlled valves",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Combined with filters or lubricators",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8486 Machines and apparatus of a kind used solely or principally for  the manufacture of semiconductor boules  or  wafers,  semiconductor  devices,  electronic  integrated  circuits  or  flat  panel  displays;",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8486 20 00 Machines and apparatus for  the manufacture of semiconductor devices or of electronic integrated circuits",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/345",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Machines and apparatus specified in note 9(C) to this chapter",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/346",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 85",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8501 Electric  motors and generators (excluding generating sets)",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8502 Electric  generating  sets  and  rotary converters",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8502 39 20 Turbo-generators",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8503 00 Parts  suitable  for  use  solely or  principally  with  the  machines  of  heading  8501  or  8502",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 Electrical  transformers,  static  converters  (for  example,  rectifiers)  and  inductors",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/347",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 40 30 Of a kind used with telecommunication apparatus, automatic data-processing machines and units thereof",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Electronic assemblies of machines of subheading 8504 50 20",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 90 91 Electronic assemblies of machines of subheading 8504 40 30",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8506 Primary cells and primary batteries",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8506 10 11",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Cylindrical cells",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8504 90 05",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8505 90 29",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/348",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8506 50 10 Cylindrical cells",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8506 50 30 Button cells",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8507 Electric accumulators, including separators therefor, whether or  not rectangular (including square)",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other lead-acid accumulators",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8507 30 20 Nickel-cadmium",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8507 80 00 Other accumulators",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8507 90 30 Parts",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8509 Electromechanical  domestic  appliances,  with  self-contained  electric  motor,  other  than  vacuum cleaners  of  heading  8508",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8509 80 00 Other appliances",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8510 Shavers, hair  clippers  and  hair-removing appliances,  with  self-contained  electric  motor",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8510 10 00 Shavers",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/349",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8511 40 00 Starter  motors and dual purpose starter-generators",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8512 Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters  and  demisters, of  a  kind  used  for  cycles  or  motor  vehicles",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8512 30 10 Burglar alarms of a kind used for  motor  vehicles",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8514 Industrial  or  laboratory  electric  furnaces  and  ovens  (including  those  functioning  by  induction  or dielectric  loss);  other  industrial  or  laboratory  equipment  for  the  heat  treatment  of  materials  by induction or dielectric loss",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Dielectric  furnaces  and  ovens",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8516 Electric  instantaneous  or  storage  water  heaters  and  immersion  heaters;  electric  space-heating apparatus and soil-heating apparatus; electrothermic hairdressing apparatus (for example, hairdryers, hair  curlers,  curling  tong  heaters)  and  hand  dryers;  electric  smoothing  irons;  other  electrothermic appliances  of  a  kind  used  for  domestic  purposes;  electric  heating  resistors,  other  than  those  of heading 8545",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8516 10 11 Electric  instantaneous  or storage  water  heaters  and  immersion  heaters",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/350",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8516 21 00 Electric  space-heating  apparatus  and  electric  soil-heating  apparatus",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8516 50 00 Microwave ovens",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8516 60 10 Cookers (incorporating at least  an oven and a hob)",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Electric  heating  resistors",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8517 Telephone  sets,  including  telephones  for  cellular  networks  or  for  other  wireless  networks;  other apparatus for  the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local- or wide-area network), other than transmission or  reception apparatus of heading 8443, 8525, 8527 or 8528",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8517 12 00 Telephones for cellular  networks  or  for other  wireless  networks",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/351",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8517 62 00 Machines  for  the  reception,  conversion  and  transmission  or  regeneration  of  voice,  images  or  other  data, including switching and routing apparatus",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Videophones",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/352",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8517 69 30 Reception apparatus for  radio-telephony or  radio-telegraphy",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8517 69 90 Other",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8518 Microphones  and  stands  therefor;  loudspeakers,  whether  or  not  mounted  in  their  enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone  and  one  or  more  loudspeakers;  audio-frequency  electric  amplifiers;  electric  sound amplifier sets",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8519 Sound recording or  reproducing apparatus",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8519 81 15 Pocket-size  cassette-players",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/353",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8519 81 45 Other",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8519 81 95 Other",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8522 Parts  and  accessories  suitable  for  use  solely  or  principally  with  the  apparatus  of  heading  8519  or 8521",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8522 90 41 and 8522 90 49 Electronic assemblies See  the  explanatory  note  to  subheading  8443 99 10",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8523 Discs, tapes, solid-state non-volatile storage devices, 'smart cards' and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and masters for the production of discs, but excluding products of Chapter 37",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8523 21 00 Cards incorporating a magnetic stripe",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8523 29 15 Unrecorded",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8523 41 10 Discs for laser  reading  systems of  a  recording  capacity  not  exceeding  900 megabytes, other  than  erasable",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8523 41 30 Discs for laser reading systems of a recording capacity exceeding 900 megabytes but not exceeding 18 gigabytes, other  than erasable",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/354",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/355",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/356",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        45
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        45
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        45
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/357",
+      "page_numbers": [
+        45
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/358",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8531 Electric sound or  visual signalling apparatus (for example, bells, sirens, indicator  panels, burglar or fire  alarms),  other  than  those  of  heading  8512  or  8530",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8531 10 30 Burglar and fire alarms and similar apparatus",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8531 20 20 Indicator  panels  incorporating liquid crystal devices  (LCD)  or  light-emitting  diodes (LED)",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8531 90 00 Parts",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8534 00 Printed circuits",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 Electrical apparatus for switching or protecting electrical circuits, or for  making connections to or in  electrical  circuits  (for  example,  switches,  relays,  fuses,  surge  suppressors,  plugs,  sockets,  lamp holders and other connectors, junction boxes), for a voltage not exceeding 1 000 V; connectors for optical  fibres,  optical-fibre  bundles  or  cables",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/359",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 50 11",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Push-button switches",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Figure  1 :",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Figure  2 :",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/360",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 69 10",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 1,
+      "text": "For coaxial  cables",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/361",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 69 30 For  printed  circuits",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/362",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 90 01",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 70 00 Connectors for optical fibres, optical-fibre bundles or cables",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Prefabricated elements for electrical circuits",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/363",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8537 10 98",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8536 90 10 Connections and contact elements for  wires and cables",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8537 10 91 Programmable memory controllers",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8538 Parts  suitable  for  use  solely or  principally  with  the  apparatus  of  heading  8535,  8536  or  8537",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8538 90 11 Electronic assemblies",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/364",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8538 90 91 Electronic assemblies",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8539 Electric  filament  or  discharge  lamps,  including  sealed  beam  lamp  units  and  ultraviolet  or  infra-red lamps; arc lamps; light-emitting  diode (LED) lamps",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8539 21 30 Other filament lamps, excluding ultraviolet or  infra-red lamps",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8539 31 10 Discharge lamps, other  than ultraviolet lamps",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8539 41 00 Ultraviolet or  infra-red  lamps;  arc  lamps",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/365",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8540 Thermionic, cold cathode or photocathode valves and tubes (for example, vacuum or vapour or gasfilled valves and tubes, mercury arc rectifying valves and tubes, cathode ray tubes, television camera tubes)",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Colour",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8540 60 00 Other cathode ray tubes",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8540 71 00 and 8540 79 00 Microwave  tubes  (for  example,  magnetrons,  klystrons,  travelling  wave  tubes,  carcinotrons),  excluding  gridcontrolled tubes",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8540 81 00 Other  valves and tubes",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8541 Diodes,  transistors  and  similar  semiconductor  devices;  photosensitive  semiconductor  devices, including  photovoltaic  cells  whether  or  not  assembled  in  modules  or  made  up  into  panels;  lightemitting diodes (LED); mounted piezoelectric crystals",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8541 40 90 Other",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/366",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8541 90 00",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Parts",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8542 Electronic  integrated  circuits",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8542 31 11 to Processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits,  or other  circuits",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/367",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8542 31 11 Goods specified in note 9(b)(3 and 4) to this chapter",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8542 32 11 Goods specified in note 9(b)(3 and 4) to this chapter",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8542 32 45 Static  random-access memories (S-RAMs), including cache random-access memories (cache-RAMs)",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8542 32 90 Other  memories",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/368",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8543 Electrical machines and apparatus, having individual functions, not specified or included elsewhere in  this  chapter",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/369",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8544 Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric  conductors,  whether  or  not  fitted  with  connectors;  optical-fibre  cables,  made  up  of individually  sheathed  fibres,  whether  or  not  assembled  with  electric  conductors  or  fitted  with connectors",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8544 42 10 Of a kind used for  telecommunications",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8544 49 20 Of a kind used for  telecommunications, for a voltage  not exceeding 80 V",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/370",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8544 70 00 Optical-fibre cables",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/371",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/372",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION XVII",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 86",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "RAILWAY OR TRAMWAY LOCOMOTIVES, ROLLING STOCK AND PARTS THEREOF; RAILWAY OR TRAMWAY TRACK FIXTURES AND FITTINGS AND PARTS THEREOF; MECHANICAL (INCLUDING ELECTROMECHANICAL) TRAFFIC SIGNALLING EQUIPMENT OF ALL KINDS",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8602 Other  rail  locomotives;  locomotive tenders",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8602 10 00 Diesel-electric  locomotives",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8603 Self-propelled  railway or  tramway coaches, vans and trucks,  other  than those of heading 8604",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8603 10 00 Powered from an external source of electricity",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8606 Railway or  tramway goods vans and wagons, not self-propelled",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8606 91 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8606 91 80 Other",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8607 Parts  of  railway or  tramway  locomotives or  rolling stock",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8607 11 00 Bogies,  bissel-bogies,  axles  and  wheels,  and  parts  thereof",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/374",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 1,
+      "text": "General",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 87",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 1,
+      "text": "VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        62
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        62
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        62
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/375",
+      "page_numbers": [
+        62
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/376",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 1,
+      "text": "2. Of  the  van-type:",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8703 21 10 Other  vehicles, with only spark-ignition internal combustion  reciprocating piston engine",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8703 31 10 Other  vehicles, with only compression-ignition internal combustion piston engine (diesel or semi-diesel)",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 Motor vehicles for  the transport of goods",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Dumpers designed for off-highway use",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/377",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 21 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 21 31 Other",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 22 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 23 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 31 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 31 31 Other",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8704 32 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        64
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/378",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8707 Bodies (including cabs), for  the motor  vehicles  of  headings  8701 to 8705",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8707 10 10 For  industrial  assembly  purposes",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8708 Parts  and  accessories  of  the  motor  vehicles  of  headings  8701  to 8705",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8708 80 55 Anti-roll  bars;  other  torsion  bars",
+      "page_numbers": [
+        65
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/379",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8713 Carriages for disabled persons, whether or  not motorised or otherwise mechanically propelled",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8713 90 00 Other",
+      "page_numbers": [
+        66
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/380",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 Parts  and  accessories  of  vehicles  of  headings  8711  to 8713",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Other",
+      "page_numbers": [
+        67
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/381",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 94 20 Brakes",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 94 90 Parts",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 96 30 Crank-gear",
+      "page_numbers": [
+        68
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/382",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 99 50",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Derailleur gears",
+      "page_numbers": [
+        69
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019 EN Official  Journal  of  the  European  Union C  119/383",
+      "page_numbers": [
+        70
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8714 99 90 Other; parts",
+      "page_numbers": [
+        70
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8716 Trailers  and  semi-trailers;  other  vehicles,  not  mechanically  propelled;  parts  thereof",
+      "page_numbers": [
+        70
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8716 10 92 Trailers  and  semi-trailers  of  the  caravan  type,  for  housing  or  camping",
+      "page_numbers": [
+        70
+      ]
+    },
+    {
+      "level": 1,
+      "text": "8716 39 10 Specially  designed for  the  transport of  highly  radioactive materials  ( Euratom )",
+      "page_numbers": [
+        70
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/384",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 88",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 1,
+      "text": "AIRCRAFT, SPACECRAFT, AND PARTS THEREOF",
+      "page_numbers": [
+        71
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/386",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION XVIII",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; CLOCKS AND WATCHES; MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 90",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Optical fibres,  optical-fibre  bundles  and  cables",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9001 20 00 Sheets and plates of polarising material",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9001 90 00 Other",
+      "page_numbers": [
+        72
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        73
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        73
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        73
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/387",
+      "page_numbers": [
+        73
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9004 Spectacles, goggles  and the like,  corrective,  protective  or  other",
+      "page_numbers": [
+        73
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/388",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9018 50 10",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Non-optical",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9018 90 84 Other",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9021 Orthopaedic  appliances,  including  crutches,  surgical  belts  and  trusses;  splints  and  other  fracture appliances; artificial parts of the body; hearing aids and other appliances which are worn or carried,",
+      "page_numbers": [
+        74
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/389",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9021 10 10 Orthopaedic appliances",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Examples of products falling under subheading 9021 10 10:",
+      "page_numbers": [
+        75
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/390",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Examples of products falling under Section XI:",
+      "page_numbers": [
+        76
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/391",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9022 12 00 Computed tomography apparatus",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9022 90 20 Parts  and  accessories  of  apparatus  based  on  the  use  of  X-rays",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9025 11 20 Liquid-filled,  for  direct  reading",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9026 20 20 For  measuring or checking pressure",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9027 10 10 Electronic",
+      "page_numbers": [
+        77
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/392",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9030 Oscilloscopes, spectrum analysers and other instruments and apparatus for measuring or checking electrical quantities, excluding meters of heading 9028; instruments and apparatus for measuring or detecting alpha, beta,  gamma, X-ray, cosmic or other  ionising  radiation",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9030 20 00 Oscilloscopes and oscillographs",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9030 39 00 Other, with a recording device",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9030 82 00 For  measuring or checking semiconductor  wafers or devices",
+      "page_numbers": [
+        78
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/393",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9031 Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this  chapter;  profile  projectors",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9031 20 00 Test  benches",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9031 80 20 For  measuring or checking geometrical quantities",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C  119/394",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Official  Journal  of  the  European  Union",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 2,
+      "text": "29.3.2019",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 91",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CLOCKS AND WATCHES AND PARTS THEREOF",
+      "page_numbers": [
+        80
+      ]
+    },
+    {
+      "level": 1,
+      "text": "9114 90 00 Other",
+      "page_numbers": [
+        80
+      ]
+    }
+  ],
+  "parse_duration_seconds": 173.06,
+  "docling_version": "2.79.0",
+  "selected_engine": "docling",
+  "complexity_class": "digital_pdf",
+  "route_reason": "Digital PDF detected; use Docling first.",
+  "fallback_chain": [],
+  "fallback_used": false,
+  "normalized_document_class": "tariff_schedule",
+  "normalized_confidence": 0.95,
+  "normalized_review_flags": [
+    "table_heavy_tariff_layout",
+    "tariff_specific_adapter"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

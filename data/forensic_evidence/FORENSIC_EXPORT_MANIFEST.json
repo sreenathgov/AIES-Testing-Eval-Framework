@@ -1,0 +1,381 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-04T13:50:13+00:00",
+  "legal_authority_rule": "forensic artifacts evidence origin only and cannot satisfy legal authority",
+  "artifacts": [
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_OBC",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/on-board-charger-(obc)_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_on_board_charger_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_GOOD_OBC_AA_EU",
+        "FX_BAD_OBC_EDGE_DIRECTION"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind OBC good and graph-parity fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "e0918cc103445b6bdffe8caf7df9c10a21eb66adf29f7fad90287b159643d187",
+      "byte_size": 3616,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_HV_CONNECTORS",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/high-voltage-connectors_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_high_voltage_connectors_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_GOOD_HV_CONNECTORS_EU"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind high-voltage connector fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "5213d6d55347cbef6804792c2d66d639c9ada13ad461c48408084f926d639a21",
+      "byte_size": 5036,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_TRACTION_INVERTER",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/traction-inverter-module_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_traction_inverter_module_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_GOOD_TRACTION_INVERTER_EU"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind traction inverter fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "8e891f99725aef6fd1635fd6f679b32687feac97f02a410d6d391a94ff5b7a8a",
+      "byte_size": 4462,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_HV_BATTERY_PACK",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/high-voltage-battery-pack-assembly_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_high_voltage_battery_pack_assembly_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_GOOD_HV_BATTERY_PACK_BTI_EU",
+        "FX_BAD_HV_BATTERY_PACK_PTA_OVERREACH",
+        "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind HV battery pack fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "3b836c892bb5813ba67e33a3411dc31e776f3f650ff96cd1ab6ad62cd1723431",
+      "byte_size": 3230,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_LI_ION_CELL",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/lithium-ion-battery-cell_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_lithium_ion_battery_cell_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_GOOD_LI_ION_CELL_EU",
+        "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind lithium-ion cell fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "aa76e2eb75823ee743ddcf790267898200798115ac0ef690b211595c2a146e7b",
+      "byte_size": 2784,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_SEPARATOR",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/separator-pe-pp-film_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_separator_pe_pp_film_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_BAD_SEPARATOR_CONFIDENCE_INFLATION",
+        "FX_BORDERLINE_SEPARATOR_DIVERGENCE"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind separator divergence and confidence fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "d89d185b3c5f4eadb640019ddf399a30861f86044ec827c85d7d51f45aa6ddea",
+      "byte_size": 7600,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_INTEGRATED_E_AXLE",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/integrated-e-axle_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_integrated_e_axle_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind comparison-only divergence fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "5e11ff50383834e801dd02151c3ca7441d197cd7aa805b25892f9b26ee467bda",
+      "byte_size": 7774,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_AA_NOES",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/aa/silicon-alloyed-electrical-steel-core-noes_classification_candidate.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_silicon_alloyed_electrical_steel_core_noes_classification_candidate.md",
+      "linked_fixture_ids": [
+        "FX_BORDERLINE_NOES_CLIENT_FACT"
+      ],
+      "reason_for_inclusion": "AA classification candidate behind client-fact dependent fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "e9e57c9fa06248af3e410c6daabb9b0184b00ec525a6869e70693c860f0edb29",
+      "byte_size": 5969,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_PTA_HV_BATTERY_PACK_EU",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/pta/high-voltage-battery-pack-assembly_eu.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/pta_high_voltage_battery_pack_assembly_eu.md",
+      "linked_fixture_ids": [
+        "FX_BAD_HV_BATTERY_PACK_PTA_OVERREACH",
+        "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW"
+      ],
+      "reason_for_inclusion": "PTA statutory artifact used to test PTA overreach and GRI 3(b) handoff safety.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "feaeab6d9870733658c317875d5e55d58b5310beb98972ca8026146bf7b777bd",
+      "byte_size": 1906,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_AGENT_PRA_EU_BTI",
+      "artifact_type": "sanitized_agent_artifact",
+      "original_source_path": "drona/staging/d-class-hs/pra/eu_bti_ebti_sample_ruling_record.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/pra_eu_bti_ebti_sample_ruling_record.md",
+      "linked_fixture_ids": [
+        "FX_GOOD_HV_BATTERY_PACK_BTI_EU"
+      ],
+      "reason_for_inclusion": "PRA ruling record used to test BTI-backed authority handling.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "e24e9209673c67dd96490edc5c8428f867f6980d9dfc98f95f57ab9aa2b05ecc",
+      "byte_size": 2031,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_PC_LI_ION_CELL",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/staging/entities/product_component-lithium-ion-battery-cell.json",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/product_component_lithium_ion_battery_cell.json",
+      "linked_fixture_ids": [
+        "FX_GOOD_LI_ION_CELL_EU",
+        "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE"
+      ],
+      "reason_for_inclusion": "Product-component graph node used for anti-overloading fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "86146054322579b3fd798bb12f7208e7032e9a0a7e5d3e395ef75b6cb68e934a",
+      "byte_size": 1106,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_PC_OBC",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/staging/entities/product_component-on-board-charger-obc.json",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/product_component_on_board_charger_obc.json",
+      "linked_fixture_ids": [
+        "FX_GOOD_OBC_AA_EU",
+        "FX_BAD_OBC_EDGE_DIRECTION"
+      ],
+      "reason_for_inclusion": "Product-component graph node used for OBC graph-parity fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "64194ab847d061b12d9465fd83220a48a4d5c109e5dda9e3163a679a7c18fa5f",
+      "byte_size": 1044,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_85044084_EU",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/staging/entities/hs_code-8504-40-84-eu.json",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8504_40_84_eu.json",
+      "linked_fixture_ids": [
+        "FX_BAD_HS_85044084_INTERNAL_AUTHORITY"
+      ],
+      "reason_for_inclusion": "HS-code graph node used to test internal-source-only authority failure.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "d993e70e796bc2e49e55f7964f87c3bf39afcd5f5414a13231e98e6e6bb669b6",
+      "byte_size": 715,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_85044090_EU",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/staging/entities/hs_code-8504-40-90-eu.json",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8504_40_90_eu.json",
+      "linked_fixture_ids": [
+        "FX_GOOD_OBC_AA_EU",
+        "FX_BAD_OBC_EDGE_DIRECTION",
+        "FX_BAD_UNSUPPORTED_PROMOTION"
+      ],
+      "reason_for_inclusion": "HS-code graph node used for OBC and unsupported-promotion fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "00d337013e54d67d095598c2a25bc6cff99099ab019fd314cdc76ae86777b6ce",
+      "byte_size": 675,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_85076000_EU",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/staging/entities/hs_code-8507-60-00-eu.json",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8507_60_00_eu.json",
+      "linked_fixture_ids": [
+        "FX_GOOD_HV_BATTERY_PACK_BTI_EU",
+        "FX_GOOD_LI_ION_CELL_EU",
+        "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE"
+      ],
+      "reason_for_inclusion": "HS-code graph node used for battery fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "442f7f817c596ed69910c2ac5457fcf4d5a1aab710c11d4ae42aec4369df9686",
+      "byte_size": 664,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_85366990_EU",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/staging/entities/hs_code-8536-69-90-eu.json",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8536_69_90_eu.json",
+      "linked_fixture_ids": [
+        "FX_GOOD_HV_CONNECTORS_EU"
+      ],
+      "reason_for_inclusion": "HS-code graph node used for connector fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "07df4e33fb1002ec2506abaf95d686f774ed951e9609e5b73f4f20a6e9341760",
+      "byte_size": 695,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_85079031_EU_MD",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/knowledge/staging/hs_code-8507-90-31-eu.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8507_90_31_eu.md",
+      "linked_fixture_ids": [
+        "FX_BAD_SEPARATOR_CONFIDENCE_INFLATION",
+        "FX_BORDERLINE_SEPARATOR_DIVERGENCE"
+      ],
+      "reason_for_inclusion": "Markdown graph node used for separator fixtures.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "d20c6f0490d7de3d8663722972d7fcda69300cdb0d3295d76158d5fa28a0d5b8",
+      "byte_size": 2064,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_87089997_EU_MD",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/knowledge/staging/hs_code-8708-99-97-eu.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8708_99_97_eu.md",
+      "linked_fixture_ids": [
+        "FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY"
+      ],
+      "reason_for_inclusion": "Markdown graph node used for integrated e-axle comparison fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "c611ac89d1f1500ddd117bff730730220fbda5808ae1623f376af19ecda539e0",
+      "byte_size": 2487,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    },
+    {
+      "forensic_artifact_id": "FOR_GRAPH_HS_722619_EU_MD",
+      "artifact_type": "sanitized_graph_artifact",
+      "original_source_path": "drona/knowledge/staging/hs_code-7226-19-eu.md",
+      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_7226_19_eu.md",
+      "linked_fixture_ids": [
+        "FX_BORDERLINE_NOES_CLIENT_FACT"
+      ],
+      "reason_for_inclusion": "Markdown graph node used for NOES client-fact fixture.",
+      "sanitization_actions": [
+        "removed absolute local paths",
+        "neutralized internal product/company names",
+        "added reviewer-scope banner"
+      ],
+      "legal_authority_role": "artifact_origin_only",
+      "sha256": "8f18dcb736f63c675297b9d320fccbe9267d8027d658a904696a5ff2ea44f1df",
+      "byte_size": 1302,
+      "copied_at": "2026-05-04T13:50:13+00:00"
+    }
+  ]
+}

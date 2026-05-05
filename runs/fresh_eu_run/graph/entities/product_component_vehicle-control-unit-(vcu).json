@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Vehicle Control Unit (VCU)",
+  "component_ref": "ent_218",
+  "node_id": "product_component:vehicle-control-unit-(vcu)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

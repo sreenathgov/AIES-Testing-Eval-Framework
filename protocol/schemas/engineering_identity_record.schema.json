@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "engineering_identity_record.schema.json",
+  "title": "Engineering Identity Record",
+  "type": "object",
+  "required": ["artifact_id", "artifact_type", "component_id", "artifact_origin", "legal_proposition"],
+  "properties": {
+    "artifact_id": {"type": "string"},
+    "artifact_type": {"const": "engineering_identity_record"},
+    "component_id": {"type": "string"},
+    "artifact_origin": {"type": "object"},
+    "legal_proposition": {"type": "string"},
+    "known_issue_tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

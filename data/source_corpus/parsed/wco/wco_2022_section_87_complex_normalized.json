@@ -1,0 +1,3011 @@
+{
+  "document_class": "tariff_schedule",
+  "normalizer_name": "tariff_document",
+  "normalizer_version": "1.0.0",
+  "confidence": 0.95,
+  "review_flags": [
+    "table_heavy_tariff_layout",
+    "tariff_specific_adapter"
+  ],
+  "payload": {
+    "metrics": {
+      "node_count": 120,
+      "coded_node_count": 109,
+      "leaf_count": 0,
+      "label_count": 11,
+      "merged_continuations": 0,
+      "duplicate_rows_skipped": 0,
+      "review_node_count": 16
+    },
+    "warnings": [],
+    "nodes": [
+      {
+        "node_id": "tariff-node-0001",
+        "code": "870110",
+        "heading_code": "8701",
+        "hs6_code": "870110",
+        "item_code": null,
+        "description": "- Single axle tractors- Road tractors for semi-trailers :",
+        "unit": null,
+        "node_type": "coded_group",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 1,
+        "raw_row": [
+          "87.01",
+          "8701.10",
+          "- Single axle tractors- Road tractors for semi-trailers :"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0002",
+        "code": "870121",
+        "heading_code": "8701",
+        "hs6_code": "870121",
+        "item_code": null,
+        "description": "-- With only compression-ignition internal combustion piston engine (diesel or semi-diesel)",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 2,
+        "raw_row": [
+          "",
+          "8701.21",
+          "-- With only compression-ignition internal combustion piston engine (diesel or semi-diesel)"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0003",
+        "code": "870122",
+        "heading_code": "8701",
+        "hs6_code": "870122",
+        "item_code": null,
+        "description": "-- With both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 3,
+        "raw_row": [
+          "",
+          "8701.22",
+          "-- With both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0004",
+        "code": "870123",
+        "heading_code": "8701",
+        "hs6_code": "870123",
+        "item_code": null,
+        "description": "-- With both spark-ignition internal combustion piston engine and electric motor as motors for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 4,
+        "raw_row": [
+          "",
+          "8701.23",
+          "-- With both spark-ignition internal combustion piston engine and electric motor as motors for propulsion"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0005",
+        "code": "870124",
+        "heading_code": "8701",
+        "hs6_code": "870124",
+        "item_code": null,
+        "description": "-- With only electric motor for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 5,
+        "raw_row": [
+          "",
+          "8701.24",
+          "-- With only electric motor for propulsion"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0006",
+        "code": "870129",
+        "heading_code": "8701",
+        "hs6_code": "870129",
+        "item_code": null,
+        "description": "-- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 6,
+        "raw_row": [
+          "",
+          "8701.29",
+          "-- Other"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0007",
+        "code": "870130",
+        "heading_code": "8701",
+        "hs6_code": "870130",
+        "item_code": null,
+        "description": "- Track-laying tractors- Other, of an engine power :",
+        "unit": null,
+        "node_type": "coded_group",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 7,
+        "raw_row": [
+          "",
+          "8701.30",
+          "- Track-laying tractors- Other, of an engine power :"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0008",
+        "code": "870191",
+        "heading_code": "8701",
+        "hs6_code": "870191",
+        "item_code": null,
+        "description": "-- Not exceeding 18 kW",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 8,
+        "raw_row": [
+          "",
+          "8701.91",
+          "-- Not exceeding 18 kW"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0009",
+        "code": "870192",
+        "heading_code": "8701",
+        "hs6_code": "870192",
+        "item_code": null,
+        "description": "-- Exceeding 18 kW but not exceeding 37 kW",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 9,
+        "raw_row": [
+          "",
+          "8701.92",
+          "-- Exceeding 18 kW but not exceeding 37 kW"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0010",
+        "code": "870193",
+        "heading_code": "8701",
+        "hs6_code": "870193",
+        "item_code": null,
+        "description": "-- Exceeding 37 kW but not exceeding 75 kW",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 10,
+        "raw_row": [
+          "",
+          "8701.93",
+          "-- Exceeding 37 kW but not exceeding 75 kW"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0011",
+        "code": "870194",
+        "heading_code": "8701",
+        "hs6_code": "870194",
+        "item_code": null,
+        "description": "-- Exceeding 75 kW but not exceeding 130 kW",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 11,
+        "raw_row": [
+          "",
+          "8701.94",
+          "-- Exceeding 75 kW but not exceeding 130 kW"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0012",
+        "code": "870195",
+        "heading_code": "8701",
+        "hs6_code": "870195",
+        "item_code": null,
+        "description": "-- Exceeding 130 kW",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          1
+        ],
+        "source_table_id": "tbl-0.html",
+        "source_row_index": 12,
+        "raw_row": [
+          "",
+          "8701.95",
+          "-- Exceeding 130 kW"
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0013",
+        "code": "8702",
+        "heading_code": "8702",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Motor vehicles for the transport of ten or more persons, including the driver.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 1,
+        "raw_row": [
+          "87.02",
+          "",
+          "Motor vehicles for the transport of ten or more persons, including the driver."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0014",
+        "code": "870210",
+        "heading_code": "8702",
+        "hs6_code": "870210",
+        "item_code": null,
+        "description": "- With only compression-ignition internal combustion piston engine (diesel or semi-diesel)",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0013",
+        "parent_code": "8702",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 2,
+        "raw_row": [
+          "8702.10",
+          "- With only compression-ignition internal combustion piston engine (diesel or semi-diesel)"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0015",
+        "code": "870220",
+        "heading_code": "8702",
+        "hs6_code": "870220",
+        "item_code": null,
+        "description": "- With both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0013",
+        "parent_code": "8702",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 3,
+        "raw_row": [
+          "8702.20",
+          "- With both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0016",
+        "code": "870230",
+        "heading_code": "8702",
+        "hs6_code": "870230",
+        "item_code": null,
+        "description": "- With both spark-ignition internal combustion piston engine and electric motor as motors for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0013",
+        "parent_code": "8702",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 4,
+        "raw_row": [
+          "8702.30",
+          "- With both spark-ignition internal combustion piston engine and electric motor as motors for propulsion"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0017",
+        "code": "870240",
+        "heading_code": "8702",
+        "hs6_code": "870240",
+        "item_code": null,
+        "description": "- With only electric motor for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0013",
+        "parent_code": "8702",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 5,
+        "raw_row": [
+          "8702.40",
+          "- With only electric motor for propulsion"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0018",
+        "code": "870290",
+        "heading_code": "8702",
+        "hs6_code": "870290",
+        "item_code": null,
+        "description": "- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0013",
+        "parent_code": "8702",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 6,
+        "raw_row": [
+          "8702.90",
+          "- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0019",
+        "code": "8703",
+        "heading_code": "8703",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Motor cars and other motor vehicles principally designed for the transport of persons (other than those of heading 87.02), including station wagons and racing cars.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 7,
+        "raw_row": [
+          "87.03",
+          "",
+          "Motor cars and other motor vehicles principally designed for the transport of persons (other than those of heading 87.02), including station wagons and racing cars."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0020",
+        "code": "870310",
+        "heading_code": "8703",
+        "hs6_code": "870310",
+        "item_code": null,
+        "description": "- Vehicles specially designed for travelling on snow; golf cars and similar vehicles",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 8,
+        "raw_row": [
+          "8703.10",
+          "- Vehicles specially designed for travelling on snow; golf cars and similar vehicles"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0021",
+        "code": null,
+        "heading_code": "8703",
+        "hs6_code": "870310",
+        "item_code": null,
+        "description": "- Other vehicles, with only spark-ignition internal combustion piston engine :",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0020",
+        "parent_code": "870310",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 9,
+        "raw_row": [
+          "",
+          "- Other vehicles, with only spark-ignition internal combustion piston engine :"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0022",
+        "code": "870321",
+        "heading_code": "8703",
+        "hs6_code": "870321",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity not exceeding 1,000 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 10,
+        "raw_row": [
+          "8703.21",
+          "-- Of a cylinder capacity not exceeding 1,000 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0023",
+        "code": "870322",
+        "heading_code": "8703",
+        "hs6_code": "870322",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity exceeding 1,000 cc but not exceeding 1,500 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 11,
+        "raw_row": [
+          "8703.22",
+          "-- Of a cylinder capacity exceeding 1,000 cc but not exceeding 1,500 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0024",
+        "code": "870323",
+        "heading_code": "8703",
+        "hs6_code": "870323",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity exceeding 1,500 cc but not exceeding 3,000 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 12,
+        "raw_row": [
+          "8703.23",
+          "-- Of a cylinder capacity exceeding 1,500 cc but not exceeding 3,000 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0025",
+        "code": "870324",
+        "heading_code": "8703",
+        "hs6_code": "870324",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity exceeding 3,000 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 13,
+        "raw_row": [
+          "8703.24",
+          "-- Of a cylinder capacity exceeding 3,000 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0026",
+        "code": null,
+        "heading_code": "8703",
+        "hs6_code": "870324",
+        "item_code": null,
+        "description": "- Other vehicles, with only compression-ignition internal combustion piston engine (diesel or semi-diesel) :",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0025",
+        "parent_code": "870324",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 14,
+        "raw_row": [
+          "",
+          "- Other vehicles, with only compression-ignition internal combustion piston engine (diesel or semi-diesel) :"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0027",
+        "code": "870331",
+        "heading_code": "8703",
+        "hs6_code": "870331",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity not exceeding 1,500 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 15,
+        "raw_row": [
+          "8703.31",
+          "-- Of a cylinder capacity not exceeding 1,500 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0028",
+        "code": "870332",
+        "heading_code": "8703",
+        "hs6_code": "870332",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity exceeding 1,500 cc but not exceeding 2,500 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 16,
+        "raw_row": [
+          "8703.32",
+          "-- Of a cylinder capacity exceeding 1,500 cc but not exceeding 2,500 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0029",
+        "code": "870333",
+        "heading_code": "8703",
+        "hs6_code": "870333",
+        "item_code": null,
+        "description": "-- Of a cylinder capacity exceeding 2,500 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 17,
+        "raw_row": [
+          "8703.33",
+          "-- Of a cylinder capacity exceeding 2,500 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0030",
+        "code": "870340",
+        "heading_code": "8703",
+        "hs6_code": "870340",
+        "item_code": null,
+        "description": "- Other vehicles, with both spark-ignition internal combustion piston engine and electric motor as motors for propulsion, other than those capable of being charged by plugging to external source of electric power",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 18,
+        "raw_row": [
+          "8703.40",
+          "- Other vehicles, with both spark-ignition internal combustion piston engine and electric motor as motors for propulsion, other than those capable of being charged by plugging to external source of electric power"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0031",
+        "code": "870350",
+        "heading_code": "8703",
+        "hs6_code": "870350",
+        "item_code": null,
+        "description": "- Other vehicles, with both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion, other than those capable of being charged by plugging to external source of electric power",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 19,
+        "raw_row": [
+          "8703.50",
+          "- Other vehicles, with both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion, other than those capable of being charged by plugging to external source of electric power"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0032",
+        "code": "870360",
+        "heading_code": "8703",
+        "hs6_code": "870360",
+        "item_code": null,
+        "description": "- Other vehicles, with both spark-ignition internal combustion piston engine and electric motor as motors for propulsion, capable of being charged by plugging to external source of electric power",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 20,
+        "raw_row": [
+          "8703.60",
+          "- Other vehicles, with both spark-ignition internal combustion piston engine and electric motor as motors for propulsion, capable of being charged by plugging to external source of electric power"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0033",
+        "code": "870370",
+        "heading_code": "8703",
+        "hs6_code": "870370",
+        "item_code": null,
+        "description": "- Other vehicles, with both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion, capable of being charged by plugging to external source of electric power",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 21,
+        "raw_row": [
+          "8703.70",
+          "- Other vehicles, with both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion, capable of being charged by plugging to external source of electric power"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0034",
+        "code": "870380",
+        "heading_code": "8703",
+        "hs6_code": "870380",
+        "item_code": null,
+        "description": "- Other vehicles, with only electric motor for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 22,
+        "raw_row": [
+          "8703.80",
+          "- Other vehicles, with only electric motor for propulsion"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0035",
+        "code": "870390",
+        "heading_code": "8703",
+        "hs6_code": "870390",
+        "item_code": null,
+        "description": "- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0019",
+        "parent_code": "8703",
+        "source_pages": [
+          2
+        ],
+        "source_table_id": "tbl-1.html",
+        "source_row_index": 23,
+        "raw_row": [
+          "8703.90",
+          "- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0036",
+        "code": "8704",
+        "heading_code": "8704",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Motor vehicles for the transport of goods.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 1,
+        "raw_row": [
+          "87.04",
+          "",
+          "Motor vehicles for the transport of goods."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0037",
+        "code": "870410",
+        "heading_code": "8704",
+        "hs6_code": "870410",
+        "item_code": null,
+        "description": "- Dumpers designed for off-highway use",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 2,
+        "raw_row": [
+          "8704.10",
+          "- Dumpers designed for off-highway use"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0038",
+        "code": null,
+        "heading_code": "8704",
+        "hs6_code": "870410",
+        "item_code": null,
+        "description": "- Other, with only compression-ignition internal combustion piston engine (diesel or semi-diesel):",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0037",
+        "parent_code": "870410",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 3,
+        "raw_row": [
+          "",
+          "- Other, with only compression-ignition internal combustion piston engine (diesel or semi-diesel):"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0039",
+        "code": "870421",
+        "heading_code": "8704",
+        "hs6_code": "870421",
+        "item_code": null,
+        "description": "-- g.v.w. not exceeding 5 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 4,
+        "raw_row": [
+          "8704.21",
+          "-- g.v.w. not exceeding 5 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0040",
+        "code": "870422",
+        "heading_code": "8704",
+        "hs6_code": "870422",
+        "item_code": null,
+        "description": "-- g.v.w. exceeding 5 tonnes but not exceeding 20 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 5,
+        "raw_row": [
+          "8704.22",
+          "-- g.v.w. exceeding 5 tonnes but not exceeding 20 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0041",
+        "code": "870423",
+        "heading_code": "8704",
+        "hs6_code": "870423",
+        "item_code": null,
+        "description": "-- g.v.w. exceeding 20 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 6,
+        "raw_row": [
+          "8704.23",
+          "-- g.v.w. exceeding 20 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0042",
+        "code": null,
+        "heading_code": "8704",
+        "hs6_code": "870423",
+        "item_code": null,
+        "description": "- Other, with only spark-ignition internal combustion piston engine:",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0041",
+        "parent_code": "870423",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 7,
+        "raw_row": [
+          "",
+          "- Other, with only spark-ignition internal combustion piston engine:"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0043",
+        "code": "870431",
+        "heading_code": "8704",
+        "hs6_code": "870431",
+        "item_code": null,
+        "description": "-- g.v.w. not exceeding 5 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 8,
+        "raw_row": [
+          "8704.31",
+          "-- g.v.w. not exceeding 5 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0044",
+        "code": "870432",
+        "heading_code": "8704",
+        "hs6_code": "870432",
+        "item_code": null,
+        "description": "-- g.v.w. exceeding 5 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 9,
+        "raw_row": [
+          "8704.32",
+          "-- g.v.w. exceeding 5 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0045",
+        "code": null,
+        "heading_code": "8704",
+        "hs6_code": "870432",
+        "item_code": null,
+        "description": "- Other, with both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion:",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0044",
+        "parent_code": "870432",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 10,
+        "raw_row": [
+          "",
+          "- Other, with both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion:"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0046",
+        "code": "870441",
+        "heading_code": "8704",
+        "hs6_code": "870441",
+        "item_code": null,
+        "description": "-- g.v.w. not exceeding 5 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 11,
+        "raw_row": [
+          "8704.41",
+          "-- g.v.w. not exceeding 5 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0047",
+        "code": "870442",
+        "heading_code": "8704",
+        "hs6_code": "870442",
+        "item_code": null,
+        "description": "-- g.v.w. exceeding 5 tonnes but not exceeding 20 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 12,
+        "raw_row": [
+          "8704.42",
+          "-- g.v.w. exceeding 5 tonnes but not exceeding 20 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0048",
+        "code": "870443",
+        "heading_code": "8704",
+        "hs6_code": "870443",
+        "item_code": null,
+        "description": "-- g.v.w. exceeding 20 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 13,
+        "raw_row": [
+          "8704.43",
+          "-- g.v.w. exceeding 20 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0049",
+        "code": null,
+        "heading_code": "8704",
+        "hs6_code": "870443",
+        "item_code": null,
+        "description": "- Other, with both spark-ignition internal combustion piston engine and electric motor as motors for propulsion:",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0048",
+        "parent_code": "870443",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 14,
+        "raw_row": [
+          "",
+          "- Other, with both spark-ignition internal combustion piston engine and electric motor as motors for propulsion:"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0050",
+        "code": "870451",
+        "heading_code": "8704",
+        "hs6_code": "870451",
+        "item_code": null,
+        "description": "-- g.v.w. not exceeding 5 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 15,
+        "raw_row": [
+          "8704.51",
+          "-- g.v.w. not exceeding 5 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0051",
+        "code": "870452",
+        "heading_code": "8704",
+        "hs6_code": "870452",
+        "item_code": null,
+        "description": "-- g.v.w. exceeding 5 tonnes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 16,
+        "raw_row": [
+          "8704.52",
+          "-- g.v.w. exceeding 5 tonnes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0052",
+        "code": "870460",
+        "heading_code": "8704",
+        "hs6_code": "870460",
+        "item_code": null,
+        "description": "- Other with only electric motor for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 17,
+        "raw_row": [
+          "8704.60",
+          "- Other with only electric motor for propulsion"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0053",
+        "code": "870490",
+        "heading_code": "8704",
+        "hs6_code": "870490",
+        "item_code": null,
+        "description": "- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0036",
+        "parent_code": "8704",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 18,
+        "raw_row": [
+          "8704.90",
+          "- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0054",
+        "code": "8705",
+        "heading_code": "8705",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units).",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 19,
+        "raw_row": [
+          "87.05",
+          "",
+          "Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0055",
+        "code": "870510",
+        "heading_code": "8705",
+        "hs6_code": "870510",
+        "item_code": null,
+        "description": "- Crane lorries",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0054",
+        "parent_code": "8705",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 20,
+        "raw_row": [
+          "8705.10",
+          "- Crane lorries"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0056",
+        "code": "870520",
+        "heading_code": "8705",
+        "hs6_code": "870520",
+        "item_code": null,
+        "description": "- Mobile drilling derricks",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0054",
+        "parent_code": "8705",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 21,
+        "raw_row": [
+          "8705.20",
+          "- Mobile drilling derricks"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0057",
+        "code": "870530",
+        "heading_code": "8705",
+        "hs6_code": "870530",
+        "item_code": null,
+        "description": "- Fire fighting vehicles",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0054",
+        "parent_code": "8705",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 22,
+        "raw_row": [
+          "8705.30",
+          "- Fire fighting vehicles"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0058",
+        "code": "870540",
+        "heading_code": "8705",
+        "hs6_code": "870540",
+        "item_code": null,
+        "description": "- Concrete-mixer lorries",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0054",
+        "parent_code": "8705",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 23,
+        "raw_row": [
+          "8705.40",
+          "- Concrete-mixer lorries"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0059",
+        "code": "870590",
+        "heading_code": "8705",
+        "hs6_code": "870590",
+        "item_code": null,
+        "description": "- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0054",
+        "parent_code": "8705",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 24,
+        "raw_row": [
+          "8705.90",
+          "- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0060",
+        "code": "870600",
+        "heading_code": "8706",
+        "hs6_code": "870600",
+        "item_code": null,
+        "description": "Chassis fitted with engines, for the motor vehicles of headings 87.01 to 87.05.",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 25,
+        "raw_row": [
+          "87.06",
+          "8706.00",
+          "Chassis fitted with engines, for the motor vehicles of headings 87.01 to 87.05."
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0061",
+        "code": "8707",
+        "heading_code": "8707",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Bodies (including cabs), for the motor vehicles of headings 87.01 to 87.05.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 26,
+        "raw_row": [
+          "87.07",
+          "",
+          "Bodies (including cabs), for the motor vehicles of headings 87.01 to 87.05."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0062",
+        "code": "870710",
+        "heading_code": "8707",
+        "hs6_code": "870710",
+        "item_code": null,
+        "description": "- For the vehicles of heading 87.03",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0061",
+        "parent_code": "8707",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 27,
+        "raw_row": [
+          "8707.10",
+          "- For the vehicles of heading 87.03"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0063",
+        "code": "870790",
+        "heading_code": "8707",
+        "hs6_code": "870790",
+        "item_code": null,
+        "description": "- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0061",
+        "parent_code": "8707",
+        "source_pages": [
+          3
+        ],
+        "source_table_id": "tbl-2.html",
+        "source_row_index": 28,
+        "raw_row": [
+          "8707.90",
+          "- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0064",
+        "code": "8708",
+        "heading_code": "8708",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Parts and accessories of the motor vehicles of headings 87.01 to 87.05.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 1,
+        "raw_row": [
+          "87.08",
+          "",
+          "Parts and accessories of the motor vehicles of headings 87.01 to 87.05."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0065",
+        "code": "870810",
+        "heading_code": "8708",
+        "hs6_code": "870810",
+        "item_code": null,
+        "description": "- Bumpers and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 2,
+        "raw_row": [
+          "",
+          "8708.10",
+          "- Bumpers and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0066",
+        "code": null,
+        "heading_code": "8708",
+        "hs6_code": "870810",
+        "item_code": null,
+        "description": "- Other parts and accessories of bodies (including cabs):",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0065",
+        "parent_code": "870810",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 3,
+        "raw_row": [
+          "",
+          "",
+          "- Other parts and accessories of bodies (including cabs):"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0067",
+        "code": "870821",
+        "heading_code": "8708",
+        "hs6_code": "870821",
+        "item_code": null,
+        "description": "-- Safety seat belts",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 4,
+        "raw_row": [
+          "",
+          "8708.21",
+          "-- Safety seat belts"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0068",
+        "code": "870822",
+        "heading_code": "8708",
+        "hs6_code": "870822",
+        "item_code": null,
+        "description": "-- Front windscreens (windshields), rear windows and other windows specified in Subheading Note 1 to this Chapter",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 5,
+        "raw_row": [
+          "",
+          "8708.22",
+          "-- Front windscreens (windshields), rear windows and other windows specified in Subheading Note 1 to this Chapter"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0069",
+        "code": "870829",
+        "heading_code": "8708",
+        "hs6_code": "870829",
+        "item_code": null,
+        "description": "-- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 6,
+        "raw_row": [
+          "",
+          "8708.29",
+          "-- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0070",
+        "code": "870830",
+        "heading_code": "8708",
+        "hs6_code": "870830",
+        "item_code": null,
+        "description": "- Brakes and servo-brakes; parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 7,
+        "raw_row": [
+          "",
+          "8708.30",
+          "- Brakes and servo-brakes; parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0071",
+        "code": "870840",
+        "heading_code": "8708",
+        "hs6_code": "870840",
+        "item_code": null,
+        "description": "- Gear boxes and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 8,
+        "raw_row": [
+          "",
+          "8708.40",
+          "- Gear boxes and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0072",
+        "code": "870850",
+        "heading_code": "8708",
+        "hs6_code": "870850",
+        "item_code": null,
+        "description": "- Drive-axles with differential, whether or not provided with other transmission components, and non-driving axles; parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 9,
+        "raw_row": [
+          "",
+          "8708.50",
+          "- Drive-axles with differential, whether or not provided with other transmission components, and non-driving axles; parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0073",
+        "code": "870870",
+        "heading_code": "8708",
+        "hs6_code": "870870",
+        "item_code": null,
+        "description": "- Road wheels and parts and accessories thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 10,
+        "raw_row": [
+          "",
+          "8708.70",
+          "- Road wheels and parts and accessories thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0074",
+        "code": "870880",
+        "heading_code": "8708",
+        "hs6_code": "870880",
+        "item_code": null,
+        "description": "- Suspension systems and parts thereof (including shock-absorbers)",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 11,
+        "raw_row": [
+          "",
+          "8708.80",
+          "- Suspension systems and parts thereof (including shock-absorbers)"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0075",
+        "code": null,
+        "heading_code": "8708",
+        "hs6_code": "870880",
+        "item_code": null,
+        "description": "- Other parts and accessories:",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0074",
+        "parent_code": "870880",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 12,
+        "raw_row": [
+          "",
+          "",
+          "- Other parts and accessories:"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0076",
+        "code": "870891",
+        "heading_code": "8708",
+        "hs6_code": "870891",
+        "item_code": null,
+        "description": "-- Radiators and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 13,
+        "raw_row": [
+          "",
+          "8708.91",
+          "-- Radiators and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0077",
+        "code": "870892",
+        "heading_code": "8708",
+        "hs6_code": "870892",
+        "item_code": null,
+        "description": "-- Silencers (mufflers) and exhaust pipes; parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 14,
+        "raw_row": [
+          "",
+          "8708.92",
+          "-- Silencers (mufflers) and exhaust pipes; parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0078",
+        "code": "870893",
+        "heading_code": "8708",
+        "hs6_code": "870893",
+        "item_code": null,
+        "description": "-- Clutches and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 15,
+        "raw_row": [
+          "",
+          "8708.93",
+          "-- Clutches and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0079",
+        "code": "870894",
+        "heading_code": "8708",
+        "hs6_code": "870894",
+        "item_code": null,
+        "description": "-- Steering wheels, steering columns and steering boxes; parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 16,
+        "raw_row": [
+          "",
+          "8708.94",
+          "-- Steering wheels, steering columns and steering boxes; parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0080",
+        "code": "870895",
+        "heading_code": "8708",
+        "hs6_code": "870895",
+        "item_code": null,
+        "description": "-- Safety airbags with inflater system; parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 17,
+        "raw_row": [
+          "",
+          "8708.95",
+          "-- Safety airbags with inflater system; parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0081",
+        "code": "870899",
+        "heading_code": "8708",
+        "hs6_code": "870899",
+        "item_code": null,
+        "description": "-- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0064",
+        "parent_code": "8708",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 18,
+        "raw_row": [
+          "",
+          "8708.99",
+          "-- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0082",
+        "code": "8709",
+        "heading_code": "8709",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Works trucks, self-propelled, not fitted with lifting or handling equipment, of the type used in factories, warehouses, dock areas or airports for short distance transport of goods; tractors of the type used on railway station platforms; parts of the foregoing vehicles.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 19,
+        "raw_row": [
+          "87.09",
+          "",
+          "Works trucks, self-propelled, not fitted with lifting or handling equipment, of the type used in factories, warehouses, dock areas or airports for short distance transport of goods; tractors of the type used on railway station platforms; parts of the foregoing vehicles."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0083",
+        "code": null,
+        "heading_code": "8709",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "- Vehicles:",
+        "unit": null,
+        "node_type": "label",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0082",
+        "parent_code": "8709",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 20,
+        "raw_row": [
+          "",
+          "",
+          "- Vehicles:"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0084",
+        "code": "870911",
+        "heading_code": "8709",
+        "hs6_code": "870911",
+        "item_code": null,
+        "description": "-- Electrical",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0082",
+        "parent_code": "8709",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 21,
+        "raw_row": [
+          "",
+          "8709.11",
+          "-- Electrical"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0085",
+        "code": "870919",
+        "heading_code": "8709",
+        "hs6_code": "870919",
+        "item_code": null,
+        "description": "-- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0082",
+        "parent_code": "8709",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 22,
+        "raw_row": [
+          "",
+          "8709.19",
+          "-- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0086",
+        "code": "870990",
+        "heading_code": "8709",
+        "hs6_code": "870990",
+        "item_code": null,
+        "description": "- Parts",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0082",
+        "parent_code": "8709",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 23,
+        "raw_row": [
+          "",
+          "8709.90",
+          "- Parts"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0087",
+        "code": "871000",
+        "heading_code": "8710",
+        "hs6_code": "871000",
+        "item_code": null,
+        "description": "Tanks and other armoured fighting vehicles, motorised, whether or not fitted with weapons, and parts of such vehicles.",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 24,
+        "raw_row": [
+          "87.10",
+          "8710.00",
+          "Tanks and other armoured fighting vehicles, motorised, whether or not fitted with weapons, and parts of such vehicles."
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0088",
+        "code": "8711",
+        "heading_code": "8711",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 25,
+        "raw_row": [
+          "87.11",
+          "",
+          "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0089",
+        "code": "871110",
+        "heading_code": "8711",
+        "hs6_code": "871110",
+        "item_code": null,
+        "description": "- With internal combustion piston engine of a cylinder capacity not exceeding 50 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 26,
+        "raw_row": [
+          "",
+          "8711.10",
+          "- With internal combustion piston engine of a cylinder capacity not exceeding 50 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0090",
+        "code": "871120",
+        "heading_code": "8711",
+        "hs6_code": "871120",
+        "item_code": null,
+        "description": "- With internal combustion piston engine of a cylinder capacity exceeding 50 cc but not exceeding 250 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 27,
+        "raw_row": [
+          "",
+          "8711.20",
+          "- With internal combustion piston engine of a cylinder capacity exceeding 50 cc but not exceeding 250 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0091",
+        "code": "871130",
+        "heading_code": "8711",
+        "hs6_code": "871130",
+        "item_code": null,
+        "description": "- With internal combustion piston engine of a cylinder capacity exceeding 250 cc but not exceeding 500 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          4
+        ],
+        "source_table_id": "tbl-3.html",
+        "source_row_index": 28,
+        "raw_row": [
+          "",
+          "8711.30",
+          "- With internal combustion piston engine of a cylinder capacity exceeding 250 cc but not exceeding 500 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0092",
+        "code": "871140",
+        "heading_code": "8711",
+        "hs6_code": "871140",
+        "item_code": null,
+        "description": "-With internal combustion piston engine of a cylinder capacity exceeding 500 cc but not exceeding 800 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 1,
+        "raw_row": [
+          "",
+          "8711.40",
+          "-With internal combustion piston engine of a cylinder capacity exceeding 500 cc but not exceeding 800 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0093",
+        "code": "871150",
+        "heading_code": "8711",
+        "hs6_code": "871150",
+        "item_code": null,
+        "description": "-With internal combustion piston engine of a cylinder capacity exceeding 800 cc",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 2,
+        "raw_row": [
+          "",
+          "8711.50",
+          "-With internal combustion piston engine of a cylinder capacity exceeding 800 cc"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0094",
+        "code": "871160",
+        "heading_code": "8711",
+        "hs6_code": "871160",
+        "item_code": null,
+        "description": "-With electric motor for propulsion",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 3,
+        "raw_row": [
+          "",
+          "8711.60",
+          "-With electric motor for propulsion"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0095",
+        "code": "871190",
+        "heading_code": "8711",
+        "hs6_code": "871190",
+        "item_code": null,
+        "description": "-Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0088",
+        "parent_code": "8711",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 4,
+        "raw_row": [
+          "",
+          "8711.90",
+          "-Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0096",
+        "code": "871200",
+        "heading_code": "8712",
+        "hs6_code": "871200",
+        "item_code": null,
+        "description": "Bicycles and other cycles (including delivery tricycles), not motorised.",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 5,
+        "raw_row": [
+          "87.12",
+          "8712.00",
+          "Bicycles and other cycles (including delivery tricycles), not motorised."
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0097",
+        "code": "8713",
+        "heading_code": "8713",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 6,
+        "raw_row": [
+          "87.13",
+          "",
+          "Carriages for disabled persons, whether or not motorised or otherwise mechanically propelled."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0098",
+        "code": "871310",
+        "heading_code": "8713",
+        "hs6_code": "871310",
+        "item_code": null,
+        "description": "-Not mechanically propelled",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0097",
+        "parent_code": "8713",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 7,
+        "raw_row": [
+          "",
+          "8713.10",
+          "-Not mechanically propelled"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0099",
+        "code": "871390",
+        "heading_code": "8713",
+        "hs6_code": "871390",
+        "item_code": null,
+        "description": "-Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0097",
+        "parent_code": "8713",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 8,
+        "raw_row": [
+          "",
+          "8713.90",
+          "-Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0100",
+        "code": "8714",
+        "heading_code": "8714",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Parts and accessories of vehicles of headings 87.11 to 87.13.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 9,
+        "raw_row": [
+          "87.14",
+          "",
+          "Parts and accessories of vehicles of headings 87.11 to 87.13."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0101",
+        "code": "871410",
+        "heading_code": "8714",
+        "hs6_code": "871410",
+        "item_code": null,
+        "description": "-Of motorcycles (including mopeds)",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 10,
+        "raw_row": [
+          "",
+          "8714.10",
+          "-Of motorcycles (including mopeds)"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0102",
+        "code": "871420",
+        "heading_code": "8714",
+        "hs6_code": "871420",
+        "item_code": null,
+        "description": "-Of carriages for disabled persons",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 11,
+        "raw_row": [
+          "",
+          "8714.20",
+          "-Of carriages for disabled persons"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0103",
+        "code": null,
+        "heading_code": "8714",
+        "hs6_code": "871420",
+        "item_code": null,
+        "description": "-Other :",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0102",
+        "parent_code": "871420",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 12,
+        "raw_row": [
+          "",
+          "",
+          "-Other :"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0104",
+        "code": "871491",
+        "heading_code": "8714",
+        "hs6_code": "871491",
+        "item_code": null,
+        "description": "-- Frames and forks, and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 13,
+        "raw_row": [
+          "",
+          "8714.91",
+          "-- Frames and forks, and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0105",
+        "code": "871492",
+        "heading_code": "8714",
+        "hs6_code": "871492",
+        "item_code": null,
+        "description": "-- Wheel rims and spokes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 14,
+        "raw_row": [
+          "",
+          "8714.92",
+          "-- Wheel rims and spokes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0106",
+        "code": "871493",
+        "heading_code": "8714",
+        "hs6_code": "871493",
+        "item_code": null,
+        "description": "-- Hubs, other than coaster braking hubs and hub brakes, and free-wheel sprocket-wheels",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 15,
+        "raw_row": [
+          "",
+          "8714.93",
+          "-- Hubs, other than coaster braking hubs and hub brakes, and free-wheel sprocket-wheels"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0107",
+        "code": "871494",
+        "heading_code": "8714",
+        "hs6_code": "871494",
+        "item_code": null,
+        "description": "-- Brakes, including coaster braking hubs and hub brakes, and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 16,
+        "raw_row": [
+          "",
+          "8714.94",
+          "-- Brakes, including coaster braking hubs and hub brakes, and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0108",
+        "code": "871495",
+        "heading_code": "8714",
+        "hs6_code": "871495",
+        "item_code": null,
+        "description": "-- Saddles",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 17,
+        "raw_row": [
+          "",
+          "8714.95",
+          "-- Saddles"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0109",
+        "code": "871496",
+        "heading_code": "8714",
+        "hs6_code": "871496",
+        "item_code": null,
+        "description": "-- Pedals and crank-gear, and parts thereof",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 18,
+        "raw_row": [
+          "",
+          "8714.96",
+          "-- Pedals and crank-gear, and parts thereof"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0110",
+        "code": "871499",
+        "heading_code": "8714",
+        "hs6_code": "871499",
+        "item_code": null,
+        "description": "-- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0100",
+        "parent_code": "8714",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 19,
+        "raw_row": [
+          "",
+          "8714.99",
+          "-- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0111",
+        "code": "871500",
+        "heading_code": "8715",
+        "hs6_code": "871500",
+        "item_code": null,
+        "description": "Baby carriages and parts thereof.",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 20,
+        "raw_row": [
+          "87.15",
+          "8715.00",
+          "Baby carriages and parts thereof."
+        ],
+        "requires_review": true,
+        "warnings": [
+          "missing_parent"
+        ]
+      },
+      {
+        "node_id": "tariff-node-0112",
+        "code": "8716",
+        "heading_code": "8716",
+        "hs6_code": null,
+        "item_code": null,
+        "description": "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof.",
+        "unit": null,
+        "node_type": "heading",
+        "depth": 1,
+        "parent_node_id": null,
+        "parent_code": null,
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 21,
+        "raw_row": [
+          "87.16",
+          "",
+          "Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof."
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0113",
+        "code": "871610",
+        "heading_code": "8716",
+        "hs6_code": "871610",
+        "item_code": null,
+        "description": "-Trailers and semi-trailers of the caravan type, for housing or camping",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 22,
+        "raw_row": [
+          "",
+          "8716.10",
+          "-Trailers and semi-trailers of the caravan type, for housing or camping"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0114",
+        "code": "871620",
+        "heading_code": "8716",
+        "hs6_code": "871620",
+        "item_code": null,
+        "description": "-Self-loading or self-unloading trailers and semi-trailers for agricultural purposes",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 23,
+        "raw_row": [
+          "",
+          "8716.20",
+          "-Self-loading or self-unloading trailers and semi-trailers for agricultural purposes"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0115",
+        "code": null,
+        "heading_code": "8716",
+        "hs6_code": "871620",
+        "item_code": null,
+        "description": "-Other trailers and semi-trailers for the transport of goods :",
+        "unit": null,
+        "node_type": "label",
+        "depth": 3,
+        "parent_node_id": "tariff-node-0114",
+        "parent_code": "871620",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 24,
+        "raw_row": [
+          "",
+          "",
+          "-Other trailers and semi-trailers for the transport of goods :"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0116",
+        "code": "871631",
+        "heading_code": "8716",
+        "hs6_code": "871631",
+        "item_code": null,
+        "description": "-- Tanker trailers and tanker semi-trailers",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 25,
+        "raw_row": [
+          "",
+          "8716.31",
+          "-- Tanker trailers and tanker semi-trailers"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0117",
+        "code": "871639",
+        "heading_code": "8716",
+        "hs6_code": "871639",
+        "item_code": null,
+        "description": "-- Other",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 26,
+        "raw_row": [
+          "",
+          "8716.39",
+          "-- Other"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0118",
+        "code": "871640",
+        "heading_code": "8716",
+        "hs6_code": "871640",
+        "item_code": null,
+        "description": "-Other trailers and semi-trailers",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 27,
+        "raw_row": [
+          "",
+          "8716.40",
+          "-Other trailers and semi-trailers"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0119",
+        "code": "871680",
+        "heading_code": "8716",
+        "hs6_code": "871680",
+        "item_code": null,
+        "description": "-Other vehicles",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 28,
+        "raw_row": [
+          "",
+          "8716.80",
+          "-Other vehicles"
+        ],
+        "requires_review": false,
+        "warnings": []
+      },
+      {
+        "node_id": "tariff-node-0120",
+        "code": "871690",
+        "heading_code": "8716",
+        "hs6_code": "871690",
+        "item_code": null,
+        "description": "-Parts",
+        "unit": null,
+        "node_type": "subheading",
+        "depth": 2,
+        "parent_node_id": "tariff-node-0112",
+        "parent_code": "8716",
+        "source_pages": [
+          5
+        ],
+        "source_table_id": "tbl-4.html",
+        "source_row_index": 29,
+        "raw_row": [
+          "",
+          "8716.90",
+          "-Parts"
+        ],
+        "requires_review": false,
+        "warnings": []
+      }
+    ]
+  }
+}

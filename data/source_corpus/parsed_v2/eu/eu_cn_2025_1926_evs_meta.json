@@ -1,0 +1,1105 @@
+{
+  "source_file": "/Users/sreenathgovindarajan/Documents/legal-extraction-eval-harness/data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
+  "source_hash": "0b221f5e63c80ae98546ed13bd98aeb7917f5662b55a4e0f70444225a45e414b",
+  "source_kind": "pdf",
+  "page_count": 158,
+  "table_count": 45,
+  "heading_tree": [
+    {
+      "level": 2,
+      "text": "EN L  series",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "2025/1926",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "amending Annex I to Council Regulation (EEC) No 2658/87 on the tariff and statistical nomenclature and on the",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "THE EUROPEAN COMMISSION,",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Whereas:",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "text": "COMMISSION IMPLEMENTING REGULATION (EU) 2025/1926 of 22 September 2025 Common Customs Tariff",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        2
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        2
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Article 2",
+      "page_numbers": [
+        2
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Article 1",
+      "page_numbers": [
+        2
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 1,
+      "text": "COMBINED NOMENCLATURE",
+      "page_numbers": [
+        3
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SUMMARY",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 1,
+      "text": "PART ONE - PRELIMINARY PROVISIONS",
+      "page_numbers": [
+        5
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 1,
+      "text": "PART THREE - TARIFF ANNEXES",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION I - AGRICULTURAL ANNEXES",
+      "page_numbers": [
+        11
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "PART ONE",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 1,
+      "text": "PRELIMINARY PROVISIONS",
+      "page_numbers": [
+        13
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION I",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "GENERAL RULES",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "A. General rules for the interpretation of the Combined Nomenclature",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 1,
+      "text": "B. General rules concerning duties",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 1,
+      "text": "C. General rules applicable both to nomenclature and to duties",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION II",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SPECIAL PROVISIONS",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 1,
+      "text": "A. Goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+      "page_numbers": [
+        18
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 1,
+      "text": "B. Civil aircraft and goods for use in civil aircraft",
+      "page_numbers": [
+        19
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        20
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        21
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        21
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 1,
+      "text": "C. Pharmaceutical products",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 1,
+      "text": "D. Standard rate of duty",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "E. Containers and packing materials",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "F. Favourable tariff treatment by reason of the nature of the goods",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        25
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SIGNS, ABBREVIATIONS AND SYMBOLS",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Note:",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SUPPLEMENTARY UNITS",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Notes",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 84",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        29
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        30
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Subheading notes",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Additional notes",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        32
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        33
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        34
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        35
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        36
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        37
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        38
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        39
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        40
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        41
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        42
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        43
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        44
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        45
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        45
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        46
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        47
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        48
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        49
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        50
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        51
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        52
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        53
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        54
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        55
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        56
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        57
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        58
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        59
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        60
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        61
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        62
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        62
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OJ  L,  31.10.2025",
+      "page_numbers": [
+        63
+      ]
+    },
+    {
+      "level": 2,
+      "text": "EN",
+      "page_numbers": [
+        63
+      ]
+    }
+  ],
+  "parse_duration_seconds": 385.23,
+  "docling_version": "2.79.0",
+  "selected_engine": "docling",
+  "complexity_class": "paper_scope_hybrid_pdf",
+  "route_reason": "Paper-scope EU HS rerun: Mistral OCR primary for table-heavy legal PDF, Docling fallback.",
+  "fallback_chain": [
+    "docling"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "tariff_schedule",
+  "normalized_confidence": 0.95,
+  "normalized_review_flags": [
+    "table_heavy_tariff_layout",
+    "tariff_specific_adapter"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

@@ -1,0 +1,224 @@
+{
+  "manifest_name": "source_record_profile_manifest",
+  "schema_version": "1.0.0",
+  "description": "Document-profiled source compilers used to create legal-safe record layers from the HS source corpus.",
+  "profiles": [
+    {
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "title": "Commission Implementing Regulation (EU) 2025/1926, EV-related CN extract",
+      "jurisdiction": "EU",
+      "authority_class": "primary_legal_text",
+      "source_type": "tariff_table_pdf",
+      "compiler_profile": "eu_cn_tariff_table",
+      "original_path": "data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
+      "parsed_json_path": "data/source_corpus/parsed_v2/eu/eu_cn_2025_1926_evs.json",
+      "normalized_json_path": "data/source_corpus/parsed_v2/eu/eu_cn_2025_1926_evs_normalized.json",
+      "output_group": "eu",
+      "output_stem": "eu_cn_2025_1926_evs"
+    },
+    {
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "title": "Explanatory Notes to the Combined Nomenclature of the European Union, EV-related extract",
+      "jurisdiction": "EU",
+      "authority_class": "interpretive_legal_note",
+      "source_type": "two_column_code_note_pdf",
+      "compiler_profile": "eu_cn_explanatory_notes_layout",
+      "original_path": "data/source_corpus/originals/eu/eu_cn_explanatory_notes_evs.pdf",
+      "parsed_json_path": "data/source_corpus/parsed_v2/eu/eu_cn_explanatory_notes_evs.json",
+      "normalized_json_path": "data/source_corpus/parsed_v2/eu/eu_cn_explanatory_notes_evs_normalized.json",
+      "output_group": "eu",
+      "output_stem": "eu_cn_explanatory_notes_evs"
+    },
+    {
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "title": "EU BTI targeted sample test run",
+      "jurisdiction": "EU",
+      "authority_class": "ruling_or_precedent",
+      "source_type": "structured_csv",
+      "compiler_profile": "bti_csv_rows",
+      "original_path": "data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
+      "parsed_json_path": "data/source_corpus/parsed_v2/bti/ebti_sample_targeted_test_run.json",
+      "normalized_json_path": "data/source_corpus/parsed_v2/bti/ebti_sample_targeted_test_run_normalized.json",
+      "output_group": "bti",
+      "output_stem": "ebti_sample_targeted_test_run"
+    },
+    {
+      "source_id": "SRC_WCO_GRI_2017",
+      "title": "WCO General Rules for the Interpretation of the Harmonized System",
+      "jurisdiction": "WCO",
+      "authority_class": "primary_legal_text",
+      "source_type": "single_flow_legal_text_pdf",
+      "compiler_profile": "wco_gri_rules",
+      "original_path": "data/source_corpus/originals/wco/wco_gri_rules_2017.pdf",
+      "parsed_json_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017.json",
+      "normalized_json_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017_normalized.json",
+      "output_group": "wco",
+      "output_stem": "wco_gri_rules_2017"
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_84",
+      "title": "WCO 2022 HS Chapter 84 heading table",
+      "jurisdiction": "WCO",
+      "authority_class": "primary_legal_text",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "original_path": "data/source_corpus/originals/wco/wco_2022_section_84_complex.pdf",
+      "parsed_json_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex.json",
+      "normalized_json_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex_normalized.json",
+      "output_group": "wco",
+      "output_stem": "wco_2022_section_84_complex"
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_85",
+      "title": "WCO 2022 HS Chapter 85 heading table",
+      "jurisdiction": "WCO",
+      "authority_class": "primary_legal_text",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "original_path": "data/source_corpus/originals/wco/wco_2022_section_85_complex.pdf",
+      "parsed_json_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex.json",
+      "normalized_json_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex_normalized.json",
+      "output_group": "wco",
+      "output_stem": "wco_2022_section_85_complex"
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_87",
+      "title": "WCO 2022 HS Chapter 87 heading table",
+      "jurisdiction": "WCO",
+      "authority_class": "primary_legal_text",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "original_path": "data/source_corpus/originals/wco/wco_2022_section_87_complex.pdf",
+      "parsed_json_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex.json",
+      "normalized_json_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex_normalized.json",
+      "output_group": "wco",
+      "output_stem": "wco_2022_section_87_complex"
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_90",
+      "title": "WCO 2022 HS Chapter 90 heading table",
+      "jurisdiction": "WCO",
+      "authority_class": "primary_legal_text",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "original_path": "data/source_corpus/originals/wco/wco_2022_section_90_complex.pdf",
+      "parsed_json_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex.json",
+      "normalized_json_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex_normalized.json",
+      "output_group": "wco",
+      "output_stem": "wco_2022_section_90_complex"
+    }
+  ],
+  "compiled_outputs": [
+    {
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "title": "Commission Implementing Regulation (EU) 2025/1926, EV-related CN extract",
+      "source_type": "tariff_table_pdf",
+      "compiler_profile": "eu_cn_tariff_table",
+      "record_count": 952,
+      "records_path": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_records.json",
+      "records_markdown_path": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_records.md",
+      "qc_path": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_qc.json",
+      "layout_profile_path": "data/source_corpus/records/eu/eu_cn_2025_1926_evs_layout_profile.json",
+      "review_flag_counts": {
+        "description_continuation_merged": 69,
+        "missing_parent": 29,
+        "source_normalizer_requires_review": 92
+      }
+    },
+    {
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "title": "Explanatory Notes to the Combined Nomenclature of the European Union, EV-related extract",
+      "source_type": "two_column_code_note_pdf",
+      "compiler_profile": "eu_cn_explanatory_notes_layout",
+      "record_count": 409,
+      "records_path": "data/source_corpus/records/eu/eu_cn_explanatory_notes_evs_records.json",
+      "records_markdown_path": "data/source_corpus/records/eu/eu_cn_explanatory_notes_evs_records.md",
+      "qc_path": "data/source_corpus/records/eu/eu_cn_explanatory_notes_evs_qc.json",
+      "layout_profile_path": "data/source_corpus/records/eu/eu_cn_explanatory_notes_evs_layout_profile.json",
+      "review_flag_counts": {
+        "chapter_general_record": 8,
+        "text_reconciliation_required": 7
+      }
+    },
+    {
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "title": "EU BTI targeted sample test run",
+      "source_type": "structured_csv",
+      "compiler_profile": "bti_csv_rows",
+      "record_count": 30,
+      "records_path": "data/source_corpus/records/bti/ebti_sample_targeted_test_run_records.json",
+      "records_markdown_path": "data/source_corpus/records/bti/ebti_sample_targeted_test_run_records.md",
+      "qc_path": "data/source_corpus/records/bti/ebti_sample_targeted_test_run_qc.json",
+      "layout_profile_path": "data/source_corpus/records/bti/ebti_sample_targeted_test_run_layout_profile.json",
+      "review_flag_counts": {}
+    },
+    {
+      "source_id": "SRC_WCO_GRI_2017",
+      "title": "WCO General Rules for the Interpretation of the Harmonized System",
+      "source_type": "single_flow_legal_text_pdf",
+      "compiler_profile": "wco_gri_rules",
+      "record_count": 10,
+      "records_path": "data/source_corpus/records/wco/wco_gri_rules_2017_records.json",
+      "records_markdown_path": "data/source_corpus/records/wco/wco_gri_rules_2017_records.md",
+      "qc_path": "data/source_corpus/records/wco/wco_gri_rules_2017_qc.json",
+      "layout_profile_path": "data/source_corpus/records/wco/wco_gri_rules_2017_layout_profile.json",
+      "review_flag_counts": {}
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_84",
+      "title": "WCO 2022 HS Chapter 84 heading table",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "record_count": 766,
+      "records_path": "data/source_corpus/records/wco/wco_2022_section_84_complex_records.json",
+      "records_markdown_path": "data/source_corpus/records/wco/wco_2022_section_84_complex_records.md",
+      "qc_path": "data/source_corpus/records/wco/wco_2022_section_84_complex_qc.json",
+      "layout_profile_path": "data/source_corpus/records/wco/wco_2022_section_84_complex_layout_profile.json",
+      "review_flag_counts": {
+        "heading_and_subheading_same_row_requires_review": 2
+      }
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_85",
+      "title": "WCO 2022 HS Chapter 85 heading table",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "record_count": 463,
+      "records_path": "data/source_corpus/records/wco/wco_2022_section_85_complex_records.json",
+      "records_markdown_path": "data/source_corpus/records/wco/wco_2022_section_85_complex_records.md",
+      "qc_path": "data/source_corpus/records/wco/wco_2022_section_85_complex_qc.json",
+      "layout_profile_path": "data/source_corpus/records/wco/wco_2022_section_85_complex_layout_profile.json",
+      "review_flag_counts": {
+        "heading_and_subheading_same_row_requires_review": 3
+      }
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_87",
+      "title": "WCO 2022 HS Chapter 87 heading table",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "record_count": 129,
+      "records_path": "data/source_corpus/records/wco/wco_2022_section_87_complex_records.json",
+      "records_markdown_path": "data/source_corpus/records/wco/wco_2022_section_87_complex_records.md",
+      "qc_path": "data/source_corpus/records/wco/wco_2022_section_87_complex_qc.json",
+      "layout_profile_path": "data/source_corpus/records/wco/wco_2022_section_87_complex_layout_profile.json",
+      "review_flag_counts": {
+        "heading_and_subheading_same_row_requires_review": 5
+      }
+    },
+    {
+      "source_id": "SRC_WCO_SECTION_90",
+      "title": "WCO 2022 HS Chapter 90 heading table",
+      "source_type": "wco_heading_table_pdf",
+      "compiler_profile": "wco_heading_table",
+      "record_count": 196,
+      "records_path": "data/source_corpus/records/wco/wco_2022_section_90_complex_records.json",
+      "records_markdown_path": "data/source_corpus/records/wco/wco_2022_section_90_complex_records.md",
+      "qc_path": "data/source_corpus/records/wco/wco_2022_section_90_complex_qc.json",
+      "layout_profile_path": "data/source_corpus/records/wco/wco_2022_section_90_complex_layout_profile.json",
+      "review_flag_counts": {
+        "heading_and_subheading_same_row_requires_review": 3
+      }
+    }
+  ]
+}

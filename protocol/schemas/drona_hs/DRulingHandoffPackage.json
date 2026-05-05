@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "DRulingHandoffPackage",
+  "title": "D-RULING Handoff Package",
+  "description": "Self-contained context package for an issue that D-CLASS-HS has flagged for D-RULING's full adjudication. Each package includes enough context for D-RULING to work without re-reading D-CLASS-HS outputs.",
+  "type": "object",
+  "required": [
+    "handoff_id",
+    "component_ref",
+    "reason_for_handoff",
+    "d_class_hs_position",
+    "open_question_for_d_ruling",
+    "ruling_records_involved",
+    "created_at"
+  ],
+  "properties": {
+    "handoff_id": {
+      "type": "string",
+      "pattern": "^DRH-[0-9]{3}",
+      "description": "e.g. DRH-001"
+    },
+    "component_ref": {
+      "type": "string",
+      "pattern": "^ent_"
+    },
+    "reason_for_handoff": {
+      "type": "string",
+      "enum": [
+        "cross_jurisdiction_divergence",
+        "supersession_chain",
+        "trade_practice_gap",
+        "expired_bti",
+        "validity_unknown",
+        "appellate_override_required",
+        "contradiction_unresolved"
+      ]
+    },
+    "d_class_hs_position": {
+      "type": "string",
+      "description": "The AA's promoted classification for this component (e.g. '8537.10 (US + India, stable)'). The baseline D-RULING starts from."
+    },
+    "aa_classification_candidate": {
+      "type": "object",
+      "description": "Full ClassificationCandidate record from AA (embedded for D-RULING context)"
+    },
+    "ruling_records_involved": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "RulingRecord IDs from the PRA that are relevant to this handoff item"
+    },
+    "contradiction_record": {
+      "type": ["object", "null"],
+      "description": "ContradictionRecord if this handoff arose from a surfaced contradiction"
+    },
+    "open_question_for_d_ruling": {
+      "type": "string",
+      "description": "Precise question D-RULING needs to answer (e.g. 'Is NY N329827 still current, or has it been superseded by a later HQ ruling?')"
+    },
+    "jurisdiction_divergence_detail": {
+      "type": ["object", "null"],
+      "description": "When reason_for_handoff = cross_jurisdiction_divergence: the two AA candidates for different jurisdictions",
+      "properties": {
+        "jurisdiction_a": {"type": "string"},
+        "code_a": {"type": "string"},
+        "ruling_a": {"type": "string"},
+        "jurisdiction_b": {"type": "string"},
+        "code_b": {"type": "string"},
+        "ruling_b": {"type": "string"}
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "founder_override_provenance": {
+      "type": "boolean"
+    },
+    "founder_override_scope": {
+      "type": "string"
+    },
+    "founder_override_basis": {
+      "type": "string"
+    },
+    "founder_override_note": {
+      "type": "string"
+    },
+    "primary_text_status": {
+      "type": "string",
+      "enum": ["acquired", "partial", "not_yet_acquired"]
+    },
+    "secondary_authority_sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "override_applies_to_jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["US", "EU", "IN", "India"]
+      }
+    },
+    "override_review_required_when_primary_acquired": {
+      "type": "boolean"
+    }
+  }
+}

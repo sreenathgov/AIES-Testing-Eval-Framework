@@ -1,0 +1,16 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_hyper-integrated-e-axle",
+  "authority_status": "pass",
+  "component_ref": "ent_269",
+  "component_slug": "hyper-integrated-e-axle",
+  "evaluated_artifact": "AA_EU_hyper-integrated-e-axle",
+  "failed_checks": [
+    "gri_3b_requires_adjudication_review"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "review",
+  "provenance_status": "pass",
+  "recommended_route": "review",
+  "uncertainty_status": "review"
+}

@@ -1,0 +1,7 @@
+{
+  "canonical_name": "High-Voltage Battery Module",
+  "component_ref": "ent_133",
+  "node_id": "product_component:high-voltage-battery-module",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

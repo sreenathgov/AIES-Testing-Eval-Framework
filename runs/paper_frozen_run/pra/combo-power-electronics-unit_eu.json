@@ -1,0 +1,65 @@
+{
+  "agent": "PRA",
+  "applicability_state": "sample_bti_reviewed",
+  "bti_records_considered": [
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI58842/24-1",
+      "record_id": "EU_BTI_DEBTI58842_24_1",
+      "source_excerpt": "DEBTI58842/24-1 84672110************** AV 1 / AV 6 / AV 3 b) / AV 5 a) ZAnm 1 ABS XVI Akku-Bohrschrauber (Abbildung siehe Anlage) - bestehend aus einem von Hand zu f\u00fchrenden Ger\u00e4t mit eingebautem Elektromotor, Schnell- spannbohrfutter, Drehmomenteinstellring, Ein-/Ausschalter, Drehrichtungsschalter, LED-Arbeitslicht, Akkumulator mit Ladezustandsanzeige, - zum Bohren in verschiedene Materialien (z.B. Holz, Metall, Kunststoff) und Eindrehen sowie L\u00f6sen von Schrauben, - geliefert mit verschiedenen auswechselbaren Werkzeugen (40 x Schraub-Bit, 14 x Metallbohrer, 5 x Holzbohrer, 8 x Steckschl\u00fcssel, 1 x Versenker), - in einer gemeinsamen Verkaufsumschlie\u00dfung mit Bithalter, Zimmermannsbleistift mit Ersatz- minen, Cuttermesser, Ank\u00f6rner, Ma\u00dfband, Ladeger\u00e4t und Betriebsanleitung (Beipack), - in einem f\u00fcr den dauerhaften Gebrauch geeigneten Transportkoffer. \"Von Hand zu f\u00fchrendes Werkzeug mit eingebautem Elektromotor, Bohrmaschinen aller Art, zum Betrieb ohne externe Energiequelle, mit auswechselbarem Werkzeug, in Warenzusammenstellung in Aufmachung f\u00fcr den Einzelverkauf mit nicht charakterbestimmendem Beipack - Akku-Bohrschrauber\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 2,
+        "row_id": "DEBTI58842/24-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "CZBTI34/018997/2025-580000-04/01",
+      "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+      "source_excerpt": "CZBTI34/018997/2025-580000-04/01 8501535010************ V\u0161eobecn\u00e1 pravidla 1 a 6 pro v\u00fdklad kombinovan\u00e9 nomenklatury. Pozn\u00e1mka 3 ke t\u0159\u00edd\u011b XVI. Vysv\u011btlivky k HS k \u010d\u00edslu 8501. Zn\u011bn\u00ed k\u00f3d\u016f 8501, 8501 53, 8501 53 50 kombinovan\u00e9 nomenklatury a Taric k\u00f3du 8501 53 50 10. Dle deklarovan\u00fdch \u00fadaj\u016f se jedn\u00e1 o trak\u010dn\u00ed elektrick\u00fd asynchronn\u00ed motor s v\u00fdkonovou elektronikou, kter\u00fd je ur\u010den k pohonu elektromobilu. Pohonn\u00e1 jednotka obsahuje tak\u00e9 invertor a pracuje jak se stejnosm\u011brn\u00fdm (vstup), tak i se st\u0159\u00eddav\u00fdm proudem (v\u00fdstup). Motor pracuje na st\u0159\u00eddav\u00fd proud a jedn\u00e1 se o t\u0159\u00edf\u00e1zovou soustavu. Technick\u00e9 \u00fadaje: - st\u0159\u00eddav\u00fd proud v rozsahu 210 - 470 V; - maxim\u00e1ln\u00ed proud je 380 A; - maxim\u00e1ln\u00ed v\u00fdkon motoru je 80 kW; - pou\u017eit\u00ed jen pro vozy BEV (\u010dist\u011b elektrick\u00e9).",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 3,
+        "row_id": "CZBTI34/018997/2025-580000-04/01"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "CZBTI46/175517/2025-300000-ZI/01",
+      "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+      "source_excerpt": "CZBTI46/175517/2025-300000-ZI/01 87089997************** V\u0161eobecn\u00e1 pravidla 1, 3 c) a 6 pro v\u00fdklad kombinovan\u00e9 nomenklatury. Pozn\u00e1mka 3 ke t\u0159\u00edd\u011b XVII. Z\u00e1v\u011br z jedn\u00e1n\u00ed V\u00fdboru pro celn\u00ed kodex k sazebn\u00edmu za\u0159azen\u00ed zbo\u017e\u00ed k podpolo\u017ece 8708 99 97 p\u0159ijat\u00e9 na 265. zased\u00e1n\u00ed V\u00fdboru pro celn\u00ed kodex. Vysv\u011btlivky k HS k \u010d\u00edslu 8708. V\u0161eobecn\u00e9 vysv\u011btlivky k HS ke t\u0159\u00edd\u011b XVII, odst. III). Zn\u011bn\u00ed k\u00f3d\u016f 8708, 8708 99, 8708 99 97 kombinovan\u00e9 nomenklatury. Do \u017eadatelem navr\u017een\u00e9ho k\u00f3du 8708 80 99 nelze p\u0159edm\u011btn\u00e9 zbo\u017e\u00ed za\u0159adit, nebo\u0165 se dle celn\u00ed nomenklatury nejedn\u00e1 o \u010d\u00e1st a sou\u010d\u00e1st z\u00e1v\u011bsn\u00e9ho syst\u00e9mu motorov\u00fdch vozidel \u010d\u00edsel 8701 a\u017e 8705. Dle poskytnut\u00fdch \u00fadaj\u016f se jedn\u00e1 o izol\u00e1tor vibrac\u00ed (silentblock), kter\u00fd je vyroben\u00fd z vulkanick\u00e9ho kau\u010duku spojen\u00e9ho s kovem. V\u00fdrobek absorbuje vibrace a sni\u017euje hluk v r\u016fzn\u00fdch za\u0159\u00edzen\u00edch, nap\u0159\u00edklad tlum\u00ed vibrace p\u0159en\u00e1\u0161en\u00e9 do karos\u00e9rie a interi\u00e9ru naklada\u010d\u016f a rypadel. Lze jej tak\u00e9 pou\u017e\u00edt v r\u016fzn\u00fdch za\u0159\u00edzen\u00edch, jako jsou nap\u0159. \u010derpadla, kompresory, gener\u00e1tory, spalovac\u00ed motory, p\u0159evodovky, kabiny stroj\u016f, atd.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 4,
+        "row_id": "CZBTI46/175517/2025-300000-ZI/01"
+      }
+    }
+  ],
+  "comparison_only": {},
+  "component_ref": "ent_267",
+  "component_slug": "combo-power-electronics-unit",
+  "extraction_timestamp": "2026-05-05T09:46:12+00:00",
+  "extractor_model": "harness_replay_template_v1",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "authority_class": "ruling_or_precedent",
+      "record_id": "EU_BTI_DEBTI58842_24_1",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    }
+  ]
+}

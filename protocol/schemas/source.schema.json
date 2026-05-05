@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Source",
+  "type": "object",
+  "required": ["source_id", "title", "authority_class", "jurisdiction", "anchors"],
+  "properties": {
+    "source_id": {"type": "string"},
+    "title": {"type": "string"},
+    "authority_class": {
+      "type": "string",
+      "enum": [
+        "primary_legal_text",
+        "interpretive_legal_note",
+        "classification_decision",
+        "ruling_or_precedent",
+        "secondary_context",
+        "internal_generated_candidate",
+        "unknown_or_unresolved"
+      ]
+    },
+    "jurisdiction": {"type": "string"},
+    "source_path": {"type": ["string", "null"]},
+    "anchors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["anchor_id", "anchor_type", "locator", "document_level_only"],
+        "properties": {
+          "anchor_id": {"type": "string"},
+          "anchor_type": {"type": "string"},
+          "locator": {"type": "string"},
+          "label": {"type": "string"},
+          "quoted_span": {"type": ["string", "null"]},
+          "document_level_only": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

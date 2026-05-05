@@ -1,0 +1,9 @@
+{
+  "record_count": 30,
+  "duplicate_record_ids": [],
+  "missing_source_locator_record_ids": [],
+  "review_flag_counts": {},
+  "source_id": "SRC_EU_BTI_SAMPLE",
+  "compiler_profile": "bti_csv_rows",
+  "layout_profile_inferred_type": "CSV/structured dataset"
+}

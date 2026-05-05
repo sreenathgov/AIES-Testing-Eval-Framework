@@ -1,0 +1,13 @@
+{
+  "record_count": 196,
+  "duplicate_record_ids": [],
+  "missing_source_locator_record_ids": [],
+  "review_flag_counts": {
+    "heading_and_subheading_same_row_requires_review": 3
+  },
+  "table_count": 8,
+  "chapter_note_record_count": 28,
+  "source_id": "SRC_WCO_SECTION_90",
+  "compiler_profile": "wco_heading_table",
+  "layout_profile_inferred_type": "WCO heading-code table"
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ContradictionRecord",
+  "title": "Contradiction Record",
+  "description": "Written by AA or KA when two sources produce incompatible classifications. Silent resolution by AA is forbidden — all contradictions must be surfaced here.",
+  "type": "object",
+  "required": [
+    "contradiction_id",
+    "component_ref",
+    "contradiction_type",
+    "positions",
+    "severity",
+    "resolution_status",
+    "drona_domain",
+    "drona_sub_agent",
+    "created_at"
+  ],
+  "properties": {
+    "contradiction_id": {
+      "type": "string",
+      "pattern": "^CONTR-[0-9]{3}",
+      "description": "e.g. CONTR-001"
+    },
+    "component_ref": {
+      "type": "string",
+      "pattern": "^ent_"
+    },
+    "contradiction_type": {
+      "type": "string",
+      "enum": [
+        "pta_vs_ruling",
+        "intra_jurisdiction",
+        "cross_jurisdiction",
+        "multi_ruling"
+      ],
+      "description": "pta_vs_ruling: GRI text vs ruling disagree. intra_jurisdiction: two rulings in same jurisdiction disagree. cross_jurisdiction: US vs India vs EU disagree. multi_ruling: 3+ rulings conflict."
+    },
+    "positions": {
+      "type": "array",
+      "minItems": 2,
+      "description": "The competing classification positions",
+      "items": {
+        "type": "object",
+        "required": ["source", "code", "basis"],
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "e.g. 'PTA', 'PRA:NY-N329827', 'PRA:HQ-H176833'"
+          },
+          "code": {"type": "string"},
+          "basis": {"type": "string"},
+          "jurisdiction": {
+            "type": "string",
+            "enum": ["US", "IN", "EU", "WCO", "universal"]
+          }
+        }
+      }
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["blocking", "warning"],
+      "description": "blocking: prevents promotion until resolved. warning: noted but does not block."
+    },
+    "resolution_status": {
+      "type": "string",
+      "enum": ["unresolved", "human_resolved", "deferred_to_d_ruling"]
+    },
+    "resolution_note": {
+      "type": ["string", "null"],
+      "description": "Required when resolution_status is 'human_resolved'. Records the founder's decision."
+    },
+    "resolved_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "drona_domain": {"type": "string", "const": "d_class_hs"},
+    "drona_sub_agent": {
+      "type": "string",
+      "enum": ["AA", "KA"],
+      "description": "Which agent surfaced this contradiction"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

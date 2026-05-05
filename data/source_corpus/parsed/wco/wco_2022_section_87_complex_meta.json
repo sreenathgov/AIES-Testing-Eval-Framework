@@ -1,0 +1,48 @@
+{
+  "source_file": "/private/var/folders/rw/0363ypyd2ksb_3rn6nv80d3w0000gn/T/tmp.9Eo0nQfrNC/02_hs_classification/wco/WCO - 2022 - Section 87_complex.pdf",
+  "source_hash": "e806a55e1f9808e54b60304de9b77ba6cc15b4a36022f48357e8098654020904",
+  "source_kind": "pdf",
+  "page_count": 5,
+  "table_count": 5,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes.",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Subheading Note.",
+      "page_numbers": [
+        1
+      ]
+    }
+  ],
+  "parse_duration_seconds": 5.36,
+  "docling_version": "unknown",
+  "selected_engine": "mistral_ocr",
+  "complexity_class": "manual_complex_pdf",
+  "route_reason": "Manual `_complex` tag forces Mistral OCR first.",
+  "fallback_chain": [
+    "docling"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "tariff_schedule",
+  "normalized_confidence": 0.95,
+  "normalized_review_flags": [
+    "table_heavy_tariff_layout",
+    "tariff_specific_adapter"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

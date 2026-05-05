@@ -1,0 +1,1106 @@
+[
+  {
+    "fixture_id": "FX_GOOD_OBC_AA_EU",
+    "scenario_id": "SCN_001_STABLE_EU_WCO",
+    "gold_case_id": "SCN_001_STABLE_EU_WCO",
+    "fixture_class": "good",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8504_40_90"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_EN_8504_STATIC_CONVERTERS",
+      "EU_CN_8504_40_90"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_OBC",
+      "FOR_GRAPH_PC_OBC",
+      "FOR_GRAPH_HS_85044090_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:on_board_charger:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:on_board_charger",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8504.40.90:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "node_type": "source"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_2025_1926_EVS",
+        "node_type": "source"
+      },
+      {
+        "node_id": "source:SRC_WCO_GRI_2017",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_OBC_DESCRIBES",
+      "E_GOOD_OBC_PROPOSES",
+      "E_GOOD_OBC_SUPPORTED_EU_EN",
+      "E_GOOD_OBC_SUPPORTED_EU_CN",
+      "E_GOOD_OBC_SUPPORTED_WCO"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "promote",
+      "expected_control_state": "stable",
+      "expected_failure_categories": [],
+      "human_review_required": false
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_GOOD_HV_CONNECTORS_EU",
+    "scenario_id": "SCN_002_STABLE_EU_CN",
+    "gold_case_id": "SCN_002_STABLE_EU_CN",
+    "fixture_class": "good",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8536_69_90"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8536_CONNECTORS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8536_69_90",
+      "EU_CN_EN_8536_CONNECTORS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_HV_CONNECTORS",
+      "FOR_GRAPH_HS_85366990_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:high_voltage_connectors:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:high_voltage_connectors",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8536.69.90:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_2025_1926_EVS",
+        "node_type": "source"
+      },
+      {
+        "node_id": "source:SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_CONNECTORS_DESCRIBES",
+      "E_GOOD_CONNECTORS_PROPOSES",
+      "E_GOOD_CONNECTORS_SUPPORTED_EU_CN",
+      "E_GOOD_CONNECTORS_SUPPORTED_EU_EN"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "promote",
+      "expected_control_state": "stable",
+      "expected_failure_categories": [],
+      "human_review_required": false
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_GOOD_TRACTION_INVERTER_EU",
+    "scenario_id": "SCN_003_STABLE_EU_CN",
+    "gold_case_id": "SCN_003_STABLE_EU_CN",
+    "fixture_class": "good",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8504_40_87"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8504_40_87",
+      "EU_CN_EN_8504_STATIC_CONVERTERS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_TRACTION_INVERTER"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:traction_inverter:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:traction_inverter",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8504.40.87:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_INVERTER_DESCRIBES",
+      "E_GOOD_INVERTER_PROPOSES",
+      "E_GOOD_INVERTER_SUPPORTED_EU_CN"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "promote",
+      "expected_control_state": "stable",
+      "expected_failure_categories": [],
+      "human_review_required": false
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_GOOD_HV_BATTERY_PACK_BTI_EU",
+    "scenario_id": "SCN_004_STABLE_BTI",
+    "gold_case_id": "SCN_004_STABLE_BTI",
+    "fixture_class": "good",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      },
+      {
+        "source_id": "SRC_EU_BTI_SAMPLE",
+        "authority_class": "classification_decision",
+        "anchor_id": "BTI_ROW_DEBTI45911_25_1"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_3B",
+      "WCO_GRI_6",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS",
+      "BTI_ROW_DEBTI45911_25_1"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_BTI_SAMPLE_ORIGINAL",
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_BTI_SAMPLE_JSON",
+      "SRC_ASSET_EU_BTI_SAMPLE_MD",
+      "SRC_ASSET_EU_BTI_SAMPLE_META_JSON",
+      "SRC_ASSET_EU_BTI_SAMPLE_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_HV_BATTERY_PACK",
+      "FOR_AGENT_PRA_EU_BTI",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:hv_battery_pack:EU:bti_supported",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:hv_battery_pack",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "source:SRC_EU_BTI_SAMPLE",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_PACK_DESCRIBES",
+      "E_GOOD_PACK_PROPOSES",
+      "E_GOOD_PACK_SUPPORTED_BTI",
+      "E_GOOD_PACK_SUPPORTED_EU_CN"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "promote",
+      "expected_control_state": "stable",
+      "expected_failure_categories": [],
+      "human_review_required": false
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_GOOD_LI_ION_CELL_EU",
+    "scenario_id": "SCN_005_MISSING_BTI_PRIMARY_OK",
+    "gold_case_id": "SCN_005_MISSING_BTI_PRIMARY_OK",
+    "fixture_class": "good",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_LI_ION_CELL",
+      "FOR_GRAPH_PC_LI_ION_CELL",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:lithium_ion_cell:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:lithium_ion_cell",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_GOOD_CELL_DESCRIBES",
+      "E_GOOD_CELL_PROPOSES",
+      "E_GOOD_CELL_SUPPORTED_EU_CN"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "promote",
+      "expected_control_state": "stable",
+      "expected_failure_categories": [],
+      "human_review_required": false
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BAD_HS_85044084_INTERNAL_AUTHORITY",
+    "scenario_id": "SCN_006_INTERNAL_SOURCE_ONLY",
+    "gold_case_id": "SCN_006_INTERNAL_SOURCE_ONLY",
+    "fixture_class": "bad",
+    "source_authorities": [
+      {
+        "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT",
+        "authority_class": "internal_generated_candidate",
+        "anchor_id": "INTERNAL_CANDIDATE_FILE"
+      }
+    ],
+    "parsed_source_anchors": [
+      "INTERNAL_CANDIDATE_FILE"
+    ],
+    "source_asset_ids": [],
+    "parsed_asset_ids": [],
+    "forensic_origin_artifact_ids": [
+      "FOR_GRAPH_HS_85044084_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "hs_code:8504.40.84:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "component:dc_dc_converter",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "source:SRC_INTERNAL_CANDIDATE_ARTIFACT",
+        "node_type": "source"
+      }
+    ],
+    "graph_edges": [
+      "E_BAD_85044084_SUPPORTED_INTERNAL"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "blocked",
+      "expected_control_state": "gap",
+      "expected_failure_categories": [
+        "internal_source_as_authority",
+        "missing_external_authority"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BAD_HV_BATTERY_PACK_PTA_OVERREACH",
+    "scenario_id": "SCN_007_PTA_OVERREACH",
+    "gold_case_id": "SCN_007_PTA_OVERREACH",
+    "fixture_class": "bad",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_3B",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_HV_BATTERY_PACK",
+      "FOR_AGENT_PTA_HV_BATTERY_PACK_EU",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "statutory_record:hv_battery_pack:EU",
+        "node_type": "statutory_classification_record"
+      },
+      {
+        "node_id": "component:hv_battery_pack",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BAD_PTA_PACK_DESCRIBES",
+      "E_BAD_PTA_PACK_PROPOSES",
+      "E_BAD_PTA_PACK_SUPPORTED_EU_CN"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "pta_final_adjudication_overreach"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BAD_OBC_EDGE_DIRECTION",
+    "scenario_id": "SCN_008_EDGE_DIRECTION_FAILURE",
+    "gold_case_id": "SCN_008_EDGE_DIRECTION_FAILURE",
+    "fixture_class": "bad",
+    "source_authorities": [
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8504_STATIC_CONVERTERS"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8504_40_90"
+      }
+    ],
+    "parsed_source_anchors": [
+      "EU_CN_EN_8504_STATIC_CONVERTERS",
+      "EU_CN_8504_40_90"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_OBC",
+      "FOR_GRAPH_PC_OBC",
+      "FOR_GRAPH_HS_85044090_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:on_board_charger:EU:bad_edge",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:on_board_charger",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8504.40.90:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BAD_OBC_REVERSED_CLASSIFIED_AS"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "blocked",
+      "expected_control_state": "parity_failure",
+      "expected_failure_categories": [
+        "edge_direction_invalid",
+        "missing_proposes_code_edge"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BAD_SEPARATOR_CONFIDENCE_INFLATION",
+    "scenario_id": "SCN_009_CONFIDENCE_INFLATION",
+    "gold_case_id": "SCN_009_CONFIDENCE_INFLATION",
+    "fixture_class": "bad",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_SEPARATOR",
+      "FOR_GRAPH_HS_85079031_EU_MD"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:separator_pe_pp:EU:inflated",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:separator_pe_pp",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.90.31:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BAD_SEPARATOR_DESCRIBES",
+      "E_BAD_SEPARATOR_PROPOSES",
+      "E_BAD_SEPARATOR_SUPPORTED_EU_EN"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "unsupported_promotion"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BAD_UNSUPPORTED_PROMOTION",
+    "scenario_id": "SCN_010_UNSUPPORTED_PROMOTION",
+    "gold_case_id": "SCN_010_UNSUPPORTED_PROMOTION",
+    "fixture_class": "bad",
+    "source_authorities": [],
+    "parsed_source_anchors": [],
+    "source_asset_ids": [],
+    "parsed_asset_ids": [],
+    "forensic_origin_artifact_ids": [
+      "FOR_GRAPH_HS_85044090_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:unsupported_power_unit:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:unsupported_power_unit",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8504.40.90:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BAD_UNSUPPORTED_DESCRIBES",
+      "E_BAD_UNSUPPORTED_PROPOSES"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "blocked",
+      "expected_control_state": "gap",
+      "expected_failure_categories": [
+        "missing_external_authority",
+        "missing_source_anchor",
+        "unsupported_promotion"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE",
+    "scenario_id": "SCN_011_PRODUCT_NODE_MIXED_STATE",
+    "gold_case_id": "SCN_011_PRODUCT_NODE_MIXED_STATE",
+    "fixture_class": "borderline",
+    "source_authorities": [
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      }
+    ],
+    "parsed_source_anchors": [
+      "EU_CN_8507_60_00"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_LI_ION_CELL",
+      "FOR_GRAPH_PC_LI_ION_CELL",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "engineering_identity:lithium_ion_cell",
+        "node_type": "engineering_identity_record"
+      },
+      {
+        "node_id": "component:lithium_ion_cell",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_CELL_DESCRIBES",
+      "E_BORDER_CELL_CLASSIFIED_AS"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW",
+    "scenario_id": "SCN_012_PTA_GRI3B_REVIEW",
+    "gold_case_id": "SCN_012_PTA_GRI3B_REVIEW",
+    "fixture_class": "borderline",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_EU_CN_2025_1926_EVS",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "EU_CN_8507_60_00"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_3B",
+      "EU_CN_8507_60_00",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_2025_1926_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_MD",
+      "SRC_ASSET_EU_CN_2025_1926_META_JSON",
+      "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_HV_BATTERY_PACK",
+      "FOR_AGENT_PTA_HV_BATTERY_PACK_EU",
+      "FOR_GRAPH_HS_85076000_EU"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "statutory_record:hv_battery_pack:EU:review",
+        "node_type": "statutory_classification_record"
+      },
+      {
+        "node_id": "component:hv_battery_pack",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.60.00:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_PACK_DESCRIBES",
+      "E_BORDER_PACK_PROPOSES",
+      "E_BORDER_PACK_SUPPORTED_WCO"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "pta_requires_aa_review"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BORDERLINE_SEPARATOR_DIVERGENCE",
+    "scenario_id": "SCN_013_DIVERGENCE_NOT_COLLAPSED",
+    "gold_case_id": "SCN_013_DIVERGENCE_NOT_COLLAPSED",
+    "fixture_class": "borderline",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "EU_CN_EN_8507_ACCUMULATORS"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "EU_CN_EN_8507_ACCUMULATORS"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_EU_CN_EN_ORIGINAL",
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_EU_CN_EN_JSON",
+      "SRC_ASSET_EU_CN_EN_MD",
+      "SRC_ASSET_EU_CN_EN_META_JSON",
+      "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_SEPARATOR",
+      "FOR_GRAPH_HS_85079031_EU_MD"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:separator_pe_pp:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:separator_pe_pp",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8507.90.31:EU",
+        "node_type": "hs_code"
+      },
+      {
+        "node_id": "handoff:separator_pe_pp:EU",
+        "node_type": "handoff_package"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_SEPARATOR_DESCRIBES",
+      "E_BORDER_SEPARATOR_PROPOSES",
+      "E_BORDER_SEPARATOR_SUPPORTED_EU_EN",
+      "E_BORDER_SEPARATOR_ROUTE"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "jurisdictional_divergence_preserved"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY",
+    "scenario_id": "SCN_014_COMPARISON_ONLY_DIVERGENCE",
+    "gold_case_id": "SCN_014_COMPARISON_ONLY_DIVERGENCE",
+    "fixture_class": "borderline",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_3B"
+      },
+      {
+        "source_id": "SRC_WCO_SECTION_XVII",
+        "authority_class": "interpretive_legal_note",
+        "anchor_id": "WCO_SECTION_XVII_NOTE_2F"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_3B",
+      "WCO_SECTION_XVII_NOTE_2F"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL",
+      "SRC_ASSET_WCO_SECTION_87_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON",
+      "SRC_ASSET_WCO_SECTION_87_JSON",
+      "SRC_ASSET_WCO_SECTION_87_MD",
+      "SRC_ASSET_WCO_SECTION_87_META_JSON",
+      "SRC_ASSET_WCO_SECTION_87_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_INTEGRATED_E_AXLE",
+      "FOR_GRAPH_HS_87089997_EU_MD"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:integrated_e_axle:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:integrated_e_axle",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:8708.99.97:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_EAXLE_DESCRIBES",
+      "E_BORDER_EAXLE_PROPOSES",
+      "E_BORDER_EAXLE_SUPPORTED_WCO"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "comparison_only_divergence_preserved"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  },
+  {
+    "fixture_id": "FX_BORDERLINE_NOES_CLIENT_FACT",
+    "scenario_id": "SCN_015_CLIENT_FACT_DEPENDENT",
+    "gold_case_id": "SCN_015_CLIENT_FACT_DEPENDENT",
+    "fixture_class": "borderline",
+    "source_authorities": [
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_1"
+      },
+      {
+        "source_id": "SRC_WCO_GRI_2017",
+        "authority_class": "primary_legal_text",
+        "anchor_id": "WCO_GRI_6"
+      }
+    ],
+    "parsed_source_anchors": [
+      "WCO_GRI_1",
+      "WCO_GRI_6"
+    ],
+    "source_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_ORIGINAL"
+    ],
+    "parsed_asset_ids": [
+      "SRC_ASSET_WCO_GRI_2017_JSON",
+      "SRC_ASSET_WCO_GRI_2017_MD",
+      "SRC_ASSET_WCO_GRI_2017_META_JSON",
+      "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON"
+    ],
+    "forensic_origin_artifact_ids": [
+      "FOR_AGENT_AA_NOES",
+      "FOR_GRAPH_HS_722619_EU_MD"
+    ],
+    "graph_nodes": [
+      {
+        "node_id": "candidate:noes_core:EU",
+        "node_type": "classification_candidate"
+      },
+      {
+        "node_id": "component:noes_core",
+        "node_type": "product_component"
+      },
+      {
+        "node_id": "hs_code:7226.19.10:EU",
+        "node_type": "hs_code"
+      }
+    ],
+    "graph_edges": [
+      "E_BORDER_NOES_DESCRIBES",
+      "E_BORDER_NOES_PROPOSES"
+    ],
+    "expected_evaluator_result": {
+      "expected_route": "review",
+      "expected_control_state": "contested",
+      "expected_failure_categories": [
+        "client_fact_required"
+      ],
+      "human_review_required": true
+    },
+    "authority_boundary_note": "forensic artifacts evidence origin only; legal authority is limited to legal_authority_chain"
+  }
+]

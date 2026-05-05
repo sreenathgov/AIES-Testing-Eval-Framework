@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "graph_node.schema.json",
+  "title": "Graph Node",
+  "type": "object",
+  "required": ["node_id", "node_type"],
+  "properties": {
+    "node_id": {"type": "string"},
+    "node_type": {
+      "type": "string",
+      "enum": [
+        "product_component",
+        "engineering_identity_record",
+        "classification_candidate",
+        "statutory_classification_record",
+        "ruling_record",
+        "audit_report",
+        "handoff_package",
+        "hs_code",
+        "source",
+        "legal_proposition",
+        "artifact_origin",
+        "comparison_metadata"
+      ]
+    }
+  }
+}

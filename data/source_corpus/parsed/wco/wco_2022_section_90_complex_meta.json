@@ -1,0 +1,40 @@
+{
+  "source_file": "/private/var/folders/rw/0363ypyd2ksb_3rn6nv80d3w0000gn/T/tmp.9Eo0nQfrNC/02_hs_classification/wco/WCO - 2022 - Section 90_complex.pdf",
+  "source_hash": "4e9484c1bb2a64e3233e7a6592b1479cfc3e0210e5ae5734299b697b9c6b53be",
+  "source_kind": "pdf",
+  "page_count": 10,
+  "table_count": 8,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes.",
+      "page_numbers": [
+        1
+      ]
+    }
+  ],
+  "parse_duration_seconds": 5.64,
+  "docling_version": "unknown",
+  "selected_engine": "mistral_ocr",
+  "complexity_class": "manual_complex_pdf",
+  "route_reason": "Manual `_complex` tag forces Mistral OCR first.",
+  "fallback_chain": [
+    "docling"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "legal_statute",
+  "normalized_confidence": 0.82,
+  "normalized_review_flags": [
+    "legal_signal"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

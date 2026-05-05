@@ -1,0 +1,45 @@
+{
+  "document_class": "legal_statute",
+  "normalizer_name": "legal_document",
+  "normalizer_version": "1.0.0",
+  "confidence": 0.82,
+  "review_flags": [
+    "legal_signal"
+  ],
+  "payload": {
+    "sections": [
+      {
+        "section_id": "section-1",
+        "title": "Document Start",
+        "level": 1,
+        "page_numbers": [
+          1
+        ],
+        "block_count": 15,
+        "text_excerpt": "GENERAL RULES FOR THE INTERPRETATION OF THE HARMONIZED SYSTEM Classification of goods in the Nomenclature shall be governed by the following principles : The  titles  of  Sections,  Chapters  and  sub-Chapters  are  provided  for  ease  of  reference  only;  for  legal purposes, classification shall be determined according to the terms of the headings and any relative Section or  Chapter  Notes  and,  provided  such  headings    or  Notes  do  not  otherwise  require,  according  to  the following provisions : (a) Any reference in a heading to an article shall be taken to include a reference to that article incomplete or  unfinished,  provided  that,  as  presented,  the  incomplete  or  unfinished  article  has  the  essential character of the complete or finished article.  It shall also be taken to include a reference to that article complete  or  finished  (or  falling  to  be  classified  as  complete  or  finished  by  virtue  of  this  Rule), presented unassembled or disassembled. (b)  Any reference in a heading to a material or substance shall be taken to include a reference to mixtures or  combinations  of  that  material  or  substance  with  other  materials  or  substanc"
+      }
+    ],
+    "citations": [
+      "Section or",
+      "Chapter Notes",
+      "heading to",
+      "article shall",
+      "article incomplete",
+      "article has",
+      "article complete",
+      "Rule 3",
+      "Rule 2",
+      "heading which",
+      "heading appropriate",
+      "article or",
+      "Rule does",
+      "Rule 5",
+      "heading shall",
+      "Subheading Notes",
+      "Rule the",
+      "Section and"
+    ],
+    "effective_dates": [],
+    "table_count": 0
+  }
+}

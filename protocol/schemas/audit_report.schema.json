@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "audit_report.schema.json",
+  "title": "Audit Report",
+  "type": "object",
+  "required": ["artifact_id", "artifact_type", "evaluated_artifacts", "failed_checks"],
+  "properties": {
+    "artifact_type": {"const": "audit_report"},
+    "evaluated_artifacts": {"type": "array", "items": {"type": "string"}},
+    "failed_checks": {"type": "array", "items": {"type": "string"}}
+  }
+}

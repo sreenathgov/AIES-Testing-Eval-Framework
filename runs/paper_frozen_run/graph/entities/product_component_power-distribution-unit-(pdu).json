@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Power Distribution Unit (PDU)",
+  "component_ref": "ent_219",
+  "node_id": "product_component:power-distribution-unit-(pdu)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

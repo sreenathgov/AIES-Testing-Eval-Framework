@@ -1,0 +1,37 @@
+{
+  "document_class": "structured_dataset",
+  "normalizer_name": "structured_dataset",
+  "normalizer_version": "1.0.0",
+  "confidence": 0.99,
+  "review_flags": [
+    "source_kind=csv"
+  ],
+  "payload": {
+    "schema_summary": [
+      {
+        "table_id": "table-1",
+        "headers": [
+          "\"BTI_REFERENCE\"",
+          "ISSUING_COUNTRY",
+          "START_DATE_OF_VALIDITY",
+          "END_DATE_OF_VALIDITY",
+          "NOMENCLATURE_CODE",
+          "CLASSIFICATION_JUSTIFICATION",
+          "STATUS",
+          "INVALIDATION_REASON",
+          "INVALIDATION_JUSTIFICATION",
+          "LANGUAGE",
+          "PLACE_OF_ISSUE",
+          "DATE_OF _ISSUE",
+          "NAME_AND_ADDRESS",
+          "DESCRIPTION_OF_GOODS",
+          "KEYWORDS"
+        ],
+        "row_count": 30,
+        "column_count": 15
+      }
+    ],
+    "record_count": 30,
+    "table_count": 1
+  }
+}

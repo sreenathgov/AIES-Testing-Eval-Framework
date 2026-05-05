@@ -1,0 +1,68 @@
+{
+  "handoff_id": "DRH-001",
+  "component_ref": "ent_187",
+  "reason_for_handoff": "cross_jurisdiction_divergence",
+  "d_class_hs_position": "US 8708.99.68 stable/high; EU 8708.99.97 stable/high; India 8501.53.30 contested/medium pending Bombay High Court and India-side authority development.",
+  "aa_classification_candidate": {
+    "component": "Integrated E-Axle",
+    "entity_id": "ent_187",
+    "gri_path": "GRI_3b",
+    "jurisdiction_divergence": true,
+    "stability_us": "stable",
+    "stability_eu": "stable",
+    "stability_india": "contested",
+    "confidence_us": "high",
+    "confidence_eu": "high",
+    "confidence_india": "medium",
+    "hs_code_us": "8708.99.68",
+    "hs_code_eu": "8708.99.97",
+    "hs_code_india": "8501.53.30",
+    "india_monitor_reason": "Bombay HC BEV axle classification judgment pending — could flip India position from 8501.53.30 to 8708.99.00"
+  },
+  "ruling_records_involved": [
+    "CBP NY N329827",
+    "CBP HQ H329719",
+    "CAAR Valco VCU/PCU ruling (India)",
+    "CAAR BEV axle advance ruling denial / Bombay High Court pending matter"
+  ],
+  "contradiction_record": null,
+  "open_question_for_d_ruling": "For India, should an integrated e-axle be maintained at 8501.53.30 on a motor-dominant essential-character theory, or overridden to 8708.99.00 based on later India authority, appellate developments, or a stronger vehicular-drivetrain characterization?",
+  "founder_override_provenance": true,
+  "founder_override_scope": "missing_primary_text_india_case_law",
+  "founder_override_basis": "ey_pwc_secondary_authority",
+  "founder_override_note": "Founder-approved temporary provenance bridge for missing Indian primary text. EY and PwC secondary summaries are accepted for the test run only and must be replaced when the underlying India judgments/orders are acquired.",
+  "primary_text_status": "not_yet_acquired",
+  "secondary_authority_sources": [
+    {
+      "source": "EY / ACMA Tax & Regulatory Alert (Aug 2022)",
+      "citation": "CAAR/Del/Volvo Auto/08/2022",
+      "forum": "CAAR (Delhi)",
+      "date": "2022-08",
+      "holding_summary": "EV kits presented together in CKD form treated as complete vehicle under GRI 2(a); used as secondary aggregation support for India EV drivetrain analysis.",
+      "source_type": "secondary",
+      "source_publisher": "EY",
+      "primary_text_status": "not_yet_acquired"
+    },
+    {
+      "source": "PwC Customs & Trade Newsletter (Oct 2024)",
+      "citation": "Iljin Automotive Pvt. Ltd. / hub assembly axle logic",
+      "forum": "CESTAT (Chennai)",
+      "date": "2025-08-21",
+      "holding_summary": "Hub assembly classified with axle system, reinforcing axle-system reasoning relevant to integrated EV drive assemblies.",
+      "source_type": "secondary",
+      "source_publisher": "PwC",
+      "primary_text_status": "not_yet_acquired"
+    }
+  ],
+  "override_applies_to_jurisdictions": ["IN"],
+  "override_review_required_when_primary_acquired": true,
+  "jurisdiction_divergence_detail": {
+    "jurisdiction_a": "US/EU",
+    "code_a": "8708.99.68 (US); 8708.99.97 (EU)",
+    "ruling_a": "CBP NY N329827 + EU drivetrain analogy",
+    "jurisdiction_b": "India",
+    "code_b": "8501.53.30",
+    "ruling_b": "Motor-dominant secondary-source position; Bombay HC matter pending"
+  },
+  "created_at": "2026-04-09T09:22:00Z"
+}

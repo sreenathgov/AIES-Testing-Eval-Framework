@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_high-voltage-contactor",
+  "authority_status": "pass",
+  "component_ref": "ent_144",
+  "component_slug": "high-voltage-contactor",
+  "evaluated_artifact": "AA_EU_high-voltage-contactor",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

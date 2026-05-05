@@ -1,0 +1,47 @@
+{
+  "source_file": "/private/var/folders/rw/0363ypyd2ksb_3rn6nv80d3w0000gn/T/tmp.9Eo0nQfrNC/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
+  "source_hash": "1f2eada9662f4b6089e6bd90f8c5e50f93f032eabd7ae2a19014c06b711357c5",
+  "source_kind": "pdf",
+  "page_count": 19,
+  "table_count": 16,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes.",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Subheading Notes.",
+      "page_numbers": [
+        4
+      ]
+    }
+  ],
+  "parse_duration_seconds": 7.4,
+  "docling_version": "unknown",
+  "selected_engine": "mistral_ocr",
+  "complexity_class": "manual_complex_pdf",
+  "route_reason": "Manual `_complex` tag forces Mistral OCR first.",
+  "fallback_chain": [
+    "docling"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "legal_statute",
+  "normalized_confidence": 0.82,
+  "normalized_review_flags": [
+    "legal_signal"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

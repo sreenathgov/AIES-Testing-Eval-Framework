@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_170",
+  "component_slug": "cell-supervisor-unit-(csu)",
+  "handoff_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_cell-supervisor-unit-(csu)"
+}

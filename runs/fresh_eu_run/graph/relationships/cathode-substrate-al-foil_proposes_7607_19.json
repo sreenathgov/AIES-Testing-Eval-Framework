@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_tb3_05",
+  "direction_valid": true,
+  "edge_id": "edge:cathode-substrate-al-foil:proposes:7607.19",
+  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "source_node_id": "AA_EU_cathode-substrate-al-foil",
+  "target_node_id": "cn_code:7607-19:eu"
+}

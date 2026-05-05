@@ -1,0 +1,26 @@
+{
+  "source_id": "SRC_EU_BTI_SAMPLE",
+  "source_type": "structured_csv",
+  "inferred_layout_type": "CSV/structured dataset",
+  "visual_engine": "csv_header_scan",
+  "sample_pages": [],
+  "columns": [
+    "BTI_REFERENCE",
+    "ISSUING_COUNTRY",
+    "START_DATE_OF_VALIDITY",
+    "END_DATE_OF_VALIDITY",
+    "NOMENCLATURE_CODE",
+    "CLASSIFICATION_JUSTIFICATION",
+    "STATUS",
+    "INVALIDATION_REASON",
+    "INVALIDATION_JUSTIFICATION",
+    "LANGUAGE",
+    "PLACE_OF_ISSUE",
+    "DATE_OF__ISSUE",
+    "NAME_AND_ADDRESS",
+    "DESCRIPTION_OF_GOODS",
+    "KEYWORDS"
+  ],
+  "row_count": 30,
+  "review_flags": []
+}

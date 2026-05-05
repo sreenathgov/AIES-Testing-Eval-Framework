@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_182",
+  "component_slug": "high-voltage-connectors",
+  "handoff_id": "HANDOFF_EU_high-voltage-connectors",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_high-voltage-connectors"
+}

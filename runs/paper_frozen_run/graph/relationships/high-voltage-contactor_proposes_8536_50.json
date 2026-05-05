@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_144",
+  "direction_valid": true,
+  "edge_id": "edge:high-voltage-contactor:proposes:8536.50",
+  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "source_node_id": "AA_EU_high-voltage-contactor",
+  "target_node_id": "cn_code:8536-50:eu"
+}

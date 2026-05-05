@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_207",
+  "direction_valid": true,
+  "edge_id": "edge:ndfeb-permanent-magnets:proposes:8505.11",
+  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "source_node_id": "AA_EU_ndfeb-permanent-magnets",
+  "target_node_id": "cn_code:8505-11:eu"
+}

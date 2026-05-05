@@ -1,0 +1,608 @@
+{
+  "source_file": "/Users/sreenathgovindarajan/Documents/sector-watch/drona/corpus/02_hs_classification/national_tariffs/eu/EU - HS - COMMISSION IMPLEMENTING REGULATION (EU) 2025_1926 - EVs.pdf",
+  "source_hash": "0b221f5e63c80ae98546ed13bd98aeb7917f5662b55a4e0f70444225a45e414b",
+  "source_kind": "pdf",
+  "page_count": 158,
+  "table_count": 28,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "COMMISSION IMPLEMENTING REGULATION (EU) 2025/1926",
+      "page_numbers": [
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Article 1",
+      "page_numbers": [
+        2
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Article 2",
+      "page_numbers": [
+        2
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION III",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 3,
+      "text": "ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION IV",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 3,
+      "text": "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION V",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 3,
+      "text": "MINERAL PRODUCTS",
+      "page_numbers": [
+        6
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION VI",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION VII",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "PLASTICS AND ARTICLES THEREOF; RUBBER AND ARTICLES THEREOF",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION VIII",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILKWORM GUT)",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION IX",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK",
+      "page_numbers": [
+        7
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION X",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 3,
+      "text": "PULP OF WOOD OR OF OTHER FIBROUS CELLULOISIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XI",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 3,
+      "text": "TEXTILES AND TEXTILE ARTICLES",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XII",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 3,
+      "text": "FOOTWEAR, HEADGEAR, UMBRELLAS, SUN UMBRELLAS, WALKING STICKS, SEAT-STICKS, WHIPS, RIDING-CROPS AND PARTS THEREOF; PREPARED FEATHERS AND ARTICLES MADE THEREWITH; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR",
+      "page_numbers": [
+        8
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XIII",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "ARTICLES OF STONE, PLASTER, CEMENT, ASBESTOS, MICA OR SIMILAR MATERIALS; CERAMIC PRODUCTS; GLASS AND GLASSWARE",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XIV",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "NATURAL OR CULTURED PEARLS, PRECIOUS OR SEMI-PRECIOUS STONES, PRECIOUS METALS, METALS CLAD WITH PRECIOUS METAL, AND ARTICLES THEREOF; IMITATION JEWELLERY; COIN",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XV",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "BASE METALS AND ARTICLES OF BASE METAL",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XVI",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "MACHINERY AND MECHANICAL APPLIANCES; ELECTRICAL EQUIPMENT; PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES",
+      "page_numbers": [
+        9
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XVII",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XVIII",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; CLOCKS AND WATCHES; MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XIX",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "ARMS AND AMMUNITION; PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XX",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "MISCELLANEOUS MANUFACTURED ARTICLES",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XXI",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 2,
+      "text": "WORKS OF ART, COLLECTORS' PIECES AND ANTIQUES",
+      "page_numbers": [
+        10
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SECTION I",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 1,
+      "text": "GENERAL RULES",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "A. General rules for the interpretation of the Combined Nomenclature",
+      "page_numbers": [
+        15
+      ]
+    },
+    {
+      "level": 2,
+      "text": "B. General rules concerning duties",
+      "page_numbers": [
+        16
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C. General rules applicable both to nomenclature and to duties",
+      "page_numbers": [
+        17
+      ]
+    },
+    {
+      "level": 2,
+      "text": "C. Pharmaceutical products",
+      "page_numbers": [
+        22
+      ]
+    },
+    {
+      "level": 1,
+      "text": "D. Standard rate of duty",
+      "page_numbers": [
+        23
+      ]
+    },
+    {
+      "level": 1,
+      "text": "E. Containers and packing materials",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "F. Favourable tariff treatment by reason of the nature of the goods",
+      "page_numbers": [
+        24
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SIGNS, ABBREVIATIONS AND SYMBOLS",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Note:",
+      "page_numbers": [
+        26
+      ]
+    },
+    {
+      "level": 1,
+      "text": "SUPPLEMENTARY UNITS",
+      "page_numbers": [
+        27
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 84",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "page_numbers": [
+        28
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Subheading notes",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Additional notes",
+      "page_numbers": [
+        31
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 85",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 1,
+      "text": "ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "page_numbers": [
+        79
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Subheading notes",
+      "page_numbers": [
+        82
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Additional note",
+      "page_numbers": [
+        83
+      ]
+    },
+    {
+      "level": 2,
+      "text": "SECTION XVII",
+      "page_numbers": [
+        110
+      ]
+    },
+    {
+      "level": 2,
+      "text": "VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT",
+      "page_numbers": [
+        110
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "page_numbers": [
+        110
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Additional notes",
+      "page_numbers": [
+        111
+      ]
+    },
+    {
+      "level": 2,
+      "text": "CHAPTER 86",
+      "page_numbers": [
+        111
+      ]
+    },
+    {
+      "level": 2,
+      "text": "RAILWAY OR TRAMWAY LOCOMOTIVES, ROLLING STOCK AND PARTS THEREOF; RAILWAY OR TRAMWAY TRACK FIXTURES AND FITTINGS AND PARTS THEREOF; MECHANICAL (INCLUDING ELECTROMECHANICAL) TRAFFIC SIGNALING EQUIPMENT OF ALL KINDS",
+      "page_numbers": [
+        111
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "page_numbers": [
+        111
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 87",
+      "page_numbers": [
+        112
+      ]
+    },
+    {
+      "level": 1,
+      "text": "VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF",
+      "page_numbers": [
+        112
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "page_numbers": [
+        112
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Subheading note",
+      "page_numbers": [
+        112
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 88",
+      "page_numbers": [
+        128
+      ]
+    },
+    {
+      "level": 1,
+      "text": "AIRCRAFT, SPACECRAFT, AND PARTS THEREOF",
+      "page_numbers": [
+        128
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Note",
+      "page_numbers": [
+        128
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Subheading notes",
+      "page_numbers": [
+        128
+      ]
+    },
+    {
+      "level": 1,
+      "text": "Additional notes",
+      "page_numbers": [
+        131
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CHAPTER 91",
+      "page_numbers": [
+        143
+      ]
+    },
+    {
+      "level": 1,
+      "text": "CLOCKS AND WATCHES AND PARTS THEREOF",
+      "page_numbers": [
+        143
+      ]
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "page_numbers": [
+        143
+      ]
+    },
+    {
+      "level": 1,
+      "text": "STATISTICAL TARIC CODES",
+      "page_numbers": [
+        146
+      ]
+    }
+  ],
+  "parse_duration_seconds": 26.78,
+  "docling_version": "unknown",
+  "selected_engine": "mistral_ocr",
+  "complexity_class": "manual_complex_pdf",
+  "route_reason": "Manual `_complex` tag forces Mistral OCR first.",
+  "fallback_chain": [
+    "docling"
+  ],
+  "fallback_used": false,
+  "normalized_document_class": "tariff_schedule",
+  "normalized_confidence": 0.95,
+  "normalized_review_flags": [
+    "table_heavy_tariff_layout",
+    "tariff_specific_adapter"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

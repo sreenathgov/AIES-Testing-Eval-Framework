@@ -1,0 +1,11 @@
+{
+  "component_ref": "ent_133",
+  "component_slug": "high-voltage-battery-module",
+  "handoff_id": "HANDOFF_EU_high-voltage-battery-module",
+  "human_review_required": true,
+  "review_reason_codes": [
+    "gri_3b_requires_adjudication_review"
+  ],
+  "route": "review",
+  "source_artifact": "AA_EU_high-voltage-battery-module"
+}

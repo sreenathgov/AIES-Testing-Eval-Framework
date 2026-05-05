@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+  "authority_status": "pass",
+  "component_ref": "ent_170",
+  "component_slug": "cell-supervisor-unit-(csu)",
+  "evaluated_artifact": "AA_EU_cell-supervisor-unit-(csu)",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

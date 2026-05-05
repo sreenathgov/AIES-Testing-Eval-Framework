@@ -1,0 +1,1629 @@
+{
+  "events": [
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "audit_only": true,
+      "component_id": "ent_tb3_02",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "audit_only": true,
+      "component_id": "ent_tb3_06",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "audit_only": true,
+      "component_id": "ent_169",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "audit_only": true,
+      "component_id": "ent_171",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "audit_only": true,
+      "component_id": "ent_217",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "audit_only": true,
+      "component_id": "ent_tb3_01",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "audit_only": true,
+      "component_id": "ent_tb3_05",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "audit_only": true,
+      "component_id": "ent_170",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "audit_only": true,
+      "component_id": "ent_267",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "audit_only": true,
+      "component_id": "ent_216",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "audit_only": true,
+      "component_id": "ent_tb3_03",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "audit_only": true,
+      "component_id": "ent_133",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "audit_only": true,
+      "component_id": "ent_100",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "audit_only": true,
+      "component_id": "ent_182",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "audit_only": true,
+      "component_id": "ent_144",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "audit_only": true,
+      "component_id": "ent_269",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "audit_only": true,
+      "component_id": "ent_187",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "audit_only": true,
+      "component_id": "ent_147",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "audit_only": true,
+      "component_id": "ent_207",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "audit_only": true,
+      "component_id": "ent_215",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "audit_only": true,
+      "component_id": "ent_219",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "audit_only": true,
+      "component_id": "ent_tb3_04",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "audit_only": true,
+      "component_id": "ent_tb3_07",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "audit_only": true,
+      "component_id": "ent_209",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_silicon-igbts",
+      "audit_only": true,
+      "component_id": "ent_210",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "audit_only": true,
+      "component_id": "ent_196",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_id": "ent_221",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_traction-motor",
+      "component_id": "ent_221",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_id": "ent_221",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_traction-motor",
+      "audit_only": true,
+      "component_id": "ent_221",
+      "source_uses": []
+    },
+    {
+      "agent_id": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        }
+      ]
+    },
+    {
+      "agent_id": "PRA",
+      "artifact_id": "PRA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "permitted": true,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "source_uses": [],
+      "synthesis_only": true
+    },
+    {
+      "agent_id": "KA",
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "audit_only": true,
+      "component_id": "ent_218",
+      "source_uses": []
+    }
+  ],
+  "run_id": "fresh_eu_run"
+}

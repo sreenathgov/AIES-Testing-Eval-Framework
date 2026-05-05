@@ -1,0 +1,31 @@
+{
+  "source_file": "/Users/sreenathgovindarajan/Documents/legal-extraction-eval-harness/data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
+  "source_hash": "1f2298a0894077ecbf7d6cf8dcdc17620672eaf2c7a45dc65ffa4fcd3836a00b",
+  "source_kind": "csv",
+  "page_count": 1,
+  "table_count": 1,
+  "heading_tree": [
+    {
+      "level": 1,
+      "text": "ebti sample targeted test run",
+      "page_numbers": [
+        1
+      ]
+    }
+  ],
+  "parse_duration_seconds": 0.01,
+  "docling_version": "unknown",
+  "selected_engine": "csv_normalizer",
+  "complexity_class": "structured_data",
+  "route_reason": "CSV sources must be normalized deterministically.",
+  "fallback_chain": [],
+  "fallback_used": false,
+  "normalized_document_class": "structured_dataset",
+  "normalized_confidence": 0.99,
+  "normalized_review_flags": [
+    "source_kind=csv"
+  ],
+  "validation_status": "pass",
+  "validation_reasons": [],
+  "parser_version": "1.0.0"
+}

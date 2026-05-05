@@ -1,0 +1,23 @@
+<!-- Reviewer-safe sanitized forensic artifact. This file evidences artifact origin only and is not external legal authority. -->
+
+{
+  "node_id": "hs_code:8507-60-00:EU",
+  "entity_type": "hs_code",
+  "canonical_name": "HS 8507.60.00 (EU)",
+  "jurisdiction": "EU",
+  "layer": 3,
+  "properties": {
+    "hs_code_value": "8507.60.00",
+    "chapter": "85",
+    "heading": "8507",
+    "description": "Lithium-ion accumulators (batteries / cells)",
+    "jurisdiction_variants": {}
+  },
+  "provenance": {
+    "source_doc": "golden_dataset_v1.csv",
+    "drona_domain": "D-CLASS-HS",
+    "row": "GD-001",
+    "column": "hs_code_eu"
+  },
+  "verification_status": "staging"
+}

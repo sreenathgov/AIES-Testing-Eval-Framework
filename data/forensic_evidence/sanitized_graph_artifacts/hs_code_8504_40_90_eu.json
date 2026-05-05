@@ -1,0 +1,23 @@
+<!-- Reviewer-safe sanitized forensic artifact. This file evidences artifact origin only and is not external legal authority. -->
+
+{
+  "node_id": "hs_code:8504-40-90:EU",
+  "entity_type": "hs_code",
+  "canonical_name": "HS 8504.40.90 (EU)",
+  "jurisdiction": "EU",
+  "layer": 3,
+  "properties": {
+    "hs_code_value": "8504.40.90",
+    "chapter": "85",
+    "heading": "8504",
+    "description": "Other static converters.",
+    "jurisdiction_variants": {}
+  },
+  "provenance": {
+    "source_doc": "dc-dc-converter_classification_candidate.md",
+    "drona_domain": "D-CLASS-HS",
+    "row": "GATE1_BACKFILL",
+    "column": "hs_code_eu"
+  },
+  "verification_status": "staging"
+}

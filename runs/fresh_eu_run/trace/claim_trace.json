@@ -1,0 +1,1125 @@
+{
+  "claims": [
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "claim_id": "claim:anode-active-material-graphite:classification",
+      "claim_text": "For EU paper-scope review, Anode Active Material (Graphite) is proposed under CN/HS anchor 3801.90, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_02",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "claim_id": "claim:anode-substrate-cu-foil:classification",
+      "claim_text": "For EU paper-scope review, Anode Substrate (Cu Foil) is proposed under CN/HS anchor 7410.21, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_06",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "claim_id": "claim:battery-control-unit-(bcu):classification",
+      "claim_text": "For EU paper-scope review, Battery Control Unit (BCU) is proposed under CN/HS anchor 8537.10, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_169",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "claim_id": "claim:battery-disconnect-unit-(bdu):classification",
+      "claim_text": "For EU paper-scope review, Battery Disconnect Unit (BDU) is proposed under CN/HS anchor 8536.50, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_171",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "claim_id": "claim:battery-management-system-(bms):classification",
+      "claim_text": "For EU paper-scope review, Battery Management System (BMS) is proposed under CN/HS anchor 8537.10, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_217",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "claim_id": "claim:cathode-active-material-nmc:classification",
+      "claim_text": "For EU paper-scope review, Cathode Active Material (NMC) is proposed under CN/HS anchor 2841.90, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_01",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "claim_id": "claim:cathode-substrate-al-foil:classification",
+      "claim_text": "For EU paper-scope review, Cathode Substrate (Al Foil) is proposed under CN/HS anchor 7607.19, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_05",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "claim_id": "claim:cell-supervisor-unit-(csu):classification",
+      "claim_text": "For EU paper-scope review, Cell Supervisor Unit (CSU) is proposed under CN/HS anchor 8537.10, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_170",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "claim_id": "claim:combo-power-electronics-unit:classification",
+      "claim_text": "For EU paper-scope review, Combo Power Electronics Unit is proposed under CN/HS anchor 8504.40, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_267",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "claim_id": "claim:dc-dc-converter:classification",
+      "claim_text": "For EU paper-scope review, DC-DC Converter is proposed under CN/HS anchor 8504.40, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_216",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "claim_id": "claim:electrolyte-lipf6-solution:classification",
+      "claim_text": "For EU paper-scope review, Electrolyte (LiPF6 Solution) is proposed under CN/HS anchor 3824.99, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_03",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "claim_id": "claim:high-voltage-battery-module:classification",
+      "claim_text": "For EU paper-scope review, High-Voltage Battery Module is proposed under CN/HS anchor 8507.60, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_133",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "claim_id": "claim:high-voltage-battery-pack-assembly:classification",
+      "claim_text": "For EU paper-scope review, High-Voltage Battery Pack Assembly is proposed under CN/HS anchor 8507.60, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_100",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "claim_id": "claim:high-voltage-connectors:classification",
+      "claim_text": "For EU paper-scope review, High-Voltage Connectors is proposed under CN/HS anchor 8536.69, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_182",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "claim_id": "claim:high-voltage-contactor:classification",
+      "claim_text": "For EU paper-scope review, High-Voltage Contactor is proposed under CN/HS anchor 8536.50, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_144",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "claim_id": "claim:hyper-integrated-e-axle:classification",
+      "claim_text": "For EU paper-scope review, Hyper-Integrated E-Axle is proposed under CN/HS anchor 8708.99, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_269",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "claim_id": "claim:integrated-e-axle:classification",
+      "claim_text": "For EU paper-scope review, Integrated E-Axle is proposed under CN/HS anchor 8708.99, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_187",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "claim_id": "claim:lithium-ion-battery-cell:classification",
+      "claim_text": "For EU paper-scope review, Lithium-Ion Battery Cell is proposed under CN/HS anchor 8507.60, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_147",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "claim_id": "claim:ndfeb-permanent-magnets:classification",
+      "claim_text": "For EU paper-scope review, NdFeB Permanent Magnets is proposed under CN/HS anchor 8505.11, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_207",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "claim_id": "claim:on-board-charger-(obc):classification",
+      "claim_text": "For EU paper-scope review, On-Board Charger (OBC) is proposed under CN/HS anchor 8504.40, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_215",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "claim_id": "claim:power-distribution-unit-(pdu):classification",
+      "claim_text": "For EU paper-scope review, Power Distribution Unit (PDU) is proposed under CN/HS anchor 8537.10, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_219",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "claim_id": "claim:separator-pe-pp-film:classification",
+      "claim_text": "For EU paper-scope review, Separator (PE/PP Film) is proposed under CN/HS anchor 3920.10, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_04",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "claim_id": "claim:silicon-alloyed-electrical-steel-core-noes:classification",
+      "claim_text": "For EU paper-scope review, Silicon-Alloyed Electrical Steel Core (NOES) is proposed under CN/HS anchor 7226.19, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_tb3_07",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "claim_id": "claim:silicon-carbide-(sic)-mosfets:classification",
+      "claim_text": "For EU paper-scope review, Silicon Carbide (SiC) MOSFETs is proposed under CN/HS anchor 8541.29, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_209",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "claim_id": "claim:silicon-igbts:classification",
+      "claim_text": "For EU paper-scope review, Silicon IGBTs is proposed under CN/HS anchor 8541.29, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_210",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "claim_id": "claim:traction-inverter-module:classification",
+      "claim_text": "For EU paper-scope review, Traction Inverter Module is proposed under CN/HS anchor 8504.40, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_196",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "claim_id": "claim:traction-motor:classification",
+      "claim_text": "For EU paper-scope review, Traction Motor is proposed under CN/HS anchor 8501.53, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_221",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "claim_id": "claim:vehicle-control-unit-(vcu):classification",
+      "claim_text": "For EU paper-scope review, Vehicle Control Unit (VCU) is proposed under CN/HS anchor 8537.10, subject to recorded GRI caveats.",
+      "claim_type": "material_legal_proposition",
+      "component_id": "ent_218",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_2025_1926_EVS_RECORDS",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_EN_RECORDS",
+          "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+          "source_type": "interpretive_legal_note"
+        },
+        {
+          "record_id": "EU_BTI_DEBTI58842_24_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        },
+        {
+          "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    }
+  ],
+  "run_id": "fresh_eu_run"
+}

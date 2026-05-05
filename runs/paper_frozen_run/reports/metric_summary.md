@@ -1,0 +1,19 @@
+# Metric Summary
+
+Diagnostic metrics explain the control profile. They do not override blocker or review gates.
+
+| metric_id | name | score | numerator | denominator | status | formula | blocker_override_applied | stress_test_type | linked_validator | notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| authority_boundary_compliance | Authority-Boundary Compliance | 1.0 | 168 | 168 | pass | permitted_agent_source_uses / total_agent_source_uses | False | cross_source_agent_misuse | agent_role_validator | Checks whether each agent used only source classes permitted by its legal role. |
+| material_legal_capture | Material Legal Capture | 1.0 | 158 | 158 | pass | weighted_used_required_items / weighted_total_required_items | False | missing_decisive_gri_rule | material_capture_validator | Reframes recall as legally material capture rather than generic text recall. |
+| provenance_sufficiency | Provenance Sufficiency | 1.0 | 28 | 28 | pass | claims_with_verifiable_trace / total_material_claims | False | missing_source_anchor | provenance_validator | Tests claim-to-source traceability below document level where possible. |
+| primary_authority_sufficiency | Primary-Authority Sufficiency | 1.0 | 28 | 28 | pass | decisions_with_required_primary_or_interpretive_authority / total_decisions | False | secondary_only_authority_chain | authority_boundary_validator | Uses authority sufficiency rather than a crude authority ratio. |
+| critical_omission_rate | Critical Omission Rate | 1.0 | 0 | 34 | pass | missing_decisive_rules / total_decisive_rules | False | counterfactual_rule_removal | material_capture_validator | Detects missing rules that could change the legal outcome. |
+| unsupported_synthesis_rate | Unsupported Synthesis Rate | 1.0 | 0 | 56 | pass | unsupported_inference_edges / total_inference_edges | False | ungrounded_therefore_inference | supported_synthesis_validator | Flags reasoning jumps that are not supported by source or method. |
+| false_certainty_rate | False-Certainty Rate | 1.0 | 0 | 6 | pass | high_confidence_unsafe_ambiguous_outputs / total_ambiguous_cases | False | high_confidence_ambiguous_case | uncertainty_validator | Tests whether uncertainty is preserved instead of collapsed. |
+| conflict_preservation | Conflict Preservation | 1.0 | 6 | 6 | pass | conflict_cases_preserved / total_conflict_cases | False | collapsed_conflict | uncertainty_validator | Ensures competing legal interpretations are preserved. |
+| evidence_gap_detection | Evidence-Gap Detection | 1.0 | 0 | 0 | pass | correctly_flagged_incomplete_cases / total_incomplete_cases | False | missing_material_composition | review_trigger_validator | Tests whether the system abstains or escalates when key facts are missing. |
+| handoff_safety | Handoff Safety | 1.0 | 6 | 6 | pass | unsafe_outputs_intercepted / total_unsafe_outputs | False | unsafe_promotion | handoff_validator | Checks whether unsafe artifacts are stopped before downstream use. |
+| human_review_trigger_correctness | Human-Review Trigger Correctness | 1.0 | 6 | 6 | pass | correct_escalations / total_cases_requiring_escalation | False | missing_review_trigger | review_trigger_validator | Validates that review conditions are turned into explicit route decisions. |
+
+Metrics evaluated: 11

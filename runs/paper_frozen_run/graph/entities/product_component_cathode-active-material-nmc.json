@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Cathode Active Material (NMC)",
+  "component_ref": "ent_tb3_01",
+  "node_id": "product_component:cathode-active-material-nmc",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

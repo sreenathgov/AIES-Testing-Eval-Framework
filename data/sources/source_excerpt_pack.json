@@ -1,0 +1,11 @@
+{
+  "note": "Reviewer-safe source anchor excerpt pack. These excerpts are short anchors used for deterministic fixture evaluation and are not a substitute for the full public legal materials.",
+  "source_ids": [
+    "SRC_WCO_GRI_2017",
+    "SRC_WCO_SECTION_XVI",
+    "SRC_WCO_SECTION_XVII",
+    "SRC_EU_CN_2025_1926_EVS",
+    "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+    "SRC_EU_BTI_SAMPLE"
+  ]
+}
