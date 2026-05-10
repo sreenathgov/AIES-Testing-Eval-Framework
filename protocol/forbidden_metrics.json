@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "policy": "Forbidden metrics and non-dispositive diagnostics must not be used as legal correctness gates in the v1 DRONA HS evaluation harness.",
+  "guardrails": [
+    {
+      "guardrail_id": "source_processing_boundary",
+      "text": "Any truncation, chunk-boundary loss, context-window loss, or retrieval-window omission must be logged as a source-processing boundary.",
+      "replaces": "Fixed token-count truncation-limit language"
+    }
+  ],
+  "metrics": [
+    {
+      "metric_id": "negative_log_likelihood",
+      "name": "Negative Log Likelihood",
+      "status": "forbidden",
+      "rationale": "NLL is not implementable or auditable in typical LLM-as-a-service legal extraction contexts because token probabilities are unavailable and do not map to legal authority."
+    },
+    {
+      "metric_id": "brier_score",
+      "name": "Brier Score",
+      "status": "forbidden",
+      "rationale": "Brier scores require calibrated probability forecasts. The harness uses legal authority, source grounding, and route safety rather than probabilistic correctness."
+    },
+    {
+      "metric_id": "tf_idf_entropy_domain_proxy",
+      "name": "TF-IDF / Entropy As Domain Relevance Proxy",
+      "status": "forbidden",
+      "rationale": "Term-frequency proxies cannot distinguish legal authority, binding force, jurisdictional scope, or provenance sufficiency."
+    },
+    {
+      "metric_id": "document_level_citation",
+      "name": "Document-Level Citation For Material Propositions",
+      "status": "forbidden",
+      "rationale": "Document-level citation is too broad for legal auditability when finer anchors are available. Material propositions require sub-document anchors where possible."
+    },
+    {
+      "metric_id": "bertscore",
+      "name": "BERTScore",
+      "status": "future_diagnostic_only",
+      "rationale": "Semantic similarity can support paraphrase diagnostics later, but it cannot validate legal authority, source sufficiency, or handoff safety."
+    },
+    {
+      "metric_id": "expected_calibration_error",
+      "name": "Expected Calibration Error",
+      "status": "deferred",
+      "rationale": "ECE needs probability bins and empirical accuracy sets. V1 uses false-certainty and uncertainty-preservation controls instead."
+    },
+    {
+      "metric_id": "nlog_distance",
+      "name": "nLog-Distance",
+      "status": "future_diagnostic_only",
+      "rationale": "nLog-Distance is useful for numeric threshold-heavy regulatory domains, but it is not a core HS legal extraction metric for v1."
+    }
+  ]
+}

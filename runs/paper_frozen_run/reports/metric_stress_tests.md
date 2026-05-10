@@ -13,5 +13,10 @@
 | missing_material_composition | evidence_gap_detection | review | evidence_gap_detection | review_trigger_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 | unsafe_promotion | handoff_safety | blocked | handoff_safety | handoff_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 | missing_review_trigger | human_review_trigger_correctness | review | human_review_trigger_correctness | review_trigger_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
+| missing_required_handoff_field | field_completeness_rate | blocked | field_completeness_rate | schema_and_required_field_trace | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
+| corpus_gap_requires_abstention | abstention_rate | review | abstention_rate | handoff_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
+| malformed_graph_edge | semantic_graph_alignment | blocked | semantic_graph_alignment | graph_adapter | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
+| over_escalation_burden | human_research_burden | diagnostic | human_research_burden | review_trigger_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
+| rerun_delta_threshold_breach | rerun_delta_rate | comparison_only | rerun_delta_rate | reference_baseline_comparator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 
-Stress tests specified: 11
+Stress tests specified: 16

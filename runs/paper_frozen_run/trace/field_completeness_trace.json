@@ -1,0 +1,5689 @@
+{
+  "checks": [
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-active-material-graphite",
+      "component_slug": "anode-active-material-graphite",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "component_slug": "anode-substrate-cu-foil",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "component_slug": "battery-control-unit-(bcu)",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "component_slug": "battery-disconnect-unit-(bdu)",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "component_slug": "battery-management-system-(bms)",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "component_slug": "cathode-active-material-nmc",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "component_slug": "cathode-substrate-al-foil",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "component_slug": "cell-supervisor-unit-(csu)",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "component_slug": "combo-power-electronics-unit",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_dc-dc-converter",
+      "component_slug": "dc-dc-converter",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "component_slug": "electrolyte-lipf6-solution",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-module",
+      "component_slug": "high-voltage-battery-module",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "component_slug": "high-voltage-battery-pack-assembly",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-connectors",
+      "component_slug": "high-voltage-connectors",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_high-voltage-contactor",
+      "component_slug": "high-voltage-contactor",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "component_slug": "hyper-integrated-e-axle",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_integrated-e-axle",
+      "component_slug": "integrated-e-axle",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "component_slug": "lithium-ion-battery-cell",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "component_slug": "ndfeb-permanent-magnets",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "component_slug": "on-board-charger-(obc)",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "component_slug": "power-distribution-unit-(pdu)",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_separator-pe-pp-film",
+      "component_slug": "separator-pe-pp-film",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "component_slug": "silicon-carbide-(sic)-mosfets",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_silicon-igbts",
+      "component_slug": "silicon-igbts",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-inverter-module",
+      "component_slug": "traction-inverter-module",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_traction-motor",
+      "component_slug": "traction-motor",
+      "field": "human_review_required",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "hs_code_candidate",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "gri_path_taken",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "source_doc",
+      "present": true
+    },
+    {
+      "agent_stage": "PTA",
+      "artifact_id": "PTA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "bti_records_considered",
+      "present": true
+    },
+    {
+      "agent_stage": "PRA",
+      "artifact_id": "PRA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "jurisdiction",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "candidate_cn_code",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "legal_authority_chain",
+      "present": true
+    },
+    {
+      "agent_stage": "AA",
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "handoff_route",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "agent",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "artifact_id",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "evaluated_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "KA",
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "recommended_route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "handoff_id",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "component_ref",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "source_artifact",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "route",
+      "present": true
+    },
+    {
+      "agent_stage": "HANDOFF",
+      "artifact_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "component_slug": "vehicle-control-unit-(vcu)",
+      "field": "human_review_required",
+      "present": true
+    }
+  ],
+  "run_id": "paper_frozen_run"
+}

@@ -1,0 +1,11 @@
+{
+  "comparison_enabled": false,
+  "items": [],
+  "run_id": "paper_frozen_run",
+  "summary": {
+    "changed_outputs": 0,
+    "comparable_outputs": 0,
+    "comparison_enabled": false,
+    "source": "reference_baseline comparison disabled for v1 paper run"
+  }
+}

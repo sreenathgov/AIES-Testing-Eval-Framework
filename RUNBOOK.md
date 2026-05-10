@@ -23,6 +23,9 @@ Reports are written to:
 - `runs/paper_frozen_run/reports/control_profile.json`
 - `runs/paper_frozen_run/reports/control_profile.csv`
 - `runs/paper_frozen_run/reports/control_profile.md`
+- `runs/paper_frozen_run/reports/gate_summary.json`
+- `runs/paper_frozen_run/reports/gate_summary.csv`
+- `runs/paper_frozen_run/reports/gate_summary.md`
 - `runs/paper_frozen_run/reports/metric_summary.json`
 - `runs/paper_frozen_run/reports/metric_summary.csv`
 - `runs/paper_frozen_run/reports/metric_summary.md`
@@ -37,6 +40,16 @@ Trace inputs for the metrics are written under:
 - `runs/paper_frozen_run/trace/gating_decisions.json`
 - `runs/paper_frozen_run/trace/uncertainty_signals.json`
 - `runs/paper_frozen_run/trace/metric_inputs.json`
+- `runs/paper_frozen_run/trace/field_completeness_trace.json`
+- `runs/paper_frozen_run/trace/graph_alignment_trace.json`
+- `runs/paper_frozen_run/trace/abstention_trace.json`
+- `runs/paper_frozen_run/trace/research_burden_trace.json`
+- `runs/paper_frozen_run/trace/rerun_delta_trace.json`
+
+The Four-Gate handoff summary is generated from the same control-profile rows:
+`pass`, `pass_with_notes`, `blocked_pending_research`, and
+`blocked_pending_rerun`. A gate is a reviewer-facing safety route, not an
+accuracy label.
 
 ## Create A Fresh Deterministic Run
 
@@ -56,4 +69,5 @@ python3 -m pytest
 
 Tests cover the pre-HS boundary, source-record availability, agent-spec
 presence, baseline isolation, run report shape, metric formulas, trace shape,
-stress-test coverage, and the existing fixture evaluator.
+Four-Gate routing, forbidden metric policy, stress-test coverage, and the
+existing fixture evaluator.

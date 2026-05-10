@@ -141,5 +141,70 @@
     "score": 1.0,
     "status": "pass",
     "stress_test_type": "missing_review_trigger"
+  },
+  {
+    "blocker_override_applied": false,
+    "denominator": 812,
+    "formula": "required_fields_present / total_required_fields",
+    "linked_validator": "schema_and_required_field_trace",
+    "metric_id": "field_completeness_rate",
+    "name": "Field Completeness Rate",
+    "notes": "Measures whether every agent handoff artifact is structurally complete enough for downstream use.",
+    "numerator": 812,
+    "score": 1.0,
+    "status": "pass",
+    "stress_test_type": "missing_required_handoff_field"
+  },
+  {
+    "blocker_override_applied": false,
+    "denominator": 6,
+    "formula": "correct_abstentions / evidence_insufficient_cases",
+    "linked_validator": "handoff_validator",
+    "metric_id": "abstention_rate",
+    "name": "Abstention Rate",
+    "notes": "Treats correct refusal or escalation as a success behavior when the corpus is insufficient.",
+    "numerator": 6,
+    "score": 1.0,
+    "status": "pass",
+    "stress_test_type": "corpus_gap_requires_abstention"
+  },
+  {
+    "blocker_override_applied": false,
+    "denominator": 84,
+    "formula": "aligned_graph_items / total_graph_items",
+    "linked_validator": "graph_adapter",
+    "metric_id": "semantic_graph_alignment",
+    "name": "Semantic Graph Alignment",
+    "notes": "Checks structural equivalence between generated artifacts and the graph representation.",
+    "numerator": 84,
+    "score": 1.0,
+    "status": "pass",
+    "stress_test_type": "malformed_graph_edge"
+  },
+  {
+    "blocker_override_applied": false,
+    "denominator": 28,
+    "formula": "1 - (review_or_block_tickets / total_artifacts)",
+    "linked_validator": "review_trigger_validator",
+    "metric_id": "human_research_burden",
+    "name": "Human Research Burden",
+    "notes": "Quantifies the human review load created by safe governance decisions.",
+    "numerator": 6,
+    "score": 0.7857,
+    "status": "diagnostic",
+    "stress_test_type": "over_escalation_burden"
+  },
+  {
+    "blocker_override_applied": false,
+    "denominator": 0,
+    "formula": "1 - (changed_baseline_comparable_outputs / total_baseline_comparable_outputs)",
+    "linked_validator": "reference_baseline_comparator",
+    "metric_id": "rerun_delta_rate",
+    "name": "Rerun Delta Rate",
+    "notes": "Future-ready comparison metric for detecting regressions after corpus augmentation.",
+    "numerator": 0,
+    "score": 1.0,
+    "status": "comparison_only",
+    "stress_test_type": "rerun_delta_threshold_breach"
   }
 ]

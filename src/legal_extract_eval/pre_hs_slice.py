@@ -77,6 +77,9 @@ RUN_REPORT_COLUMNS = (
     "expected_route",
     "actual_route",
     "recommended_action",
+    "gate_id",
+    "gate_label",
+    "gate_reason_codes",
 )
 
 EU_CODE_MAP = {
@@ -178,7 +181,7 @@ def load_selected_components(harness_root: Path) -> list[dict[str, Any]]:
 def assert_pre_hs_purity(component: dict[str, Any]) -> tuple[str, ...]:
     failures: list[str] = []
     for key in FORBIDDEN_PRE_HS_KEYS:
-        if key in component and component[key] not in {None, "", []}:
+        if key in component and has_value(component[key]):
             failures.append(f"forbidden_pre_hs_field:{key}")
     serialized = json.dumps(component, sort_keys=True).lower()
     forbidden_terms = (
@@ -249,6 +252,10 @@ def known_gaps_for(frontmatter: dict[str, Any]) -> list[str]:
     if frontmatter.get("gri_3_required"):
         gaps.append("gri_3b_analysis_required_by_engineering_handoff")
     return gaps
+
+
+def has_value(value: Any) -> bool:
+    return value is not None and value != "" and value != []
 
 
 def write_engineering_handoff(harness_root: Path, sector_root: Path, components: list[dict[str, Any]]) -> None:
@@ -617,6 +624,8 @@ def count_run_artifacts(run_root: Path) -> dict[str, int]:
 
 
 def evaluate_run(harness_root: Path, run_id: str) -> list[dict[str, Any]]:
+    from .gate_model import attach_gate_fields
+
     run_root = harness_root / "runs" / run_id
     if not (run_root / "RUN_MANIFEST.json").exists():
         raise FileNotFoundError(f"Run not found or missing RUN_MANIFEST.json: {run_root}")
@@ -660,13 +669,15 @@ def evaluate_run(harness_root: Path, run_id: str) -> list[dict[str, Any]]:
                 "recommended_action": "route_to_human_review" if actual_route == "review" else "promote",
             }
         )
-    return rows
+    return attach_gate_fields(rows)
 
 
 def write_run_reports(harness_root: Path, run_id: str, rows: list[dict[str, Any]]) -> None:
+    from .gate_model import attach_gate_fields, write_gate_reports
     from .metric_calculator import calculate_metric_summary, write_metric_reports
 
     write_run_traces(harness_root, run_id)
+    rows = attach_gate_fields(rows)
     report_dir = harness_root / "runs" / run_id / "reports"
     report_dir.mkdir(parents=True, exist_ok=True)
     write_json(report_dir / "control_profile.json", rows)
@@ -676,6 +687,7 @@ def write_run_reports(harness_root: Path, run_id: str, rows: list[dict[str, Any]
         for row in rows:
             encoded = dict(row)
             encoded["failed_checks"] = ";".join(row.get("failed_checks", []))
+            encoded["gate_reason_codes"] = ";".join(row.get("gate_reason_codes", []))
             writer.writerow({column: encoded.get(column, "") for column in RUN_REPORT_COLUMNS})
     lines = ["# Run Control Profile", ""]
     lines.append("| " + " | ".join(RUN_REPORT_COLUMNS) + " |")
@@ -691,6 +703,7 @@ def write_run_reports(harness_root: Path, run_id: str, rows: list[dict[str, Any]
     lines.append("")
     lines.append(f"Run artifacts evaluated: {len(rows)}")
     (report_dir / "control_profile.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    write_gate_reports(harness_root, run_id, rows)
     metric_rows = calculate_metric_summary(harness_root, run_id)
     write_metric_reports(harness_root, run_id, metric_rows)
 
@@ -706,6 +719,10 @@ def write_run_traces(harness_root: Path, run_id: str) -> None:
     gating_decisions: list[dict[str, Any]] = []
     uncertainty_signals: list[dict[str, Any]] = []
     decisions: list[dict[str, Any]] = []
+    field_checks: list[dict[str, Any]] = []
+    graph_items: list[dict[str, Any]] = []
+    abstention_cases: list[dict[str, Any]] = []
+    burden_items: list[dict[str, Any]] = []
 
     for aa_path in sorted((run_root / "aa").glob("*.json")):
         aa = read_json(aa_path)
@@ -714,6 +731,7 @@ def write_run_traces(harness_root: Path, run_id: str) -> None:
         pra = read_json(run_root / "pra" / f"{slug}_eu.json")
         audit = read_json(run_root / "audit" / f"{slug}_audit.json")
         handoff = read_json(run_root / "handoff" / f"{slug}_handoff.json")
+        edge_paths = list((run_root / "graph" / "relationships").glob(f"{slug}_proposes_*.json"))
         requires_review = bool(aa.get("requires_human_review"))
         route = handoff.get("route")
         source_chain = aa.get("legal_authority_chain", [])
@@ -844,6 +862,27 @@ def write_run_traces(harness_root: Path, run_id: str) -> None:
                 "route": route,
             }
         )
+        field_checks.extend(required_field_checks(slug, pta, pra, aa, audit, handoff))
+        graph_items.extend(graph_alignment_items(run_root, slug, aa, edge_paths))
+        if requires_review:
+            abstention_cases.append(
+                {
+                    "artifact_id": aa["artifact_id"],
+                    "component_id": aa["component_ref"],
+                    "insufficiency_type": "contested_or_gri_3b_review_required",
+                    "route": route,
+                    "correct_abstention": route in {"review", "blocked", "unresolved"},
+                }
+            )
+        burden_items.append(
+            {
+                "artifact_id": aa["artifact_id"],
+                "component_id": aa["component_ref"],
+                "route": route,
+                "ticket_required": route in {"review", "blocked", "unresolved"},
+                "ticket_type": "human_review" if route == "review" else ("blocking_ticket" if route in {"blocked", "unresolved"} else "none"),
+            }
+        )
 
     write_json(trace_dir / "agent_trace.json", {"run_id": run_id, "events": agent_events})
     write_json(trace_dir / "claim_trace.json", {"run_id": run_id, "claims": claims})
@@ -865,6 +904,109 @@ def write_run_traces(harness_root: Path, run_id: str) -> None:
             "stress_tests": stress_test_catalog(),
         },
     )
+    write_json(trace_dir / "field_completeness_trace.json", {"run_id": run_id, "checks": field_checks})
+    write_json(trace_dir / "graph_alignment_trace.json", {"run_id": run_id, "items": graph_items})
+    write_json(trace_dir / "abstention_trace.json", {"run_id": run_id, "cases": abstention_cases})
+    write_json(
+        trace_dir / "research_burden_trace.json",
+        {
+            "run_id": run_id,
+            "tickets": burden_items,
+            "summary": {
+                "total_artifacts": len(burden_items),
+                "review_or_block_tickets": sum(1 for item in burden_items if item["ticket_required"]),
+            },
+        },
+    )
+    write_json(
+        trace_dir / "rerun_delta_trace.json",
+        {
+            "run_id": run_id,
+            "comparison_enabled": False,
+            "items": [],
+            "summary": {
+                "comparison_enabled": False,
+                "comparable_outputs": 0,
+                "changed_outputs": 0,
+                "source": "reference_baseline comparison disabled for v1 paper run",
+            },
+        },
+    )
+
+
+def required_field_checks(
+    slug: str,
+    pta: dict[str, Any],
+    pra: dict[str, Any],
+    aa: dict[str, Any],
+    audit: dict[str, Any],
+    handoff: dict[str, Any],
+) -> list[dict[str, Any]]:
+    required = {
+        "PTA": ("agent", "component_ref", "jurisdiction", "hs_code_candidate", "gri_path_taken", "source_doc", "legal_authority_chain"),
+        "PRA": ("agent", "component_ref", "jurisdiction", "bti_records_considered", "legal_authority_chain"),
+        "AA": ("agent", "artifact_id", "component_ref", "jurisdiction", "candidate_cn_code", "legal_authority_chain", "handoff_route"),
+        "KA": ("agent", "artifact_id", "component_ref", "evaluated_artifact", "recommended_route"),
+        "HANDOFF": ("handoff_id", "component_ref", "source_artifact", "route", "human_review_required"),
+    }
+    artifacts = {"PTA": pta, "PRA": pra, "AA": aa, "KA": audit, "HANDOFF": handoff}
+    checks: list[dict[str, Any]] = []
+    for agent, fields in required.items():
+        artifact = artifacts[agent]
+        artifact_id = artifact.get("artifact_id") or artifact.get("handoff_id") or f"{agent}_EU_{slug}"
+        for field in fields:
+            value = artifact.get(field)
+            checks.append(
+                {
+                    "artifact_id": artifact_id,
+                    "component_slug": slug,
+                    "agent_stage": agent,
+                    "field": field,
+                    "present": has_value(value),
+                }
+            )
+    return checks
+
+
+def graph_alignment_items(run_root: Path, slug: str, aa: dict[str, Any], edge_paths: list[Path]) -> list[dict[str, Any]]:
+    items: list[dict[str, Any]] = []
+    component_node = run_root / "graph" / "entities" / f"product_component_{slug}.json"
+    items.append(
+        {
+            "item_id": f"graph:{slug}:product_component",
+            "artifact_id": aa["artifact_id"],
+            "item_type": "product_component_node",
+            "aligned": component_node.exists(),
+            "failure_category": None if component_node.exists() else "missing_graph_node",
+        }
+    )
+    code = aa["candidate_cn_code"].replace(".", "_")
+    code_node = run_root / "graph" / "entities" / f"cn_code_{code}_eu.json"
+    items.append(
+        {
+            "item_id": f"graph:{slug}:cn_code",
+            "artifact_id": aa["artifact_id"],
+            "item_type": "hs_cn_code_node",
+            "aligned": code_node.exists(),
+            "failure_category": None if code_node.exists() else "missing_graph_node",
+        }
+    )
+    edge_aligned = False
+    for edge_path in edge_paths:
+        edge = read_json(edge_path)
+        if edge.get("direction_valid") is True and edge.get("source_node_id") == aa["artifact_id"]:
+            edge_aligned = True
+            break
+    items.append(
+        {
+            "item_id": f"graph:{slug}:proposes_edge",
+            "artifact_id": aa["artifact_id"],
+            "item_type": "classification_edge",
+            "aligned": edge_aligned,
+            "failure_category": None if edge_aligned else "edge_direction_invalid",
+        }
+    )
+    return items
 
 
 def rule_items_for(aa: dict[str, Any], pta: dict[str, Any]) -> list[dict[str, Any]]:
@@ -917,6 +1059,11 @@ def stress_test_catalog() -> list[dict[str, Any]]:
         {"stress_test_type": "missing_material_composition", "expected_failed_metric": "evidence_gap_detection", "expected_control_state": "review"},
         {"stress_test_type": "unsafe_promotion", "expected_failed_metric": "handoff_safety", "expected_control_state": "blocked"},
         {"stress_test_type": "missing_review_trigger", "expected_failed_metric": "human_review_trigger_correctness", "expected_control_state": "review"},
+        {"stress_test_type": "missing_required_handoff_field", "expected_failed_metric": "field_completeness_rate", "expected_control_state": "blocked"},
+        {"stress_test_type": "corpus_gap_requires_abstention", "expected_failed_metric": "abstention_rate", "expected_control_state": "review"},
+        {"stress_test_type": "malformed_graph_edge", "expected_failed_metric": "semantic_graph_alignment", "expected_control_state": "blocked"},
+        {"stress_test_type": "over_escalation_burden", "expected_failed_metric": "human_research_burden", "expected_control_state": "diagnostic"},
+        {"stress_test_type": "rerun_delta_threshold_breach", "expected_failed_metric": "rerun_delta_rate", "expected_control_state": "comparison_only"},
     ]
 
 

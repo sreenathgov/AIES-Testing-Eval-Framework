@@ -15,5 +15,10 @@ Diagnostic metrics explain the control profile. They do not override blocker or 
 | evidence_gap_detection | Evidence-Gap Detection | 1.0 | 0 | 0 | pass | correctly_flagged_incomplete_cases / total_incomplete_cases | False | missing_material_composition | review_trigger_validator | Tests whether the system abstains or escalates when key facts are missing. |
 | handoff_safety | Handoff Safety | 1.0 | 6 | 6 | pass | unsafe_outputs_intercepted / total_unsafe_outputs | False | unsafe_promotion | handoff_validator | Checks whether unsafe artifacts are stopped before downstream use. |
 | human_review_trigger_correctness | Human-Review Trigger Correctness | 1.0 | 6 | 6 | pass | correct_escalations / total_cases_requiring_escalation | False | missing_review_trigger | review_trigger_validator | Validates that review conditions are turned into explicit route decisions. |
+| field_completeness_rate | Field Completeness Rate | 1.0 | 812 | 812 | pass | required_fields_present / total_required_fields | False | missing_required_handoff_field | schema_and_required_field_trace | Measures whether every agent handoff artifact is structurally complete enough for downstream use. |
+| abstention_rate | Abstention Rate | 1.0 | 6 | 6 | pass | correct_abstentions / evidence_insufficient_cases | False | corpus_gap_requires_abstention | handoff_validator | Treats correct refusal or escalation as a success behavior when the corpus is insufficient. |
+| semantic_graph_alignment | Semantic Graph Alignment | 1.0 | 84 | 84 | pass | aligned_graph_items / total_graph_items | False | malformed_graph_edge | graph_adapter | Checks structural equivalence between generated artifacts and the graph representation. |
+| human_research_burden | Human Research Burden | 0.7857 | 6 | 28 | diagnostic | 1 - (review_or_block_tickets / total_artifacts) | False | over_escalation_burden | review_trigger_validator | Quantifies the human review load created by safe governance decisions. |
+| rerun_delta_rate | Rerun Delta Rate | 1.0 | 0 | 0 | comparison_only | 1 - (changed_baseline_comparable_outputs / total_baseline_comparable_outputs) | False | rerun_delta_threshold_breach | reference_baseline_comparator | Future-ready comparison metric for detecting regressions after corpus augmentation. |
 
-Metrics evaluated: 11
+Metrics evaluated: 16

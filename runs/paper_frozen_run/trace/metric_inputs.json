@@ -253,6 +253,31 @@
       "expected_control_state": "review",
       "expected_failed_metric": "human_review_trigger_correctness",
       "stress_test_type": "missing_review_trigger"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "field_completeness_rate",
+      "stress_test_type": "missing_required_handoff_field"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "abstention_rate",
+      "stress_test_type": "corpus_gap_requires_abstention"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "semantic_graph_alignment",
+      "stress_test_type": "malformed_graph_edge"
+    },
+    {
+      "expected_control_state": "diagnostic",
+      "expected_failed_metric": "human_research_burden",
+      "stress_test_type": "over_escalation_burden"
+    },
+    {
+      "expected_control_state": "comparison_only",
+      "expected_failed_metric": "rerun_delta_rate",
+      "stress_test_type": "rerun_delta_threshold_breach"
     }
   ]
 }

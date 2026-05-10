@@ -37,6 +37,7 @@ data/
 protocol/schemas/   JSON Schemas for normalized artifacts
 protocol/agent_specs/DRONA-shaped PTA/PRA/DA/AA/KA role specs
 protocol/measurement_framework.json Formulaic measurement overlay
+protocol/forbidden_metrics.json Non-dispositive/forbidden metric policy
 reference_baseline/ Prior DRONA HS outputs, sealed as non-input comparison material
 runs/               Fresh or frozen extraction run workspaces
 protocol/           DRONA control framework map and metric dispositions
@@ -94,6 +95,9 @@ The run evaluator writes:
 - `runs/<run_id>/reports/control_profile.json`
 - `runs/<run_id>/reports/control_profile.csv`
 - `runs/<run_id>/reports/control_profile.md`
+- `runs/<run_id>/reports/gate_summary.json`
+- `runs/<run_id>/reports/gate_summary.csv`
+- `runs/<run_id>/reports/gate_summary.md`
 - `runs/<run_id>/reports/metric_summary.json`
 - `runs/<run_id>/reports/metric_summary.csv`
 - `runs/<run_id>/reports/metric_summary.md`
@@ -103,6 +107,23 @@ The run evaluator writes:
 The runner prints a control-profile table. It does not produce an accuracy
 score because the protocol is designed to identify legally unsafe extraction
 behavior even when a candidate code appears plausible.
+
+## Four-Gate Handoff Model
+
+The reviewer-facing route taxonomy is written to `gate_summary.*` and attached
+to each control-profile row:
+
+- Gate 1: `pass` for stable, fully sourced, graph-safe promotion.
+- Gate 2: `pass_with_notes` for review routes, caveats, contested positions,
+  jurisdictional divergence, in-personam ruling limits, or GRI 3(b) complexity.
+- Gate 3: `blocked_pending_research` for missing source anchors, missing
+  primary authority, evidence gaps, abstention, or corpus insufficiency.
+- Gate 4: `blocked_pending_rerun` for graph structural failure, malformed
+  nodes, wrong edge direction, ontology drift, or rerun-delta breach.
+
+Control gates are dispositive. Metric scores explain why a route was safe or
+unsafe, but they do not override a blocker, DAV-style audit veto, or required
+human review.
 
 ## Measurement Overlay
 
@@ -123,10 +144,23 @@ It adds formulaic measurements for:
 - conflict preservation,
 - evidence-gap detection,
 - handoff safety,
-- human-review trigger correctness.
+- human-review trigger correctness,
+- field completeness,
+- abstention,
+- semantic graph alignment,
+- human research burden,
+- rerun delta.
 
 These scores are diagnostic. They explain the control profile but do not
 override blocker or review gates.
+
+`protocol/FORBIDDEN_METRICS.md` and `protocol/forbidden_metrics.json` define the
+metrics that are forbidden, deferred, or future-only for v1. NLL, Brier Score,
+TF-IDF/entropy relevance proxies, and document-level citation are not legal
+correctness metrics. BERTScore, Expected Calibration Error, and nLog-Distance
+are future diagnostics only. Any truncation, chunk-boundary loss,
+context-window loss, or retrieval-window omission must be logged as a
+source-processing boundary.
 
 ## Build The Pre-HS Slice
 

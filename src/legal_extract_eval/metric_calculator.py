@@ -60,6 +60,11 @@ def calculate_metric_summary(repo_root: Path, run_id: str) -> list[dict[str, Any
         "evidence_gap_detection": evidence_gap_detection,
         "handoff_safety": handoff_safety,
         "human_review_trigger_correctness": human_review_trigger_correctness,
+        "field_completeness_rate": field_completeness_rate,
+        "abstention_rate": abstention_rate,
+        "semantic_graph_alignment": semantic_graph_alignment,
+        "human_research_burden": human_research_burden,
+        "rerun_delta_rate": rerun_delta_rate,
     }
     stress_results = {
         item["stress_test_type"]: item
@@ -162,6 +167,11 @@ def load_trace_bundle(repo_root: Path, run_id: str) -> dict[str, Any]:
         "gating_decisions": read_json(trace_dir / "gating_decisions.json"),
         "uncertainty_signals": read_json(trace_dir / "uncertainty_signals.json"),
         "metric_inputs": read_json(trace_dir / "metric_inputs.json"),
+        "field_completeness_trace": read_json(trace_dir / "field_completeness_trace.json"),
+        "graph_alignment_trace": read_json(trace_dir / "graph_alignment_trace.json"),
+        "abstention_trace": read_json(trace_dir / "abstention_trace.json"),
+        "research_burden_trace": read_json(trace_dir / "research_burden_trace.json"),
+        "rerun_delta_trace": read_json(trace_dir / "rerun_delta_trace.json"),
     }
 
 
@@ -237,8 +247,42 @@ def human_review_trigger_correctness(trace: dict[str, Any]) -> Fraction:
     return Fraction(correct, len(decisions))
 
 
+def field_completeness_rate(trace: dict[str, Any]) -> Fraction:
+    checks = trace["field_completeness_trace"]["checks"]
+    present = sum(1 for check in checks if check.get("present") is True)
+    return Fraction(present, len(checks))
+
+
+def abstention_rate(trace: dict[str, Any]) -> Fraction:
+    cases = trace["abstention_trace"]["cases"]
+    correct = sum(1 for case in cases if case.get("correct_abstention") is True)
+    return Fraction(correct, len(cases))
+
+
+def semantic_graph_alignment(trace: dict[str, Any]) -> Fraction:
+    items = trace["graph_alignment_trace"]["items"]
+    aligned = sum(1 for item in items if item.get("aligned") is True)
+    return Fraction(aligned, len(items))
+
+
+def human_research_burden(trace: dict[str, Any]) -> Fraction:
+    summary = trace["research_burden_trace"]["summary"]
+    return Fraction(summary.get("review_or_block_tickets", 0), summary.get("total_artifacts", 0), inverse=True)
+
+
+def rerun_delta_rate(trace: dict[str, Any]) -> Fraction:
+    summary = trace["rerun_delta_trace"]["summary"]
+    if not summary.get("comparison_enabled", False):
+        return Fraction(0, 0)
+    return Fraction(summary.get("changed_outputs", 0), summary.get("comparable_outputs", 0), inverse=True)
+
+
 def metric_status(metric_id: str, score: float) -> str:
-    if metric_id in {"critical_omission_rate", "unsupported_synthesis_rate", "false_certainty_rate"}:
+    if metric_id == "human_research_burden":
+        return "diagnostic"
+    if metric_id == "rerun_delta_rate" and score >= 1.0:
+        return "comparison_only"
+    if metric_id in {"critical_omission_rate", "unsupported_synthesis_rate", "false_certainty_rate", "rerun_delta_rate"}:
         # These are normalized safety scores after inverse-rate conversion.
         pass
     if score >= 1.0:

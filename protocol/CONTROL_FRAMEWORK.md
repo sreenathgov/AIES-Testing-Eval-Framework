@@ -31,7 +31,13 @@ Only EU/WCO/BTI authorities affect pass/fail for the first paper run. US and Ind
 
 ## Metric Disposition
 
-Generic ML metrics are not first-class v1 controls. Expected Calibration Error, Post-Edit Distance, authority ratios, and LLM/NLI-as-judge scoring are rejected or deferred. The v1 protocol uses deterministic legal controls tied to source anchors, authority hierarchy, role rules, graph parity, and gold expected routes.
+Generic ML metrics are not first-class v1 controls. Negative Log Likelihood,
+Brier Score, TF-IDF/entropy relevance proxies, and document-level citation are
+forbidden or non-dispositive for material legal propositions. BERTScore,
+Expected Calibration Error, and nLog-Distance are future diagnostics only, not
+v1 legal-control gates. The v1 protocol uses deterministic legal controls tied
+to source anchors, authority hierarchy, role rules, graph parity, and gold
+expected routes.
 
 ## Measurement Overlay
 
@@ -44,3 +50,19 @@ handoff safety, and human-review trigger correctness.
 
 Metric scores explain the control profile. They do not override legal blocker
 or review outcomes.
+
+## DRONA Four-Gate Handoff
+
+The control profile is also rendered through a Four-Gate handoff model:
+
+1. `pass`: stable, fully sourced, graph-safe, promote route.
+2. `pass_with_notes`: review route, contested position, jurisdictional
+   divergence, in-personam ruling limits, GRI 3(b), or caveat required.
+3. `blocked_pending_research`: missing source, missing primary authority,
+   evidence gap, abstention, or corpus insufficiency.
+4. `blocked_pending_rerun`: graph structural failure, ontology/rerun drift,
+   malformed nodes, wrong edge direction, or rerun-delta breach.
+
+DAV-style audit veto remains a hard stop. Abstention is counted as a success
+behavior when corpus evidence is insufficient and the artifact routes to review,
+blocked, or unresolved instead of inventing a legal conclusion.

@@ -1,0 +1,294 @@
+[
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_anode-active-material-graphite",
+    "component_id": "ent_tb3_02",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_anode-active-material-graphite",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_anode-substrate-cu-foil",
+    "component_id": "ent_tb3_06",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_anode-substrate-cu-foil",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+    "component_id": "ent_169",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_battery-control-unit-(bcu)",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+    "component_id": "ent_171",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_battery-disconnect-unit-(bdu)",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_battery-management-system-(bms)",
+    "component_id": "ent_217",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_battery-management-system-(bms)",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_cathode-active-material-nmc",
+    "component_id": "ent_tb3_01",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_cathode-active-material-nmc",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_cathode-substrate-al-foil",
+    "component_id": "ent_tb3_05",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_cathode-substrate-al-foil",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+    "component_id": "ent_170",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_cell-supervisor-unit-(csu)",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "AA_EU_combo-power-electronics-unit",
+    "component_id": "ent_267",
+    "gate_id": "gate_2",
+    "gate_label": "pass_with_notes",
+    "gate_reason_codes": [
+      "gri_3b_requires_adjudication_review"
+    ],
+    "scenario_id": "RUN_paper_frozen_run_combo-power-electronics-unit",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_dc-dc-converter",
+    "component_id": "ent_216",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_dc-dc-converter",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+    "component_id": "ent_tb3_03",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_electrolyte-lipf6-solution",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "AA_EU_high-voltage-battery-module",
+    "component_id": "ent_133",
+    "gate_id": "gate_2",
+    "gate_label": "pass_with_notes",
+    "gate_reason_codes": [
+      "gri_3b_requires_adjudication_review"
+    ],
+    "scenario_id": "RUN_paper_frozen_run_high-voltage-battery-module",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+    "component_id": "ent_100",
+    "gate_id": "gate_2",
+    "gate_label": "pass_with_notes",
+    "gate_reason_codes": [
+      "gri_3b_requires_adjudication_review"
+    ],
+    "scenario_id": "RUN_paper_frozen_run_high-voltage-battery-pack-assembly",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_high-voltage-connectors",
+    "component_id": "ent_182",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_high-voltage-connectors",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_high-voltage-contactor",
+    "component_id": "ent_144",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_high-voltage-contactor",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "AA_EU_hyper-integrated-e-axle",
+    "component_id": "ent_269",
+    "gate_id": "gate_2",
+    "gate_label": "pass_with_notes",
+    "gate_reason_codes": [
+      "gri_3b_requires_adjudication_review"
+    ],
+    "scenario_id": "RUN_paper_frozen_run_hyper-integrated-e-axle",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "AA_EU_integrated-e-axle",
+    "component_id": "ent_187",
+    "gate_id": "gate_2",
+    "gate_label": "pass_with_notes",
+    "gate_reason_codes": [
+      "gri_3b_requires_adjudication_review"
+    ],
+    "scenario_id": "RUN_paper_frozen_run_integrated-e-axle",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "AA_EU_lithium-ion-battery-cell",
+    "component_id": "ent_147",
+    "gate_id": "gate_2",
+    "gate_label": "pass_with_notes",
+    "gate_reason_codes": [
+      "gri_3b_requires_adjudication_review"
+    ],
+    "scenario_id": "RUN_paper_frozen_run_lithium-ion-battery-cell",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+    "component_id": "ent_207",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_ndfeb-permanent-magnets",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_on-board-charger-(obc)",
+    "component_id": "ent_215",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_on-board-charger-(obc)",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+    "component_id": "ent_219",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_power-distribution-unit-(pdu)",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_separator-pe-pp-film",
+    "component_id": "ent_tb3_04",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_separator-pe-pp-film",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+    "component_id": "ent_tb3_07",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_silicon-alloyed-electrical-steel-core-noes",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+    "component_id": "ent_209",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_silicon-carbide-(sic)-mosfets",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_silicon-igbts",
+    "component_id": "ent_210",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_silicon-igbts",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_traction-inverter-module",
+    "component_id": "ent_196",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_traction-inverter-module",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_traction-motor",
+    "component_id": "ent_221",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_traction-motor",
+    "severity": "pass"
+  },
+  {
+    "actual_route": "promote",
+    "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+    "component_id": "ent_218",
+    "gate_id": "gate_1",
+    "gate_label": "pass",
+    "gate_reason_codes": [],
+    "scenario_id": "RUN_paper_frozen_run_vehicle-control-unit-(vcu)",
+    "severity": "pass"
+  }
+]

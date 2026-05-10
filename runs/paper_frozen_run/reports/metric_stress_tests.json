@@ -97,5 +97,50 @@
     "linked_validator": "review_trigger_validator",
     "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
     "stress_test_type": "missing_review_trigger"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "field_completeness_rate",
+    "linked_metric_id": "field_completeness_rate",
+    "linked_validator": "schema_and_required_field_trace",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "missing_required_handoff_field"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "abstention_rate",
+    "linked_metric_id": "abstention_rate",
+    "linked_validator": "handoff_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "corpus_gap_requires_abstention"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "semantic_graph_alignment",
+    "linked_metric_id": "semantic_graph_alignment",
+    "linked_validator": "graph_adapter",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "malformed_graph_edge"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "diagnostic",
+    "expected_failed_metric": "human_research_burden",
+    "linked_metric_id": "human_research_burden",
+    "linked_validator": "review_trigger_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "over_escalation_burden"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "comparison_only",
+    "expected_failed_metric": "rerun_delta_rate",
+    "linked_metric_id": "rerun_delta_rate",
+    "linked_validator": "reference_baseline_comparator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "rerun_delta_threshold_breach"
   }
 ]
