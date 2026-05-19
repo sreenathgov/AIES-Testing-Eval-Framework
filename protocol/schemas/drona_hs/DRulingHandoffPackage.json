@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "DRulingHandoffPackage",
   "title": "D-RULING Handoff Package",
-  "description": "Self-contained context package for an issue that D-CLASS-HS has flagged for D-RULING's full adjudication. Each package includes enough context for D-RULING to work without re-reading D-CLASS-HS outputs.",
+  "description": "Self-contained context package for an issue that bounded HS extraction slice has flagged for D-RULING's full adjudication. Each package includes enough context for D-RULING to work without re-reading bounded HS extraction slice outputs.",
   "type": "object",
   "required": [
     "handoff_id",

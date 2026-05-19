@@ -1,6 +1,6 @@
 # Legal Extraction Evaluation Harness
 
-This repository is a bounded pre-HS-run DRONA slice plus evaluation harness for
+This repository is a bounded pre-HS legal extraction slice plus evaluation harness for
 a narrow HS legal extraction paper. It demonstrates how a governed
 neuro-symbolic legal extraction pipeline can be evaluated for authority
 preservation, provenance sufficiency, role-boundary compliance, graph parity,
@@ -19,38 +19,37 @@ classification. It now contains both:
 - Internal extraction artifacts are recorded as `artifact_origin`, never as
   legal authority.
 - The default paper runner is fully offline and deterministic.
-- Fresh DRONA-shaped runs are generated under `runs/<run_id>/`.
+- Fresh deterministic harness runs are generated under `runs/<run_id>/`.
 - API-backed live LLM execution is intentionally not enabled by default.
-- Prior DRONA HS outputs are sealed under `reference_baseline/` for comparison
-  only and must not be used as runtime input.
+- Historical comparison baselines are local-only maintainer material and are
+  not required for public replay.
 
 ## Repository Layout
 
 ```text
 data/
-  engineering_handoff/ Clean pre-HS D-CLASS-ENG inputs for 28 components
+  engineering_handoff/ Clean pre-HS engineering inputs for 28 components
   sources/          Anchor excerpts and source notes used by fixtures
   source_corpus/    Cited EU/WCO/BTI originals, parsed outputs, and legal-safe record layers
   forensic_evidence/Sanitized artifact-origin and graph evidence
   graph_fixtures/   Curated normalized node/edge snapshot
   fixtures/         Source manifest and gold cases
 protocol/schemas/   JSON Schemas for normalized artifacts
-protocol/agent_specs/DRONA-shaped PTA/PRA/DA/AA/KA role specs
+protocol/agent_specs/Bounded PTA/PRA/DA/AA/KA role specs
 protocol/measurement_framework.json Formulaic measurement overlay
 protocol/forbidden_metrics.json Non-dispositive/forbidden metric policy
-reference_baseline/ Prior DRONA HS outputs, sealed as non-input comparison material
 runs/               Fresh or frozen extraction run workspaces
-protocol/           DRONA control framework map and metric dispositions
+protocol/           Control framework map and metric dispositions
 src/legal_extract_eval/
 tests/
 scripts/
 ```
 
-## DRONA Control Framework
+## Control Framework
 
 The active framework is defined in `protocol/control_framework.json` and
 explained in `protocol/CONTROL_FRAMEWORK.md`. It consolidates the paper layer
-framework, the metric mapping CSV, and the real D-CLASS-HS control failures into
+framework, the metric mapping CSV, and observed extraction-control failure modes into
 deterministic control families:
 
 - corpus/source integrity,
@@ -72,7 +71,7 @@ Evaluate the frozen paper run:
 PYTHONPATH=src python3 -m legal_extract_eval.runner --repo-root . --run-id paper_frozen_run
 ```
 
-Create a new deterministic DRONA-shaped run:
+Create a new deterministic harness run:
 
 ```bash
 PYTHONPATH=src python3 -m legal_extract_eval.live_run --repo-root . --run-id fresh_eu_run
@@ -164,11 +163,11 @@ source-processing boundary.
 
 ## Build The Pre-HS Slice
 
-The pre-HS slice is built by reading Sector Watch in copy-only mode:
+The pre-HS slice can be rebuilt from a private source repository in copy-only mode:
 
 ```bash
 PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
-  --sector-watch-root /Users/sreenathgovindarajan/Documents/sector-watch \
+  --sector-watch-root /path/to/private-source-repo \
   --harness-root .
 ```
 
@@ -177,10 +176,9 @@ This creates:
 - `data/engineering_handoff/selected_28_components.json`
 - `protocol/agent_specs/*.md`
 - `protocol/schemas/drona_hs/*.json`
-- `reference_baseline/BASELINE_MANIFEST.json`
 - `runs/paper_frozen_run/`
 
-The builder never writes into Sector Watch.
+The builder never writes into the private source repository.
 
 The report includes the advanced control-family statuses plus the expected and
 actual route for every fixture.
@@ -245,13 +243,13 @@ source repository.
 Dry run:
 
 ```bash
-PYTHONPATH=src python3 scripts/build_review_bundle.py --sector-watch-root /Users/sreenathgovindarajan/Documents/sector-watch --harness-root . --dry-run
+PYTHONPATH=src python3 scripts/build_review_bundle.py --sector-watch-root /path/to/private-source-repo --harness-root . --dry-run
 ```
 
 Build:
 
 ```bash
-PYTHONPATH=src python3 scripts/build_review_bundle.py --sector-watch-root /Users/sreenathgovindarajan/Documents/sector-watch --harness-root .
+PYTHONPATH=src python3 scripts/build_review_bundle.py --sector-watch-root /path/to/private-source-repo --harness-root .
 ```
 
 After building, inspect:

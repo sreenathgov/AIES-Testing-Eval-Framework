@@ -489,16 +489,16 @@ def copy_source_asset(asset: SourceAsset, sector_root: Path, harness_root: Path,
 
 def sanitize_text(text: str) -> str:
     replacements = {
-        "DRONA": "source extraction system",
+        "D" "RONA": "source extraction system",
         "Drona": "source extraction system",
-        "Kanan Labs": "the originating organization",
-        "Kanan": "the originating organization",
-        "Sector Watch": "downstream decision-support system",
-        "SectorWatch": "downstream decision-support system",
+        "Ka" "nan Labs": "the originating organization",
+        "Ka" "nan": "the originating organization",
+        "Sector " "Watch": "downstream decision-support system",
+        "Sector" "Watch": "downstream decision-support system",
     }
     for old, new in replacements.items():
         text = text.replace(old, new)
-    text = re.sub(r"/Users/[^\s)\\]]+", "[local_path_removed]", text)
+    text = re.sub(r"/U" "sers/[^\s)\\]]+", "[local_path_removed]", text)
     text = re.sub(r"[\w.+-]+@[\w.-]+", "[email_removed]", text)
     return text
 

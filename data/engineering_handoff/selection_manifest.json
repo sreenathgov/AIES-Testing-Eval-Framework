@@ -1,7 +1,7 @@
 {
   "bundle_type": "pre_hs_engineering_handoff",
   "canonical_handoff_source": "drona/corpus/02_hs_classification/taxonomy-handoff.md",
-  "clean_fact_source": "drona/knowledge/verified/*.md D-CLASS-ENG records",
+  "clean_fact_source": "drona/knowledge/verified/*.md engineering handoff records",
   "component_count": 28,
   "forbidden_fields": [
     "candidate_cn_code",
@@ -47,6 +47,6 @@
     "traction-motor",
     "vehicle-control-unit-(vcu)"
   ],
-  "selection_basis": "Prior D-CLASS-HS artifact identity list used only to identify the 28 selected components.",
+  "selection_basis": "Prior bounded HS extraction slice artifact identity list used only to identify the 28 selected components.",
   "source_sha256": "570585dd70b0fe548d7b893f58ce8b76013e6f8281156a337c627d9a7ee0bfc0"
 }

@@ -29,7 +29,7 @@
     },
     "component_ref": {
       "type": "string",
-      "description": "D-CLASS-ENG entity ID from taxonomy-handoff.md (e.g. ent_042)",
+      "description": "engineering handoff entity ID from taxonomy-handoff.md (e.g. ent_042)",
       "pattern": "^ent_"
     },
     "jurisdiction": {

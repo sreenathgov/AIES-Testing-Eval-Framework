@@ -59,13 +59,14 @@ def test_agent_specs_and_drona_hs_schemas_exist(repo_root: Path) -> None:
     assert expected.issubset({path.name for path in schema_dir.glob("*.json")})
 
 
-def test_reference_baseline_is_sealed_from_runtime(repo_root: Path) -> None:
-    manifest = load_json(repo_root / "reference_baseline" / "BASELINE_MANIFEST.json")
-    assert manifest["runtime_input_allowed"] is False
-    assert manifest["artifact_count"] > 0
+def test_optional_reference_baseline_is_sealed_from_runtime(repo_root: Path) -> None:
+    baseline_manifest = repo_root / "reference_baseline" / "BASELINE_MANIFEST.json"
+    if baseline_manifest.exists():
+        manifest = load_json(baseline_manifest)
+        assert manifest["runtime_input_allowed"] is False
+        assert manifest["artifact_count"] > 0
 
     path_audit = audit_runtime_paths(repo_root, "paper_frozen_run")
-    assert path_audit.baseline_paths
     assert path_audit.baseline_isolated
 
 

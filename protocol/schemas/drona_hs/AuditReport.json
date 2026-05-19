@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "AuditReport",
   "title": "Audit Report",
-  "description": "Output of the Knowledge Auditor (KA). One per D-CLASS-HS batch run. Goes to the founder alongside AA outputs for human review gate.",
+  "description": "Output of the Knowledge Auditor (KA). One per bounded HS extraction slice batch run. Goes to the founder alongside AA outputs for human review gate.",
   "type": "object",
   "required": [
     "run_id",

@@ -45,9 +45,9 @@ Stability is **stable**. Electrical connectors have a long-established place in 
 
 ---
 
-## Critical Reconciliation: D-CLASS-ENG STRUCTURAL Function vs HS Classification
+## Critical Reconciliation: engineering handoff STRUCTURAL Function vs HS Classification
 
-D-CLASS-ENG assigned `fundamental_function: STRUCTURAL` to this component, reflecting its engineering role as a mechanical connection point within the battery system housing.
+engineering handoff assigned `fundamental_function: STRUCTURAL` to this component, reflecting its engineering role as a mechanical connection point within the battery system housing.
 
 **This does not affect HS classification.** HS classification is determined by what the article IS in the legal tariff text, not by its role in assembly. Heading 8536 explicitly identifies "plugs, sockets, lamp-holders and other connectors" as the named examples of covered apparatus. The article IS an electrical connector. The STRUCTURAL engineering designation is not a valid basis for routing to:
 - Chapter 39 (plastics): Excluded by Chapter 39 Note 2(p) — Section XVI articles (including Ch 85) are excluded from Ch 39.

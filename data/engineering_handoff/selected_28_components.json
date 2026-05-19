@@ -42,14 +42,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG binds BMS-family entities as ACTIVE_CONTROL; D-CLASS-HS must not re-derive them as measurement-primary objects."
+        "engineering handoff binds BMS-family entities as ACTIVE_CONTROL; bounded HS extraction slice must not re-derive them as measurement-primary objects."
       ],
       "canonical_name": "Battery Control Unit (BCU)",
       "component_id": "ent_169",
       "component_slug": "battery-control-unit-(bcu)",
       "d_class_eng_source_doc": "ENG - 4 - BMS Engineering Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -64,14 +64,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG binds BMS-family entities as ACTIVE_CONTROL; D-CLASS-HS must not re-derive them as measurement-primary objects."
+        "engineering handoff binds BMS-family entities as ACTIVE_CONTROL; bounded HS extraction slice must not re-derive them as measurement-primary objects."
       ],
       "canonical_name": "Battery Disconnect Unit (BDU)",
       "component_id": "ent_171",
       "component_slug": "battery-disconnect-unit-(bdu)",
       "d_class_eng_source_doc": "ENG - 4 - BMS Engineering Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -86,14 +86,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG binds BMS-family entities as ACTIVE_CONTROL; D-CLASS-HS must not re-derive them as measurement-primary objects."
+        "engineering handoff binds BMS-family entities as ACTIVE_CONTROL; bounded HS extraction slice must not re-derive them as measurement-primary objects."
       ],
       "canonical_name": "Battery Management System (BMS)",
       "component_id": "ent_217",
       "component_slug": "battery-management-system-(bms)",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -148,14 +148,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG binds BMS-family entities as ACTIVE_CONTROL; D-CLASS-HS must not re-derive them as measurement-primary objects."
+        "engineering handoff binds BMS-family entities as ACTIVE_CONTROL; bounded HS extraction slice must not re-derive them as measurement-primary objects."
       ],
       "canonical_name": "Cell Supervisor Unit (CSU)",
       "component_id": "ent_170",
       "component_slug": "cell-supervisor-unit-(csu)",
       "d_class_eng_source_doc": "ENG - 4 - BMS Engineering Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -175,7 +175,7 @@
       "component_slug": "combo-power-electronics-unit",
       "d_class_eng_source_doc": "ENG - 7 - Power Electronics Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": true,
@@ -197,7 +197,7 @@
       "component_slug": "dc-dc-converter",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": false,
@@ -232,14 +232,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG flags battery assemblies/cells as energy-storage components where composite-good analysis may be material."
+        "engineering handoff flags battery assemblies/cells as energy-storage components where composite-good analysis may be material."
       ],
       "canonical_name": "High-Voltage Battery Module",
       "component_id": "ent_133",
       "component_slug": "high-voltage-battery-module",
       "d_class_eng_source_doc": "ENG - 2 - Battery Modules Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_STORAGE",
       "gri_3_required": true,
@@ -256,14 +256,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG flags battery assemblies/cells as energy-storage components where composite-good analysis may be material."
+        "engineering handoff flags battery assemblies/cells as energy-storage components where composite-good analysis may be material."
       ],
       "canonical_name": "High-Voltage Battery Pack Assembly",
       "component_id": "ent_100",
       "component_slug": "high-voltage-battery-pack-assembly",
       "d_class_eng_source_doc": "ENG - 1 - EV Battery Pack Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_STORAGE",
       "gri_3_required": true,
@@ -285,7 +285,7 @@
       "component_slug": "high-voltage-connectors",
       "d_class_eng_source_doc": "ENG - 4 - BMS Engineering Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "STRUCTURAL",
       "gri_3_required": false,
@@ -305,7 +305,7 @@
       "component_slug": "high-voltage-contactor",
       "d_class_eng_source_doc": "ENG - 2 - Battery Modules Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -320,14 +320,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG binds e-axle essential engineering character as ENERGY_CONVERSION with composite-good analysis required."
+        "engineering handoff binds e-axle essential engineering character as ENERGY_CONVERSION with composite-good analysis required."
       ],
       "canonical_name": "Hyper-Integrated E-Axle",
       "component_id": "ent_269",
       "component_slug": "hyper-integrated-e-axle",
       "d_class_eng_source_doc": "ENG - 7 - Power Electronics Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": true,
@@ -344,14 +344,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG binds e-axle essential engineering character as ENERGY_CONVERSION with composite-good analysis required."
+        "engineering handoff binds e-axle essential engineering character as ENERGY_CONVERSION with composite-good analysis required."
       ],
       "canonical_name": "Integrated E-Axle",
       "component_id": "ent_187",
       "component_slug": "integrated-e-axle",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": true,
@@ -368,14 +368,14 @@
     },
     {
       "binding_notes": [
-        "D-CLASS-ENG flags battery assemblies/cells as energy-storage components where composite-good analysis may be material."
+        "engineering handoff flags battery assemblies/cells as energy-storage components where composite-good analysis may be material."
       ],
       "canonical_name": "Lithium-Ion Battery Cell",
       "component_id": "ent_147",
       "component_slug": "lithium-ion-battery-cell",
       "d_class_eng_source_doc": "ENG - 3 - Battery Cells Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_STORAGE",
       "gri_3_required": true,
@@ -397,7 +397,7 @@
       "component_slug": "ndfeb-permanent-magnets",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": false,
@@ -417,7 +417,7 @@
       "component_slug": "on-board-charger-(obc)",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": false,
@@ -437,7 +437,7 @@
       "component_slug": "power-distribution-unit-(pdu)",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -497,7 +497,7 @@
       "component_slug": "silicon-carbide-(sic)-mosfets",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -517,7 +517,7 @@
       "component_slug": "silicon-igbts",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -537,7 +537,7 @@
       "component_slug": "traction-inverter-module",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": false,
@@ -557,7 +557,7 @@
       "component_slug": "traction-motor",
       "d_class_eng_source_doc": "ENG - 6 - Traction Motor Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ENERGY_CONVERSION",
       "gri_3_required": false,
@@ -577,7 +577,7 @@
       "component_slug": "vehicle-control-unit-(vcu)",
       "d_class_eng_source_doc": "ENG - 5 - EV E-Axle Dossier.md",
       "d_class_eng_source_section": "Extracted via D1 Batch Process",
-      "d_class_eng_verified_by": "claude-sonnet-4-6 (D-CLASS-ENG domain review)",
+      "d_class_eng_verified_by": "claude-sonnet-4-6 (engineering handoff domain review)",
       "d_class_eng_verified_date": "2026-03-30",
       "fundamental_function": "ACTIVE_CONTROL",
       "gri_3_required": false,
@@ -594,7 +594,7 @@
   "manifest": {
     "bundle_type": "pre_hs_engineering_handoff",
     "canonical_handoff_source": "drona/corpus/02_hs_classification/taxonomy-handoff.md",
-    "clean_fact_source": "drona/knowledge/verified/*.md D-CLASS-ENG records",
+    "clean_fact_source": "drona/knowledge/verified/*.md engineering handoff records",
     "component_count": 28,
     "forbidden_fields": [
       "candidate_cn_code",
@@ -610,7 +610,7 @@
       "stability"
     ],
     "generated_at": "2026-05-10T11:55:13+00:00",
-    "selection_basis": "Prior D-CLASS-HS artifact identity list used only to identify the 28 selected components.",
+    "selection_basis": "Prior bounded HS extraction slice artifact identity list used only to identify the 28 selected components.",
     "source_sha256": "570585dd70b0fe548d7b893f58ce8b76013e6f8281156a337c627d9a7ee0bfc0"
   }
 }

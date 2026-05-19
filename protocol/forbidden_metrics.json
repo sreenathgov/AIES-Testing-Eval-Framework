@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "policy": "Forbidden metrics and non-dispositive diagnostics must not be used as legal correctness gates in the v1 DRONA HS evaluation harness.",
+  "policy": "Forbidden metrics and non-dispositive diagnostics must not be used as legal correctness gates in the v1 HS legal extraction evaluation harness.",
   "guardrails": [
     {
       "guardrail_id": "source_processing_boundary",

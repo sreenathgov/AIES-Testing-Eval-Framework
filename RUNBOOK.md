@@ -4,13 +4,14 @@
 
 ```bash
 PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
-  --sector-watch-root /Users/sreenathgovindarajan/Documents/sector-watch \
+  --sector-watch-root /path/to/private-source-repo \
   --harness-root .
 ```
 
-This reads Sector Watch in copy-only mode, creates the clean 28-component
-engineering handoff, copies DRONA-shaped HS agent specs and schemas, seals prior
-HS outputs under `reference_baseline/`, and refreshes `runs/paper_frozen_run/`.
+This reads a private source repository in copy-only mode, creates the clean
+28-component engineering handoff, copies bounded HS agent specs and schemas,
+optionally refreshes local-only comparison baselines, and refreshes
+`runs/paper_frozen_run/`.
 
 ## Evaluate The Frozen Paper Run
 
@@ -57,7 +58,7 @@ accuracy label.
 PYTHONPATH=src python3 -m legal_extract_eval.live_run --repo-root . --run-id fresh_eu_run
 ```
 
-The current `live_run` entrypoint emits DRONA-shaped artifacts without API calls.
+The current `live_run` entrypoint emits deterministic harness artifacts without API calls.
 API-backed execution is intentionally disabled by default so the paper bundle is
 reviewer-safe and reproducible.
 
@@ -68,6 +69,6 @@ python3 -m pytest
 ```
 
 Tests cover the pre-HS boundary, source-record availability, agent-spec
-presence, baseline isolation, run report shape, metric formulas, trace shape,
-Four-Gate routing, forbidden metric policy, stress-test coverage, and the
-existing fixture evaluator.
+presence, optional-baseline isolation, run report shape, metric formulas, trace
+shape, Four-Gate routing, forbidden metric policy, stress-test coverage, and
+the existing fixture evaluator.

@@ -7,7 +7,7 @@ from .pre_hs_slice import create_run, evaluate_run, write_run_reports
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Execute a DRONA-shaped EU HS extraction run.")
+    parser = argparse.ArgumentParser(description="Execute a deterministic EU HS extraction harness run.")
     parser.add_argument("--repo-root", type=Path, default=Path.cwd())
     parser.add_argument("--run-id", required=True)
     parser.add_argument(

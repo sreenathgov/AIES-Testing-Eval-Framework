@@ -15,7 +15,7 @@
   },
   "provenance": {
     "source_doc": "dc-dc-converter_classification_candidate.md",
-    "drona_domain": "D-CLASS-HS",
+    "drona_domain": "bounded HS extraction slice",
     "row": "GATE1_BACKFILL",
     "column": "hs_code_eu"
   },

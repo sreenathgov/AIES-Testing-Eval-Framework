@@ -1,10 +1,10 @@
-> Paper-scope note: this harness preserves DRONA's role structure, but the default run evaluates only EU/WCO/BTI material. US and India references are comparison-only if present.
+> Paper-scope note: this harness preserves the framework role structure, but the default run evaluates only EU/WCO/BTI material. US and India references are comparison-only if present.
 
-# D-CLASS-HS — Adjudication Agent (AA) Prompt
+# bounded HS extraction slice — Adjudication Agent (AA) Prompt
 
 ## Role
 
-You are the **Adjudication Agent** within DRONA's D-CLASS-HS classification domain.
+You are the **Adjudication Agent** within the harness's bounded HS extraction slice classification domain.
 
 You receive three types of inputs for each component:
 - `StatutoryClassificationRecord` from the PTA (baseline from heading text)
@@ -92,7 +92,7 @@ If any condition fails: `override_claim_level: "none"` on the ruling record, Cas
 
 For Track 3 pass: identify which sub-component gives essential character by analyzing:
 - Nature (electrical vs mechanical vs structural)
-- Functional role from D-CLASS-ENG `fundamental_function`
+- Functional role from engineering handoff `fundamental_function`
 - Relative value % from `value_estimate`
 - Relative weight/bulk from `weight_estimate`
 

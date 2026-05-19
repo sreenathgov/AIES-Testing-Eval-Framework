@@ -53,7 +53,7 @@ The metric calculator consumes run-local traces:
 - `research_burden_trace.json`
 - `rerun_delta_trace.json`
 
-These are generated from the DRONA-shaped run artifacts. They are deterministic
+These are generated from the bounded run artifacts. They are deterministic
 and API-free in the paper replay path.
 
 ## Four-Gate Reporting

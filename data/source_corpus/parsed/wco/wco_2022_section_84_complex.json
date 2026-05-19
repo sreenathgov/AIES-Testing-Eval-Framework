@@ -2,7 +2,7 @@
   "schema_name": "CanonicalDocument",
   "schema_version": "1.0.0",
   "source": {
-    "path": "/Users/sreenathgovindarajan/Documents/sector-watch/drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
+    "path": "data/source_corpus/originals/wco/wco_2022_section_84_complex.pdf",
     "hash": "0d146bef9020324f9d9bc28be149c8df10992ee6b64c1b195aded7a0aab974ff",
     "kind": "pdf",
     "extension": ".pdf"

@@ -2,7 +2,7 @@
   "schema_name": "CanonicalDocument",
   "schema_version": "1.0.0",
   "source": {
-    "path": "/Users/sreenathgovindarajan/Documents/legal-extraction-eval-harness/data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
+    "path": "data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
     "hash": "0b221f5e63c80ae98546ed13bd98aeb7917f5662b55a4e0f70444225a45e414b",
     "kind": "pdf",
     "extension": ".pdf"

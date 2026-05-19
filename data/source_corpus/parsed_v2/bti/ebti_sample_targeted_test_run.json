@@ -2,7 +2,7 @@
   "schema_name": "CanonicalDocument",
   "schema_version": "1.0.0",
   "source": {
-    "path": "/Users/sreenathgovindarajan/Documents/legal-extraction-eval-harness/data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
+    "path": "data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
     "hash": "1f2298a0894077ecbf7d6cf8dcdc17620672eaf2c7a45dc65ffa4fcd3836a00b",
     "kind": "csv",
     "extension": ".csv"

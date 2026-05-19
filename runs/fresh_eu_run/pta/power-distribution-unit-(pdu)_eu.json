@@ -36,7 +36,7 @@
       "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS"
     }
   ],
-  "notes": "Replay-safe DRONA-shaped PTA artifact generated from clean engineering input and EU/WCO source records.",
+  "notes": "Replay-safe bounded PTA artifact generated from clean engineering input and EU/WCO source records.",
   "pre_gri_exclusion_applied": "Section XVII Note 2(f)",
   "pre_gri_exclusion_note_text": "Electrical machinery and equipment remain classified in their own headings where applicable.",
   "pre_gri_exclusion_rationale": "Engineering identity indicates electrical apparatus.",

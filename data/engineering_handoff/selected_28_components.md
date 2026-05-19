@@ -1,6 +1,6 @@
 # Selected 28 Pre-HS Engineering Inputs
 
-These records are clean D-CLASS-ENG inputs for the bounded HS extraction slice. They intentionally exclude prior HS classification outputs.
+These records are clean engineering handoff inputs for the bounded HS extraction slice. They intentionally exclude prior HS classification outputs.
 
 | # | Component | Entity ID | Function | Integration | GRI 3(b) |
 |---|---|---|---|---|---|

@@ -1,4 +1,4 @@
-# DRONA Legal Extraction Evaluation Control Framework
+# Legal Extraction Evaluation Control Framework
 
 This harness evaluates governed legal extraction, not standalone HS classification accuracy.
 
@@ -8,7 +8,10 @@ The evaluation object is the transformation from parsed EU/WCO/BTI legal materia
 
 - The Layer Selection memo is the conceptual base.
 - The metric CSV contributes implementation vocabulary after renaming or demotion.
-- Sector Watch D-CLASS-HS controls contribute real failure modes: missing AA fields, missing graph nodes, bad edge direction, missing PTA source references, overbroad confidence, jurisdictional divergence, and staging/ontology drift.
+- Observed extraction-control failures contribute concrete failure modes:
+  missing AA fields, missing graph nodes, bad edge direction, missing PTA
+  source references, overbroad confidence, jurisdictional divergence, and
+  staging/ontology drift.
 
 ## Control Families
 
@@ -51,7 +54,7 @@ handoff safety, and human-review trigger correctness.
 Metric scores explain the control profile. They do not override legal blocker
 or review outcomes.
 
-## DRONA Four-Gate Handoff
+## Four-Gate Handoff
 
 The control profile is also rendered through a Four-Gate handoff model:
 

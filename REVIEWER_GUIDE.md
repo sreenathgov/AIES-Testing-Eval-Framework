@@ -7,10 +7,9 @@ The evaluation question is whether a legal extraction pipeline preserves control
 ## What To Inspect
 
 - `data/engineering_handoff/` contains the clean 28-component pre-HS input bundle.
-- `protocol/agent_specs/` contains the DRONA-shaped PTA/PRA/DA/AA/KA role specs used by the bounded run.
+- `protocol/agent_specs/` contains the bounded PTA/PRA/DA/AA/KA role specs used by the public run.
 - `data/source_corpus/` contains the cited EU/WCO/BTI source subset and parsed outputs.
 - `runs/paper_frozen_run/` contains the deterministic paper replay run.
-- `reference_baseline/` contains prior DRONA HS outputs for comparison only, never runtime input.
 - `data/graph_fixtures/` contains normalized good, bad, and borderline fixture artifacts.
 - `data/fixtures/gold_cases.json` defines expected legal-control outcomes.
 - `data/fixtures/FIXTURE_LINEAGE_MAP.json` maps each fixture to source assets, parsed anchors, forensic artifacts, graph nodes, graph edges, and expected route.
@@ -37,7 +36,7 @@ high.
 
 ## Handoff And Metrics
 
-Each control-profile row is mapped into the DRONA Four-Gate handoff model:
+Each control-profile row is mapped into the Four-Gate handoff model:
 
 - `pass`
 - `pass_with_notes`

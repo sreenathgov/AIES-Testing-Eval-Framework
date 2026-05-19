@@ -7,7 +7,7 @@ from legal_extract_eval.pre_hs_slice import build_pre_hs_slice
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Build the bounded pre-HS DRONA slice.")
+    parser = argparse.ArgumentParser(description="Build the bounded pre-HS legal extraction harness slice.")
     parser.add_argument("--sector-watch-root", type=Path, required=True)
     parser.add_argument("--harness-root", type=Path, default=Path.cwd())
     parser.add_argument("--no-frozen-run", action="store_true")

@@ -20,3 +20,15 @@ venv/
 build/
 dist/
 *.egg-info/
+
+# Local academic and paper-development materials
+AIES /
+Paper Assets/
+Eval Core Metrics for * - QA - Answer Worksheet.md
+scripts/_aies_drona_parse_worker.py
+scripts/parse_aies_pdf_corpus.py
+scripts/build_aies_paper_knowledge_graph.py
+tests/test_aies_parsing_first_graph.py
+
+# Local-only historical comparison artifacts
+reference_baseline/

@@ -237,11 +237,11 @@ def build_selected_components(sector_root: Path) -> list[dict[str, Any]]:
 def binding_notes_for(slug: str) -> list[str]:
     notes: list[str] = []
     if slug in {"battery-management-system-(bms)", "battery-control-unit-(bcu)", "cell-supervisor-unit-(csu)", "battery-disconnect-unit-(bdu)"}:
-        notes.append("D-CLASS-ENG binds BMS-family entities as ACTIVE_CONTROL; D-CLASS-HS must not re-derive them as measurement-primary objects.")
+        notes.append("engineering handoff binds BMS-family entities as ACTIVE_CONTROL; bounded HS extraction slice must not re-derive them as measurement-primary objects.")
     if slug in {"integrated-e-axle", "hyper-integrated-e-axle"}:
-        notes.append("D-CLASS-ENG binds e-axle essential engineering character as ENERGY_CONVERSION with composite-good analysis required.")
+        notes.append("engineering handoff binds e-axle essential engineering character as ENERGY_CONVERSION with composite-good analysis required.")
     if slug in {"high-voltage-battery-pack-assembly", "high-voltage-battery-module", "lithium-ion-battery-cell"}:
-        notes.append("D-CLASS-ENG flags battery assemblies/cells as energy-storage components where composite-good analysis may be material.")
+        notes.append("engineering handoff flags battery assemblies/cells as energy-storage components where composite-good analysis may be material.")
     return notes
 
 
@@ -267,8 +267,8 @@ def write_engineering_handoff(harness_root: Path, sector_root: Path, components:
         "bundle_type": "pre_hs_engineering_handoff",
         "component_count": len(components),
         "canonical_handoff_source": "drona/corpus/02_hs_classification/taxonomy-handoff.md",
-        "selection_basis": "Prior D-CLASS-HS artifact identity list used only to identify the 28 selected components.",
-        "clean_fact_source": "drona/knowledge/verified/*.md D-CLASS-ENG records",
+        "selection_basis": "Prior bounded HS extraction slice artifact identity list used only to identify the 28 selected components.",
+        "clean_fact_source": "drona/knowledge/verified/*.md engineering handoff records",
         "forbidden_fields": sorted(FORBIDDEN_PRE_HS_KEYS),
         "source_sha256": sha256_file(source_handoff),
         "generated_at": now(),
@@ -278,7 +278,7 @@ def write_engineering_handoff(harness_root: Path, sector_root: Path, components:
     lines = [
         "# Selected 28 Pre-HS Engineering Inputs",
         "",
-        "These records are clean D-CLASS-ENG inputs for the bounded HS extraction slice. They intentionally exclude prior HS classification outputs.",
+        "These records are clean engineering handoff inputs for the bounded HS extraction slice. They intentionally exclude prior HS classification outputs.",
         "",
         "| # | Component | Entity ID | Function | Integration | GRI 3(b) |",
         "|---|---|---|---|---|---|",
@@ -300,7 +300,7 @@ def copy_agent_protocols(harness_root: Path, sector_root: Path) -> None:
     prompts_dst.mkdir(parents=True, exist_ok=True)
     schemas_dst.mkdir(parents=True, exist_ok=True)
     scope_header = (
-        "> Paper-scope note: this harness preserves DRONA's role structure, but the default run evaluates only EU/WCO/BTI material. "
+        "> Paper-scope note: this harness preserves the framework role structure, but the default run evaluates only EU/WCO/BTI material. "
         "US and India references are comparison-only if present.\n\n"
     )
     for agent in ("pta", "pra", "da", "aa", "ka"):
@@ -377,7 +377,7 @@ def seal_reference_baseline(harness_root: Path, sector_root: Path) -> dict[str, 
     readme = harness_root / "reference_baseline" / "README.md"
     readme.write_text(
         "# Reference Baseline\n\n"
-        "This folder contains prior DRONA D-CLASS-HS outputs for comparison only. "
+        "This folder contains prior bounded HS extraction outputs for comparison only. "
         "The live and replay runners must not use this folder as runtime input.\n",
         encoding="utf-8",
     )
@@ -510,7 +510,7 @@ def create_component_artifacts(run_root: Path, component: dict[str, Any], bti_re
         "drona_sub_agent": "PTA",
         "extraction_timestamp": now(),
         "extractor_model": "harness_replay_template_v1",
-        "notes": "Replay-safe DRONA-shaped PTA artifact generated from clean engineering input and EU/WCO source records.",
+        "notes": "Replay-safe bounded PTA artifact generated from clean engineering input and EU/WCO source records.",
     }
     pra = {
         "agent": "PRA",

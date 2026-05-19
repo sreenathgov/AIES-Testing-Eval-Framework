@@ -177,7 +177,7 @@
     "d_class_eng_entity": {
       "type": "string",
       "pattern": "^ent_",
-      "description": "The D-CLASS-ENG entity this classification is for"
+      "description": "The engineering handoff entity this classification is for"
     },
     "drona_domain": {"type": "string", "const": "d_class_hs"},
     "drona_sub_agent": {"type": "string", "const": "AA"},

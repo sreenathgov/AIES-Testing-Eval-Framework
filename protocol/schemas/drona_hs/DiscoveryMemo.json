@@ -21,7 +21,7 @@
     },
     "component_ref": {
       "type": "string",
-      "description": "D-CLASS-ENG entity ID",
+      "description": "engineering handoff entity ID",
       "pattern": "^ent_"
     },
     "suggested_candidate_headings": {

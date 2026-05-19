@@ -1,6 +1,6 @@
 # Forbidden Metrics And Guardrails
 
-The v1 DRONA HS evaluation harness does not use generic model-quality metrics
+The v1 HS legal extraction evaluation harness does not use generic model-quality metrics
 as legal correctness gates. Legal auditability depends on authority,
 provenance, source anchors, role boundaries, graph parity, uncertainty
 preservation, and handoff safety.
