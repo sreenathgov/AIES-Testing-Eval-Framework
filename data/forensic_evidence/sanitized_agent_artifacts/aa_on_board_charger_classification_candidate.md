@@ -77,4 +77,4 @@ Clean classification. Same heading as DC-DC Converter (8504.40) — both are sta
 - `classified_as` → [[hs_code-8504-40-00-in]]
 - `candidate_code` → [[hs_code-8504-40-84-eu]]
 - `candidate_code` → [[hs_code-8504-40-90-eu]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

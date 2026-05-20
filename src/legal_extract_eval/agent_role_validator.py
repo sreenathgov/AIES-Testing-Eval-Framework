@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from .models import EXTERNAL_AUTHORITY_CLASSES, ValidatorResult
+from .source_authority_registry import canonical_authority_class
 
 
 class AgentRoleValidator:
@@ -9,9 +10,9 @@ class AgentRoleValidator:
         tags = set(fixture.get("known_issue_tags", []))
         stage = fixture.get("agent_stage")
         authority_classes = {
-            item.get("authority_class")
+            canonical_authority_class(item.get("authority_class"))
             for item in fixture.get("legal_authority_chain", [])
-            if item.get("authority_class") in EXTERNAL_AUTHORITY_CLASSES
+            if canonical_authority_class(item.get("authority_class")) in EXTERNAL_AUTHORITY_CLASSES
         }
 
         if stage == "PTA" and fixture.get("handoff_route") == "promote":
@@ -20,8 +21,6 @@ class AgentRoleValidator:
             checks.append("pta_requires_aa_review")
         if stage == "PRA" and "ruling_or_precedent" in authority_classes and "primary_legal_text" not in authority_classes:
             checks.append("pra_ruling_without_primary_law_anchor")
-        if stage == "PRA" and "classification_decision" in authority_classes and "primary_legal_text" not in authority_classes:
-            checks.append("pra_decision_without_primary_law_anchor")
         if stage == "DA" and fixture.get("handoff_route") == "promote":
             checks.append("da_secondary_context_final_authority")
         if stage == "AA" and fixture.get("handoff_route") == "promote" and not fixture.get("legal_authority_chain"):

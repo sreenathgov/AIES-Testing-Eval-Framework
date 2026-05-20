@@ -1,7 +1,7 @@
 {
   "bundle_type": "pre_hs_engineering_handoff",
-  "canonical_handoff_source": "drona/corpus/02_hs_classification/taxonomy-handoff.md",
-  "clean_fact_source": "drona/knowledge/verified/*.md engineering handoff records",
+  "canonical_handoff_source": "source_repo/corpus/02_hs_classification/taxonomy-handoff.md",
+  "clean_fact_source": "source_repo/knowledge/verified/*.md engineering handoff records",
   "component_count": 28,
   "forbidden_fields": [
     "candidate_cn_code",
@@ -9,7 +9,7 @@
     "classification_candidate",
     "classification_stability",
     "classified_as",
-    "d_ruling_route",
+    "ruling_route",
     "handoff_route",
     "hs_code",
     "hs_code_candidate",

@@ -27,7 +27,7 @@ You are the last checkpoint before human review. Write for a human decision-make
 - All `RulingRecord` records in `../pra/` (for cross-referencing)
 - All `StatutoryClassificationRecord` records in `../pta/` (for baseline comparison)
 - All `ContradictionRecord` records in `../contradictions/`
-- `drona/corpus/02_hs_classification/taxonomy-handoff.md` (for invariant reference lists)
+- `source_repo/corpus/02_hs_classification/taxonomy-handoff.md` (for invariant reference lists)
 
 ---
 
@@ -79,10 +79,10 @@ The taxonomy handoff identifies 15 GRI 3(b) composite goods candidates (Integrat
 ## ADDITIONAL CHECKS
 
 **Corpus provenance:**
-For every AA record, verify that every `source_doc` in `source_docs` array exists as a file in `drona/corpus/`. Record any missing docs under `invariant_check_results.all_source_docs_in_corpus.missing_docs`.
+For every AA record, verify that every `source_doc` in `source_docs` array exists as a file in `source_repo/corpus/`. Record any missing docs under `invariant_check_results.all_source_docs_in_corpus.missing_docs`.
 
 **Jurisdiction divergence review:**
-List all AA records with `jurisdiction_divergence: true`. These require human review and D-RULING handoff packages.
+List all AA records with `jurisdiction_divergence: true`. These require human review and adjudication handoff packages.
 
 **Contradiction audit:**
 List all ContradictionRecords in `../contradictions/` with `resolution_status: "unresolved"`. Severity "blocking" items must be resolved before promotion.
@@ -90,8 +90,8 @@ List all ContradictionRecords in `../contradictions/` with `resolution_status: "
 **Ruling validity flags:**
 List all PRA records with `validity_status: "unknown"` or `"expired"`. These feeding into AA candidates need human confirmation.
 
-**D-RULING handoff queue:**
-Compile all items in `../d_ruling_handoff/` into the `d_ruling_handoff_queue` list in the AuditReport.
+**adjudication handoff queue:**
+Compile all items in `../ruling_handoff/` into the `ruling_handoff_queue` list in the AuditReport.
 
 ---
 

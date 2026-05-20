@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_dc-dc-converter",
+  "component_ref": "ent_216",
+  "component_slug": "dc-dc-converter",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_dc-dc-converter",
+  "node_type": "classification_candidate"
+}

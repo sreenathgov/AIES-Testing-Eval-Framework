@@ -3,15 +3,12 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Mapping
 
-
-PAPER_SCOPE_JURISDICTIONS = frozenset({"EU", "WCO"})
-PAPER_SCOPE_SOURCE_CLASSES = frozenset({"EU", "WCO", "BTI"})
+from .source_authority_registry import PAPER_SCOPE_JURISDICTIONS, PAPER_SCOPE_SOURCE_CLASSES
 
 EXTERNAL_AUTHORITY_CLASSES = frozenset(
     {
         "primary_legal_text",
         "interpretive_legal_note",
-        "classification_decision",
         "ruling_or_precedent",
     }
 )

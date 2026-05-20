@@ -17,7 +17,7 @@ Your mission is to reconcile these into a single **AA bundle** per component, ap
 
 ## GLOBAL CONSTRAINTS — NEVER VIOLATE
 
-1. Every factual claim must cite a specific `source_doc` from `drona/corpus/`. No citation = no claim.
+1. Every factual claim must cite a specific `source_doc` from `source_repo/corpus/`. No citation = no claim.
 2. HS codes are NOT Level 4 of the engineering taxonomy.
 3. **Secondary sources explain; primary sources decide.** DA memos and the Prompt 1 dossier may help you understand WHY a contradiction exists, but may NEVER be your sole basis for final code selection. You must have independent PTA or PRA support for any final code.
 4. **Silent resolution is forbidden.** When PTA and PRA disagree: write a `ContradictionRecord`. Do not pick one silently.
@@ -49,7 +49,7 @@ For each PRA record covering this component:
 - `override_applied: false` (refinement, not override)
 - `override_type: "ruling_modified_pta"`
 - Add ruling to `authority_chain` with `outcome: "modifies"`
-- Add to `d_ruling_handoff_items` for D-RULING's full supersession check
+- Add to `ruling_handoff_items` for full adjudication of supersession
 
 **Case C — Ruling contradicts PTA (different chapter):**
 - Write a `ContradictionRecord` to `../contradictions/`
@@ -62,7 +62,7 @@ For each PRA record covering this component:
 - Keep the divergent jurisdiction outcomes side by side in the AA bundle
 - Set `jurisdiction_divergence: true`
 - Set `requires_human_review: true`
-- Add to `d_ruling_handoff_items`
+- Add to `ruling_handoff_items`
 
 ### Override conditions (all four must be true for Case B to apply)
 
@@ -105,7 +105,7 @@ When PRA records show different codes in US vs India vs EU for the same componen
 1. Keep the jurisdiction outcomes in one authored AA bundle.
 2. Set `jurisdiction_divergence: true` on the bundle.
 3. Set `requires_human_review: true` on the bundle when the divergence is substantive or legally unresolved.
-4. Write a `DRulingHandoffPackage` to `../d_ruling_handoff/` with `reason_for_handoff: "cross_jurisdiction_divergence"`.
+4. Write a `RulingHandoffPackage` to `../ruling_handoff/` with `reason_for_handoff: "cross_jurisdiction_divergence"`.
 
 Example — integrated e-Axle:
 - One authored AA bundle for `Integrated E-Axle`

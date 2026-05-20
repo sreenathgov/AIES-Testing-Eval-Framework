@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_cathode-active-material-nmc",
+  "component_ref": "ent_tb3_01",
+  "component_slug": "cathode-active-material-nmc",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_cathode-active-material-nmc",
+  "node_type": "classification_candidate"
+}

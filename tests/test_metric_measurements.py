@@ -20,7 +20,7 @@ EXPECTED_METRICS = {
     "human_review_trigger_correctness",
     "field_completeness_rate",
     "abstention_rate",
-    "semantic_graph_alignment",
+    "graph_artifact_parity",
     "human_research_burden",
     "rerun_delta_rate",
 }
@@ -79,8 +79,8 @@ def test_metric_calculator_outputs_all_colleague_metrics(repo_root: Path) -> Non
     assert {row["metric_id"] for row in rows} == EXPECTED_METRICS
     for row in rows:
         assert set(METRIC_REPORT_COLUMNS).issubset(row)
-        assert 0 <= row["score"] <= 1
-        assert row["status"] in {"pass", "warning", "review_trigger", "blocker", "diagnostic", "comparison_only"}
+        assert row["score"] is None or 0 <= row["score"] <= 1
+        assert row["status"] in {"pass", "warning", "review_trigger", "blocker", "diagnostic", "comparison_only", "not_applicable"}
 
     by_id = {row["metric_id"]: row for row in rows}
     assert by_id["authority_boundary_compliance"]["score"] == 1.0
@@ -93,11 +93,14 @@ def test_metric_calculator_outputs_all_colleague_metrics(repo_root: Path) -> Non
     assert by_id["human_review_trigger_correctness"]["denominator"] > 0
     assert by_id["field_completeness_rate"]["score"] == 1.0
     assert by_id["abstention_rate"]["denominator"] > 0
-    assert by_id["semantic_graph_alignment"]["score"] == 1.0
+    assert by_id["evidence_gap_detection"]["status"] == "not_applicable"
+    assert by_id["evidence_gap_detection"]["score"] is None
+    assert by_id["graph_artifact_parity"]["score"] == 1.0
     assert by_id["human_research_burden"]["denominator"] == 28
     assert by_id["human_research_burden"]["status"] == "diagnostic"
     assert by_id["rerun_delta_rate"]["denominator"] == 0
     assert by_id["rerun_delta_rate"]["status"] == "comparison_only"
+    assert by_id["rerun_delta_rate"]["score"] is None
 
 
 def test_metric_reports_and_stress_tests_are_written(repo_root: Path) -> None:
@@ -106,13 +109,13 @@ def test_metric_reports_and_stress_tests_are_written(repo_root: Path) -> None:
         "metric_summary.json",
         "metric_summary.csv",
         "metric_summary.md",
-        "metric_stress_tests.json",
-        "metric_stress_tests.md",
+        "metric_stress_test_catalog.json",
+        "metric_stress_test_catalog.md",
     ):
         assert (report_dir / filename).exists()
 
     metric_rows = load_json(report_dir / "metric_summary.json")
-    stress_rows = load_json(report_dir / "metric_stress_tests.json")
+    stress_rows = load_json(report_dir / "metric_stress_test_catalog.json")
     assert len(metric_rows) == 16
     assert len(stress_rows) == 16
     assert {row["expected_failed_metric"] for row in stress_rows} == EXPECTED_METRICS

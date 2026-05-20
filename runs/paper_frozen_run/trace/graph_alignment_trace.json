@@ -12,7 +12,7 @@
       "artifact_id": "AA_EU_anode-active-material-graphite",
       "failure_category": null,
       "item_id": "graph:anode-active-material-graphite:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -33,7 +33,7 @@
       "artifact_id": "AA_EU_anode-substrate-cu-foil",
       "failure_category": null,
       "item_id": "graph:anode-substrate-cu-foil:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -54,7 +54,7 @@
       "artifact_id": "AA_EU_battery-control-unit-(bcu)",
       "failure_category": null,
       "item_id": "graph:battery-control-unit-(bcu):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -75,7 +75,7 @@
       "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
       "failure_category": null,
       "item_id": "graph:battery-disconnect-unit-(bdu):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -96,7 +96,7 @@
       "artifact_id": "AA_EU_battery-management-system-(bms)",
       "failure_category": null,
       "item_id": "graph:battery-management-system-(bms):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -117,7 +117,7 @@
       "artifact_id": "AA_EU_cathode-active-material-nmc",
       "failure_category": null,
       "item_id": "graph:cathode-active-material-nmc:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -138,7 +138,7 @@
       "artifact_id": "AA_EU_cathode-substrate-al-foil",
       "failure_category": null,
       "item_id": "graph:cathode-substrate-al-foil:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -159,7 +159,7 @@
       "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
       "failure_category": null,
       "item_id": "graph:cell-supervisor-unit-(csu):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -180,7 +180,7 @@
       "artifact_id": "AA_EU_combo-power-electronics-unit",
       "failure_category": null,
       "item_id": "graph:combo-power-electronics-unit:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -201,7 +201,7 @@
       "artifact_id": "AA_EU_dc-dc-converter",
       "failure_category": null,
       "item_id": "graph:dc-dc-converter:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -222,7 +222,7 @@
       "artifact_id": "AA_EU_electrolyte-lipf6-solution",
       "failure_category": null,
       "item_id": "graph:electrolyte-lipf6-solution:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -243,7 +243,7 @@
       "artifact_id": "AA_EU_high-voltage-battery-module",
       "failure_category": null,
       "item_id": "graph:high-voltage-battery-module:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -264,7 +264,7 @@
       "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
       "failure_category": null,
       "item_id": "graph:high-voltage-battery-pack-assembly:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -285,7 +285,7 @@
       "artifact_id": "AA_EU_high-voltage-connectors",
       "failure_category": null,
       "item_id": "graph:high-voltage-connectors:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -306,7 +306,7 @@
       "artifact_id": "AA_EU_high-voltage-contactor",
       "failure_category": null,
       "item_id": "graph:high-voltage-contactor:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -327,7 +327,7 @@
       "artifact_id": "AA_EU_hyper-integrated-e-axle",
       "failure_category": null,
       "item_id": "graph:hyper-integrated-e-axle:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -348,7 +348,7 @@
       "artifact_id": "AA_EU_integrated-e-axle",
       "failure_category": null,
       "item_id": "graph:integrated-e-axle:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -369,7 +369,7 @@
       "artifact_id": "AA_EU_lithium-ion-battery-cell",
       "failure_category": null,
       "item_id": "graph:lithium-ion-battery-cell:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -390,7 +390,7 @@
       "artifact_id": "AA_EU_ndfeb-permanent-magnets",
       "failure_category": null,
       "item_id": "graph:ndfeb-permanent-magnets:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -411,7 +411,7 @@
       "artifact_id": "AA_EU_on-board-charger-(obc)",
       "failure_category": null,
       "item_id": "graph:on-board-charger-(obc):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -432,7 +432,7 @@
       "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
       "failure_category": null,
       "item_id": "graph:power-distribution-unit-(pdu):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -453,7 +453,7 @@
       "artifact_id": "AA_EU_separator-pe-pp-film",
       "failure_category": null,
       "item_id": "graph:separator-pe-pp-film:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -474,7 +474,7 @@
       "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
       "failure_category": null,
       "item_id": "graph:silicon-alloyed-electrical-steel-core-noes:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -495,7 +495,7 @@
       "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
       "failure_category": null,
       "item_id": "graph:silicon-carbide-(sic)-mosfets:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -516,7 +516,7 @@
       "artifact_id": "AA_EU_silicon-igbts",
       "failure_category": null,
       "item_id": "graph:silicon-igbts:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -537,7 +537,7 @@
       "artifact_id": "AA_EU_traction-inverter-module",
       "failure_category": null,
       "item_id": "graph:traction-inverter-module:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -558,7 +558,7 @@
       "artifact_id": "AA_EU_traction-motor",
       "failure_category": null,
       "item_id": "graph:traction-motor:cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,
@@ -579,7 +579,7 @@
       "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
       "failure_category": null,
       "item_id": "graph:vehicle-control-unit-(vcu):cn_code",
-      "item_type": "hs_cn_code_node"
+      "item_type": "hs_code_node"
     },
     {
       "aligned": true,

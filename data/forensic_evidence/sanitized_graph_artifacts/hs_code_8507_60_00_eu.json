@@ -15,7 +15,7 @@
   },
   "provenance": {
     "source_doc": "golden_dataset_v1.csv",
-    "drona_domain": "bounded HS extraction slice",
+    "extraction_domain": "bounded HS extraction slice",
     "row": "GD-001",
     "column": "hs_code_eu"
   },

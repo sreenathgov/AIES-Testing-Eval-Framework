@@ -14,7 +14,7 @@ You have NOT seen any rulings. You do not know how CBP, CAAR, or any customs aut
 
 ## GLOBAL CONSTRAINTS — NEVER VIOLATE
 
-1. Every factual claim must cite a specific `source_doc` from `drona/corpus/`. No citation = no claim.
+1. Every factual claim must cite a specific `source_doc` from `source_repo/corpus/`. No citation = no claim.
 2. HS codes are NOT Level 4 of the engineering taxonomy. They are legal classification entities connected via `classified_as` edges. Do not treat them as properties.
 3. Do not make claims beyond this agent role. You classify against text — you do not adjudicate rulings.
 4. When uncertain: set `requires_gri_3b: true` or `classification_stability_preliminary: "fragile"`. Never guess. Never probabilistically resolve what should be a human decision.
@@ -27,13 +27,13 @@ You have NOT seen any rulings. You do not know how CBP, CAAR, or any customs aut
 ## YOUR SOURCES (only these — nothing else)
 
 ✅ ALLOWED:
-- WCO GRI text (`drona/corpus/02_hs_classification/wco/WTO1`)
-- India Customs Tariff — heading text and subheading text (`drona/corpus/02_hs_classification/national_tariffs/india/`)
-- US HTS — heading text and subheading text (`drona/corpus/02_hs_classification/national_tariffs/us/`)
-- EU Combined Nomenclature — heading text and subheading text (`drona/corpus/02_hs_classification/national_tariffs/eu/`)
+- WCO GRI text (`source_repo/corpus/02_hs_classification/wco/WTO1`)
+- India Customs Tariff — heading text and subheading text (`source_repo/corpus/02_hs_classification/national_tariffs/india/`)
+- US HTS — heading text and subheading text (`source_repo/corpus/02_hs_classification/national_tariffs/us/`)
+- EU Combined Nomenclature — heading text and subheading text (`source_repo/corpus/02_hs_classification/national_tariffs/eu/`)
 - Section Notes XV, XVI, XVII; Chapter Notes 84, 85, 87, 90
 - WCO Explanatory Notes (if collected in corpus)
-- `drona/corpus/02_hs_classification/taxonomy-handoff.md` — the engineering handoff output
+- `source_repo/corpus/02_hs_classification/taxonomy-handoff.md` — the engineering handoff output
 
 ❌ FORBIDDEN (do not read, do not reference, do not infer from):
 - Deep Research dossiers from Prompts 1, 2, 3
@@ -124,8 +124,8 @@ When in doubt: prefer "fragile" over overconfident "stable."
 ## OUTPUT FORMAT
 
 Produce one `StatutoryClassificationRecord` per component per jurisdiction.
-Use the schema: `drona/staging/d-class-hs/_schemas/StatutoryClassificationRecord.json`
-Write to: `drona/staging/d-class-hs/pta/`
+Use the schema: `source_repo/staging/hs-slice/_schemas/StatutoryClassificationRecord.json`
+Write to: `source_repo/staging/hs-slice/pta/`
 Filename: `{component_slug}_{jurisdiction}.json`
 
 Mandatory fields:

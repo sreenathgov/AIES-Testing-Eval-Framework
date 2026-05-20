@@ -2,7 +2,7 @@
   "component_ref": "ent_tb3_07",
   "direction_valid": true,
   "edge_id": "edge:silicon-alloyed-electrical-steel-core-noes:proposes:7226.19",
-  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "edge_type": "proposes_code",
   "source_node_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
-  "target_node_id": "cn_code:7226-19:eu"
+  "target_node_id": "hs_code:7226.19:EU"
 }

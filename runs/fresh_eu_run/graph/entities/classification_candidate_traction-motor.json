@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_traction-motor",
+  "component_ref": "ent_221",
+  "component_slug": "traction-motor",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_traction-motor",
+  "node_type": "classification_candidate"
+}

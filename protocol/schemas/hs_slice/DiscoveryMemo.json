@@ -9,8 +9,8 @@
     "component_ref",
     "confidence_note",
     "source_doc",
-    "drona_domain",
-    "drona_sub_agent",
+    "extraction_domain",
+    "agent_stage",
     "extraction_timestamp",
     "extractor_model"
   ],
@@ -57,13 +57,13 @@
     },
     "source_doc": {
       "type": "string",
-      "description": "Exact filename from drona/corpus/ (secondary sources only)"
+      "description": "Exact filename from source_repo/corpus/ (secondary sources only)"
     },
-    "drona_domain": {
+    "extraction_domain": {
       "type": "string",
-      "const": "d_class_hs"
+      "const": "hs_slice"
     },
-    "drona_sub_agent": {
+    "agent_stage": {
       "type": "string",
       "const": "DA"
     },

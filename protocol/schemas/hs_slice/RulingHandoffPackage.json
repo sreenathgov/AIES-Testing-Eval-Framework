@@ -1,15 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "DRulingHandoffPackage",
-  "title": "D-RULING Handoff Package",
-  "description": "Self-contained context package for an issue that bounded HS extraction slice has flagged for D-RULING's full adjudication. Each package includes enough context for D-RULING to work without re-reading bounded HS extraction slice outputs.",
+  "$id": "RulingHandoffPackage",
+  "title": "Ruling Handoff Package",
+  "description": "Self-contained context package for an issue that bounded HS extraction slice has flagged for full adjudication. Each package includes enough context for full adjudication to proceed without re-reading bounded HS extraction slice outputs.",
   "type": "object",
   "required": [
     "handoff_id",
     "component_ref",
     "reason_for_handoff",
-    "d_class_hs_position",
-    "open_question_for_d_ruling",
+    "hs_slice_position",
+    "open_question_for_ruling",
     "ruling_records_involved",
     "created_at"
   ],
@@ -35,13 +35,13 @@
         "contradiction_unresolved"
       ]
     },
-    "d_class_hs_position": {
+    "hs_slice_position": {
       "type": "string",
-      "description": "The AA's promoted classification for this component (e.g. '8537.10 (US + India, stable)'). The baseline D-RULING starts from."
+      "description": "The AA's promoted classification for this component (e.g. '8537.10 (US + India, stable)'). The baseline adjudication handoff starts from."
     },
     "aa_classification_candidate": {
       "type": "object",
-      "description": "Full ClassificationCandidate record from AA (embedded for D-RULING context)"
+      "description": "Full ClassificationCandidate record from AA (embedded for full adjudication context)"
     },
     "ruling_records_involved": {
       "type": "array",
@@ -52,9 +52,9 @@
       "type": ["object", "null"],
       "description": "ContradictionRecord if this handoff arose from a surfaced contradiction"
     },
-    "open_question_for_d_ruling": {
+    "open_question_for_ruling": {
       "type": "string",
-      "description": "Precise question D-RULING needs to answer (e.g. 'Is NY N329827 still current, or has it been superseded by a later HQ ruling?')"
+      "description": "Precise question full adjudication needs to answer (e.g. 'Is NY N329827 still current, or has it been superseded by a later HQ ruling?')"
     },
     "jurisdiction_divergence_detail": {
       "type": ["object", "null"],

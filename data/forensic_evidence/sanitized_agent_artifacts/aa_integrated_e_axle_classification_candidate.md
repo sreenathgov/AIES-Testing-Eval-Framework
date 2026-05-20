@@ -110,4 +110,4 @@ Post-domain protocol: Monitor Bombay HC judgment. If 8708.99.00 is affirmed, upd
 - `classified_as (IN)` → [[hs_code-8501-53-30-in]]
 - `ruling_anchor (US)` → [[hs_code-8708-99-global]]
 - `da_source` → [[da_memo_tb2_e_axle]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

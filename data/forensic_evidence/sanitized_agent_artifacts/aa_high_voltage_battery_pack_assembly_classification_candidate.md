@@ -62,4 +62,4 @@ The Li-ion cells are the energy storage medium — they constitute the primary m
 - `classified_as (IN)` → [[hs_code-8507-60-00-in]]
 - `ruling_anchor` → [[hs_code-8507-60-global]]
 - `da_source` → [[da_memo_tb2_battery_pack]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

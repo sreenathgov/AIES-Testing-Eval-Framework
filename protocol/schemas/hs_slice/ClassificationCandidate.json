@@ -26,8 +26,8 @@
     "ev_subsystem",
     "source_docs",
     "d_class_eng_entity",
-    "drona_domain",
-    "drona_sub_agent",
+    "extraction_domain",
+    "agent_stage",
     "extraction_timestamp",
     "extractor_model"
   ],
@@ -97,10 +97,10 @@
       "items": {"type": "string"},
       "description": "ContradictionRecord IDs for contradictions related to this component"
     },
-    "d_ruling_handoff_items": {
+    "ruling_handoff_items": {
       "type": "array",
       "items": {"type": "string"},
-      "description": "Descriptions of items queued for D-RULING from this classification"
+      "description": "Descriptions of items queued for adjudication handoff from this classification"
     },
     "classification_stability": {
       "type": "string",
@@ -179,8 +179,8 @@
       "pattern": "^ent_",
       "description": "The engineering handoff entity this classification is for"
     },
-    "drona_domain": {"type": "string", "const": "d_class_hs"},
-    "drona_sub_agent": {"type": "string", "const": "AA"},
+    "extraction_domain": {"type": "string", "const": "hs_slice"},
+    "agent_stage": {"type": "string", "const": "AA"},
     "extraction_timestamp": {"type": "string", "format": "date-time"},
     "extractor_model": {"type": "string"}
   },

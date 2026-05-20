@@ -6,8 +6,8 @@
   "component_ref": "ent_tb3_03",
   "component_slug": "electrolyte-lipf6-solution",
   "confidence": "high",
-  "drona_domain": "d_class_hs",
-  "drona_sub_agent": "PTA",
+  "extraction_domain": "hs_slice",
+  "agent_stage": "PTA",
   "exclusion_checks_run": [
     "Section XVII Note 2(f)",
     "Section XV Note 2",

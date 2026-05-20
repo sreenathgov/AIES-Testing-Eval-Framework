@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+  "component_ref": "ent_tb3_03",
+  "component_slug": "electrolyte-lipf6-solution",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_electrolyte-lipf6-solution",
+  "node_type": "classification_candidate"
+}

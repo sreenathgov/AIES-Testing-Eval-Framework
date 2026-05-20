@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "RulingRecord",
   "title": "Ruling Record",
-  "description": "Output of the Precedent Agent (PRA). Records what a specific authority decided about a specific product. Does NOT adjudicate override chains — that belongs to D-RULING.",
+  "description": "Output of the Precedent Agent (PRA). Records what a specific authority decided about a specific product. Does NOT adjudicate override chains — that belongs to full adjudication.",
   "type": "object",
   "required": [
     "agent",
@@ -15,11 +15,11 @@
     "hs_code_assigned_by_ruling",
     "ruling_conclusion_vs_pta",
     "override_claim_level",
-    "d_ruling_deferred",
+    "ruling_deferred",
     "source_doc",
     "extraction_source",
-    "drona_domain",
-    "drona_sub_agent",
+    "extraction_domain",
+    "agent_stage",
     "extraction_timestamp",
     "extractor_model"
   ],
@@ -96,16 +96,16 @@
     "override_claim_level": {
       "type": "string",
       "enum": ["none", "advisory", "binding_transaction", "binding_jurisdiction"],
-      "description": "Strength of override claim. 'none' = record only, deferred to D-RULING for adjudication."
+      "description": "Strength of override claim. 'none' = record only, deferred to full adjudication."
     },
-    "d_ruling_deferred": {
+    "ruling_deferred": {
       "type": "boolean",
       "const": true,
       "description": "Always true. PRA never adjudicates override chains."
     },
     "source_doc": {
       "type": "string",
-      "description": "Exact filename from drona/corpus/"
+      "description": "Exact filename from source_repo/corpus/"
     },
     "extraction_source": {
       "type": "string",
@@ -116,11 +116,11 @@
       "type": ["string", "null"],
       "description": "Key paragraph from the ruling explaining the classification reasoning"
     },
-    "drona_domain": {
+    "extraction_domain": {
       "type": "string",
-      "const": "d_class_hs"
+      "const": "hs_slice"
     },
-    "drona_sub_agent": {
+    "agent_stage": {
       "type": "string",
       "const": "PRA"
     },

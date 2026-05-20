@@ -100,7 +100,7 @@
     "requires_human_review": {
       "type": "boolean"
     },
-    "d_ruling_handoff": {
+    "ruling_handoff": {
       "type": "boolean"
     },
     "ruling_anchor": {

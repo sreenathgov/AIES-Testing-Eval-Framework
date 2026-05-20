@@ -1,10 +1,26 @@
 # Runbook
 
+## Check Readiness Without Running Evaluation
+
+```bash
+PYTHONPATH=src python3 -m legal_extract_eval.readiness \
+  --repo-root .
+```
+
+This command is a preflight only. It validates the checked-in bounded HS source
+bundle, source records, source-authority registry, graph artifact schema,
+runtime isolation, and knowledge-evidence registry. It does not create a run,
+evaluate artifacts, call an API, or refresh reports.
+
+Maintainers with a private exported source repository can add
+`--source-repo-root /path/to/private-source-repo` to check the upstream slice as
+well. That path is optional for public replay.
+
 ## Build Or Refresh The Pre-HS Slice
 
 ```bash
 PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
-  --sector-watch-root /path/to/private-source-repo \
+  --source-repo-root /path/to/private-source-repo \
   --harness-root .
 ```
 
@@ -30,8 +46,8 @@ Reports are written to:
 - `runs/paper_frozen_run/reports/metric_summary.json`
 - `runs/paper_frozen_run/reports/metric_summary.csv`
 - `runs/paper_frozen_run/reports/metric_summary.md`
-- `runs/paper_frozen_run/reports/metric_stress_tests.json`
-- `runs/paper_frozen_run/reports/metric_stress_tests.md`
+- `runs/paper_frozen_run/reports/metric_stress_test_catalog.json`
+- `runs/paper_frozen_run/reports/metric_stress_test_catalog.md`
 
 Trace inputs for the metrics are written under:
 

@@ -80,4 +80,4 @@ PTA, PRA, and DA all converge on 8507.60 without conflict. No ruling override re
 - `classified_as` → [[hs_code-8507-60-00-us]]
 - `classified_as` → [[hs_code-8507-60-00-in]]
 - `classified_as` → [[hs_code-8507-60-00-eu]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

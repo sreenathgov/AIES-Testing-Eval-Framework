@@ -11,8 +11,8 @@
     "positions",
     "severity",
     "resolution_status",
-    "drona_domain",
-    "drona_sub_agent",
+    "extraction_domain",
+    "agent_stage",
     "created_at"
   ],
   "properties": {
@@ -63,7 +63,7 @@
     },
     "resolution_status": {
       "type": "string",
-      "enum": ["unresolved", "human_resolved", "deferred_to_d_ruling"]
+      "enum": ["unresolved", "human_resolved", "deferred_to_ruling"]
     },
     "resolution_note": {
       "type": ["string", "null"],
@@ -73,8 +73,8 @@
       "type": ["string", "null"],
       "format": "date-time"
     },
-    "drona_domain": {"type": "string", "const": "d_class_hs"},
-    "drona_sub_agent": {
+    "extraction_domain": {"type": "string", "const": "hs_slice"},
+    "agent_stage": {
       "type": "string",
       "enum": ["AA", "KA"],
       "description": "Which agent surfaced this contradiction"

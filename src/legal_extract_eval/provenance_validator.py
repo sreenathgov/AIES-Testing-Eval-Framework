@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from .models import EXTERNAL_AUTHORITY_CLASSES, INTERNAL_AUTHORITY_CLASSES, ValidatorResult
+from .source_authority_registry import canonical_authority_class
 
 
 class ProvenanceValidator:
@@ -25,7 +26,7 @@ class ProvenanceValidator:
         external_count = 0
         for item in chain:
             source_id = item.get("source_id")
-            authority_class = item.get("authority_class")
+            authority_class = canonical_authority_class(item.get("authority_class"))
             anchor_id = item.get("anchor_id")
             if authority_class in INTERNAL_AUTHORITY_CLASSES:
                 checks.append("internal_source_as_authority")

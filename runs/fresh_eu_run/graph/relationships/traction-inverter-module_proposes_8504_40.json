@@ -2,7 +2,7 @@
   "component_ref": "ent_196",
   "direction_valid": true,
   "edge_id": "edge:traction-inverter-module:proposes:8504.40",
-  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "edge_type": "proposes_code",
   "source_node_id": "AA_EU_traction-inverter-module",
-  "target_node_id": "cn_code:8504-40:eu"
+  "target_node_id": "hs_code:8504.40:EU"
 }

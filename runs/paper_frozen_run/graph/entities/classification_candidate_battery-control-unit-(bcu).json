@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+  "component_ref": "ent_169",
+  "component_slug": "battery-control-unit-(bcu)",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_battery-control-unit-(bcu)",
+  "node_type": "classification_candidate"
+}

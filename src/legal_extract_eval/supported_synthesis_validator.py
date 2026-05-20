@@ -3,13 +3,14 @@ from __future__ import annotations
 from typing import Any
 
 from .models import EXTERNAL_AUTHORITY_CLASSES, INTERNAL_AUTHORITY_CLASSES, ValidatorResult
+from .source_authority_registry import canonical_authority_class
 
 
 class SupportedSynthesisValidator:
     def validate(self, fixture: dict[str, Any]) -> ValidatorResult:
         checks: list[str] = []
         tags = set(fixture.get("known_issue_tags", []))
-        classes = {item.get("authority_class") for item in fixture.get("legal_authority_chain", [])}
+        classes = {canonical_authority_class(item.get("authority_class")) for item in fixture.get("legal_authority_chain", [])}
 
         if fixture.get("legal_proposition") and not (classes & EXTERNAL_AUTHORITY_CLASSES):
             checks.append("missing_external_authority")

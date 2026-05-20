@@ -16,7 +16,7 @@
   "properties": {
     "run_id": {
       "type": "string",
-      "description": "e.g. d-class-hs-run-001-batch-1"
+      "description": "e.g. hs-slice-run-001-batch-1"
     },
     "batch_description": {
       "type": "string",
@@ -134,9 +134,9 @@
         }
       }
     },
-    "d_ruling_handoff_queue": {
+    "ruling_handoff_queue": {
       "type": "array",
-      "description": "DRulingHandoffPackage IDs queued for D-RULING",
+      "description": "RulingHandoffPackage IDs queued for full adjudication",
       "items": {"type": "string"}
     },
     "promotion_ready": {

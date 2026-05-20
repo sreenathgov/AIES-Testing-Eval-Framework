@@ -6,7 +6,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/national_tariffs/eu/EU - HS - COMMISSION IMPLEMENTING REGULATION (EU) 2025_1926 - EVs.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/national_tariffs/eu/EU - HS - COMMISSION IMPLEMENTING REGULATION (EU) 2025_1926 - EVs.pdf",
       "harness_relative_path": "data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
       "sha256": "0b221f5e63c80ae98546ed13bd98aeb7917f5662b55a4e0f70444225a45e414b",
       "byte_size": 2648955,
@@ -19,7 +19,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_EN_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/national_tariffs/eu/EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION - EVs.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/national_tariffs/eu/EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION - EVs.pdf",
       "harness_relative_path": "data/source_corpus/originals/eu/eu_cn_explanatory_notes_evs.pdf",
       "sha256": "e17140ebf23882bb423af104c97b1d887329170d16504bf6b94fbc31762ae15f",
       "byte_size": 1234170,
@@ -32,7 +32,7 @@
     {
       "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_ORIGINAL",
       "asset_type": "original_csv",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/rulings/eu/bti/EBTI-Sample-Targeted-Test-Run.csv",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/rulings/eu/bti/EBTI-Sample-Targeted-Test-Run.csv",
       "harness_relative_path": "data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
       "sha256": "1f2298a0894077ecbf7d6cf8dcdc17620672eaf2c7a45dc65ffa4fcd3836a00b",
       "byte_size": 38134,
@@ -45,7 +45,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_GRI_2017_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO-GRI-Rules-2017.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/wco/WCO-GRI-Rules-2017.pdf",
       "harness_relative_path": "data/source_corpus/originals/wco/wco_gri_rules_2017.pdf",
       "sha256": "7b3aa532e8a170b85257d71929f4dfa857fba56255fcea262051c70a57c6aa43",
       "byte_size": 8088,
@@ -58,7 +58,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_84_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
       "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_84_complex.pdf",
       "sha256": "0d146bef9020324f9d9bc28be149c8df10992ee6b64c1b195aded7a0aab974ff",
       "byte_size": 541574,
@@ -71,7 +71,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_85_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
       "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_85_complex.pdf",
       "sha256": "1f2eada9662f4b6089e6bd90f8c5e50f93f032eabd7ae2a19014c06b711357c5",
       "byte_size": 463121,
@@ -84,7 +84,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_87_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 87_complex.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 87_complex.pdf",
       "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_87_complex.pdf",
       "sha256": "e806a55e1f9808e54b60304de9b77ba6cc15b4a36022f48357e8098654020904",
       "byte_size": 180487,
@@ -97,7 +97,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_90_ORIGINAL",
       "asset_type": "original_pdf",
-      "source_repo_relative_path": "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 90_complex.pdf",
+      "source_repo_relative_path": "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 90_complex.pdf",
       "harness_relative_path": "data/source_corpus/originals/wco/wco_2022_section_90_complex.pdf",
       "sha256": "4e9484c1bb2a64e3233e7a6592b1479cfc3e0210e5ae5734299b697b9c6b53be",
       "byte_size": 237413,
@@ -110,7 +110,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_2025_1926_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs.md",
       "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs.md",
       "sha256": "768710caa6fab9aa24fddf7fcb050f6522b2a9e163385ea8691a889e46ca2778",
       "byte_size": 325423,
@@ -123,7 +123,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_2025_1926_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs.json",
       "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs.json",
       "sha256": "1298bc36dac9c9be755d04a7fdfda111bb751b382ebc578e3e6098eec2b47222",
       "byte_size": 4378197,
@@ -136,7 +136,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_2025_1926_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs_meta.json",
       "sha256": "a8356eba034d6bcca5cc61d7fdac5560f7ab679d44e098f7aeda80603d2ef3c8",
       "byte_size": 12172,
@@ -149,7 +149,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_2025_1926_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs_normalized.json",
       "sha256": "5cb21a8f354c73932d856a62bc80473445a380de33b3b4f8dbdebd23965882b4",
       "byte_size": 3077398,
@@ -162,7 +162,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_EN_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.md",
       "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.md",
       "sha256": "a0613b79621950fa39576b955333566b6e05149ce527c70d654df8f3aead2463",
       "byte_size": 215080,
@@ -175,7 +175,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_EN_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.json",
       "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs.json",
       "sha256": "c8482abb216378e75aaf2a6e739e9b68af3367267b291a92705242f6a0d8b29e",
       "byte_size": 995718,
@@ -188,7 +188,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_EN_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_meta.json",
       "sha256": "360ffe122147248f8eb4a3abe5f756c97b981187130c63b7089dd835316059fd",
       "byte_size": 82229,
@@ -201,7 +201,7 @@
     {
       "asset_id": "SRC_ASSET_EU_CN_EN_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs_normalized.json",
       "sha256": "e9560ddc8b6d9d0ac8eaabd3c1cae59c2cf9b8687cbd72b6680894cc4d0a8535",
       "byte_size": 258297,
@@ -214,7 +214,7 @@
     {
       "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run.md",
       "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run.md",
       "sha256": "71cc980af07ff024485e8c8333b4ed1b7e9007d94acf374064f136bb92ec1c73",
       "byte_size": 38977,
@@ -227,7 +227,7 @@
     {
       "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run.json",
       "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run.json",
       "sha256": "8893173f646650c54eb0ebbe5d6d732fa1a11f8bb9c096c1cdb21d7b139a1679",
       "byte_size": 87820,
@@ -240,7 +240,7 @@
     {
       "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run_meta.json",
       "sha256": "f490fdbb529d140b15bd7e2a68fa344cfbd0926e6bc86a7018b2cbf6b290bee6",
       "byte_size": 879,
@@ -253,7 +253,7 @@
     {
       "asset_id": "SRC_ASSET_EU_BTI_SAMPLE_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run_normalized.json",
       "sha256": "b274d333c4d14ff7adeaaba912fe8e0d85deceb3d180c12d5d24eb6a095724bc",
       "byte_size": 875,
@@ -266,7 +266,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_GRI_2017_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_gri_rules_2017.md",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017.md",
       "sha256": "8930aff380b5981e5645a74cf7c0bcee1e44908161ebaf3ad851a61d183879f8",
       "byte_size": 4368,
@@ -279,7 +279,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_GRI_2017_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_gri_rules_2017.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017.json",
       "sha256": "9b4ea4366c0f699caf6cabe88c4ebd7830bdf0a6497da42956e7dbe7cc946adb",
       "byte_size": 15208,
@@ -292,7 +292,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_GRI_2017_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_gri_rules_2017_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017_meta.json",
       "sha256": "c156609bff7fb7203671fb12b196c669730e47e3739d1538f0a23ae79fd15611",
       "byte_size": 1063,
@@ -305,7 +305,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_GRI_2017_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_gri_rules_2017_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_gri_rules_2017_normalized.json",
       "sha256": "3a7fe056f329739d344d4266a5da748e1828bb5abe2fa1e6e2246379aa01bd79",
       "byte_size": 2092,
@@ -318,7 +318,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_84_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_84_complex.md",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex.md",
       "sha256": "82ecb6250f1bfc0fca90d94c8b07be75eafd4b84cd117620f48dcd1f0771c20f",
       "byte_size": 61633,
@@ -331,7 +331,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_84_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_84_complex.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex.json",
       "sha256": "94905e8fe0e648769dcd334ef22d79f98030c303a0e34e14b90fc7cb6a2ef44d",
       "byte_size": 652618,
@@ -344,7 +344,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_84_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_84_complex_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex_meta.json",
       "sha256": "a44ee6a23330504f5bc1ecc13f4be9f3475c7f547f7a3459710fd09c3017c592",
       "byte_size": 1252,
@@ -357,7 +357,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_84_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_84_complex_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_84_complex_normalized.json",
       "sha256": "d81fe0c14860b820b2a96ccbd75a9195ee483d3489bbfccf53ce5228cc4343dc",
       "byte_size": 482531,
@@ -370,7 +370,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_85_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_85_complex.md",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex.md",
       "sha256": "4cfc719485dc1835d823e9d9706c1797ebe9ecde95ed74bb96032ab4e7e5e67e",
       "byte_size": 44860,
@@ -383,7 +383,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_85_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_85_complex.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex.json",
       "sha256": "42fca221bf61e55aa846e7148948330afbdec1b49676b87463e0e55d26bcae42",
       "byte_size": 134097,
@@ -396,7 +396,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_85_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_85_complex_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex_meta.json",
       "sha256": "a12eeab01b24b028c4ec21c37f6494e4f13b3bf42226c165c33cfac3813fd086",
       "byte_size": 1313,
@@ -409,7 +409,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_85_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_85_complex_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_85_complex_normalized.json",
       "sha256": "30bf1f351e23e5a254194838ad5bf8a3fef194e0528eb4cbb52cf1875448e3b0",
       "byte_size": 5039,
@@ -422,7 +422,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_87_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_87_complex.md",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex.md",
       "sha256": "977dde06dfe1fe2bc92d62003d034264393936e70663e7cb366fe371268a3dbf",
       "byte_size": 18988,
@@ -435,7 +435,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_87_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_87_complex.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex.json",
       "sha256": "8cbfa6d8a0d800321f1421242415a1062f1c0456c28e8eed4a38de6961eeaf2a",
       "byte_size": 127739,
@@ -448,7 +448,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_87_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_87_complex_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex_meta.json",
       "sha256": "c05c40b68e83ebabd8f057022f461936879e74d27e46472ef7d2a3f03a2a5904",
       "byte_size": 1261,
@@ -461,7 +461,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_87_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_87_complex_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_87_complex_normalized.json",
       "sha256": "dc76da7370b46a5f1c9131d638e066f4bf7ca7db4c6a606deb63e7133d5abc60",
       "byte_size": 87767,
@@ -474,7 +474,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_90_MD",
       "asset_type": "parsed_markdown",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex.md",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_90_complex.md",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex.md",
       "sha256": "a4dfa4a1dc0de0ff740c14b601f7fb0380817d11e2dfe3bdf1ab6489a138e5a2",
       "byte_size": 34093,
@@ -487,7 +487,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_90_JSON",
       "asset_type": "parsed_raw_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_90_complex.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex.json",
       "sha256": "a72fbb83fe5546cc50036d1248882aa86e15c4059577cb87c670280e1f2a2c90",
       "byte_size": 67781,
@@ -500,7 +500,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_90_META_JSON",
       "asset_type": "parsed_meta_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex_meta.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_90_complex_meta.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex_meta.json",
       "sha256": "ac3fd10490c1305c8c270af5c2601ee7a9a22bb761229254d1cd0792a0708e15",
       "byte_size": 1170,
@@ -513,7 +513,7 @@
     {
       "asset_id": "SRC_ASSET_WCO_SECTION_90_NORMALIZED_JSON",
       "asset_type": "parsed_normalized_json",
-      "source_repo_relative_path": "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex_normalized.json",
+      "source_repo_relative_path": "source_repo/parsed/02_hs_classification/wco/wco_2022_section_90_complex_normalized.json",
       "harness_relative_path": "data/source_corpus/parsed/wco/wco_2022_section_90_complex_normalized.json",
       "sha256": "ded62b9af87dd8315b1fcf9853a80d828602f77b3064aa8975ef19234601c245",
       "byte_size": 3431,

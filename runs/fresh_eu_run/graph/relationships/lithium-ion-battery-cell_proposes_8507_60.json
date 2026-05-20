@@ -2,7 +2,7 @@
   "component_ref": "ent_147",
   "direction_valid": true,
   "edge_id": "edge:lithium-ion-battery-cell:proposes:8507.60",
-  "edge_type": "classification_candidate proposes_code hs_cn_code",
+  "edge_type": "proposes_code",
   "source_node_id": "AA_EU_lithium-ion-battery-cell",
-  "target_node_id": "cn_code:8507-60:eu"
+  "target_node_id": "hs_code:8507.60:EU"
 }

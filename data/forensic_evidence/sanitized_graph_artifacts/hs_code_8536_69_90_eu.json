@@ -15,7 +15,7 @@
   },
   "provenance": {
     "source_doc": "high-voltage-connectors_classification_candidate.md",
-    "drona_domain": "bounded HS extraction slice",
+    "extraction_domain": "bounded HS extraction slice",
     "row": "GATE1_BACKFILL",
     "column": "hs_code_eu"
   },

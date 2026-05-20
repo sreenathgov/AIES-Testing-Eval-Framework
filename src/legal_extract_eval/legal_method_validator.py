@@ -4,6 +4,7 @@ import re
 from typing import Any
 
 from .models import ValidatorResult
+from .source_authority_registry import canonical_authority_class
 
 
 CN_CODE_RE = re.compile(r"^\d{4}\.\d{2}(?:\.\d{2})?(?:\.\d{2})?$")
@@ -25,7 +26,7 @@ class LegalMethodValidator:
         if "GRI_3b" in gri_path and fixture.get("agent_stage") == "PTA":
             checks.append("gri_3b_requires_adjudication_review")
 
-        if any(item.get("authority_class") == "classification_decision" for item in fixture.get("legal_authority_chain", [])):
+        if any(canonical_authority_class(item.get("authority_class")) == "ruling_or_precedent" for item in fixture.get("legal_authority_chain", [])):
             ruling = fixture.get("ruling_applicability", {})
             if ruling.get("binding_status") not in {"sample_bti", "binding_bti", "classification_decision"}:
                 checks.append("ruling_binding_status_missing")

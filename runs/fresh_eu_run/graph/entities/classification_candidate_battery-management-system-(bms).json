@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_battery-management-system-(bms)",
+  "component_ref": "ent_217",
+  "component_slug": "battery-management-system-(bms)",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_battery-management-system-(bms)",
+  "node_type": "classification_candidate"
+}

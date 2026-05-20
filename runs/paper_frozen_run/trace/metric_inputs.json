@@ -266,7 +266,7 @@
     },
     {
       "expected_control_state": "blocked",
-      "expected_failed_metric": "semantic_graph_alignment",
+      "expected_failed_metric": "graph_artifact_parity",
       "stress_test_type": "malformed_graph_edge"
     },
     {

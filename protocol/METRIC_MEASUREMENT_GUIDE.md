@@ -33,7 +33,7 @@ The metrics explain the run; they do not replace the legal control profile.
 | Human-Review Trigger Correctness | correct escalations / required escalations | Were review conditions converted into route decisions? |
 | Field Completeness Rate | present required fields / total required fields | Did PTA/PRA/AA/KA/handoff artifacts preserve required fields? |
 | Abstention Rate | correct abstentions / evidence-insufficient cases | Did the system route insufficient evidence to review, blocked, or unresolved? |
-| Semantic Graph Alignment | structurally aligned graph items / total graph items | Are product nodes, code nodes, and classification edges structurally safe? |
+| Graph-Artifact Parity | structurally aligned graph items / total graph items | Are product nodes, code nodes, and classification edges structurally safe? |
 | Human Research Burden | 1 - (review-or-block tickets / total artifacts) | How much human research load did the run generate? This is diagnostic, not correctness. |
 | Rerun Delta Rate | 1 - (changed comparable outputs / comparable outputs) | Comparison-only v1 signal for future baseline drift checks. |
 

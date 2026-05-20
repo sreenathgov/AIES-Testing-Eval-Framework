@@ -1,7 +1,7 @@
 # Legal Extraction Evaluation Harness
 
-This repository is a bounded pre-HS legal extraction slice plus evaluation harness for
-a narrow HS legal extraction paper. It demonstrates how a governed
+This repository is a bounded pre-HS legal extraction slice plus minimum
+evaluation protocol for a narrow HS legal extraction paper. It demonstrates how a governed
 neuro-symbolic legal extraction pipeline can be evaluated for authority
 preservation, provenance sufficiency, role-boundary compliance, graph parity,
 uncertainty preservation, contradiction handling, and handoff safety.
@@ -65,6 +65,15 @@ deterministic control families:
 
 ## Run
 
+Check readiness without creating or evaluating a run:
+
+```bash
+PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root .
+```
+
+For public replay, omit `--source-repo-root`; readiness will validate the
+checked-in bounded source bundle without inspecting a private upstream export.
+
 Evaluate the frozen paper run:
 
 ```bash
@@ -100,12 +109,18 @@ The run evaluator writes:
 - `runs/<run_id>/reports/metric_summary.json`
 - `runs/<run_id>/reports/metric_summary.csv`
 - `runs/<run_id>/reports/metric_summary.md`
-- `runs/<run_id>/reports/metric_stress_tests.json`
-- `runs/<run_id>/reports/metric_stress_tests.md`
+- `runs/<run_id>/reports/metric_stress_test_catalog.json`
+- `runs/<run_id>/reports/metric_stress_test_catalog.md`
 
 The runner prints a control-profile table. It does not produce an accuracy
 score because the protocol is designed to identify legally unsafe extraction
 behavior even when a candidate code appears plausible.
+
+The readiness command is the correct command to use before a paper test run. It
+checks the checked-in bounded HS source bundle and, when supplied, the exported
+source repository slice; it also checks source-corpus completeness,
+authority-class normalization, graph schema conformance, runtime isolation, and
+knowledge-evidence coverage without generating a new run.
 
 ## Four-Gate Handoff Model
 
@@ -146,7 +161,7 @@ It adds formulaic measurements for:
 - human-review trigger correctness,
 - field completeness,
 - abstention,
-- semantic graph alignment,
+- graph-artifact parity,
 - human research burden,
 - rerun delta.
 
@@ -167,7 +182,7 @@ The pre-HS slice can be rebuilt from a private source repository in copy-only mo
 
 ```bash
 PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
-  --sector-watch-root /path/to/private-source-repo \
+  --source-repo-root /path/to/private-source-repo \
   --harness-root .
 ```
 
@@ -175,7 +190,7 @@ This creates:
 
 - `data/engineering_handoff/selected_28_components.json`
 - `protocol/agent_specs/*.md`
-- `protocol/schemas/drona_hs/*.json`
+- `protocol/schemas/hs_slice/*.json`
 - `runs/paper_frozen_run/`
 
 The builder never writes into the private source repository.
@@ -243,13 +258,13 @@ source repository.
 Dry run:
 
 ```bash
-PYTHONPATH=src python3 scripts/build_review_bundle.py --sector-watch-root /path/to/private-source-repo --harness-root . --dry-run
+PYTHONPATH=src python3 scripts/build_review_bundle.py --source-repo-root /path/to/private-source-repo --harness-root . --dry-run
 ```
 
 Build:
 
 ```bash
-PYTHONPATH=src python3 scripts/build_review_bundle.py --sector-watch-root /path/to/private-source-repo --harness-root .
+PYTHONPATH=src python3 scripts/build_review_bundle.py --source-repo-root /path/to/private-source-repo --harness-root .
 ```
 
 After building, inspect:

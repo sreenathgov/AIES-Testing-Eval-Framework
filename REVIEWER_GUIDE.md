@@ -1,6 +1,8 @@
 # Reviewer Guide
 
-This repository evaluates a governed legal extraction pipeline. It does not claim that the system solves HS classification end to end.
+This repository evaluates a governed legal extraction pipeline through a
+minimum evaluation protocol. It does not claim that the system solves HS
+classification end to end.
 
 The evaluation question is whether a legal extraction pipeline preserves controls while transforming parsed legal materials into structured, decision-bearing artifacts. The controls are authority preservation, provenance sufficiency, agent role boundaries, graph parity, uncertainty preservation, contradiction handling, and handoff safety.
 
@@ -24,9 +26,16 @@ Internal extraction artifacts may explain fixture origin, but they are not legal
 ## Running The Harness
 
 ```bash
+PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root .
 PYTHONPATH=src python3 -m legal_extract_eval.runner --repo-root . --run-id paper_frozen_run
 python3 -m pytest
 ```
+
+Use the readiness command before any paper test run. It checks that the bounded
+HS source bundle, EU/WCO/BTI sources, graph artifacts, and metric registry are
+ready without generating or evaluating a run. Maintainers can optionally add
+`--source-repo-root /path/to/private-source-repo` to check a private upstream
+export.
 
 The runner emits a control-profile report rather than a generic accuracy score.
 It also emits a diagnostic metric summary. The metric summary gives formulaic
@@ -47,8 +56,8 @@ The gates are the dispositive reviewer-facing route. Metrics are explanatory.
 They cover authority boundaries, material legal capture, provenance,
 primary-authority sufficiency, critical omissions, unsupported synthesis, false
 certainty, conflict preservation, evidence-gap detection, handoff safety,
-human-review trigger correctness, field completeness, abstention, semantic graph
-alignment, human research burden, and rerun delta.
+human-review trigger correctness, field completeness, abstention,
+graph-artifact parity, human research burden, and rerun delta.
 
 The forbidden-metric policy is explicit. NLL, Brier Score, TF-IDF/entropy
 proxies, and document-level citation are not valid v1 legal-control metrics.

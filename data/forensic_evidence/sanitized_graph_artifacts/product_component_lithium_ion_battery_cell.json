@@ -22,7 +22,7 @@
   },
   "provenance": {
     "source_doc": "lithium-ion-battery-cell_classification_candidate.md",
-    "drona_domain": "bounded HS extraction slice",
+    "extraction_domain": "bounded HS extraction slice",
     "row": "ent_147",
     "column": "classification_candidate"
   },

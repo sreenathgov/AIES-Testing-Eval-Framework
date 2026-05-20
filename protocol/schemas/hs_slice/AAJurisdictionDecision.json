@@ -10,7 +10,7 @@
     "hs_code_final_candidate",
     "classification_stability",
     "stability_confidence",
-    "promotable_to_d_reg",
+    "promotable_to_regulatory_handoff",
     "handoff_route",
     "requires_founder_review",
     "provenance_anchors",
@@ -40,12 +40,12 @@
       "type": "string",
       "enum": ["high", "medium", "low", "unknown"]
     },
-    "promotable_to_d_reg": {
+    "promotable_to_regulatory_handoff": {
       "type": "boolean"
     },
     "handoff_route": {
       "type": "string",
-      "enum": ["promote", "d_ruling", "unresolved", "blocked"]
+      "enum": ["promote", "ruling", "unresolved", "blocked"]
     },
     "requires_founder_review": {
       "type": "boolean"

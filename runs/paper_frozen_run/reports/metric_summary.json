@@ -112,8 +112,8 @@
     "name": "Evidence-Gap Detection",
     "notes": "Tests whether the system abstains or escalates when key facts are missing.",
     "numerator": 0,
-    "score": 1.0,
-    "status": "pass",
+    "score": null,
+    "status": "not_applicable",
     "stress_test_type": "missing_material_composition"
   },
   {
@@ -173,8 +173,8 @@
     "denominator": 84,
     "formula": "aligned_graph_items / total_graph_items",
     "linked_validator": "graph_adapter",
-    "metric_id": "semantic_graph_alignment",
-    "name": "Semantic Graph Alignment",
+    "metric_id": "graph_artifact_parity",
+    "name": "Graph-Artifact Parity",
     "notes": "Checks structural equivalence between generated artifacts and the graph representation.",
     "numerator": 84,
     "score": 1.0,
@@ -203,7 +203,7 @@
     "name": "Rerun Delta Rate",
     "notes": "Future-ready comparison metric for detecting regressions after corpus augmentation.",
     "numerator": 0,
-    "score": 1.0,
+    "score": null,
     "status": "comparison_only",
     "stress_test_type": "rerun_delta_threshold_breach"
   }

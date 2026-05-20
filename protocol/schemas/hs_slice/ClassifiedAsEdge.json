@@ -15,7 +15,7 @@
     "stability_confidence",
     "verification_status",
     "source_doc",
-    "drona_domain",
+    "extraction_domain",
     "extraction_timestamp"
   ],
   "properties": {
@@ -38,7 +38,7 @@
     },
     "jurisdiction_divergence": {
       "type": "boolean",
-      "description": "True when another jurisdiction classifies the same component differently. Triggers D-RULING handoff."
+      "description": "True when another jurisdiction classifies the same component differently. Triggers adjudication handoff."
     },
     "classification_basis": {
       "type": "string",
@@ -67,7 +67,7 @@
     "verification_status": {
       "type": "string",
       "enum": ["staging", "pending_gate", "verified", "superseded"],
-      "description": "Lifecycle state. Promoted edges begin at 'staging' in drona/knowledge/staging/."
+      "description": "Lifecycle state. Promoted edges begin at 'staging' in source_repo/knowledge/staging/."
     },
     "verified_at": {
       "type": ["string", "null"],
@@ -81,9 +81,9 @@
       "type": "string",
       "description": "Primary source_doc from the ClassificationCandidate"
     },
-    "drona_domain": {
+    "extraction_domain": {
       "type": "string",
-      "const": "d_class_hs"
+      "const": "hs_slice"
     },
     "extraction_timestamp": {
       "type": "string",

@@ -6,8 +6,8 @@
   "component_ref": "ent_100",
   "component_slug": "high-voltage-battery-pack-assembly",
   "confidence": "medium",
-  "drona_domain": "d_class_hs",
-  "drona_sub_agent": "PTA",
+  "extraction_domain": "hs_slice",
+  "agent_stage": "PTA",
   "exclusion_checks_run": [
     "Section XVII Note 2(f)",
     "Section XV Note 2",

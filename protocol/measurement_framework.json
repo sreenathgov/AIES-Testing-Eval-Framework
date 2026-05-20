@@ -173,8 +173,8 @@
       "paper_safe_explanation": "Treats correct refusal or escalation as a success behavior when the corpus is insufficient."
     },
     {
-      "metric_id": "semantic_graph_alignment",
-      "name": "Semantic Graph Alignment",
+      "metric_id": "graph_artifact_parity",
+      "name": "Graph-Artifact Parity",
       "control_family": "graph_artifact_parity",
       "linked_validator": "graph_adapter",
       "numerator": "graph nodes and edges that are present, well-formed, and directionally valid",
@@ -182,7 +182,7 @@
       "formula": "aligned_graph_items / total_graph_items",
       "blocker_override_rule": "Wrong edge direction, malformed nodes, or dead links can trigger Gate 4 regardless of aggregate score.",
       "stress_test_type": "malformed_graph_edge",
-      "report_field": "semantic_graph_alignment_score",
+      "report_field": "graph_artifact_parity_score",
       "paper_safe_explanation": "Checks structural equivalence between generated artifacts and the graph representation."
     },
     {

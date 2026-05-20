@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+  "component_ref": "ent_171",
+  "component_slug": "battery-disconnect-unit-(bdu)",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_battery-disconnect-unit-(bdu)",
+  "node_type": "classification_candidate"
+}

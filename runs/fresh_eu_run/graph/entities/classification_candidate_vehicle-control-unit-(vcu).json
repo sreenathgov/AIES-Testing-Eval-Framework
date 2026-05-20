@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+  "component_ref": "ent_218",
+  "component_slug": "vehicle-control-unit-(vcu)",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_vehicle-control-unit-(vcu)",
+  "node_type": "classification_candidate"
+}

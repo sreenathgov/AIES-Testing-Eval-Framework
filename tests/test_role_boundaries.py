@@ -22,7 +22,7 @@ def test_pra_decision_needs_primary_law_anchor(fixture_by_id: dict[str, dict]) -
     result = AgentRoleValidator().validate(fixture)
 
     assert result.status == "review"
-    assert "pra_decision_without_primary_law_anchor" in result.failed_checks
+    assert "pra_ruling_without_primary_law_anchor" in result.failed_checks
 
 
 def test_da_material_cannot_route_as_final_authority(fixture_by_id: dict[str, dict]) -> None:

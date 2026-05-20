@@ -53,7 +53,7 @@ FORBIDDEN_PRE_HS_KEYS = frozenset(
         "classification_stability",
         "stability",
         "hs_confidence",
-        "d_ruling_route",
+        "ruling_route",
         "handoff_route",
     }
 )
@@ -187,7 +187,7 @@ def assert_pre_hs_purity(component: dict[str, Any]) -> tuple[str, ...]:
     forbidden_terms = (
         "classification_candidate",
         "classified_as",
-        "d_ruling",
+        "ruling",
         "pta/",
         "pra/",
         "aa/",
@@ -199,8 +199,8 @@ def assert_pre_hs_purity(component: dict[str, Any]) -> tuple[str, ...]:
     return tuple(failures)
 
 
-def build_selected_components(sector_root: Path) -> list[dict[str, Any]]:
-    verified_root = sector_root / "drona" / "knowledge" / "verified"
+def build_selected_components(source_repo_root: Path) -> list[dict[str, Any]]:
+    verified_root = source_repo_root / "source_repo" / "knowledge" / "verified"
     components: list[dict[str, Any]] = []
     for index, slug in enumerate(SELECTED_COMPONENT_SLUGS, start=1):
         source_path = verified_root / f"{slug}.md"
@@ -211,7 +211,7 @@ def build_selected_components(sector_root: Path) -> list[dict[str, Any]]:
             "component_id": fm.get("entity_id") or f"component_{index:02d}",
             "component_slug": slug,
             "canonical_name": fm.get("component_name") or slug.replace("-", " ").title(),
-            "source_engineering_record": f"drona/knowledge/verified/{source_path.name}",
+            "source_engineering_record": f"source_repo/knowledge/verified/{source_path.name}",
             "status_at_handoff": "pre_hs_verified_engineering_input",
             "fundamental_function": fm.get("fundamental_function"),
             "integration_pattern": fm.get("integration_pattern"),
@@ -258,17 +258,17 @@ def has_value(value: Any) -> bool:
     return value is not None and value != "" and value != []
 
 
-def write_engineering_handoff(harness_root: Path, sector_root: Path, components: list[dict[str, Any]]) -> None:
+def write_engineering_handoff(harness_root: Path, source_repo_root: Path, components: list[dict[str, Any]]) -> None:
     handoff_dir = harness_root / "data" / "engineering_handoff"
-    source_handoff = sector_root / "drona" / "corpus" / "02_hs_classification" / "taxonomy-handoff.md"
+    source_handoff = source_repo_root / "source_repo" / "corpus" / "02_hs_classification" / "taxonomy-handoff.md"
     if not source_handoff.exists():
         raise FileNotFoundError(source_handoff)
     manifest = {
         "bundle_type": "pre_hs_engineering_handoff",
         "component_count": len(components),
-        "canonical_handoff_source": "drona/corpus/02_hs_classification/taxonomy-handoff.md",
+        "canonical_handoff_source": "source_repo/corpus/02_hs_classification/taxonomy-handoff.md",
         "selection_basis": "Prior bounded HS extraction slice artifact identity list used only to identify the 28 selected components.",
-        "clean_fact_source": "drona/knowledge/verified/*.md engineering handoff records",
+        "clean_fact_source": "source_repo/knowledge/verified/*.md engineering handoff records",
         "forbidden_fields": sorted(FORBIDDEN_PRE_HS_KEYS),
         "source_sha256": sha256_file(source_handoff),
         "generated_at": now(),
@@ -292,11 +292,11 @@ def write_engineering_handoff(harness_root: Path, sector_root: Path, components:
     (handoff_dir / "selected_28_components.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def copy_agent_protocols(harness_root: Path, sector_root: Path) -> None:
-    prompts_src = sector_root / "drona" / "staging" / "d-class-hs" / "_prompts"
-    schemas_src = sector_root / "drona" / "staging" / "d-class-hs" / "_schemas"
+def copy_agent_protocols(harness_root: Path, source_repo_root: Path) -> None:
+    prompts_src = source_repo_root / "source_repo" / "staging" / "hs-slice" / "_prompts"
+    schemas_src = source_repo_root / "source_repo" / "staging" / "hs-slice" / "_schemas"
     prompts_dst = harness_root / "protocol" / "agent_specs"
-    schemas_dst = harness_root / "protocol" / "schemas" / "drona_hs"
+    schemas_dst = harness_root / "protocol" / "schemas" / "hs_slice"
     prompts_dst.mkdir(parents=True, exist_ok=True)
     schemas_dst.mkdir(parents=True, exist_ok=True)
     scope_header = (
@@ -343,16 +343,16 @@ def create_source_record_manifest(harness_root: Path) -> dict[str, Any]:
     return manifest
 
 
-def seal_reference_baseline(harness_root: Path, sector_root: Path) -> dict[str, Any]:
-    baseline_root = harness_root / "reference_baseline" / "drona_prior_hs_outputs"
+def seal_reference_baseline(harness_root: Path, source_repo_root: Path) -> dict[str, Any]:
+    baseline_root = harness_root / "reference_baseline" / "source_repo_prior_hs_outputs"
     baseline_root.mkdir(parents=True, exist_ok=True)
     copied: list[dict[str, Any]] = []
     source_dirs = {
-        "pta": sector_root / "drona" / "staging" / "d-class-hs" / "pta",
-        "pra": sector_root / "drona" / "staging" / "d-class-hs" / "pra",
-        "aa": sector_root / "drona" / "staging" / "d-class-hs" / "aa",
-        "audit": sector_root / "drona" / "staging" / "d-class-hs" / "audit",
-        "d_ruling_handoff": sector_root / "drona" / "staging" / "d-class-hs" / "d_ruling_handoff",
+        "pta": source_repo_root / "source_repo" / "staging" / "hs-slice" / "pta",
+        "pra": source_repo_root / "source_repo" / "staging" / "hs-slice" / "pra",
+        "aa": source_repo_root / "source_repo" / "staging" / "hs-slice" / "aa",
+        "audit": source_repo_root / "source_repo" / "staging" / "hs-slice" / "audit",
+        "ruling_handoff": source_repo_root / "source_repo" / "staging" / "hs-slice" / "ruling_handoff",
     }
     for label, src_dir in source_dirs.items():
         if not src_dir.exists():
@@ -367,7 +367,7 @@ def seal_reference_baseline(harness_root: Path, sector_root: Path) -> dict[str, 
             copied.append(
                 {
                     "baseline_artifact_id": f"{label}:{src.name}",
-                    "source_repo_relative_path": str(src.relative_to(sector_root)),
+                    "source_repo_relative_path": str(src.relative_to(source_repo_root)),
                     "harness_relative_path": str(dst.relative_to(harness_root)),
                     "artifact_role": "reference_only_not_runtime_input",
                     "sha256": sha256_file(dst),
@@ -506,8 +506,8 @@ def create_component_artifacts(run_root: Path, component: dict[str, Any], bti_re
             {"source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS", "authority_class": "interpretive_legal_note", "record_id": "EU_CN_EN_RECORDS"},
         ],
         "comparison_only": {},
-        "drona_domain": "d_class_hs",
-        "drona_sub_agent": "PTA",
+        "extraction_domain": "hs_slice",
+        "agent_stage": "PTA",
         "extraction_timestamp": now(),
         "extractor_model": "harness_replay_template_v1",
         "notes": "Replay-safe bounded PTA artifact generated from clean engineering input and EU/WCO source records.",
@@ -579,9 +579,17 @@ def create_component_artifacts(run_root: Path, component: dict[str, Any], bti_re
         "canonical_name": component["canonical_name"],
         "source": "pre_hs_engineering_input",
     }
+    entity_candidate = {
+        "node_id": aa_id,
+        "node_type": "classification_candidate",
+        "component_ref": component_id,
+        "component_slug": slug,
+        "artifact_id": aa_id,
+        "jurisdiction": "EU",
+    }
     entity_code = {
-        "node_id": f"cn_code:{code.replace('.', '-')}:eu",
-        "node_type": "hs_cn_code",
+        "node_id": f"hs_code:{code}:EU",
+        "node_type": "hs_code",
         "jurisdiction": "EU",
         "code": code,
         "anchor_role": "classification_anchor",
@@ -590,7 +598,7 @@ def create_component_artifacts(run_root: Path, component: dict[str, Any], bti_re
         "edge_id": f"edge:{slug}:proposes:{code}",
         "source_node_id": aa_id,
         "target_node_id": entity_code["node_id"],
-        "edge_type": "classification_candidate proposes_code hs_cn_code",
+        "edge_type": "proposes_code",
         "direction_valid": True,
         "component_ref": component_id,
     }
@@ -601,6 +609,7 @@ def create_component_artifacts(run_root: Path, component: dict[str, Any], bti_re
         f"audit/{slug}_audit.json": audit,
         f"handoff/{slug}_handoff.json": handoff,
         f"graph/entities/product_component_{slug}.json": entity_component,
+        f"graph/entities/classification_candidate_{slug}.json": entity_candidate,
         f"graph/entities/cn_code_{code.replace('.', '_')}_eu.json": entity_code,
         f"graph/relationships/{slug}_proposes_{code.replace('.', '_')}.json": edge,
     }
@@ -986,7 +995,7 @@ def graph_alignment_items(run_root: Path, slug: str, aa: dict[str, Any], edge_pa
         {
             "item_id": f"graph:{slug}:cn_code",
             "artifact_id": aa["artifact_id"],
-            "item_type": "hs_cn_code_node",
+            "item_type": "hs_code_node",
             "aligned": code_node.exists(),
             "failure_category": None if code_node.exists() else "missing_graph_node",
         }
@@ -994,7 +1003,11 @@ def graph_alignment_items(run_root: Path, slug: str, aa: dict[str, Any], edge_pa
     edge_aligned = False
     for edge_path in edge_paths:
         edge = read_json(edge_path)
-        if edge.get("direction_valid") is True and edge.get("source_node_id") == aa["artifact_id"]:
+        if (
+            edge.get("edge_type") == "proposes_code"
+            and edge.get("source_node_id") == aa["artifact_id"]
+            and edge.get("target_node_id") == f"hs_code:{aa['candidate_cn_code']}:EU"
+        ):
             edge_aligned = True
             break
     items.append(
@@ -1061,7 +1074,7 @@ def stress_test_catalog() -> list[dict[str, Any]]:
         {"stress_test_type": "missing_review_trigger", "expected_failed_metric": "human_review_trigger_correctness", "expected_control_state": "review"},
         {"stress_test_type": "missing_required_handoff_field", "expected_failed_metric": "field_completeness_rate", "expected_control_state": "blocked"},
         {"stress_test_type": "corpus_gap_requires_abstention", "expected_failed_metric": "abstention_rate", "expected_control_state": "review"},
-        {"stress_test_type": "malformed_graph_edge", "expected_failed_metric": "semantic_graph_alignment", "expected_control_state": "blocked"},
+        {"stress_test_type": "malformed_graph_edge", "expected_failed_metric": "graph_artifact_parity", "expected_control_state": "blocked"},
         {"stress_test_type": "over_escalation_burden", "expected_failed_metric": "human_research_burden", "expected_control_state": "diagnostic"},
         {"stress_test_type": "rerun_delta_threshold_breach", "expected_failed_metric": "rerun_delta_rate", "expected_control_state": "comparison_only"},
     ]
@@ -1080,12 +1093,12 @@ def now() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat()
 
 
-def build_pre_hs_slice(harness_root: Path, sector_root: Path, *, create_frozen_run: bool = True) -> None:
-    components = build_selected_components(sector_root)
-    write_engineering_handoff(harness_root, sector_root, components)
-    copy_agent_protocols(harness_root, sector_root)
+def build_pre_hs_slice(harness_root: Path, source_repo_root: Path, *, create_frozen_run: bool = True) -> None:
+    components = build_selected_components(source_repo_root)
+    write_engineering_handoff(harness_root, source_repo_root, components)
+    copy_agent_protocols(harness_root, source_repo_root)
     create_source_record_manifest(harness_root)
-    seal_reference_baseline(harness_root, sector_root)
+    seal_reference_baseline(harness_root, source_repo_root)
     if create_frozen_run:
         create_run(harness_root, "paper_frozen_run", mode="replay_frozen")
         rows = evaluate_run(harness_root, "paper_frozen_run")

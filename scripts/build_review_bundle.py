@@ -44,7 +44,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_EU_CN_2025_1926_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/national_tariffs/eu/EU - HS - COMMISSION IMPLEMENTING REGULATION (EU) 2025_1926 - EVs.pdf",
+        "source_repo/corpus/02_hs_classification/national_tariffs/eu/EU - HS - COMMISSION IMPLEMENTING REGULATION (EU) 2025_1926 - EVs.pdf",
         "data/source_corpus/originals/eu/eu_cn_2025_1926_evs.pdf",
         ("SRC_EU_CN_2025_1926_EVS",),
         "Original EU Combined Nomenclature regulation PDF for EV-relevant tariff lines.",
@@ -52,7 +52,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_EU_CN_EN_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/national_tariffs/eu/EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION - EVs.pdf",
+        "source_repo/corpus/02_hs_classification/national_tariffs/eu/EXPLANATORY NOTES TO THE COMBINED NOMENCLATURE OF THE EUROPEAN UNION - EVs.pdf",
         "data/source_corpus/originals/eu/eu_cn_explanatory_notes_evs.pdf",
         ("SRC_EU_CN_EXPLANATORY_NOTES_EVS",),
         "Original EU CN Explanatory Notes PDF used for interpretive anchors.",
@@ -60,7 +60,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_EU_BTI_SAMPLE_ORIGINAL",
         "original_csv",
-        "drona/corpus/02_hs_classification/rulings/eu/bti/EBTI-Sample-Targeted-Test-Run.csv",
+        "source_repo/corpus/02_hs_classification/rulings/eu/bti/EBTI-Sample-Targeted-Test-Run.csv",
         "data/source_corpus/originals/bti/ebti_sample_targeted_test_run.csv",
         ("SRC_EU_BTI_SAMPLE",),
         "Original targeted EU BTI CSV sample.",
@@ -68,7 +68,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_WCO_GRI_2017_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/wco/WCO-GRI-Rules-2017.pdf",
+        "source_repo/corpus/02_hs_classification/wco/WCO-GRI-Rules-2017.pdf",
         "data/source_corpus/originals/wco/wco_gri_rules_2017.pdf",
         ("SRC_WCO_GRI_2017",),
         "Original WCO GRI source PDF.",
@@ -76,7 +76,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_WCO_SECTION_84_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
+        "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 84_complex.pdf",
         "data/source_corpus/originals/wco/wco_2022_section_84_complex.pdf",
         ("SRC_WCO_SECTION_XVI",),
         "Original WCO Chapter 84 material used for Section XVI context.",
@@ -84,7 +84,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_WCO_SECTION_85_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
+        "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 85_complex.pdf",
         "data/source_corpus/originals/wco/wco_2022_section_85_complex.pdf",
         ("SRC_WCO_SECTION_XVI",),
         "Original WCO Chapter 85 material used for Section XVI and EV electrical classification context.",
@@ -92,7 +92,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_WCO_SECTION_87_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 87_complex.pdf",
+        "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 87_complex.pdf",
         "data/source_corpus/originals/wco/wco_2022_section_87_complex.pdf",
         ("SRC_WCO_SECTION_XVII",),
         "Original WCO Chapter 87 material used for vehicle-parts boundary context.",
@@ -100,7 +100,7 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
     SourceAsset(
         "SRC_ASSET_WCO_SECTION_90_ORIGINAL",
         "original_pdf",
-        "drona/corpus/02_hs_classification/wco/WCO - 2022 - Section 90_complex.pdf",
+        "source_repo/corpus/02_hs_classification/wco/WCO - 2022 - Section 90_complex.pdf",
         "data/source_corpus/originals/wco/wco_2022_section_90_complex.pdf",
         ("SRC_WCO_SECTION_XVI",),
         "Original WCO Chapter 90 material used for exclusion and note-check context.",
@@ -110,49 +110,49 @@ SOURCE_ASSETS: tuple[SourceAsset, ...] = (
 
 PARSED_STEMS: tuple[tuple[str, str, tuple[str, ...], str], ...] = (
     (
-        "drona/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs",
+        "source_repo/parsed/02_hs_classification/national_tariffs/eu/eu_hs_commission_implementing_regulation_(eu)_2025_1926_evs",
         "data/source_corpus/parsed/eu/eu_hs_commission_implementing_regulation_2025_1926_evs",
         ("SRC_EU_CN_2025_1926_EVS",),
         "Parsed EU CN regulation.",
     ),
     (
-        "drona/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs",
+        "source_repo/parsed/02_hs_classification/national_tariffs/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs",
         "data/source_corpus/parsed/eu/explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs",
         ("SRC_EU_CN_EXPLANATORY_NOTES_EVS",),
         "Parsed EU CN Explanatory Notes.",
     ),
     (
-        "drona/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run",
+        "source_repo/parsed/02_hs_classification/rulings/eu/bti/ebti_sample_targeted_test_run",
         "data/source_corpus/parsed/bti/ebti_sample_targeted_test_run",
         ("SRC_EU_BTI_SAMPLE",),
         "Parsed targeted EU BTI sample.",
     ),
     (
-        "drona/parsed/02_hs_classification/wco/wco_gri_rules_2017",
+        "source_repo/parsed/02_hs_classification/wco/wco_gri_rules_2017",
         "data/source_corpus/parsed/wco/wco_gri_rules_2017",
         ("SRC_WCO_GRI_2017",),
         "Parsed WCO GRI rules.",
     ),
     (
-        "drona/parsed/02_hs_classification/wco/wco_2022_section_84_complex",
+        "source_repo/parsed/02_hs_classification/wco/wco_2022_section_84_complex",
         "data/source_corpus/parsed/wco/wco_2022_section_84_complex",
         ("SRC_WCO_SECTION_XVI",),
         "Parsed WCO Chapter 84 material.",
     ),
     (
-        "drona/parsed/02_hs_classification/wco/wco_2022_section_85_complex",
+        "source_repo/parsed/02_hs_classification/wco/wco_2022_section_85_complex",
         "data/source_corpus/parsed/wco/wco_2022_section_85_complex",
         ("SRC_WCO_SECTION_XVI",),
         "Parsed WCO Chapter 85 material.",
     ),
     (
-        "drona/parsed/02_hs_classification/wco/wco_2022_section_87_complex",
+        "source_repo/parsed/02_hs_classification/wco/wco_2022_section_87_complex",
         "data/source_corpus/parsed/wco/wco_2022_section_87_complex",
         ("SRC_WCO_SECTION_XVII",),
         "Parsed WCO Chapter 87 material.",
     ),
     (
-        "drona/parsed/02_hs_classification/wco/wco_2022_section_90_complex",
+        "source_repo/parsed/02_hs_classification/wco/wco_2022_section_90_complex",
         "data/source_corpus/parsed/wco/wco_2022_section_90_complex",
         ("SRC_WCO_SECTION_XVI",),
         "Parsed WCO Chapter 90 material.",
@@ -172,7 +172,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_OBC",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/on-board-charger-(obc)_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/on-board-charger-(obc)_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_on_board_charger_classification_candidate.md",
         ("FX_GOOD_OBC_AA_EU", "FX_BAD_OBC_EDGE_DIRECTION"),
         "AA classification candidate behind OBC good and graph-parity fixtures.",
@@ -180,7 +180,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_HV_CONNECTORS",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/high-voltage-connectors_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/high-voltage-connectors_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_high_voltage_connectors_classification_candidate.md",
         ("FX_GOOD_HV_CONNECTORS_EU",),
         "AA classification candidate behind high-voltage connector fixture.",
@@ -188,7 +188,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_TRACTION_INVERTER",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/traction-inverter-module_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/traction-inverter-module_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_traction_inverter_module_classification_candidate.md",
         ("FX_GOOD_TRACTION_INVERTER_EU",),
         "AA classification candidate behind traction inverter fixture.",
@@ -196,7 +196,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_HV_BATTERY_PACK",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/high-voltage-battery-pack-assembly_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/high-voltage-battery-pack-assembly_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_high_voltage_battery_pack_assembly_classification_candidate.md",
         ("FX_GOOD_HV_BATTERY_PACK_BTI_EU", "FX_BAD_HV_BATTERY_PACK_PTA_OVERREACH", "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW"),
         "AA classification candidate behind HV battery pack fixtures.",
@@ -204,7 +204,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_LI_ION_CELL",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/lithium-ion-battery-cell_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/lithium-ion-battery-cell_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_lithium_ion_battery_cell_classification_candidate.md",
         ("FX_GOOD_LI_ION_CELL_EU", "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE"),
         "AA classification candidate behind lithium-ion cell fixtures.",
@@ -212,7 +212,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_SEPARATOR",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/separator-pe-pp-film_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/separator-pe-pp-film_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_separator_pe_pp_film_classification_candidate.md",
         ("FX_BAD_SEPARATOR_CONFIDENCE_INFLATION", "FX_BORDERLINE_SEPARATOR_DIVERGENCE"),
         "AA classification candidate behind separator divergence and confidence fixtures.",
@@ -220,7 +220,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_INTEGRATED_E_AXLE",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/integrated-e-axle_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/integrated-e-axle_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_integrated_e_axle_classification_candidate.md",
         ("FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY",),
         "AA classification candidate behind comparison-only divergence fixture.",
@@ -228,7 +228,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_AA_NOES",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/aa/silicon-alloyed-electrical-steel-core-noes_classification_candidate.md",
+        "source_repo/staging/hs-slice/aa/silicon-alloyed-electrical-steel-core-noes_classification_candidate.md",
         "data/forensic_evidence/sanitized_agent_artifacts/aa_silicon_alloyed_electrical_steel_core_noes_classification_candidate.md",
         ("FX_BORDERLINE_NOES_CLIENT_FACT",),
         "AA classification candidate behind client-fact dependent fixture.",
@@ -236,7 +236,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_PTA_HV_BATTERY_PACK_EU",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/pta/high-voltage-battery-pack-assembly_eu.md",
+        "source_repo/staging/hs-slice/pta/high-voltage-battery-pack-assembly_eu.md",
         "data/forensic_evidence/sanitized_agent_artifacts/pta_high_voltage_battery_pack_assembly_eu.md",
         ("FX_BAD_HV_BATTERY_PACK_PTA_OVERREACH", "FX_BORDERLINE_HV_BATTERY_PACK_GRI3B_REVIEW"),
         "PTA statutory artifact used to test PTA overreach and GRI 3(b) handoff safety.",
@@ -244,7 +244,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_AGENT_PRA_EU_BTI",
         "sanitized_agent_artifact",
-        "drona/staging/d-class-hs/pra/eu_bti_ebti_sample_ruling_record.md",
+        "source_repo/staging/hs-slice/pra/eu_bti_ebti_sample_ruling_record.md",
         "data/forensic_evidence/sanitized_agent_artifacts/pra_eu_bti_ebti_sample_ruling_record.md",
         ("FX_GOOD_HV_BATTERY_PACK_BTI_EU",),
         "PRA ruling record used to test BTI-backed authority handling.",
@@ -252,7 +252,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_PC_LI_ION_CELL",
         "sanitized_graph_artifact",
-        "drona/staging/entities/product_component-lithium-ion-battery-cell.json",
+        "source_repo/staging/entities/product_component-lithium-ion-battery-cell.json",
         "data/forensic_evidence/sanitized_graph_artifacts/product_component_lithium_ion_battery_cell.json",
         ("FX_GOOD_LI_ION_CELL_EU", "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE"),
         "Product-component graph node used for anti-overloading fixture.",
@@ -260,7 +260,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_PC_OBC",
         "sanitized_graph_artifact",
-        "drona/staging/entities/product_component-on-board-charger-obc.json",
+        "source_repo/staging/entities/product_component-on-board-charger-obc.json",
         "data/forensic_evidence/sanitized_graph_artifacts/product_component_on_board_charger_obc.json",
         ("FX_GOOD_OBC_AA_EU", "FX_BAD_OBC_EDGE_DIRECTION"),
         "Product-component graph node used for OBC graph-parity fixtures.",
@@ -268,7 +268,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_85044084_EU",
         "sanitized_graph_artifact",
-        "drona/staging/entities/hs_code-8504-40-84-eu.json",
+        "source_repo/staging/entities/hs_code-8504-40-84-eu.json",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8504_40_84_eu.json",
         ("FX_BAD_HS_85044084_INTERNAL_AUTHORITY",),
         "HS-code graph node used to test internal-source-only authority failure.",
@@ -276,7 +276,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_85044090_EU",
         "sanitized_graph_artifact",
-        "drona/staging/entities/hs_code-8504-40-90-eu.json",
+        "source_repo/staging/entities/hs_code-8504-40-90-eu.json",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8504_40_90_eu.json",
         ("FX_GOOD_OBC_AA_EU", "FX_BAD_OBC_EDGE_DIRECTION", "FX_BAD_UNSUPPORTED_PROMOTION"),
         "HS-code graph node used for OBC and unsupported-promotion fixtures.",
@@ -284,7 +284,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_85076000_EU",
         "sanitized_graph_artifact",
-        "drona/staging/entities/hs_code-8507-60-00-eu.json",
+        "source_repo/staging/entities/hs_code-8507-60-00-eu.json",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8507_60_00_eu.json",
         ("FX_GOOD_HV_BATTERY_PACK_BTI_EU", "FX_GOOD_LI_ION_CELL_EU", "FX_BORDERLINE_LI_CELL_PRODUCT_NODE_MIXED_STATE"),
         "HS-code graph node used for battery fixtures.",
@@ -292,7 +292,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_85366990_EU",
         "sanitized_graph_artifact",
-        "drona/staging/entities/hs_code-8536-69-90-eu.json",
+        "source_repo/staging/entities/hs_code-8536-69-90-eu.json",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8536_69_90_eu.json",
         ("FX_GOOD_HV_CONNECTORS_EU",),
         "HS-code graph node used for connector fixture.",
@@ -300,7 +300,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_85079031_EU_MD",
         "sanitized_graph_artifact",
-        "drona/knowledge/staging/hs_code-8507-90-31-eu.md",
+        "source_repo/knowledge/staging/hs_code-8507-90-31-eu.md",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8507_90_31_eu.md",
         ("FX_BAD_SEPARATOR_CONFIDENCE_INFLATION", "FX_BORDERLINE_SEPARATOR_DIVERGENCE"),
         "Markdown graph node used for separator fixtures.",
@@ -308,7 +308,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_87089997_EU_MD",
         "sanitized_graph_artifact",
-        "drona/knowledge/staging/hs_code-8708-99-97-eu.md",
+        "source_repo/knowledge/staging/hs_code-8708-99-97-eu.md",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8708_99_97_eu.md",
         ("FX_BORDERLINE_INTEGRATED_E_AXLE_COMPARISON_ONLY",),
         "Markdown graph node used for integrated e-axle comparison fixture.",
@@ -316,7 +316,7 @@ FORENSIC_ASSETS: tuple[ForensicAsset, ...] = (
     ForensicAsset(
         "FOR_GRAPH_HS_722619_EU_MD",
         "sanitized_graph_artifact",
-        "drona/knowledge/staging/hs_code-7226-19-eu.md",
+        "source_repo/knowledge/staging/hs_code-7226-19-eu.md",
         "data/forensic_evidence/sanitized_graph_artifacts/hs_code_7226_19_eu.md",
         ("FX_BORDERLINE_NOES_CLIENT_FACT",),
         "Markdown graph node used for NOES client-fact fixture.",
@@ -397,7 +397,7 @@ FIXTURE_FORENSIC_IDS = {
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build the reviewer-safe source and forensic evidence bundle.")
-    parser.add_argument("--sector-watch-root", type=Path, required=True)
+    parser.add_argument("--source-repo-root", type=Path, required=True)
     parser.add_argument("--harness-root", type=Path, required=True)
     parser.add_argument("--dry-run", action="store_true")
     return parser
@@ -464,8 +464,8 @@ def assert_inside(path: Path, root: Path) -> None:
     path.resolve().relative_to(root.resolve())
 
 
-def copy_source_asset(asset: SourceAsset, sector_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> dict[str, Any]:
-    src = sector_root / asset.source_relative_path
+def copy_source_asset(asset: SourceAsset, source_repo_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> dict[str, Any]:
+    src = source_repo_root / asset.source_relative_path
     dest = harness_root / asset.harness_relative_path
     if not src.exists():
         raise FileNotFoundError(f"Missing source asset: {src}")
@@ -490,7 +490,7 @@ def copy_source_asset(asset: SourceAsset, sector_root: Path, harness_root: Path,
 def sanitize_text(text: str) -> str:
     replacements = {
         "D" "RONA": "source extraction system",
-        "Drona": "source extraction system",
+        "source extraction system": "source extraction system",
         "Ka" "nan Labs": "the originating organization",
         "Ka" "nan": "the originating organization",
         "Sector " "Watch": "downstream decision-support system",
@@ -503,8 +503,8 @@ def sanitize_text(text: str) -> str:
     return text
 
 
-def copy_forensic_asset(asset: ForensicAsset, sector_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> dict[str, Any]:
-    src = sector_root / asset.source_relative_path
+def copy_forensic_asset(asset: ForensicAsset, source_repo_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> dict[str, Any]:
+    src = source_repo_root / asset.source_relative_path
     dest = harness_root / asset.harness_relative_path
     if not src.exists():
         raise FileNotFoundError(f"Missing forensic artifact: {src}")
@@ -659,32 +659,32 @@ These artifacts are not external legal authority. Legal authority is represented
     )
 
 
-def manifest_for_source_assets(sector_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> list[dict[str, Any]]:
+def manifest_for_source_assets(source_repo_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> list[dict[str, Any]]:
     manifests = []
     for asset in SOURCE_ASSETS + parsed_assets():
         if any(token in asset.source_relative_path for token in EXCLUDED_TOKENS):
             continue
-        manifests.append(copy_source_asset(asset, sector_root, harness_root, copied_at, dry_run))
+        manifests.append(copy_source_asset(asset, source_repo_root, harness_root, copied_at, dry_run))
     return manifests
 
 
-def manifest_for_forensic_assets(sector_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> list[dict[str, Any]]:
+def manifest_for_forensic_assets(source_repo_root: Path, harness_root: Path, copied_at: str, dry_run: bool) -> list[dict[str, Any]]:
     manifests = []
     for asset in FORENSIC_ASSETS:
         if any(token in asset.source_relative_path for token in EXCLUDED_TOKENS):
             continue
-        manifests.append(copy_forensic_asset(asset, sector_root, harness_root, copied_at, dry_run))
+        manifests.append(copy_forensic_asset(asset, source_repo_root, harness_root, copied_at, dry_run))
     return manifests
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    sector_root = args.sector_watch_root.resolve()
+    source_repo_root = args.source_repo_root.resolve()
     harness_root = args.harness_root.resolve()
     copied_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
-    source_manifest = manifest_for_source_assets(sector_root, harness_root, copied_at, args.dry_run)
-    forensic_manifest = manifest_for_forensic_assets(sector_root, harness_root, copied_at, args.dry_run)
+    source_manifest = manifest_for_source_assets(source_repo_root, harness_root, copied_at, args.dry_run)
+    forensic_manifest = manifest_for_forensic_assets(source_repo_root, harness_root, copied_at, args.dry_run)
 
     update_fixture_files(harness_root, args.dry_run)
     update_source_manifest(harness_root, args.dry_run)
@@ -719,7 +719,7 @@ def main(argv: list[str] | None = None) -> int:
                 "source_assets": len(source_manifest),
                 "forensic_artifacts": len(forensic_manifest),
                 "harness_root": str(harness_root),
-                "sector_watch_root_read_only": str(sector_root),
+                "source_repo_root_read_only": str(source_repo_root),
             },
             indent=2,
         )

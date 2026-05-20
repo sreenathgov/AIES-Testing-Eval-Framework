@@ -29,9 +29,9 @@ class Fraction:
     inverse: bool = False
 
     @property
-    def score(self) -> float:
+    def score(self) -> float | None:
         if self.denominator == 0:
-            return 1.0
+            return None
         value = self.numerator / self.denominator
         return 1.0 - value if self.inverse else value
 
@@ -62,7 +62,9 @@ def calculate_metric_summary(repo_root: Path, run_id: str) -> list[dict[str, Any
         "human_review_trigger_correctness": human_review_trigger_correctness,
         "field_completeness_rate": field_completeness_rate,
         "abstention_rate": abstention_rate,
-        "semantic_graph_alignment": semantic_graph_alignment,
+        "graph_artifact_parity": graph_artifact_parity,
+        # Backward-compatible internal alias only. The paper-facing metric is graph_artifact_parity.
+        "semantic_graph_alignment": graph_artifact_parity,
         "human_research_burden": human_research_burden,
         "rerun_delta_rate": rerun_delta_rate,
     }
@@ -74,9 +76,10 @@ def calculate_metric_summary(repo_root: Path, run_id: str) -> list[dict[str, Any
     for metric in framework["metrics"]:
         metric_id = metric["metric_id"]
         fraction = calculators[metric_id](trace)
-        score = round(fraction.score, 4)
+        score = round(fraction.score, 4) if fraction.score is not None else None
         stress = stress_results.get(metric["stress_test_type"], {})
-        blocker_override = bool(stress.get("expected_control_state") in {"blocked", "review"} and score < 1.0)
+        blocker_override = bool(stress.get("expected_control_state") in {"blocked", "review"} and score is not None and score < 1.0)
+        status = metric_status(metric_id, score, fraction.denominator)
         rows.append(
             {
                 "metric_id": metric_id,
@@ -84,7 +87,7 @@ def calculate_metric_summary(repo_root: Path, run_id: str) -> list[dict[str, Any
                 "score": score,
                 "numerator": fraction.numerator,
                 "denominator": fraction.denominator,
-                "status": metric_status(metric_id, score),
+                "status": status,
                 "formula": metric["formula"],
                 "blocker_override_applied": blocker_override,
                 "stress_test_type": metric["stress_test_type"],
@@ -138,7 +141,7 @@ def write_metric_stress_reports(repo_root: Path, run_id: str, rows: list[dict[st
                 "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
             }
         )
-    write_json(report_dir / "metric_stress_tests.json", stress_rows)
+    write_json(report_dir / "metric_stress_test_catalog.json", stress_rows)
     columns = (
         "stress_test_type",
         "expected_failed_metric",
@@ -148,14 +151,14 @@ def write_metric_stress_reports(repo_root: Path, run_id: str, rows: list[dict[st
         "deterministic_detection_rule",
         "notes",
     )
-    lines = ["# Metric Stress Tests", ""]
+    lines = ["# Metric Stress Test Catalog", ""]
     lines.append("| " + " | ".join(columns) + " |")
     lines.append("| " + " | ".join("---" for _ in columns) + " |")
     for row in stress_rows:
         lines.append("| " + " | ".join(str(row.get(column, "")) for column in columns) + " |")
     lines.append("")
     lines.append(f"Stress tests specified: {len(stress_rows)}")
-    (report_dir / "metric_stress_tests.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (report_dir / "metric_stress_test_catalog.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def load_trace_bundle(repo_root: Path, run_id: str) -> dict[str, Any]:
@@ -259,7 +262,7 @@ def abstention_rate(trace: dict[str, Any]) -> Fraction:
     return Fraction(correct, len(cases))
 
 
-def semantic_graph_alignment(trace: dict[str, Any]) -> Fraction:
+def graph_artifact_parity(trace: dict[str, Any]) -> Fraction:
     items = trace["graph_alignment_trace"]["items"]
     aligned = sum(1 for item in items if item.get("aligned") is True)
     return Fraction(aligned, len(items))
@@ -277,7 +280,11 @@ def rerun_delta_rate(trace: dict[str, Any]) -> Fraction:
     return Fraction(summary.get("changed_outputs", 0), summary.get("comparable_outputs", 0), inverse=True)
 
 
-def metric_status(metric_id: str, score: float) -> str:
+def metric_status(metric_id: str, score: float | None, denominator: float | None = None) -> str:
+    if metric_id == "rerun_delta_rate" and denominator == 0:
+        return "comparison_only"
+    if denominator == 0:
+        return "not_applicable"
     if metric_id == "human_research_burden":
         return "diagnostic"
     if metric_id == "rerun_delta_rate" and score >= 1.0:

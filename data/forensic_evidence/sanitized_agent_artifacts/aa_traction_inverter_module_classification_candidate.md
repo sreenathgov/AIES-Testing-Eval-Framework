@@ -85,4 +85,4 @@ India's dedicated "Electric inverter" subheading (85044010) is the clearest juri
 - `classified_as` → [[hs_code-8504-40-40-us]]
 - `classified_as` → [[hs_code-8504-40-10-in]]
 - `classified_as` → [[hs_code-8504-40-87-eu]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

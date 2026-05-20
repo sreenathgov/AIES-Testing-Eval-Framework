@@ -16,7 +16,7 @@
       "level": "L6",
       "material_composition": "Battery-grade graphite powder, either synthetic/artificial graphite or surface-modified spherical natural graphite with battery-grade purity and controlled particle morphology.",
       "parent_component": "Lithium-Ion Battery Cell",
-      "source_engineering_record": "drona/knowledge/verified/anode-active-material-graphite.md",
+      "source_engineering_record": "source_repo/knowledge/verified/anode-active-material-graphite.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "RAW_PRECURSOR"
     },
@@ -36,7 +36,7 @@
       "level": "L6",
       "material_composition": "High-purity electrolytic copper foil, typically 6-12 um for advanced cells, supplied as bare foil before anode coating.",
       "parent_component": "Lithium-Ion Battery Cell",
-      "source_engineering_record": "drona/knowledge/verified/anode-substrate-cu-foil.md",
+      "source_engineering_record": "source_repo/knowledge/verified/anode-substrate-cu-foil.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -58,7 +58,7 @@
       "level": "L1",
       "material_composition": "Centralized multilayer Printed Circuit Board Assembly (PCBA) housed in a dedicated plastic (e.g., PBT GF30) or die-cast aluminum enclosure.",
       "parent_component": "EV Battery Management System (BMS)",
-      "source_engineering_record": "drona/knowledge/verified/battery-control-unit-(bcu).md",
+      "source_engineering_record": "source_repo/knowledge/verified/battery-control-unit-(bcu).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -80,7 +80,7 @@
       "level": "L2",
       "material_composition": "Heavy-duty electromechanical assembly housing high-voltage contactors, pyrotechnic fuses, and current shunts, often on a dedicated power board.",
       "parent_component": "EV Battery Management System (BMS)",
-      "source_engineering_record": "drona/knowledge/verified/battery-disconnect-unit-(bdu).md",
+      "source_engineering_record": "source_repo/knowledge/verified/battery-disconnect-unit-(bdu).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -102,7 +102,7 @@
       "level": "L2",
       "material_composition": "Control logic board with sensors and microcontrollers.",
       "parent_component": "Energy Storage Subsystem",
-      "source_engineering_record": "drona/knowledge/verified/battery-management-system-(bms).md",
+      "source_engineering_record": "source_repo/knowledge/verified/battery-management-system-(bms).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -122,7 +122,7 @@
       "level": "L6",
       "material_composition": "Lithium nickel manganese cobalt oxide powder (LiNixMnyCozO2), EV-grade with lattice dopants such as Zr/Ti/Al and surface coatings such as boron or tungsten.",
       "parent_component": "Lithium-Ion Battery Cell",
-      "source_engineering_record": "drona/knowledge/verified/cathode-active-material-nmc.md",
+      "source_engineering_record": "source_repo/knowledge/verified/cathode-active-material-nmc.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "RAW_PRECURSOR"
     },
@@ -142,7 +142,7 @@
       "level": "L6",
       "material_composition": "High-purity aluminum foil, typically 10-20 um thick, supplied as bare flat-rolled foil before cathode coating.",
       "parent_component": "Lithium-Ion Battery Cell",
-      "source_engineering_record": "drona/knowledge/verified/cathode-substrate-al-foil.md",
+      "source_engineering_record": "source_repo/knowledge/verified/cathode-substrate-al-foil.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -164,7 +164,7 @@
       "level": "L2",
       "material_composition": "Distributed Printed Circuit Board Assembly (PCBA) populated with Analog Front Ends (AFEs), balancing resistor arrays, and isolation transceivers.",
       "parent_component": "EV Battery Management System (BMS)",
-      "source_engineering_record": "drona/knowledge/verified/cell-supervisor-unit-(csu).md",
+      "source_engineering_record": "source_repo/knowledge/verified/cell-supervisor-unit-(csu).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -186,7 +186,7 @@
       "level": "L3",
       "material_composition": "A single cast-aluminum enclosure containing the OBC, DC-DC converter, and potentially a Power Distribution Unit (PDU).",
       "parent_component": "Power Electronics Cluster",
-      "source_engineering_record": "drona/knowledge/verified/combo-power-electronics-unit.md",
+      "source_engineering_record": "source_repo/knowledge/verified/combo-power-electronics-unit.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -206,7 +206,7 @@
       "level": "L2",
       "material_composition": "Power electronics assembly for high-voltage to low-voltage DC conversion.",
       "parent_component": "Integrated E-Axle",
-      "source_engineering_record": "drona/knowledge/verified/dc-dc-converter.md",
+      "source_engineering_record": "source_repo/knowledge/verified/dc-dc-converter.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -226,7 +226,7 @@
       "level": "L6",
       "material_composition": "Lithium hexafluorophosphate (LiPF6) dissolved in organic carbonate solvents such as EC, DMC, and EMC, with battery-performance additives such as VC or FEC.",
       "parent_component": "Lithium-Ion Battery Cell",
-      "source_engineering_record": "drona/knowledge/verified/electrolyte-lipf6-solution.md",
+      "source_engineering_record": "source_repo/knowledge/verified/electrolyte-lipf6-solution.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "RAW_PRECURSOR"
     },
@@ -250,7 +250,7 @@
       "level": "L2",
       "material_composition": "An assembly of Lithium-Ion Cells, structural frames, a Cell Contacting System (CCS), and a Cell Module Controller (CMC).",
       "parent_component": "High-Voltage Battery Pack",
-      "source_engineering_record": "drona/knowledge/verified/high-voltage-battery-module.md",
+      "source_engineering_record": "source_repo/knowledge/verified/high-voltage-battery-module.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -274,7 +274,7 @@
       "level": "L0",
       "material_composition": "Composite good including aluminum enclosure, electrochemical cells, cooling plates, busbars, and electronic controllers.",
       "parent_component": "",
-      "source_engineering_record": "drona/knowledge/verified/high-voltage-battery-pack-assembly.md",
+      "source_engineering_record": "source_repo/knowledge/verified/high-voltage-battery-pack-assembly.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -294,7 +294,7 @@
       "level": "L4",
       "material_composition": "Automotive-grade connectors with PBT GF30 housings and silver-plated contacts.",
       "parent_component": "Physical Enclosure",
-      "source_engineering_record": "drona/knowledge/verified/high-voltage-connectors.md",
+      "source_engineering_record": "source_repo/knowledge/verified/high-voltage-connectors.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -314,7 +314,7 @@
       "level": "L3",
       "material_composition": "Heavy-duty, electrically operated electromagnetic switch.",
       "parent_component": "Battery Disconnect Unit",
-      "source_engineering_record": "drona/knowledge/verified/high-voltage-contactor.md",
+      "source_engineering_record": "source_repo/knowledge/verified/high-voltage-contactor.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -338,7 +338,7 @@
       "level": "L2",
       "material_composition": "A massive, sealed housing merging the motor, gearbox, inverter, DC-DC converter, OBC, PDU, VCU, and BMS.",
       "parent_component": "EV Powertrain Architecture",
-      "source_engineering_record": "drona/knowledge/verified/hyper-integrated-e-axle.md",
+      "source_engineering_record": "source_repo/knowledge/verified/hyper-integrated-e-axle.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -362,7 +362,7 @@
       "level": "L1",
       "material_composition": "Integrated electromechanical system combining a traction motor, reduction gearbox, and power electronics into a unified, rigid structural housing.",
       "parent_component": "",
-      "source_engineering_record": "drona/knowledge/verified/integrated-e-axle.md",
+      "source_engineering_record": "source_repo/knowledge/verified/integrated-e-axle.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -386,7 +386,7 @@
       "level": "L3",
       "material_composition": "A composite good consisting of an electrode assembly, separator, electrolyte, housing, and safety components.",
       "parent_component": "",
-      "source_engineering_record": "drona/knowledge/verified/lithium-ion-battery-cell.md",
+      "source_engineering_record": "source_repo/knowledge/verified/lithium-ion-battery-cell.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -406,7 +406,7 @@
       "level": "L4",
       "material_composition": "Neodymium (Nd), Praseodymium (Pr), Iron (Fe), Boron (B), with diffused Dysprosium (Dy) and Terbium (Tb).",
       "parent_component": "Rotor Assembly",
-      "source_engineering_record": "drona/knowledge/verified/ndfeb-permanent-magnets.md",
+      "source_engineering_record": "source_repo/knowledge/verified/ndfeb-permanent-magnets.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -426,7 +426,7 @@
       "level": "L2",
       "material_composition": "Power electronics assembly for AC to DC conversion.",
       "parent_component": "Integrated E-Axle",
-      "source_engineering_record": "drona/knowledge/verified/on-board-charger-(obc).md",
+      "source_engineering_record": "source_repo/knowledge/verified/on-board-charger-(obc).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -446,7 +446,7 @@
       "level": "L2",
       "material_composition": "Assembly of fuses, relays, and busbars.",
       "parent_component": "Integrated E-Axle",
-      "source_engineering_record": "drona/knowledge/verified/power-distribution-unit-(pdu).md",
+      "source_engineering_record": "source_repo/knowledge/verified/power-distribution-unit-(pdu).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -466,7 +466,7 @@
       "level": "L6",
       "material_composition": "Microporous polyethylene and/or polypropylene separator film, including mono-layer or trilayer PP/PE/PP constructions and optional ceramic surface coatings.",
       "parent_component": "Lithium-Ion Battery Cell",
-      "source_engineering_record": "drona/knowledge/verified/separator-pe-pp-film.md",
+      "source_engineering_record": "source_repo/knowledge/verified/separator-pe-pp-film.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -486,7 +486,7 @@
       "level": "L5",
       "material_composition": "Non-oriented electrical steel (NOES), silicon-alloyed flat-rolled steel used for stator and rotor laminations, supplied as master coil or slit coil depending on manufacturing state.",
       "parent_component": "Traction Motor",
-      "source_engineering_record": "drona/knowledge/verified/silicon-alloyed-electrical-steel-core-noes.md",
+      "source_engineering_record": "source_repo/knowledge/verified/silicon-alloyed-electrical-steel-core-noes.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -506,7 +506,7 @@
       "level": "L4",
       "material_composition": "Silicon Carbide semiconductor.",
       "parent_component": "Traction Inverter Module",
-      "source_engineering_record": "drona/knowledge/verified/silicon-carbide-(sic)-mosfets.md",
+      "source_engineering_record": "source_repo/knowledge/verified/silicon-carbide-(sic)-mosfets.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -526,7 +526,7 @@
       "level": "L4",
       "material_composition": "Silicon semiconductor.",
       "parent_component": "Traction Inverter Module",
-      "source_engineering_record": "drona/knowledge/verified/silicon-igbts.md",
+      "source_engineering_record": "source_repo/knowledge/verified/silicon-igbts.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -546,7 +546,7 @@
       "level": "L3",
       "material_composition": "Silicon Carbide (SiC) MOSFETs or Silicon IGBTs on a Direct Bonded Copper (DBC) Substrate.",
       "parent_component": "Power Electronics",
-      "source_engineering_record": "drona/knowledge/verified/traction-inverter-module.md",
+      "source_engineering_record": "source_repo/knowledge/verified/traction-inverter-module.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     },
@@ -566,7 +566,7 @@
       "level": "L3",
       "material_composition": "A high-voltage electromechanical energy conversion device comprising a stator, rotor, housing, bearings, and position sensor.",
       "parent_component": "Electric Drive Unit",
-      "source_engineering_record": "drona/knowledge/verified/traction-motor.md",
+      "source_engineering_record": "source_repo/knowledge/verified/traction-motor.md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "MIDSTREAM_COMPONENT"
     },
@@ -586,7 +586,7 @@
       "level": "L2",
       "material_composition": "Computational control board with microprocessors.",
       "parent_component": "Integrated E-Axle",
-      "source_engineering_record": "drona/knowledge/verified/vehicle-control-unit-(vcu).md",
+      "source_engineering_record": "source_repo/knowledge/verified/vehicle-control-unit-(vcu).md",
       "status_at_handoff": "pre_hs_verified_engineering_input",
       "supply_chain_position": "DOWNSTREAM_ASSEMBLY"
     }

@@ -1,4 +1,4 @@
-# Metric Stress Tests
+# Metric Stress Test Catalog
 
 | stress_test_type | expected_failed_metric | expected_control_state | linked_metric_id | linked_validator | deterministic_detection_rule | notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,7 @@
 | missing_review_trigger | human_review_trigger_correctness | review | human_review_trigger_correctness | review_trigger_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 | missing_required_handoff_field | field_completeness_rate | blocked | field_completeness_rate | schema_and_required_field_trace | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 | corpus_gap_requires_abstention | abstention_rate | review | abstention_rate | handoff_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
-| malformed_graph_edge | semantic_graph_alignment | blocked | semantic_graph_alignment | graph_adapter | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
+| malformed_graph_edge | graph_artifact_parity | blocked | graph_artifact_parity | graph_adapter | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 | over_escalation_burden | human_research_burden | diagnostic | human_research_burden | review_trigger_validator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 | rerun_delta_threshold_breach | rerun_delta_rate | comparison_only | rerun_delta_rate | reference_baseline_comparator | True | Synthetic perturbation contract for reviewer-facing measurement validation. |
 

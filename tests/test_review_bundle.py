@@ -122,4 +122,4 @@ def test_export_script_is_copy_only_and_harness_bounded(repo_root: Path) -> None
     source_manifest = json.loads((repo_root / "data/source_corpus/SOURCE_ASSET_MANIFEST.json").read_text())
     for asset in source_manifest["assets"]:
         assert not asset["harness_relative_path"].startswith("/")
-        assert asset["source_repo_relative_path"].startswith("drona/")
+        assert asset["source_repo_relative_path"].startswith("source_repo/")

@@ -42,19 +42,19 @@ def test_source_record_manifest_covers_eu_wco_bti(repo_root: Path) -> None:
     assert all((repo_root / entry["markdown_review_path"]).exists() for entry in entries)
 
 
-def test_agent_specs_and_drona_hs_schemas_exist(repo_root: Path) -> None:
+def test_agent_specs_and_hs_slice_schemas_exist(repo_root: Path) -> None:
     for agent in ("pta", "pra", "da", "aa", "ka"):
         path = repo_root / "protocol" / "agent_specs" / f"{agent}.md"
         assert path.exists()
         assert "Paper-scope note" in path.read_text(encoding="utf-8")
 
-    schema_dir = repo_root / "protocol" / "schemas" / "drona_hs"
+    schema_dir = repo_root / "protocol" / "schemas" / "hs_slice"
     expected = {
         "StatutoryClassificationRecord.json",
         "RulingRecord.json",
         "ClassificationCandidate.json",
         "AuditReport.json",
-        "DRulingHandoffPackage.json",
+        "RulingHandoffPackage.json",
     }
     assert expected.issubset({path.name for path in schema_dir.glob("*.json")})
 

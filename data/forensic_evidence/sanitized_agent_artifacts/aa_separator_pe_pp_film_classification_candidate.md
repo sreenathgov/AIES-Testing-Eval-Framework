@@ -16,7 +16,7 @@ confidence_eu: high
 confidence_india: medium
 gri_path: GRI_1
 i4_flag: false
-d_ruling_handoff: true
+ruling_handoff: true
 founder_override_provenance: true
 founder_override_scope: "missing_primary_text_india_case_law"
 founder_override_basis: "ey_pwc_secondary_authority"
@@ -40,7 +40,7 @@ ruling_anchor_india: "ITC-HS Chapter 39 (material-first, cellular plastics; no I
 - PTA (US): `separator-pe-pp-film_us.md` — 3921.19.0000, CBP HQ 967313
 - PTA (EU): `separator-pe-pp-film_eu.md` — 8507.90.31, Commission Note C/2025/6096
 - PTA (India): `separator-pe-pp-film_india.md` — 3921.19.90, material-first
-- DA: `da_memo_tb3_battery_materials.md` — CRITICAL divergence flagged; D-RULING handoff required
+- DA: `da_memo_tb3_battery_materials.md` — CRITICAL divergence flagged; adjudication handoff required
 
 ### Pre-GRI Exclusion Filter Result
 
@@ -115,7 +115,7 @@ Both positions are supported by binding legal authority in their respective juri
 
 **Regulatory impact**: Different tariff rates, different rules of origin calculations, different Section/Chapter add-on provisions apply depending on jurisdiction. Supply chain teams importing separator film into both EU and US/India must apply different HS codes.
 
-**D-RULING handoff**: Required. D-RULING package must document both positions and flag for supply chain advisory.
+**adjudication handoff**: Required. adjudication handoff package must document both positions and flag for supply chain advisory.
 
 ## Corpus Gap Status
 
@@ -129,4 +129,4 @@ D2-GAP-004: **CLOSED** — Both binding authorities confirmed; jurisdictional di
 - `classified_as (IN)` → [[hs_code-3921-19-in]]
 - `ruling_anchor (US)` → CBP HQ 967313
 - `ruling_anchor (EU)` → EU Commission Note C/2025/6096
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

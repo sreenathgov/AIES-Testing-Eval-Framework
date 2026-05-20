@@ -2,6 +2,6 @@
   "anchor_role": "classification_anchor",
   "code": "8505.11",
   "jurisdiction": "EU",
-  "node_id": "cn_code:8505-11:eu",
-  "node_type": "hs_cn_code"
+  "node_id": "hs_code:8505.11:EU",
+  "node_type": "hs_code"
 }

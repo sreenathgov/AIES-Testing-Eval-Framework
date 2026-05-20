@@ -113,7 +113,7 @@
     "notes": "Tests whether the system abstains or escalates when key facts are missing.",
     "numerator": 0,
     "score": 1.0,
-    "status": "pass",
+    "status": "not_applicable",
     "stress_test_type": "missing_material_composition"
   },
   {

@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from .models import EXTERNAL_AUTHORITY_CLASSES, INTERNAL_AUTHORITY_CLASSES, PAPER_SCOPE_JURISDICTIONS, ValidatorResult
+from .source_authority_registry import canonical_authority_class
 
 
 class AuthorityBoundaryValidator:
@@ -12,7 +13,7 @@ class AuthorityBoundaryValidator:
     def validate(self, fixture: dict[str, Any]) -> ValidatorResult:
         checks: list[str] = []
         for item in fixture.get("legal_authority_chain", []):
-            authority_class = item.get("authority_class")
+            authority_class = canonical_authority_class(item.get("authority_class"))
             source_id = item.get("source_id")
             source = self.sources.get(source_id)
             if authority_class in INTERNAL_AUTHORITY_CLASSES:
@@ -27,9 +28,9 @@ class AuthorityBoundaryValidator:
     @staticmethod
     def authority_classes(fixture: dict[str, Any]) -> set[str]:
         return {
-            item.get("authority_class")
+            canonical_authority_class(item.get("authority_class"))
             for item in fixture.get("legal_authority_chain", [])
-            if item.get("authority_class") in EXTERNAL_AUTHORITY_CLASSES
+            if canonical_authority_class(item.get("authority_class")) in EXTERNAL_AUTHORITY_CLASSES
         }
 
     @staticmethod

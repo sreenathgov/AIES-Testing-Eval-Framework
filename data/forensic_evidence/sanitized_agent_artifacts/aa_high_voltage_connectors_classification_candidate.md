@@ -93,4 +93,4 @@ India customs practice for mixed-material connectors is not definitively resolve
 - `classified_as` → [[hs_code-8536-69-80-us]]
 - `classified_as` → [[hs_code-8536-69-90-in]]
 - `classified_as` → [[hs_code-8536-69-90-eu]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

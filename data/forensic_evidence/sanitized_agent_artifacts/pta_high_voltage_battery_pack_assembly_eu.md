@@ -42,4 +42,4 @@ GRI 3(b): Li-ion cells give essential character → 8507.60. EU CN Explanatory N
 - `engineering_anchor` → [[high-voltage-battery-pack-assembly]]
 - `classified_as` → [[hs_code-8507-60-00-eu]]
 - `source_doc` → [[explanatory_notes_to_the_combined_nomenclature_of_the_european_union_evs]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]

@@ -26,6 +26,7 @@ from .quote_fidelity_validator import QuoteFidelityValidator
 from .representation_integrity_validator import RepresentationIntegrityValidator
 from .review_trigger_validator import ReviewTriggerValidator
 from .source_integrity_validator import SourceIntegrityValidator
+from .source_authority_registry import canonical_authority_class
 from .supported_synthesis_validator import SupportedSynthesisValidator
 from .uncertainty_validator import UncertaintyValidator
 
@@ -203,7 +204,8 @@ class Evaluator:
         checks: list[str] = []
         classes = self.authority.authority_classes(fixture)
         anchors = self.authority.source_anchors(fixture)
-        missing_classes = set(gold["required_authority_classes"]) - classes
+        required_classes = {canonical_authority_class(value) for value in gold["required_authority_classes"]}
+        missing_classes = required_classes - classes
         missing_anchors = set(gold["required_source_anchors"]) - anchors
         if missing_classes:
             checks.append("required_authority_class_missing")

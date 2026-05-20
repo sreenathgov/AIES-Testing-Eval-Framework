@@ -115,4 +115,4 @@ D2-GAP-007: **CLOSED (conditional)** — Chapter 72 width-split analysis complet
 - `classified_as (US)` → [[hs_code-7226-19-us]]
 - `classified_as (EU)` → [[hs_code-7226-19-eu]]
 - `classified_as (IN)` → [[hs_code-7226-19-in]]
-- `graph_index` → [[d-class-hs_gate1_graph_index]]
+- `graph_index` → [[hs-slice_gate1_graph_index]]
