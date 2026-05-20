@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Battery Control Unit (BCU)",
+  "component_ref": "ent_169",
+  "node_id": "product_component:battery-control-unit-(bcu)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

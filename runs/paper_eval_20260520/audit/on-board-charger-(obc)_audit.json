@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_on-board-charger-(obc)",
+  "authority_status": "pass",
+  "component_ref": "ent_215",
+  "component_slug": "on-board-charger-(obc)",
+  "evaluated_artifact": "AA_EU_on-board-charger-(obc)",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

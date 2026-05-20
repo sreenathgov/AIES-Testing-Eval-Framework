@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_170",
+  "direction_valid": true,
+  "edge_id": "edge:cell-supervisor-unit-(csu):proposes:8537.10",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_cell-supervisor-unit-(csu)",
+  "target_node_id": "hs_code:8537.10:EU"
+}

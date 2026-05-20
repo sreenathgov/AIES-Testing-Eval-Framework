@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Silicon-Alloyed Electrical Steel Core (NOES)",
+  "component_ref": "ent_tb3_07",
+  "node_id": "product_component:silicon-alloyed-electrical-steel-core-noes",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

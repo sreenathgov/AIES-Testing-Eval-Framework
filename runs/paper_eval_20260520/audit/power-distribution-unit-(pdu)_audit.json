@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+  "authority_status": "pass",
+  "component_ref": "ent_219",
+  "component_slug": "power-distribution-unit-(pdu)",
+  "evaluated_artifact": "AA_EU_power-distribution-unit-(pdu)",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

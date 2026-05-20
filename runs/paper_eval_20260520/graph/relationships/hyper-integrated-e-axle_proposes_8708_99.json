@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_269",
+  "direction_valid": true,
+  "edge_id": "edge:hyper-integrated-e-axle:proposes:8708.99",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_hyper-integrated-e-axle",
+  "target_node_id": "hs_code:8708.99:EU"
+}

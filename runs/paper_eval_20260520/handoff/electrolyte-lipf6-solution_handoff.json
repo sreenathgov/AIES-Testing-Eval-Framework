@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_tb3_03",
+  "component_slug": "electrolyte-lipf6-solution",
+  "handoff_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_electrolyte-lipf6-solution"
+}

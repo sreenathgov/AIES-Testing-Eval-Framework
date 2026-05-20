@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Battery Disconnect Unit (BDU)",
+  "component_ref": "ent_171",
+  "node_id": "product_component:battery-disconnect-unit-(bdu)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

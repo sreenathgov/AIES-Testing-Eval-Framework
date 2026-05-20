@@ -1,0 +1,205 @@
+{
+  "run_id": "paper_eval_20260520",
+  "summary": {
+    "review_or_block_tickets": 6,
+    "total_artifacts": 28
+  },
+  "tickets": [
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "component_id": "ent_tb3_02",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "component_id": "ent_tb3_06",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "component_id": "ent_169",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "component_id": "ent_171",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "component_id": "ent_217",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "component_id": "ent_tb3_01",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "component_id": "ent_tb3_05",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "component_id": "ent_170",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "component_id": "ent_216",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "component_id": "ent_tb3_03",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "component_id": "ent_182",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "component_id": "ent_144",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "component_id": "ent_207",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "component_id": "ent_215",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "component_id": "ent_219",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "component_id": "ent_tb3_04",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "component_id": "ent_tb3_07",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "component_id": "ent_209",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "component_id": "ent_210",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "component_id": "ent_196",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "component_id": "ent_221",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "component_id": "ent_218",
+      "route": "promote",
+      "ticket_required": false,
+      "ticket_type": "none"
+    }
+  ]
+}

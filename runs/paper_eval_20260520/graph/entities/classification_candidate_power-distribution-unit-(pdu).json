@@ -1,0 +1,8 @@
+{
+  "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+  "component_ref": "ent_219",
+  "component_slug": "power-distribution-unit-(pdu)",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_power-distribution-unit-(pdu)",
+  "node_type": "classification_candidate"
+}

@@ -1,0 +1,1038 @@
+{
+  "artifact_counts": {
+    "aa": 28,
+    "audit": 28,
+    "graph_entities": 72,
+    "graph_relationships": 28,
+    "handoff": 28,
+    "pra": 28,
+    "pta": 28
+  },
+  "component_count": 28,
+  "created_artifacts": [
+    {
+      "artifact_id": "pta/anode-active-material-graphite_eu.json",
+      "path": "pta/anode-active-material-graphite_eu.json"
+    },
+    {
+      "artifact_id": "pra/anode-active-material-graphite_eu.json",
+      "path": "pra/anode-active-material-graphite_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "path": "aa/anode-active-material-graphite_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_anode-active-material-graphite",
+      "path": "audit/anode-active-material-graphite_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_anode-active-material-graphite",
+      "path": "handoff/anode-active-material-graphite_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:anode-active-material-graphite",
+      "path": "graph/entities/product_component_anode-active-material-graphite.json"
+    },
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "path": "graph/entities/classification_candidate_anode-active-material-graphite.json"
+    },
+    {
+      "artifact_id": "hs_code:3801.90:EU",
+      "path": "graph/entities/cn_code_3801_90_eu.json"
+    },
+    {
+      "artifact_id": "edge:anode-active-material-graphite:proposes:3801.90",
+      "path": "graph/relationships/anode-active-material-graphite_proposes_3801_90.json"
+    },
+    {
+      "artifact_id": "pta/anode-substrate-cu-foil_eu.json",
+      "path": "pta/anode-substrate-cu-foil_eu.json"
+    },
+    {
+      "artifact_id": "pra/anode-substrate-cu-foil_eu.json",
+      "path": "pra/anode-substrate-cu-foil_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "path": "aa/anode-substrate-cu-foil_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_anode-substrate-cu-foil",
+      "path": "audit/anode-substrate-cu-foil_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "path": "handoff/anode-substrate-cu-foil_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:anode-substrate-cu-foil",
+      "path": "graph/entities/product_component_anode-substrate-cu-foil.json"
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "path": "graph/entities/classification_candidate_anode-substrate-cu-foil.json"
+    },
+    {
+      "artifact_id": "hs_code:7410.21:EU",
+      "path": "graph/entities/cn_code_7410_21_eu.json"
+    },
+    {
+      "artifact_id": "edge:anode-substrate-cu-foil:proposes:7410.21",
+      "path": "graph/relationships/anode-substrate-cu-foil_proposes_7410_21.json"
+    },
+    {
+      "artifact_id": "pta/battery-control-unit-(bcu)_eu.json",
+      "path": "pta/battery-control-unit-(bcu)_eu.json"
+    },
+    {
+      "artifact_id": "pra/battery-control-unit-(bcu)_eu.json",
+      "path": "pra/battery-control-unit-(bcu)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "path": "aa/battery-control-unit-(bcu)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_battery-control-unit-(bcu)",
+      "path": "audit/battery-control-unit-(bcu)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "path": "handoff/battery-control-unit-(bcu)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:battery-control-unit-(bcu)",
+      "path": "graph/entities/product_component_battery-control-unit-(bcu).json"
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "path": "graph/entities/classification_candidate_battery-control-unit-(bcu).json"
+    },
+    {
+      "artifact_id": "hs_code:8537.10:EU",
+      "path": "graph/entities/cn_code_8537_10_eu.json"
+    },
+    {
+      "artifact_id": "edge:battery-control-unit-(bcu):proposes:8537.10",
+      "path": "graph/relationships/battery-control-unit-(bcu)_proposes_8537_10.json"
+    },
+    {
+      "artifact_id": "pta/battery-disconnect-unit-(bdu)_eu.json",
+      "path": "pta/battery-disconnect-unit-(bdu)_eu.json"
+    },
+    {
+      "artifact_id": "pra/battery-disconnect-unit-(bdu)_eu.json",
+      "path": "pra/battery-disconnect-unit-(bdu)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "path": "aa/battery-disconnect-unit-(bdu)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+      "path": "audit/battery-disconnect-unit-(bdu)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "path": "handoff/battery-disconnect-unit-(bdu)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:battery-disconnect-unit-(bdu)",
+      "path": "graph/entities/product_component_battery-disconnect-unit-(bdu).json"
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "path": "graph/entities/classification_candidate_battery-disconnect-unit-(bdu).json"
+    },
+    {
+      "artifact_id": "hs_code:8536.50:EU",
+      "path": "graph/entities/cn_code_8536_50_eu.json"
+    },
+    {
+      "artifact_id": "edge:battery-disconnect-unit-(bdu):proposes:8536.50",
+      "path": "graph/relationships/battery-disconnect-unit-(bdu)_proposes_8536_50.json"
+    },
+    {
+      "artifact_id": "pta/battery-management-system-(bms)_eu.json",
+      "path": "pta/battery-management-system-(bms)_eu.json"
+    },
+    {
+      "artifact_id": "pra/battery-management-system-(bms)_eu.json",
+      "path": "pra/battery-management-system-(bms)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "path": "aa/battery-management-system-(bms)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_battery-management-system-(bms)",
+      "path": "audit/battery-management-system-(bms)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "path": "handoff/battery-management-system-(bms)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:battery-management-system-(bms)",
+      "path": "graph/entities/product_component_battery-management-system-(bms).json"
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "path": "graph/entities/classification_candidate_battery-management-system-(bms).json"
+    },
+    {
+      "artifact_id": "hs_code:8537.10:EU",
+      "path": "graph/entities/cn_code_8537_10_eu.json"
+    },
+    {
+      "artifact_id": "edge:battery-management-system-(bms):proposes:8537.10",
+      "path": "graph/relationships/battery-management-system-(bms)_proposes_8537_10.json"
+    },
+    {
+      "artifact_id": "pta/cathode-active-material-nmc_eu.json",
+      "path": "pta/cathode-active-material-nmc_eu.json"
+    },
+    {
+      "artifact_id": "pra/cathode-active-material-nmc_eu.json",
+      "path": "pra/cathode-active-material-nmc_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "path": "aa/cathode-active-material-nmc_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_cathode-active-material-nmc",
+      "path": "audit/cathode-active-material-nmc_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "path": "handoff/cathode-active-material-nmc_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:cathode-active-material-nmc",
+      "path": "graph/entities/product_component_cathode-active-material-nmc.json"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "path": "graph/entities/classification_candidate_cathode-active-material-nmc.json"
+    },
+    {
+      "artifact_id": "hs_code:2841.90:EU",
+      "path": "graph/entities/cn_code_2841_90_eu.json"
+    },
+    {
+      "artifact_id": "edge:cathode-active-material-nmc:proposes:2841.90",
+      "path": "graph/relationships/cathode-active-material-nmc_proposes_2841_90.json"
+    },
+    {
+      "artifact_id": "pta/cathode-substrate-al-foil_eu.json",
+      "path": "pta/cathode-substrate-al-foil_eu.json"
+    },
+    {
+      "artifact_id": "pra/cathode-substrate-al-foil_eu.json",
+      "path": "pra/cathode-substrate-al-foil_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "path": "aa/cathode-substrate-al-foil_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_cathode-substrate-al-foil",
+      "path": "audit/cathode-substrate-al-foil_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "path": "handoff/cathode-substrate-al-foil_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:cathode-substrate-al-foil",
+      "path": "graph/entities/product_component_cathode-substrate-al-foil.json"
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "path": "graph/entities/classification_candidate_cathode-substrate-al-foil.json"
+    },
+    {
+      "artifact_id": "hs_code:7607.19:EU",
+      "path": "graph/entities/cn_code_7607_19_eu.json"
+    },
+    {
+      "artifact_id": "edge:cathode-substrate-al-foil:proposes:7607.19",
+      "path": "graph/relationships/cathode-substrate-al-foil_proposes_7607_19.json"
+    },
+    {
+      "artifact_id": "pta/cell-supervisor-unit-(csu)_eu.json",
+      "path": "pta/cell-supervisor-unit-(csu)_eu.json"
+    },
+    {
+      "artifact_id": "pra/cell-supervisor-unit-(csu)_eu.json",
+      "path": "pra/cell-supervisor-unit-(csu)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "path": "aa/cell-supervisor-unit-(csu)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_cell-supervisor-unit-(csu)",
+      "path": "audit/cell-supervisor-unit-(csu)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "path": "handoff/cell-supervisor-unit-(csu)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:cell-supervisor-unit-(csu)",
+      "path": "graph/entities/product_component_cell-supervisor-unit-(csu).json"
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "path": "graph/entities/classification_candidate_cell-supervisor-unit-(csu).json"
+    },
+    {
+      "artifact_id": "hs_code:8537.10:EU",
+      "path": "graph/entities/cn_code_8537_10_eu.json"
+    },
+    {
+      "artifact_id": "edge:cell-supervisor-unit-(csu):proposes:8537.10",
+      "path": "graph/relationships/cell-supervisor-unit-(csu)_proposes_8537_10.json"
+    },
+    {
+      "artifact_id": "pta/combo-power-electronics-unit_eu.json",
+      "path": "pta/combo-power-electronics-unit_eu.json"
+    },
+    {
+      "artifact_id": "pra/combo-power-electronics-unit_eu.json",
+      "path": "pra/combo-power-electronics-unit_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "path": "aa/combo-power-electronics-unit_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_combo-power-electronics-unit",
+      "path": "audit/combo-power-electronics-unit_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "path": "handoff/combo-power-electronics-unit_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:combo-power-electronics-unit",
+      "path": "graph/entities/product_component_combo-power-electronics-unit.json"
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "path": "graph/entities/classification_candidate_combo-power-electronics-unit.json"
+    },
+    {
+      "artifact_id": "hs_code:8504.40:EU",
+      "path": "graph/entities/cn_code_8504_40_eu.json"
+    },
+    {
+      "artifact_id": "edge:combo-power-electronics-unit:proposes:8504.40",
+      "path": "graph/relationships/combo-power-electronics-unit_proposes_8504_40.json"
+    },
+    {
+      "artifact_id": "pta/dc-dc-converter_eu.json",
+      "path": "pta/dc-dc-converter_eu.json"
+    },
+    {
+      "artifact_id": "pra/dc-dc-converter_eu.json",
+      "path": "pra/dc-dc-converter_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "path": "aa/dc-dc-converter_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_dc-dc-converter",
+      "path": "audit/dc-dc-converter_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_dc-dc-converter",
+      "path": "handoff/dc-dc-converter_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:dc-dc-converter",
+      "path": "graph/entities/product_component_dc-dc-converter.json"
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "path": "graph/entities/classification_candidate_dc-dc-converter.json"
+    },
+    {
+      "artifact_id": "hs_code:8504.40:EU",
+      "path": "graph/entities/cn_code_8504_40_eu.json"
+    },
+    {
+      "artifact_id": "edge:dc-dc-converter:proposes:8504.40",
+      "path": "graph/relationships/dc-dc-converter_proposes_8504_40.json"
+    },
+    {
+      "artifact_id": "pta/electrolyte-lipf6-solution_eu.json",
+      "path": "pta/electrolyte-lipf6-solution_eu.json"
+    },
+    {
+      "artifact_id": "pra/electrolyte-lipf6-solution_eu.json",
+      "path": "pra/electrolyte-lipf6-solution_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "path": "aa/electrolyte-lipf6-solution_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_electrolyte-lipf6-solution",
+      "path": "audit/electrolyte-lipf6-solution_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "path": "handoff/electrolyte-lipf6-solution_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:electrolyte-lipf6-solution",
+      "path": "graph/entities/product_component_electrolyte-lipf6-solution.json"
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "path": "graph/entities/classification_candidate_electrolyte-lipf6-solution.json"
+    },
+    {
+      "artifact_id": "hs_code:3824.99:EU",
+      "path": "graph/entities/cn_code_3824_99_eu.json"
+    },
+    {
+      "artifact_id": "edge:electrolyte-lipf6-solution:proposes:3824.99",
+      "path": "graph/relationships/electrolyte-lipf6-solution_proposes_3824_99.json"
+    },
+    {
+      "artifact_id": "pta/high-voltage-battery-module_eu.json",
+      "path": "pta/high-voltage-battery-module_eu.json"
+    },
+    {
+      "artifact_id": "pra/high-voltage-battery-module_eu.json",
+      "path": "pra/high-voltage-battery-module_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "path": "aa/high-voltage-battery-module_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_high-voltage-battery-module",
+      "path": "audit/high-voltage-battery-module_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-module",
+      "path": "handoff/high-voltage-battery-module_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:high-voltage-battery-module",
+      "path": "graph/entities/product_component_high-voltage-battery-module.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "path": "graph/entities/classification_candidate_high-voltage-battery-module.json"
+    },
+    {
+      "artifact_id": "hs_code:8507.60:EU",
+      "path": "graph/entities/cn_code_8507_60_eu.json"
+    },
+    {
+      "artifact_id": "edge:high-voltage-battery-module:proposes:8507.60",
+      "path": "graph/relationships/high-voltage-battery-module_proposes_8507_60.json"
+    },
+    {
+      "artifact_id": "pta/high-voltage-battery-pack-assembly_eu.json",
+      "path": "pta/high-voltage-battery-pack-assembly_eu.json"
+    },
+    {
+      "artifact_id": "pra/high-voltage-battery-pack-assembly_eu.json",
+      "path": "pra/high-voltage-battery-pack-assembly_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "path": "aa/high-voltage-battery-pack-assembly_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+      "path": "audit/high-voltage-battery-pack-assembly_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "path": "handoff/high-voltage-battery-pack-assembly_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:high-voltage-battery-pack-assembly",
+      "path": "graph/entities/product_component_high-voltage-battery-pack-assembly.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "path": "graph/entities/classification_candidate_high-voltage-battery-pack-assembly.json"
+    },
+    {
+      "artifact_id": "hs_code:8507.60:EU",
+      "path": "graph/entities/cn_code_8507_60_eu.json"
+    },
+    {
+      "artifact_id": "edge:high-voltage-battery-pack-assembly:proposes:8507.60",
+      "path": "graph/relationships/high-voltage-battery-pack-assembly_proposes_8507_60.json"
+    },
+    {
+      "artifact_id": "pta/high-voltage-connectors_eu.json",
+      "path": "pta/high-voltage-connectors_eu.json"
+    },
+    {
+      "artifact_id": "pra/high-voltage-connectors_eu.json",
+      "path": "pra/high-voltage-connectors_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "path": "aa/high-voltage-connectors_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_high-voltage-connectors",
+      "path": "audit/high-voltage-connectors_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_high-voltage-connectors",
+      "path": "handoff/high-voltage-connectors_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:high-voltage-connectors",
+      "path": "graph/entities/product_component_high-voltage-connectors.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "path": "graph/entities/classification_candidate_high-voltage-connectors.json"
+    },
+    {
+      "artifact_id": "hs_code:8536.69:EU",
+      "path": "graph/entities/cn_code_8536_69_eu.json"
+    },
+    {
+      "artifact_id": "edge:high-voltage-connectors:proposes:8536.69",
+      "path": "graph/relationships/high-voltage-connectors_proposes_8536_69.json"
+    },
+    {
+      "artifact_id": "pta/high-voltage-contactor_eu.json",
+      "path": "pta/high-voltage-contactor_eu.json"
+    },
+    {
+      "artifact_id": "pra/high-voltage-contactor_eu.json",
+      "path": "pra/high-voltage-contactor_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "path": "aa/high-voltage-contactor_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_high-voltage-contactor",
+      "path": "audit/high-voltage-contactor_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_high-voltage-contactor",
+      "path": "handoff/high-voltage-contactor_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:high-voltage-contactor",
+      "path": "graph/entities/product_component_high-voltage-contactor.json"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "path": "graph/entities/classification_candidate_high-voltage-contactor.json"
+    },
+    {
+      "artifact_id": "hs_code:8536.50:EU",
+      "path": "graph/entities/cn_code_8536_50_eu.json"
+    },
+    {
+      "artifact_id": "edge:high-voltage-contactor:proposes:8536.50",
+      "path": "graph/relationships/high-voltage-contactor_proposes_8536_50.json"
+    },
+    {
+      "artifact_id": "pta/hyper-integrated-e-axle_eu.json",
+      "path": "pta/hyper-integrated-e-axle_eu.json"
+    },
+    {
+      "artifact_id": "pra/hyper-integrated-e-axle_eu.json",
+      "path": "pra/hyper-integrated-e-axle_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "path": "aa/hyper-integrated-e-axle_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_hyper-integrated-e-axle",
+      "path": "audit/hyper-integrated-e-axle_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "path": "handoff/hyper-integrated-e-axle_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:hyper-integrated-e-axle",
+      "path": "graph/entities/product_component_hyper-integrated-e-axle.json"
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "path": "graph/entities/classification_candidate_hyper-integrated-e-axle.json"
+    },
+    {
+      "artifact_id": "hs_code:8708.99:EU",
+      "path": "graph/entities/cn_code_8708_99_eu.json"
+    },
+    {
+      "artifact_id": "edge:hyper-integrated-e-axle:proposes:8708.99",
+      "path": "graph/relationships/hyper-integrated-e-axle_proposes_8708_99.json"
+    },
+    {
+      "artifact_id": "pta/integrated-e-axle_eu.json",
+      "path": "pta/integrated-e-axle_eu.json"
+    },
+    {
+      "artifact_id": "pra/integrated-e-axle_eu.json",
+      "path": "pra/integrated-e-axle_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "path": "aa/integrated-e-axle_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_integrated-e-axle",
+      "path": "audit/integrated-e-axle_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_integrated-e-axle",
+      "path": "handoff/integrated-e-axle_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:integrated-e-axle",
+      "path": "graph/entities/product_component_integrated-e-axle.json"
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "path": "graph/entities/classification_candidate_integrated-e-axle.json"
+    },
+    {
+      "artifact_id": "hs_code:8708.99:EU",
+      "path": "graph/entities/cn_code_8708_99_eu.json"
+    },
+    {
+      "artifact_id": "edge:integrated-e-axle:proposes:8708.99",
+      "path": "graph/relationships/integrated-e-axle_proposes_8708_99.json"
+    },
+    {
+      "artifact_id": "pta/lithium-ion-battery-cell_eu.json",
+      "path": "pta/lithium-ion-battery-cell_eu.json"
+    },
+    {
+      "artifact_id": "pra/lithium-ion-battery-cell_eu.json",
+      "path": "pra/lithium-ion-battery-cell_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "path": "aa/lithium-ion-battery-cell_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_lithium-ion-battery-cell",
+      "path": "audit/lithium-ion-battery-cell_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "path": "handoff/lithium-ion-battery-cell_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:lithium-ion-battery-cell",
+      "path": "graph/entities/product_component_lithium-ion-battery-cell.json"
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "path": "graph/entities/classification_candidate_lithium-ion-battery-cell.json"
+    },
+    {
+      "artifact_id": "hs_code:8507.60:EU",
+      "path": "graph/entities/cn_code_8507_60_eu.json"
+    },
+    {
+      "artifact_id": "edge:lithium-ion-battery-cell:proposes:8507.60",
+      "path": "graph/relationships/lithium-ion-battery-cell_proposes_8507_60.json"
+    },
+    {
+      "artifact_id": "pta/ndfeb-permanent-magnets_eu.json",
+      "path": "pta/ndfeb-permanent-magnets_eu.json"
+    },
+    {
+      "artifact_id": "pra/ndfeb-permanent-magnets_eu.json",
+      "path": "pra/ndfeb-permanent-magnets_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "path": "aa/ndfeb-permanent-magnets_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+      "path": "audit/ndfeb-permanent-magnets_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "path": "handoff/ndfeb-permanent-magnets_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:ndfeb-permanent-magnets",
+      "path": "graph/entities/product_component_ndfeb-permanent-magnets.json"
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "path": "graph/entities/classification_candidate_ndfeb-permanent-magnets.json"
+    },
+    {
+      "artifact_id": "hs_code:8505.11:EU",
+      "path": "graph/entities/cn_code_8505_11_eu.json"
+    },
+    {
+      "artifact_id": "edge:ndfeb-permanent-magnets:proposes:8505.11",
+      "path": "graph/relationships/ndfeb-permanent-magnets_proposes_8505_11.json"
+    },
+    {
+      "artifact_id": "pta/on-board-charger-(obc)_eu.json",
+      "path": "pta/on-board-charger-(obc)_eu.json"
+    },
+    {
+      "artifact_id": "pra/on-board-charger-(obc)_eu.json",
+      "path": "pra/on-board-charger-(obc)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "path": "aa/on-board-charger-(obc)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_on-board-charger-(obc)",
+      "path": "audit/on-board-charger-(obc)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "path": "handoff/on-board-charger-(obc)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:on-board-charger-(obc)",
+      "path": "graph/entities/product_component_on-board-charger-(obc).json"
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "path": "graph/entities/classification_candidate_on-board-charger-(obc).json"
+    },
+    {
+      "artifact_id": "hs_code:8504.40:EU",
+      "path": "graph/entities/cn_code_8504_40_eu.json"
+    },
+    {
+      "artifact_id": "edge:on-board-charger-(obc):proposes:8504.40",
+      "path": "graph/relationships/on-board-charger-(obc)_proposes_8504_40.json"
+    },
+    {
+      "artifact_id": "pta/power-distribution-unit-(pdu)_eu.json",
+      "path": "pta/power-distribution-unit-(pdu)_eu.json"
+    },
+    {
+      "artifact_id": "pra/power-distribution-unit-(pdu)_eu.json",
+      "path": "pra/power-distribution-unit-(pdu)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "path": "aa/power-distribution-unit-(pdu)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_power-distribution-unit-(pdu)",
+      "path": "audit/power-distribution-unit-(pdu)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "path": "handoff/power-distribution-unit-(pdu)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:power-distribution-unit-(pdu)",
+      "path": "graph/entities/product_component_power-distribution-unit-(pdu).json"
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "path": "graph/entities/classification_candidate_power-distribution-unit-(pdu).json"
+    },
+    {
+      "artifact_id": "hs_code:8537.10:EU",
+      "path": "graph/entities/cn_code_8537_10_eu.json"
+    },
+    {
+      "artifact_id": "edge:power-distribution-unit-(pdu):proposes:8537.10",
+      "path": "graph/relationships/power-distribution-unit-(pdu)_proposes_8537_10.json"
+    },
+    {
+      "artifact_id": "pta/separator-pe-pp-film_eu.json",
+      "path": "pta/separator-pe-pp-film_eu.json"
+    },
+    {
+      "artifact_id": "pra/separator-pe-pp-film_eu.json",
+      "path": "pra/separator-pe-pp-film_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "path": "aa/separator-pe-pp-film_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_separator-pe-pp-film",
+      "path": "audit/separator-pe-pp-film_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_separator-pe-pp-film",
+      "path": "handoff/separator-pe-pp-film_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:separator-pe-pp-film",
+      "path": "graph/entities/product_component_separator-pe-pp-film.json"
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "path": "graph/entities/classification_candidate_separator-pe-pp-film.json"
+    },
+    {
+      "artifact_id": "hs_code:3920.10:EU",
+      "path": "graph/entities/cn_code_3920_10_eu.json"
+    },
+    {
+      "artifact_id": "edge:separator-pe-pp-film:proposes:3920.10",
+      "path": "graph/relationships/separator-pe-pp-film_proposes_3920_10.json"
+    },
+    {
+      "artifact_id": "pta/silicon-alloyed-electrical-steel-core-noes_eu.json",
+      "path": "pta/silicon-alloyed-electrical-steel-core-noes_eu.json"
+    },
+    {
+      "artifact_id": "pra/silicon-alloyed-electrical-steel-core-noes_eu.json",
+      "path": "pra/silicon-alloyed-electrical-steel-core-noes_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "path": "aa/silicon-alloyed-electrical-steel-core-noes_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "path": "audit/silicon-alloyed-electrical-steel-core-noes_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "path": "handoff/silicon-alloyed-electrical-steel-core-noes_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:silicon-alloyed-electrical-steel-core-noes",
+      "path": "graph/entities/product_component_silicon-alloyed-electrical-steel-core-noes.json"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "path": "graph/entities/classification_candidate_silicon-alloyed-electrical-steel-core-noes.json"
+    },
+    {
+      "artifact_id": "hs_code:7226.19:EU",
+      "path": "graph/entities/cn_code_7226_19_eu.json"
+    },
+    {
+      "artifact_id": "edge:silicon-alloyed-electrical-steel-core-noes:proposes:7226.19",
+      "path": "graph/relationships/silicon-alloyed-electrical-steel-core-noes_proposes_7226_19.json"
+    },
+    {
+      "artifact_id": "pta/silicon-carbide-(sic)-mosfets_eu.json",
+      "path": "pta/silicon-carbide-(sic)-mosfets_eu.json"
+    },
+    {
+      "artifact_id": "pra/silicon-carbide-(sic)-mosfets_eu.json",
+      "path": "pra/silicon-carbide-(sic)-mosfets_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "path": "aa/silicon-carbide-(sic)-mosfets_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_silicon-carbide-(sic)-mosfets",
+      "path": "audit/silicon-carbide-(sic)-mosfets_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "path": "handoff/silicon-carbide-(sic)-mosfets_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:silicon-carbide-(sic)-mosfets",
+      "path": "graph/entities/product_component_silicon-carbide-(sic)-mosfets.json"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "path": "graph/entities/classification_candidate_silicon-carbide-(sic)-mosfets.json"
+    },
+    {
+      "artifact_id": "hs_code:8541.29:EU",
+      "path": "graph/entities/cn_code_8541_29_eu.json"
+    },
+    {
+      "artifact_id": "edge:silicon-carbide-(sic)-mosfets:proposes:8541.29",
+      "path": "graph/relationships/silicon-carbide-(sic)-mosfets_proposes_8541_29.json"
+    },
+    {
+      "artifact_id": "pta/silicon-igbts_eu.json",
+      "path": "pta/silicon-igbts_eu.json"
+    },
+    {
+      "artifact_id": "pra/silicon-igbts_eu.json",
+      "path": "pra/silicon-igbts_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "path": "aa/silicon-igbts_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_silicon-igbts",
+      "path": "audit/silicon-igbts_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_silicon-igbts",
+      "path": "handoff/silicon-igbts_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:silicon-igbts",
+      "path": "graph/entities/product_component_silicon-igbts.json"
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "path": "graph/entities/classification_candidate_silicon-igbts.json"
+    },
+    {
+      "artifact_id": "hs_code:8541.29:EU",
+      "path": "graph/entities/cn_code_8541_29_eu.json"
+    },
+    {
+      "artifact_id": "edge:silicon-igbts:proposes:8541.29",
+      "path": "graph/relationships/silicon-igbts_proposes_8541_29.json"
+    },
+    {
+      "artifact_id": "pta/traction-inverter-module_eu.json",
+      "path": "pta/traction-inverter-module_eu.json"
+    },
+    {
+      "artifact_id": "pra/traction-inverter-module_eu.json",
+      "path": "pra/traction-inverter-module_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "path": "aa/traction-inverter-module_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_traction-inverter-module",
+      "path": "audit/traction-inverter-module_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_traction-inverter-module",
+      "path": "handoff/traction-inverter-module_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:traction-inverter-module",
+      "path": "graph/entities/product_component_traction-inverter-module.json"
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "path": "graph/entities/classification_candidate_traction-inverter-module.json"
+    },
+    {
+      "artifact_id": "hs_code:8504.40:EU",
+      "path": "graph/entities/cn_code_8504_40_eu.json"
+    },
+    {
+      "artifact_id": "edge:traction-inverter-module:proposes:8504.40",
+      "path": "graph/relationships/traction-inverter-module_proposes_8504_40.json"
+    },
+    {
+      "artifact_id": "pta/traction-motor_eu.json",
+      "path": "pta/traction-motor_eu.json"
+    },
+    {
+      "artifact_id": "pra/traction-motor_eu.json",
+      "path": "pra/traction-motor_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "path": "aa/traction-motor_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_traction-motor",
+      "path": "audit/traction-motor_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_traction-motor",
+      "path": "handoff/traction-motor_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:traction-motor",
+      "path": "graph/entities/product_component_traction-motor.json"
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "path": "graph/entities/classification_candidate_traction-motor.json"
+    },
+    {
+      "artifact_id": "hs_code:8501.53:EU",
+      "path": "graph/entities/cn_code_8501_53_eu.json"
+    },
+    {
+      "artifact_id": "edge:traction-motor:proposes:8501.53",
+      "path": "graph/relationships/traction-motor_proposes_8501_53.json"
+    },
+    {
+      "artifact_id": "pta/vehicle-control-unit-(vcu)_eu.json",
+      "path": "pta/vehicle-control-unit-(vcu)_eu.json"
+    },
+    {
+      "artifact_id": "pra/vehicle-control-unit-(vcu)_eu.json",
+      "path": "pra/vehicle-control-unit-(vcu)_eu.json"
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "path": "aa/vehicle-control-unit-(vcu)_classification_candidate.json"
+    },
+    {
+      "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+      "path": "audit/vehicle-control-unit-(vcu)_audit.json"
+    },
+    {
+      "artifact_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "path": "handoff/vehicle-control-unit-(vcu)_handoff.json"
+    },
+    {
+      "artifact_id": "product_component:vehicle-control-unit-(vcu)",
+      "path": "graph/entities/product_component_vehicle-control-unit-(vcu).json"
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "path": "graph/entities/classification_candidate_vehicle-control-unit-(vcu).json"
+    },
+    {
+      "artifact_id": "hs_code:8537.10:EU",
+      "path": "graph/entities/cn_code_8537_10_eu.json"
+    },
+    {
+      "artifact_id": "edge:vehicle-control-unit-(vcu):proposes:8537.10",
+      "path": "graph/relationships/vehicle-control-unit-(vcu)_proposes_8537_10.json"
+    }
+  ],
+  "generated_at": "2026-05-20T10:55:17+00:00",
+  "jurisdiction_scope": [
+    "EU",
+    "WCO",
+    "BTI"
+  ],
+  "reference_baseline_used_as_input": false,
+  "run_id": "paper_eval_20260520",
+  "run_mode": "fresh_template",
+  "runtime_input_paths": [
+    "data/engineering_handoff/selected_28_components.json",
+    "data/source_corpus/source_record_manifest.json",
+    "data/source_corpus/records/",
+    "runs/paper_eval_20260520/inputs/"
+  ],
+  "source_record_asset_count": 8
+}

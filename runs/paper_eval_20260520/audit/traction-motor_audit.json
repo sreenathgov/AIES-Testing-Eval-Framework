@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_traction-motor",
+  "authority_status": "pass",
+  "component_ref": "ent_221",
+  "component_slug": "traction-motor",
+  "evaluated_artifact": "AA_EU_traction-motor",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

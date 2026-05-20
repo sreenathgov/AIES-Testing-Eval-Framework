@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_215",
+  "direction_valid": true,
+  "edge_id": "edge:on-board-charger-(obc):proposes:8504.40",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_on-board-charger-(obc)",
+  "target_node_id": "hs_code:8504.40:EU"
+}

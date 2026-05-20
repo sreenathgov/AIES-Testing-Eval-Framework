@@ -1,0 +1,16 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_high-voltage-battery-pack-assembly",
+  "authority_status": "pass",
+  "component_ref": "ent_100",
+  "component_slug": "high-voltage-battery-pack-assembly",
+  "evaluated_artifact": "AA_EU_high-voltage-battery-pack-assembly",
+  "failed_checks": [
+    "gri_3b_requires_adjudication_review"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "review",
+  "provenance_status": "pass",
+  "recommended_route": "review",
+  "uncertainty_status": "review"
+}

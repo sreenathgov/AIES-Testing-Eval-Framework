@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_tb3_03",
+  "direction_valid": true,
+  "edge_id": "edge:electrolyte-lipf6-solution:proposes:3824.99",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_electrolyte-lipf6-solution",
+  "target_node_id": "hs_code:3824.99:EU"
+}

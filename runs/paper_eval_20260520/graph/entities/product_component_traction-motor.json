@@ -1,0 +1,7 @@
+{
+  "canonical_name": "Traction Motor",
+  "component_ref": "ent_221",
+  "node_id": "product_component:traction-motor",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

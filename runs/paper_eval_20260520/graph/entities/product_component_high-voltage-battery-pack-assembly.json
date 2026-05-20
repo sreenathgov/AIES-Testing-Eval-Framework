@@ -1,0 +1,7 @@
+{
+  "canonical_name": "High-Voltage Battery Pack Assembly",
+  "component_ref": "ent_100",
+  "node_id": "product_component:high-voltage-battery-pack-assembly",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

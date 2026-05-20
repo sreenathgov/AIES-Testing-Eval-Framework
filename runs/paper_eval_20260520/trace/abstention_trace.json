@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "component_id": "ent_267",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "component_id": "ent_133",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "component_id": "ent_100",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "component_id": "ent_269",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "component_id": "ent_187",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "component_id": "ent_147",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    }
+  ],
+  "run_id": "paper_eval_20260520"
+}

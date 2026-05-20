@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_cathode-substrate-al-foil",
+  "authority_status": "pass",
+  "component_ref": "ent_tb3_05",
+  "component_slug": "cathode-substrate-al-foil",
+  "evaluated_artifact": "AA_EU_cathode-substrate-al-foil",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_217",
+  "direction_valid": true,
+  "edge_id": "edge:battery-management-system-(bms):proposes:8537.10",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_battery-management-system-(bms)",
+  "target_node_id": "hs_code:8537.10:EU"
+}

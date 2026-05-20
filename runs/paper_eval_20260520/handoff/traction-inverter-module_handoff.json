@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_196",
+  "component_slug": "traction-inverter-module",
+  "handoff_id": "HANDOFF_EU_traction-inverter-module",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_traction-inverter-module"
+}

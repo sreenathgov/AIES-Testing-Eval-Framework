@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_209",
+  "direction_valid": true,
+  "edge_id": "edge:silicon-carbide-(sic)-mosfets:proposes:8541.29",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+  "target_node_id": "hs_code:8541.29:EU"
+}

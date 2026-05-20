@@ -1,0 +1,8 @@
+{
+  "component_ref": "ent_216",
+  "direction_valid": true,
+  "edge_id": "edge:dc-dc-converter:proposes:8504.40",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_dc-dc-converter",
+  "target_node_id": "hs_code:8504.40:EU"
+}

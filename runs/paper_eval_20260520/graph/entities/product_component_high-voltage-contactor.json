@@ -1,0 +1,7 @@
+{
+  "canonical_name": "High-Voltage Contactor",
+  "component_ref": "ent_144",
+  "node_id": "product_component:high-voltage-contactor",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_battery-disconnect-unit-(bdu)",
+  "authority_status": "pass",
+  "component_ref": "ent_171",
+  "component_slug": "battery-disconnect-unit-(bdu)",
+  "evaluated_artifact": "AA_EU_battery-disconnect-unit-(bdu)",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}
