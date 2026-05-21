@@ -40,8 +40,8 @@ def test_negative_case_registry_is_decision_complete(repo_root: Path) -> None:
     cases = registry["cases"]
 
     assert validate_negative_registry(repo_root, registry) == []
-    assert len(cases) == 10
-    assert {case["negative_case_id"] for case in cases} == {f"NEG_{idx:03d}" for idx in range(1, 11)}
+    assert len(cases) == 12
+    assert {case["negative_case_id"] for case in cases} == {f"NEG_{idx:03d}" for idx in range(1, 13)}
     assert {metric for case in cases for metric in case["expected_failed_metrics"]} == EXPECTED_METRICS
     assert all(case["legal_rationale"] for case in cases)
     assert all(case["knowledge_evidence_registry_links"] for case in cases)
@@ -55,9 +55,9 @@ def test_negative_run_outputs_cover_all_fault_lines(repo_root: Path) -> None:
     gate_rows = load_json(run_root / "reports" / "gate_summary.json")
 
     assert manifest["run_type"] == "controlled_negative_fault_injection"
-    assert manifest["case_count"] == 10
+    assert manifest["case_count"] == 12
     assert set(manifest["expected_metric_coverage"]) == EXPECTED_METRICS
-    assert len(detection_rows) == 10
+    assert len(detection_rows) == 12
     assert all(row["negative_test_passed"] is True for row in detection_rows)
     assert all(row["gate_match"] is True for row in detection_rows)
     assert all(row["recall"] == 1.0 for row in detection_rows)
@@ -87,6 +87,8 @@ def test_negative_run_gate_expectations_are_observed(repo_root: Path) -> None:
     assert by_case["NEG_008"]["observed_gate_label"] == "blocked_pending_rerun"
     assert by_case["NEG_009"]["observed_gate_label"] == "blocked_pending_rerun"
     assert by_case["NEG_010"]["observed_gate_label"] == "pass_with_notes"
+    assert by_case["NEG_011"]["observed_gate_label"] == "blocked_pending_research"
+    assert by_case["NEG_012"]["observed_gate_label"] == "blocked_pending_research"
 
 
 def test_negative_run_is_not_control_row_transcription() -> None:

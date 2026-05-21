@@ -498,6 +498,35 @@
       "requires_escalation": false,
       "route": "review",
       "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_011",
+      "cohort": "fault_injection",
+      "component_id": "dc-dc-converter",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_011",
+      "intercepted": true,
+      "reason_codes": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_012",
+      "cohort": "fault_injection",
+      "component_id": "integrated-e-axle",
+      "correct_escalation": false,
+      "handoff_id": "NEG_HANDOFF_NEG_012",
+      "intercepted": true,
+      "reason_codes": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "requires_escalation": true,
+      "route": "blocked",
+      "unsafe_output": false
     }
   ],
   "run_id": "paper_integrated_20260520"

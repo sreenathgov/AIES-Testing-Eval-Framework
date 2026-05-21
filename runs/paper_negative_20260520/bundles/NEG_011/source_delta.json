@@ -1,0 +1,4 @@
+{
+  "description": "The source ID remains in scope, but the cited quote/row anchor cannot be resolved against the checked-in source manifest and parsed-source layer.",
+  "kind": "parsed_anchor_mismatch"
+}

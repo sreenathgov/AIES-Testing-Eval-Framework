@@ -16,7 +16,7 @@
       "metric_id": "material_legal_capture",
       "control_family": "material_capture_completeness",
       "legal_rationale": "The evaluation must check whether decisive legal rules and facts survive extraction, not whether generic text recall is high.",
-      "supporting_source": "runs/paper_frozen_run/trace/rule_invocation_graph.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/rule_invocation_graph.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -43,7 +43,7 @@
       "metric_id": "critical_omission_rate",
       "control_family": "material_capture_completeness",
       "legal_rationale": "Missing a decisive rule, exception, or GRI path element can make an artifact unsafe even if other fields look complete.",
-      "supporting_source": "runs/paper_frozen_run/trace/rule_invocation_graph.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/rule_invocation_graph.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -52,7 +52,7 @@
       "metric_id": "unsupported_synthesis_rate",
       "control_family": "supported_synthesis_control",
       "legal_rationale": "The evaluator must detect inference edges that promote a legal conclusion without a legal rule, source anchor, or accepted logic path.",
-      "supporting_source": "runs/paper_frozen_run/trace/rule_invocation_graph.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/rule_invocation_graph.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -61,7 +61,7 @@
       "metric_id": "false_certainty_rate",
       "control_family": "conflict_uncertainty_gap_preservation",
       "legal_rationale": "Ambiguous or contested cases should not be promoted as high-confidence stable outputs.",
-      "supporting_source": "runs/paper_frozen_run/trace/uncertainty_signals.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/uncertainty_signals.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -70,7 +70,7 @@
       "metric_id": "conflict_preservation",
       "control_family": "conflict_uncertainty_gap_preservation",
       "legal_rationale": "Competing legal interpretations and jurisdictional divergence must be preserved or routed to review rather than collapsed.",
-      "supporting_source": "runs/paper_frozen_run/trace/uncertainty_signals.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/uncertainty_signals.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -79,7 +79,7 @@
       "metric_id": "evidence_gap_detection",
       "control_family": "conflict_uncertainty_gap_preservation",
       "legal_rationale": "Missing material facts or corpus insufficiency should trigger abstention, review, or blockage instead of forced classification.",
-      "supporting_source": "runs/paper_frozen_run/trace/uncertainty_signals.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/uncertainty_signals.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -88,7 +88,7 @@
       "metric_id": "handoff_safety",
       "control_family": "handoff_review_governance",
       "legal_rationale": "Unsafe artifacts must be intercepted before downstream use through explicit handoff routes.",
-      "supporting_source": "runs/paper_frozen_run/trace/gating_decisions.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/gating_decisions.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -97,7 +97,7 @@
       "metric_id": "human_review_trigger_correctness",
       "control_family": "handoff_review_governance",
       "legal_rationale": "Mandatory review conditions must become explicit route decisions so human review is tied to concrete legal defects.",
-      "supporting_source": "runs/paper_frozen_run/trace/gating_decisions.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/gating_decisions.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -106,7 +106,7 @@
       "metric_id": "field_completeness_rate",
       "control_family": "handoff_review_governance",
       "legal_rationale": "Structured agent artifacts must include required handoff fields before downstream evaluation can safely inspect them.",
-      "supporting_source": "runs/paper_frozen_run/trace/field_completeness_trace.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/field_completeness_trace.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -115,7 +115,7 @@
       "metric_id": "abstention_rate",
       "control_family": "conflict_uncertainty_gap_preservation",
       "legal_rationale": "Correct refusal, review, or blockage is a success behavior where the corpus or facts do not support safe promotion.",
-      "supporting_source": "runs/paper_frozen_run/trace/abstention_trace.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/abstention_trace.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "implemented_trace"
     },
@@ -133,7 +133,7 @@
       "metric_id": "human_research_burden",
       "control_family": "handoff_review_governance",
       "legal_rationale": "Human research burden is an operational workload signal only; it cannot override a legally required review or block.",
-      "supporting_source": "runs/paper_frozen_run/trace/research_burden_trace.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/research_burden_trace.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "diagnostic_only"
     },
@@ -142,7 +142,7 @@
       "metric_id": "rerun_delta_rate",
       "control_family": "corpus_source_integrity",
       "legal_rationale": "Rerun delta is a future regression signal for comparing outputs after corpus augmentation and is comparison-only in the first paper run.",
-      "supporting_source": "runs/paper_frozen_run/trace/rerun_delta_trace.json",
+      "supporting_source": "runs/paper_integrated_20260520/trace/rerun_delta_trace.json",
       "supporting_authority_class": "internal_generated_candidate",
       "evidence_status": "comparison_only"
     }

@@ -72,6 +72,7 @@
     "gate_id": "gate_3",
     "gate_label": "blocked_pending_research",
     "gate_reason_codes": [
+      "representation_scope_broadened",
       "unsupported_promotion"
     ],
     "scenario_id": "SCN_fault_injection_NEG_AA_NEG_006",
@@ -128,6 +129,30 @@
       "review_route_declared"
     ],
     "scenario_id": "SCN_fault_injection_NEG_AA_NEG_010",
+    "severity": "review_trigger"
+  },
+  {
+    "actual_route": "blocked",
+    "artifact_id": "NEG_AA_NEG_011",
+    "component_id": "dc-dc-converter",
+    "gate_id": "gate_3",
+    "gate_label": "blocked_pending_research",
+    "gate_reason_codes": [
+      "source_anchor_not_resolved"
+    ],
+    "scenario_id": "SCN_fault_injection_NEG_AA_NEG_011",
+    "severity": "blocker"
+  },
+  {
+    "actual_route": "review",
+    "artifact_id": "NEG_AA_NEG_012",
+    "component_id": "integrated-e-axle",
+    "gate_id": "gate_3",
+    "gate_label": "blocked_pending_research",
+    "gate_reason_codes": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "scenario_id": "SCN_fault_injection_NEG_AA_NEG_012",
     "severity": "review_trigger"
   }
 ]

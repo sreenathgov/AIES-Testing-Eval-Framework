@@ -1,0 +1,21 @@
+{
+  "agent": "PRA",
+  "bti_records_considered": [
+    "controlled_negative_bti_probe"
+  ],
+  "component_ref": "integrated-e-axle",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "anchor_id": "WCO_GRI_1",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "anchor_id": "EU_CN_8504_40_90",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "negative_case_id": "NEG_012"
+}

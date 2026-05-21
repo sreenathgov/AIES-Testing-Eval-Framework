@@ -1,8 +1,8 @@
 {
-  "artifact_count": 38,
+  "artifact_count": 40,
   "cohort_counts": {
     "baseline": 28,
-    "fault_injection": 10
+    "fault_injection": 12
   },
   "cohort_gate_distribution": [
     {
@@ -33,13 +33,13 @@
       "cohort": "fault_injection",
       "count": 2,
       "gate_label": "blocked_pending_rerun",
-      "share": 0.2
+      "share": 0.1667
     },
     {
       "cohort": "fault_injection",
-      "count": 6,
+      "count": 8,
       "gate_label": "blocked_pending_research",
-      "share": 0.6
+      "share": 0.6667
     },
     {
       "cohort": "fault_injection",
@@ -51,31 +51,31 @@
       "cohort": "fault_injection",
       "count": 2,
       "gate_label": "pass_with_notes",
-      "share": 0.2
+      "share": 0.1667
     },
     {
       "cohort": "integrated",
       "count": 2,
       "gate_label": "blocked_pending_rerun",
-      "share": 0.0526
+      "share": 0.05
     },
     {
       "cohort": "integrated",
-      "count": 6,
+      "count": 8,
       "gate_label": "blocked_pending_research",
-      "share": 0.1579
+      "share": 0.2
     },
     {
       "cohort": "integrated",
       "count": 22,
       "gate_label": "pass",
-      "share": 0.5789
+      "share": 0.55
     },
     {
       "cohort": "integrated",
       "count": 8,
       "gate_label": "pass_with_notes",
-      "share": 0.2105
+      "share": 0.2
     }
   ],
   "cohort_metric_comparison": [
@@ -84,13 +84,13 @@
       "baseline_numerator": 168,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 12,
-      "fault_injection_numerator": 10,
-      "fault_injection_score": 0.8333,
+      "fault_injection_denominator": 14,
+      "fault_injection_numerator": 12,
+      "fault_injection_score": 0.8571,
       "fault_injection_status": "review_trigger",
-      "integrated_denominator": 180,
-      "integrated_numerator": 178,
-      "integrated_score": 0.9889,
+      "integrated_denominator": 182,
+      "integrated_numerator": 180,
+      "integrated_score": 0.989,
       "integrated_status": "warning",
       "metric_id": "authority_boundary_compliance"
     },
@@ -99,13 +99,13 @@
       "baseline_numerator": 158,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 53,
-      "fault_injection_numerator": 50,
-      "fault_injection_score": 0.9434,
-      "fault_injection_status": "review_trigger",
-      "integrated_denominator": 211,
-      "integrated_numerator": 208,
-      "integrated_score": 0.9858,
+      "fault_injection_denominator": 63,
+      "fault_injection_numerator": 60,
+      "fault_injection_score": 0.9524,
+      "fault_injection_status": "warning",
+      "integrated_denominator": 221,
+      "integrated_numerator": 218,
+      "integrated_score": 0.9864,
       "integrated_status": "warning",
       "metric_id": "material_legal_capture"
     },
@@ -114,13 +114,13 @@
       "baseline_numerator": 28,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 10,
-      "fault_injection_numerator": 8,
-      "fault_injection_score": 0.8,
-      "fault_injection_status": "review_trigger",
-      "integrated_denominator": 38,
-      "integrated_numerator": 36,
-      "integrated_score": 0.9474,
+      "fault_injection_denominator": 12,
+      "fault_injection_numerator": 9,
+      "fault_injection_score": 0.75,
+      "fault_injection_status": "blocker",
+      "integrated_denominator": 40,
+      "integrated_numerator": 37,
+      "integrated_score": 0.925,
       "integrated_status": "review_trigger",
       "metric_id": "provenance_sufficiency"
     },
@@ -129,13 +129,13 @@
       "baseline_numerator": 28,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 10,
-      "fault_injection_numerator": 9,
-      "fault_injection_score": 0.9,
+      "fault_injection_denominator": 12,
+      "fault_injection_numerator": 11,
+      "fault_injection_score": 0.9167,
       "fault_injection_status": "review_trigger",
-      "integrated_denominator": 38,
-      "integrated_numerator": 37,
-      "integrated_score": 0.9737,
+      "integrated_denominator": 40,
+      "integrated_numerator": 39,
+      "integrated_score": 0.975,
       "integrated_status": "warning",
       "metric_id": "primary_authority_sufficiency"
     },
@@ -144,13 +144,13 @@
       "baseline_numerator": 0,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 11,
+      "fault_injection_denominator": 13,
       "fault_injection_numerator": 1,
-      "fault_injection_score": 0.9091,
+      "fault_injection_score": 0.9231,
       "fault_injection_status": "review_trigger",
-      "integrated_denominator": 45,
+      "integrated_denominator": 47,
       "integrated_numerator": 1,
-      "integrated_score": 0.9778,
+      "integrated_score": 0.9787,
       "integrated_status": "warning",
       "metric_id": "critical_omission_rate"
     },
@@ -159,13 +159,13 @@
       "baseline_numerator": 0,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 22,
+      "fault_injection_denominator": 26,
       "fault_injection_numerator": 2,
-      "fault_injection_score": 0.9091,
+      "fault_injection_score": 0.9231,
       "fault_injection_status": "review_trigger",
-      "integrated_denominator": 78,
+      "integrated_denominator": 82,
       "integrated_numerator": 2,
-      "integrated_score": 0.9744,
+      "integrated_score": 0.9756,
       "integrated_status": "warning",
       "metric_id": "unsupported_synthesis_rate"
     },
@@ -234,13 +234,13 @@
       "baseline_numerator": 6,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 2,
+      "fault_injection_denominator": 3,
       "fault_injection_numerator": 0,
       "fault_injection_score": 0.0,
       "fault_injection_status": "blocker",
-      "integrated_denominator": 8,
+      "integrated_denominator": 9,
       "integrated_numerator": 6,
-      "integrated_score": 0.75,
+      "integrated_score": 0.6667,
       "integrated_status": "blocker",
       "metric_id": "human_review_trigger_correctness"
     },
@@ -249,12 +249,12 @@
       "baseline_numerator": 812,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 50,
-      "fault_injection_numerator": 48,
-      "fault_injection_score": 0.96,
+      "fault_injection_denominator": 60,
+      "fault_injection_numerator": 58,
+      "fault_injection_score": 0.9667,
       "fault_injection_status": "warning",
-      "integrated_denominator": 862,
-      "integrated_numerator": 860,
+      "integrated_denominator": 872,
+      "integrated_numerator": 870,
       "integrated_score": 0.9977,
       "integrated_status": "warning",
       "metric_id": "field_completeness_rate"
@@ -279,13 +279,13 @@
       "baseline_numerator": 84,
       "baseline_score": 1.0,
       "baseline_status": "pass",
-      "fault_injection_denominator": 30,
-      "fault_injection_numerator": 29,
-      "fault_injection_score": 0.9667,
+      "fault_injection_denominator": 36,
+      "fault_injection_numerator": 35,
+      "fault_injection_score": 0.9722,
       "fault_injection_status": "warning",
-      "integrated_denominator": 114,
-      "integrated_numerator": 113,
-      "integrated_score": 0.9912,
+      "integrated_denominator": 120,
+      "integrated_numerator": 119,
+      "integrated_score": 0.9917,
       "integrated_status": "warning",
       "metric_id": "graph_artifact_parity"
     },
@@ -294,13 +294,13 @@
       "baseline_numerator": 6,
       "baseline_score": 0.7857,
       "baseline_status": "diagnostic",
-      "fault_injection_denominator": 10,
-      "fault_injection_numerator": 10,
+      "fault_injection_denominator": 12,
+      "fault_injection_numerator": 12,
       "fault_injection_score": 0.0,
       "fault_injection_status": "diagnostic",
-      "integrated_denominator": 38,
-      "integrated_numerator": 16,
-      "integrated_score": 0.5789,
+      "integrated_denominator": 40,
+      "integrated_numerator": 18,
+      "integrated_score": 0.55,
       "integrated_status": "diagnostic",
       "metric_id": "human_research_burden"
     },
@@ -322,17 +322,17 @@
   ],
   "gate_distribution": {
     "blocked_pending_rerun": 2,
-    "blocked_pending_research": 6,
+    "blocked_pending_research": 8,
     "pass": 22,
     "pass_with_notes": 8
   },
-  "generated_at": "2026-05-20T19:38:33+00:00",
+  "generated_at": "2026-05-21T13:15:54+00:00",
   "integrated_detection_aggregates": {
-    "case_count": 10,
+    "case_count": 12,
     "false_negative_total": 0,
     "false_positive_total": 10,
     "gate_accuracy": 1.0,
-    "gate_match_count": 10,
+    "gate_match_count": 12,
     "held_out_cases": {
       "case_count": 0,
       "gate_accuracy": 0.0,
@@ -341,19 +341,19 @@
       "macro_recall": 0.0
     },
     "known_cases": {
-      "case_count": 10,
+      "case_count": 12,
       "gate_accuracy": 1.0,
-      "macro_f1": 0.81,
-      "macro_precision": 0.7033,
+      "macro_f1": 0.8417,
+      "macro_precision": 0.7528,
       "macro_recall": 1.0
     },
-    "macro_f1": 0.81,
-    "macro_precision": 0.7033,
+    "macro_f1": 0.8417,
+    "macro_precision": 0.7528,
     "macro_recall": 1.0,
-    "micro_f1": 0.8077,
-    "micro_precision": 0.6774,
+    "micro_f1": 0.8276,
+    "micro_precision": 0.7059,
     "micro_recall": 1.0,
-    "true_positive_total": 21
+    "true_positive_total": 24
   },
   "integrated_detection_matrix": [
     {
@@ -675,85 +675,140 @@
       "true_positive_checks": [
         "over_escalation_burden"
       ]
+    },
+    {
+      "case_bundle": "Broken Quote Anchor Resolution",
+      "expected_failed_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A source citation is not legally useful unless the quoted span or row locator resolves to the parsed source record used by the artifact.",
+      "negative_case_id": "NEG_011",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "quote_span_fidelity_failure",
+      "perturbation_layer": "source;artifact",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ]
+    },
+    {
+      "case_bundle": "Classification State Mixed With Product Identity",
+      "expected_failed_checks": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A product identity assertion and a legal classification state must remain distinct; collapsing them can make downstream graph and handoff consumers treat factual identity as legal status.",
+      "negative_case_id": "NEG_012",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "representation_integrity_failure",
+      "perturbation_layer": "artifact;handoff",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "product_identity_mixed_with_classification_state"
+      ]
     }
   ],
-  "interpretation_boundary": "Primary 38-artifact deterministic evaluation with cohort stratification. Aggregate metrics are diagnostic and do not prove legal correctness.",
+  "interpretation_boundary": "Primary 40-artifact deterministic evaluation with cohort stratification. Aggregate metrics are diagnostic and do not prove legal correctness.",
   "metric_summary": [
     {
       "blocker_override_applied": true,
-      "denominator": 180,
+      "denominator": 182,
       "formula": "permitted_agent_source_uses / total_agent_source_uses",
       "linked_validator": "agent_role_validator",
       "metric_id": "authority_boundary_compliance",
       "name": "Authority-Boundary Compliance",
       "notes": "Checks whether each agent used only source classes permitted by its legal role.",
-      "numerator": 178,
-      "score": 0.9889,
+      "numerator": 180,
+      "score": 0.989,
       "status": "warning",
       "stress_test_type": "cross_source_agent_misuse"
     },
     {
       "blocker_override_applied": true,
-      "denominator": 211,
+      "denominator": 221,
       "formula": "weighted_used_required_items / weighted_total_required_items",
       "linked_validator": "material_capture_validator",
       "metric_id": "material_legal_capture",
       "name": "Material Legal Capture",
       "notes": "Reframes recall as legally material capture rather than generic text recall.",
-      "numerator": 208,
-      "score": 0.9858,
+      "numerator": 218,
+      "score": 0.9864,
       "status": "warning",
       "stress_test_type": "missing_decisive_gri_rule"
     },
     {
       "blocker_override_applied": true,
-      "denominator": 38,
+      "denominator": 40,
       "formula": "claims_with_verifiable_trace / total_material_claims",
       "linked_validator": "provenance_validator",
       "metric_id": "provenance_sufficiency",
       "name": "Provenance Sufficiency",
       "notes": "Tests claim-to-source traceability below document level where possible.",
-      "numerator": 36,
-      "score": 0.9474,
+      "numerator": 37,
+      "score": 0.925,
       "status": "review_trigger",
       "stress_test_type": "missing_source_anchor"
     },
     {
       "blocker_override_applied": true,
-      "denominator": 38,
+      "denominator": 40,
       "formula": "decisions_with_required_primary_or_interpretive_authority / total_decisions",
       "linked_validator": "authority_boundary_validator",
       "metric_id": "primary_authority_sufficiency",
       "name": "Primary-Authority Sufficiency",
       "notes": "Uses authority sufficiency rather than a crude authority ratio.",
-      "numerator": 37,
-      "score": 0.9737,
+      "numerator": 39,
+      "score": 0.975,
       "status": "warning",
       "stress_test_type": "secondary_only_authority_chain"
     },
     {
       "blocker_override_applied": true,
-      "denominator": 45,
+      "denominator": 47,
       "formula": "missing_decisive_rules / total_decisive_rules",
       "linked_validator": "material_capture_validator",
       "metric_id": "critical_omission_rate",
       "name": "Critical Omission Rate",
       "notes": "Detects missing rules that could change the legal outcome.",
       "numerator": 1,
-      "score": 0.9778,
+      "score": 0.9787,
       "status": "warning",
       "stress_test_type": "counterfactual_rule_removal"
     },
     {
       "blocker_override_applied": true,
-      "denominator": 78,
+      "denominator": 82,
       "formula": "unsupported_inference_edges / total_inference_edges",
       "linked_validator": "supported_synthesis_validator",
       "metric_id": "unsupported_synthesis_rate",
       "name": "Unsupported Synthesis Rate",
       "notes": "Flags reasoning jumps that are not supported by source or method.",
       "numerator": 2,
-      "score": 0.9744,
+      "score": 0.9756,
       "status": "warning",
       "stress_test_type": "ungrounded_therefore_inference"
     },
@@ -811,26 +866,26 @@
     },
     {
       "blocker_override_applied": true,
-      "denominator": 8,
+      "denominator": 9,
       "formula": "correct_escalations / total_cases_requiring_escalation",
       "linked_validator": "review_trigger_validator",
       "metric_id": "human_review_trigger_correctness",
       "name": "Human-Review Trigger Correctness",
       "notes": "Validates that review conditions are turned into explicit route decisions.",
       "numerator": 6,
-      "score": 0.75,
+      "score": 0.6667,
       "status": "blocker",
       "stress_test_type": "missing_review_trigger"
     },
     {
       "blocker_override_applied": true,
-      "denominator": 862,
+      "denominator": 872,
       "formula": "required_fields_present / total_required_fields",
       "linked_validator": "schema_and_required_field_trace",
       "metric_id": "field_completeness_rate",
       "name": "Field Completeness Rate",
       "notes": "Measures whether every agent handoff artifact is structurally complete enough for downstream use.",
-      "numerator": 860,
+      "numerator": 870,
       "score": 0.9977,
       "status": "warning",
       "stress_test_type": "missing_required_handoff_field"
@@ -850,27 +905,27 @@
     },
     {
       "blocker_override_applied": true,
-      "denominator": 114,
+      "denominator": 120,
       "formula": "aligned_graph_items / total_graph_items",
       "linked_validator": "graph_adapter",
       "metric_id": "graph_artifact_parity",
       "name": "Graph-Artifact Parity",
       "notes": "Checks structural equivalence between generated artifacts and the graph representation.",
-      "numerator": 113,
-      "score": 0.9912,
+      "numerator": 119,
+      "score": 0.9917,
       "status": "warning",
       "stress_test_type": "malformed_graph_edge"
     },
     {
       "blocker_override_applied": false,
-      "denominator": 38,
+      "denominator": 40,
       "formula": "1 - (review_or_block_tickets / total_artifacts)",
       "linked_validator": "review_trigger_validator",
       "metric_id": "human_research_burden",
       "name": "Human Research Burden",
       "notes": "Quantifies the human review load created by safe governance decisions.",
-      "numerator": 16,
-      "score": 0.5789,
+      "numerator": 18,
+      "score": 0.55,
       "status": "diagnostic",
       "stress_test_type": "over_escalation_burden"
     },

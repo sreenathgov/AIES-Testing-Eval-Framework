@@ -37,11 +37,11 @@ def test_integrated_run_has_expected_cohort_shape(repo_root: Path) -> None:
     manifest = load_json(run_root / "RUN_MANIFEST.json")
     rows = load_json(run_root / "reports" / "control_profile.json")
 
-    assert manifest["run_type"] == "integrated_38_artifact_evaluation"
-    assert manifest["total_artifact_count"] == 38
-    assert manifest["cohort_counts"] == {"baseline": 28, "fault_injection": 10}
-    assert len(rows) == 38
-    assert Counter(row["cohort"] for row in rows) == {"baseline": 28, "fault_injection": 10}
+    assert manifest["run_type"] == "integrated_40_artifact_evaluation"
+    assert manifest["total_artifact_count"] == 40
+    assert manifest["cohort_counts"] == {"baseline": 28, "fault_injection": 12}
+    assert len(rows) == 40
+    assert Counter(row["cohort"] for row in rows) == {"baseline": 28, "fault_injection": 12}
     assert all(row["negative_case_id"] is None for row in rows if row["cohort"] == "baseline")
     assert all(row["negative_case_id"] for row in rows if row["cohort"] == "fault_injection")
 
@@ -53,7 +53,7 @@ def test_integrated_gate_distribution_matches_paper_claim(repo_root: Path) -> No
     assert counts == {
         "pass": 22,
         "pass_with_notes": 8,
-        "blocked_pending_research": 6,
+        "blocked_pending_research": 8,
         "blocked_pending_rerun": 2,
     }
 
@@ -64,7 +64,7 @@ def test_integrated_gate_distribution_matches_paper_claim(repo_root: Path) -> No
     assert by_cohort["baseline"] == {"pass": 22, "pass_with_notes": 6}
     assert by_cohort["fault_injection"] == {
         "pass_with_notes": 2,
-        "blocked_pending_research": 6,
+        "blocked_pending_research": 8,
         "blocked_pending_rerun": 2,
     }
 
@@ -73,13 +73,13 @@ def test_integrated_detection_matrix_preserves_negative_outcomes(repo_root: Path
     rows = load_json(repo_root / "runs" / "paper_integrated_20260520" / "reports" / "integrated_detection_matrix.json")
     aggregates = load_json(repo_root / "runs" / "paper_integrated_20260520" / "reports" / "integrated_detection_aggregates.json")
 
-    assert len(rows) == 10
+    assert len(rows) == 12
     assert all(row["negative_test_passed"] is True for row in rows)
     assert all(row["gate_match"] is True for row in rows)
     assert all(row["recall"] == 1.0 for row in rows)
     assert aggregates["gate_accuracy"] == 1.0
     assert aggregates["micro_recall"] == 1.0
-    assert {row["negative_case_id"] for row in rows} == {f"NEG_{idx:03d}" for idx in range(1, 11)}
+    assert {row["negative_case_id"] for row in rows} == {f"NEG_{idx:03d}" for idx in range(1, 13)}
 
 
 def test_integrated_run_revalidates_instead_of_merging_control_profiles() -> None:
@@ -112,6 +112,8 @@ def test_baseline_artifacts_do_not_acquire_fault_injection_checks(repo_root: Pat
         "missing_required_handoff_field",
         "graph_parity_failure",
         "over_escalation_burden",
+        "quote_anchor_unresolved",
+        "product_identity_mixed_with_classification_state",
     }
 
     for row in rows:

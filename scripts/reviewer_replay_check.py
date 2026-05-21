@@ -18,11 +18,11 @@ INTEGRATED_RUN_ID = "paper_integrated_20260520"
 REVIEWER_NEGATIVE_RUN_ID = "reviewer_negative_replay"
 REVIEWER_INTEGRATED_RUN_ID = "reviewer_integrated_replay"
 
-EXPECTED_ARTIFACT_COUNT = 38
-EXPECTED_COHORT_COUNTS = {"baseline": 28, "fault_injection": 10}
+EXPECTED_ARTIFACT_COUNT = 40
+EXPECTED_COHORT_COUNTS = {"baseline": 28, "fault_injection": 12}
 EXPECTED_GATE_DISTRIBUTION = {
     "blocked_pending_rerun": 2,
-    "blocked_pending_research": 6,
+    "blocked_pending_research": 8,
     "pass": 22,
     "pass_with_notes": 8,
 }

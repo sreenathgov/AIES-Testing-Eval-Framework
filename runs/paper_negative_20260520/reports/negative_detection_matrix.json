@@ -318,5 +318,60 @@
     "true_positive_checks": [
       "over_escalation_burden"
     ]
+  },
+  {
+    "case_bundle": "Broken Quote Anchor Resolution",
+    "expected_failed_checks": [
+      "quote_anchor_unresolved",
+      "source_anchor_not_resolved"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 1.0,
+    "false_negative_checks": [],
+    "false_positive_checks": [],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A source citation is not legally useful unless the quoted span or row locator resolves to the parsed source record used by the artifact.",
+    "negative_case_id": "NEG_011",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "quote_anchor_unresolved",
+      "source_anchor_not_resolved"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "quote_span_fidelity_failure",
+    "perturbation_layer": "source;artifact",
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "quote_anchor_unresolved",
+      "source_anchor_not_resolved"
+    ]
+  },
+  {
+    "case_bundle": "Classification State Mixed With Product Identity",
+    "expected_failed_checks": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 1.0,
+    "false_negative_checks": [],
+    "false_positive_checks": [],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A product identity assertion and a legal classification state must remain distinct; collapsing them can make downstream graph and handoff consumers treat factual identity as legal status.",
+    "negative_case_id": "NEG_012",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "representation_integrity_failure",
+    "perturbation_layer": "artifact;handoff",
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "product_identity_mixed_with_classification_state"
+    ]
   }
 ]

@@ -678,6 +678,7 @@
     "gate_id": "gate_3",
     "gate_label": "blocked_pending_research",
     "gate_reason_codes": [
+      "representation_scope_broadened",
       "unsupported_promotion"
     ],
     "graph_parity_status": "pass",
@@ -816,6 +817,65 @@
     "recommended_action": "route_to_human_review",
     "representation_status": "pass",
     "scenario_id": "SCN_fault_injection_NEG_AA_NEG_010",
+    "severity": "review_trigger",
+    "synthesis_status": "pass",
+    "uncertainty_status": "pass"
+  },
+  {
+    "actual_route": "blocked",
+    "agent_stage": "AA",
+    "artifact_id": "NEG_AA_NEG_011",
+    "authority_status": "pass",
+    "candidate_eu_cn_code": "8504.40",
+    "capture_status": "pass",
+    "cohort": "fault_injection",
+    "component_id": "dc-dc-converter",
+    "expected_route": "blocked",
+    "failed_checks": [
+      "source_anchor_not_resolved",
+      "quote_anchor_unresolved"
+    ],
+    "gate_id": "gate_3",
+    "gate_label": "blocked_pending_research",
+    "gate_reason_codes": [
+      "source_anchor_not_resolved"
+    ],
+    "graph_parity_status": "pass",
+    "handoff_status": "fail",
+    "negative_case_id": "NEG_011",
+    "provenance_status": "fail",
+    "recommended_action": "block_pending_source_or_authority_repair",
+    "representation_status": "pass",
+    "scenario_id": "SCN_fault_injection_NEG_AA_NEG_011",
+    "severity": "blocker",
+    "synthesis_status": "pass",
+    "uncertainty_status": "pass"
+  },
+  {
+    "actual_route": "review",
+    "agent_stage": "AA",
+    "artifact_id": "NEG_AA_NEG_012",
+    "authority_status": "pass",
+    "candidate_eu_cn_code": "8501.53",
+    "capture_status": "pass",
+    "cohort": "fault_injection",
+    "component_id": "integrated-e-axle",
+    "expected_route": "blocked",
+    "failed_checks": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "gate_id": "gate_3",
+    "gate_label": "blocked_pending_research",
+    "gate_reason_codes": [
+      "product_identity_mixed_with_classification_state"
+    ],
+    "graph_parity_status": "pass",
+    "handoff_status": "review",
+    "negative_case_id": "NEG_012",
+    "provenance_status": "pass",
+    "recommended_action": "route_to_human_review",
+    "representation_status": "review",
+    "scenario_id": "SCN_fault_injection_NEG_AA_NEG_012",
     "severity": "review_trigger",
     "synthesis_status": "pass",
     "uncertainty_status": "pass"

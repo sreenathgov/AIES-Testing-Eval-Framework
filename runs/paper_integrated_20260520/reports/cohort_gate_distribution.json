@@ -27,13 +27,13 @@
     "cohort": "fault_injection",
     "count": 2,
     "gate_label": "blocked_pending_rerun",
-    "share": 0.2
+    "share": 0.1667
   },
   {
     "cohort": "fault_injection",
-    "count": 6,
+    "count": 8,
     "gate_label": "blocked_pending_research",
-    "share": 0.6
+    "share": 0.6667
   },
   {
     "cohort": "fault_injection",
@@ -45,30 +45,30 @@
     "cohort": "fault_injection",
     "count": 2,
     "gate_label": "pass_with_notes",
-    "share": 0.2
+    "share": 0.1667
   },
   {
     "cohort": "integrated",
     "count": 2,
     "gate_label": "blocked_pending_rerun",
-    "share": 0.0526
+    "share": 0.05
   },
   {
     "cohort": "integrated",
-    "count": 6,
+    "count": 8,
     "gate_label": "blocked_pending_research",
-    "share": 0.1579
+    "share": 0.2
   },
   {
     "cohort": "integrated",
     "count": 22,
     "gate_label": "pass",
-    "share": 0.5789
+    "share": 0.55
   },
   {
     "cohort": "integrated",
     "count": 8,
     "gate_label": "pass_with_notes",
-    "share": 0.2105
+    "share": 0.2
   }
 ]

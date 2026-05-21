@@ -120,6 +120,30 @@
       "high_confidence_promote": false,
       "incomplete_case": false,
       "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_id": "dc-dc-converter",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_id": "integrated-e-axle",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
     }
   ]
 }

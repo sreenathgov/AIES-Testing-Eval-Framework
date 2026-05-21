@@ -162,6 +162,38 @@
       "expected_gate_label": "pass_with_notes",
       "legal_rationale": "Operational burden and rerun deltas are important diagnostics, but they do not override a legally required gate in v1.",
       "knowledge_evidence_registry_links": ["human_research_burden", "rerun_delta_rate"]
+    },
+    {
+      "negative_case_id": "NEG_011",
+      "case_bundle": "Broken Quote Anchor Resolution",
+      "paper_failure_class": "quote_span_fidelity_failure",
+      "perturbation_layer": ["source", "artifact"],
+      "base_component": "dc-dc-converter",
+      "candidate_cn_code": "8504.40",
+      "source_delta": {"kind": "parsed_anchor_mismatch", "description": "The source ID remains in scope, but the cited quote/row anchor cannot be resolved against the checked-in source manifest and parsed-source layer."},
+      "artifact_delta": {"kind": "misquoted_anchor", "description": "The AA artifact cites a non-resolving anchor for a material legal proposition."},
+      "graph_delta": {"kind": "none", "description": "Graph shape remains valid so the quote-fidelity fault is isolated."},
+      "expected_failed_metrics": ["provenance_sufficiency"],
+      "expected_failed_checks": ["quote_anchor_unresolved", "source_anchor_not_resolved"],
+      "expected_gate_label": "blocked_pending_research",
+      "legal_rationale": "A source citation is not legally useful unless the quoted span or row locator resolves to the parsed source record used by the artifact.",
+      "knowledge_evidence_registry_links": ["provenance_sufficiency"]
+    },
+    {
+      "negative_case_id": "NEG_012",
+      "case_bundle": "Classification State Mixed With Product Identity",
+      "paper_failure_class": "representation_integrity_failure",
+      "perturbation_layer": ["artifact", "handoff"],
+      "base_component": "integrated-e-axle",
+      "candidate_cn_code": "8501.53",
+      "source_delta": {"kind": "none", "description": "Source materials remain available."},
+      "artifact_delta": {"kind": "representation_role_mismatch", "description": "The artifact mixes product-identity assertions with a classification-state representation."},
+      "graph_delta": {"kind": "none", "description": "Graph shape remains valid so the representation fault is isolated."},
+      "expected_failed_metrics": ["human_review_trigger_correctness"],
+      "expected_failed_checks": ["product_identity_mixed_with_classification_state"],
+      "expected_gate_label": "blocked_pending_research",
+      "legal_rationale": "A product identity assertion and a legal classification state must remain distinct; collapsing them can make downstream graph and handoff consumers treat factual identity as legal status.",
+      "knowledge_evidence_registry_links": ["human_review_trigger_correctness"]
     }
   ]
 }

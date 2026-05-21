@@ -1,0 +1,9 @@
+{
+  "component_ref": "dc-dc-converter",
+  "direction_valid": true,
+  "edge_id": "edge:neg_011:proposes:8504.40",
+  "edge_type": "proposes_code",
+  "negative_case_id": "NEG_011",
+  "source_node_id": "NEG_AA_NEG_011",
+  "target_node_id": "hs_code:8504.40:EU"
+}

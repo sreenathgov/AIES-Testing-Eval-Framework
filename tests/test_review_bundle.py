@@ -35,7 +35,7 @@ def test_source_bundle_resolves_for_every_external_source(repo_root: Path) -> No
 
 def test_source_and_forensic_hash_integrity(repo_root: Path) -> None:
     source_manifest = json.loads((repo_root / "data/source_corpus/SOURCE_ASSET_MANIFEST.json").read_text())
-    forensic_manifest = json.loads((repo_root / "data/forensic_evidence/FORENSIC_EXPORT_MANIFEST.json").read_text())
+    forensic_manifest = json.loads((repo_root / "data/origin_evidence/ORIGIN_EXPORT_MANIFEST.json").read_text())
 
     source_assets = [
         (asset["asset_id"], asset["harness_relative_path"], asset["sha256"], asset["byte_size"])
@@ -91,7 +91,7 @@ def test_fixtures_link_assets_without_treating_internal_origin_as_authority(fixt
 
 
 def test_forensic_artifacts_are_origin_only(repo_root: Path) -> None:
-    forensic_manifest = json.loads((repo_root / "data/forensic_evidence/FORENSIC_EXPORT_MANIFEST.json").read_text())
+    forensic_manifest = json.loads((repo_root / "data/origin_evidence/ORIGIN_EXPORT_MANIFEST.json").read_text())
 
     assert forensic_manifest["legal_authority_rule"].startswith("forensic artifacts evidence origin only")
     for artifact in forensic_manifest["artifacts"]:

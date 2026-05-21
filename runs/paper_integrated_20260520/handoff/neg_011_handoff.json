@@ -1,0 +1,12 @@
+{
+  "component_ref": "dc-dc-converter",
+  "handoff_id": "NEG_HANDOFF_NEG_011",
+  "human_review_required": true,
+  "negative_case_id": "NEG_011",
+  "review_reason_codes": [
+    "quote_anchor_unresolved",
+    "source_anchor_not_resolved"
+  ],
+  "route": "blocked",
+  "source_artifact": "NEG_AA_NEG_011"
+}

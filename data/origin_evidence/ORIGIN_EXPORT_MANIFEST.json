@@ -17,7 +17,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_on_board_charger_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_on_board_charger_classification_candidate.md",
       "sha256": "339b9c9f1cc5cb10f0d9b8871792f8e2043e5fa118896073dd6a43fd1d13b0d8"
     },
     {
@@ -36,7 +36,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_high_voltage_connectors_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_high_voltage_connectors_classification_candidate.md",
       "sha256": "b3127febcda19db971b105e5f4a6ef80569c9727875b2be1b5452d0a365a09ff"
     },
     {
@@ -55,7 +55,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_traction_inverter_module_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_traction_inverter_module_classification_candidate.md",
       "sha256": "30c23546ffa6b901e9c56d84b835fd96ff4bf6bc804b9bf6b745ba05c650e79a"
     },
     {
@@ -76,7 +76,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_high_voltage_battery_pack_assembly_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_high_voltage_battery_pack_assembly_classification_candidate.md",
       "sha256": "9a55ada474db6ae2dec2ee8f0d88eeb28644540b2056fe93d55a98773aea0af5"
     },
     {
@@ -96,7 +96,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_lithium_ion_battery_cell_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_lithium_ion_battery_cell_classification_candidate.md",
       "sha256": "f372f23f927190ce8537617b3e85f3e2f8ba67cdadf73185d72cd12aae23e741"
     },
     {
@@ -116,7 +116,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_separator_pe_pp_film_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_separator_pe_pp_film_classification_candidate.md",
       "sha256": "c2c5f0f8c436eec85c54fa37d8477b4db6e1ee9bbae540cb056b181f90a3bb41"
     },
     {
@@ -135,7 +135,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_integrated_e_axle_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_integrated_e_axle_classification_candidate.md",
       "sha256": "d72c10ca7ffc07bea418ed436379a72b821cf7f16cd20e066e2e3b1e6a2b7017"
     },
     {
@@ -154,7 +154,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/aa_silicon_alloyed_electrical_steel_core_noes_classification_candidate.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/aa_silicon_alloyed_electrical_steel_core_noes_classification_candidate.md",
       "sha256": "47ad9ce6f1e3087820d61607b70be7fffb7c8b8e44ace5d36268c14704737c1e"
     },
     {
@@ -174,7 +174,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/pta_high_voltage_battery_pack_assembly_eu.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/pta_high_voltage_battery_pack_assembly_eu.md",
       "sha256": "0137101cc13a6dc38a200fa0d7cb2bc0b6ea863e3da8e18192f17f39d253f9f7"
     },
     {
@@ -193,7 +193,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_agent_artifacts/pra_eu_bti_ebti_sample_ruling_record.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_agent_artifacts/pra_eu_bti_ebti_sample_ruling_record.md",
       "sha256": "e24e9209673c67dd96490edc5c8428f867f6980d9dfc98f95f57ab9aa2b05ecc"
     },
     {
@@ -213,7 +213,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/product_component_lithium_ion_battery_cell.json",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/product_component_lithium_ion_battery_cell.json",
       "sha256": "b4df36591089f4b643a9ff8eaef2729d3325ba295ebe021189fac4a834010910"
     },
     {
@@ -233,7 +233,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/product_component_on_board_charger_obc.json",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/product_component_on_board_charger_obc.json",
       "sha256": "d8bd6a3a54b36b8d456914a80297599fba8553a9b26f64d65d05b86413aa086b"
     },
     {
@@ -252,7 +252,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8504_40_84_eu.json",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_8504_40_84_eu.json",
       "sha256": "40be89c7bf1159c8c0c3d8340f1c9e2029ef5c055bec6e9147d36b1f5facaea8"
     },
     {
@@ -273,7 +273,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8504_40_90_eu.json",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_8504_40_90_eu.json",
       "sha256": "8d64c56ac216e5160b4f7ee44999d3307cc7a010e97ddf8ec86f103ab663ba9f"
     },
     {
@@ -294,7 +294,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8507_60_00_eu.json",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_8507_60_00_eu.json",
       "sha256": "b123fd4a456c5e151cd77d1eb61055954d7612807f586e7cc1dfd3a601efbdb3"
     },
     {
@@ -313,7 +313,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8536_69_90_eu.json",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_8536_69_90_eu.json",
       "sha256": "4ea07a976cffbdb960c0a52f92dcf43e0ca0377a862812e63243604f3c6f4251"
     },
     {
@@ -333,7 +333,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8507_90_31_eu.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_8507_90_31_eu.md",
       "sha256": "d20c6f0490d7de3d8663722972d7fcda69300cdb0d3295d76158d5fa28a0d5b8"
     },
     {
@@ -352,7 +352,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_8708_99_97_eu.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_8708_99_97_eu.md",
       "sha256": "c611ac89d1f1500ddd117bff730730220fbda5808ae1623f376af19ecda539e0"
     },
     {
@@ -371,7 +371,7 @@
         "neutralized internal product/company names",
         "added reviewer-scope banner"
       ],
-      "sanitized_destination_path": "data/forensic_evidence/sanitized_graph_artifacts/hs_code_7226_19_eu.md",
+      "sanitized_destination_path": "data/origin_evidence/sanitized_graph_artifacts/hs_code_7226_19_eu.md",
       "sha256": "8f18dcb736f63c675297b9d320fccbe9267d8027d658a904696a5ff2ea44f1df"
     }
   ],

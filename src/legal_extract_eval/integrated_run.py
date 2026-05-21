@@ -260,7 +260,7 @@ def write_integrated_control_reports(run_root: Path, rows: list[dict[str, Any]])
     write_csv(report_dir / "control_profile.csv", rows, INTEGRATED_CONTROL_COLUMNS)
     write_markdown_table(
         report_dir / "control_profile.md",
-        "# Integrated 38-Artifact Control Profile",
+        f"# Integrated {len(rows)}-Artifact Control Profile",
         rows,
         INTEGRATED_CONTROL_COLUMNS,
         f"Integrated artifacts evaluated: {len(rows)}",
@@ -402,7 +402,7 @@ def write_integrated_results_packet(
         "integrated_detection_matrix": detection_rows,
         "integrated_detection_aggregates": detection_agg,
         "interpretation_boundary": (
-            "Primary 38-artifact deterministic evaluation with cohort stratification. "
+            f"Primary {len(rows)}-artifact deterministic evaluation with cohort stratification. "
             "Aggregate metrics are diagnostic and do not prove legal correctness."
         ),
         "paper_claim": (
@@ -413,7 +413,7 @@ def write_integrated_results_packet(
     write_json(report_dir / "integrated_results_packet.json", packet)
 
     lines = [
-        "# Integrated 38-Artifact Evaluation Results Packet",
+        f"# Integrated {len(rows)}-Artifact Evaluation Results Packet",
         "",
         f"- Run ID: `{run_id}`",
         f"- Positive run: `{positive_run}`",
@@ -506,7 +506,7 @@ def write_run_manifest(repo_root: Path, run_id: str, positive_run: str, negative
         run_root / "RUN_MANIFEST.json",
         {
             "run_id": run_id,
-            "run_type": "integrated_38_artifact_evaluation",
+            "run_type": f"integrated_{len(rows)}_artifact_evaluation",
             "created_at": now(),
             "positive_run_id": positive_run,
             "negative_run_id": negative_run,
@@ -571,7 +571,7 @@ def safe_filename(value: str) -> str:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Create the integrated 38-artifact HS evaluation run.")
+    parser = argparse.ArgumentParser(description="Create the integrated HS evaluation run.")
     parser.add_argument("--repo-root", type=Path, default=Path.cwd())
     parser.add_argument("--run-id", required=True)
     parser.add_argument("--positive-run", default="paper_eval_20260520")

@@ -29,7 +29,7 @@ This command verifies:
 - Python version and package imports.
 - Readiness status for the checked-in bounded HS source bundle.
 - Required paper run directories.
-- The integrated 38-artifact paper result.
+- The integrated 40-artifact paper result.
 - Public-release denylist guardrails.
 - Full regression tests.
 
@@ -38,14 +38,14 @@ Expected paper-level result:
 ```text
 paper_eval_20260520        positive baseline
 paper_negative_20260520    controlled fault-injection run
-paper_integrated_20260520  primary 38-artifact validator-driven paper run
+paper_integrated_20260520  primary 40-artifact validator-driven paper run
 ```
 
 Expected integrated result:
 
-- 38 artifacts.
-- 28 baseline artifacts and 10 fault-injection artifacts.
-- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 6
+- 40 artifacts.
+- 28 baseline artifacts and 12 fault-injection artifacts.
+- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 8
   `blocked_pending_research`, 2 `blocked_pending_rerun`.
 - Detection aggregates: gate accuracy 1.0, micro recall 1.0, zero false
   negatives.

@@ -1,0 +1,37 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_012",
+  "candidate_cn_code": "8501.53",
+  "component_ref": "integrated-e-axle",
+  "component_slug": "neg_012",
+  "confidence": "controlled_negative",
+  "handoff_route": "blocked",
+  "jurisdiction": "EU",
+  "known_issue_tags": [
+    "product_identity_mixed_with_classification_state"
+  ],
+  "legal_authority_chain": [
+    {
+      "anchor_id": "WCO_GRI_1",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "anchor_id": "EU_CN_8504_40_90",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "Classification State Mixed With Product Identity controlled negative candidate for integrated-e-axle.",
+  "negative_case_id": "NEG_012",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [],
+  "requires_human_review": true,
+  "review_reason_codes": [
+    "product_identity_mixed_with_classification_state"
+  ],
+  "stability": "unstable"
+}

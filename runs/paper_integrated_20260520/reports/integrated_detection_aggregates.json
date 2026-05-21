@@ -1,9 +1,9 @@
 {
-  "case_count": 10,
+  "case_count": 12,
   "false_negative_total": 0,
   "false_positive_total": 10,
   "gate_accuracy": 1.0,
-  "gate_match_count": 10,
+  "gate_match_count": 12,
   "held_out_cases": {
     "case_count": 0,
     "gate_accuracy": 0.0,
@@ -12,17 +12,17 @@
     "macro_recall": 0.0
   },
   "known_cases": {
-    "case_count": 10,
+    "case_count": 12,
     "gate_accuracy": 1.0,
-    "macro_f1": 0.81,
-    "macro_precision": 0.7033,
+    "macro_f1": 0.8417,
+    "macro_precision": 0.7528,
     "macro_recall": 1.0
   },
-  "macro_f1": 0.81,
-  "macro_precision": 0.7033,
+  "macro_f1": 0.8417,
+  "macro_precision": 0.7528,
   "macro_recall": 1.0,
-  "micro_f1": 0.8077,
-  "micro_precision": 0.6774,
+  "micro_f1": 0.8276,
+  "micro_precision": 0.7059,
   "micro_recall": 1.0,
-  "true_positive_total": 21
+  "true_positive_total": 24
 }

@@ -116,6 +116,8 @@ def canonical_anchor_id(source_id: str | None, anchor_id: str | None, candidate_
         return None
     if anchor_id.startswith("UNRESOLVED"):
         return anchor_id
+    if "MISQUOTED" in anchor_id or "BROKEN" in anchor_id:
+        return anchor_id
     if source_id == "SRC_EU_CN_2025_1926_EVS":
         if anchor_id == "EU_CN_2025_1926_EVS_RECORDS":
             return "EU_CN_8504_40_90"

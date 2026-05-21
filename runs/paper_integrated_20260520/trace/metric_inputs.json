@@ -303,6 +303,22 @@
       "has_primary_or_interpretive_authority": true,
       "has_ruling_or_precedent": false,
       "route": "review"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_011",
+      "cohort": "fault_injection",
+      "component_id": "dc-dc-converter",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_012",
+      "cohort": "fault_injection",
+      "component_id": "integrated-e-axle",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
     }
   ],
   "run_id": "paper_integrated_20260520",

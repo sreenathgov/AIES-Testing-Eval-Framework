@@ -62,8 +62,8 @@ def validate_negative_registry(repo_root: Path, registry: dict[str, Any]) -> lis
         for entry in read_json(repo_root / "protocol" / "knowledge_evidence_registry.json")["entries"]
     }
 
-    if len(cases) != 10:
-        errors.append("negative_case_count_not_10")
+    if len(cases) != 12:
+        errors.append("negative_case_count_not_12")
 
     seen_case_ids: set[str] = set()
     covered_metrics: set[str] = set()
@@ -277,6 +277,11 @@ def legal_authority_chain_for(case: dict[str, Any]) -> list[dict[str, str]]:
         ]
     if case_id == "NEG_003":
         return [{"source_id": "SRC_EU_BTI_SAMPLE", "authority_class": "ruling_or_precedent", "anchor_id": "BTI_ROW_DEBTI45911_25_1"}]
+    if case_id == "NEG_011":
+        return [
+            {"source_id": "SRC_WCO_GRI_2017", "authority_class": "primary_legal_text", "anchor_id": "WCO_GRI_1"},
+            {"source_id": "SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": "EU_CN_8504_40_MISQUOTED"},
+        ]
     return [
         {"source_id": "SRC_WCO_GRI_2017", "authority_class": "primary_legal_text", "anchor_id": "WCO_GRI_1"},
         {"source_id": "SRC_EU_CN_2025_1926_EVS", "authority_class": "primary_legal_text", "anchor_id": cn_anchor_for(case["candidate_cn_code"])},
@@ -308,6 +313,7 @@ def known_issue_tags_for(case: dict[str, Any]) -> list[str]:
         "NEG_006": ["confidence_inflation", "divergence_collapsed"],
         "NEG_007": ["evidence_gap", "corpus_gap", "unsupported_promotion", "client_fact_required"],
         "NEG_010": ["over_escalation_burden"],
+        "NEG_012": ["product_identity_mixed_with_classification_state"],
     }
     return tags_by_case.get(case_id, [])
 
@@ -319,6 +325,28 @@ def required_source_anchors_for(case: dict[str, Any]) -> list[str]:
 
 
 def control_row_for(case: dict[str, Any], run_id: str) -> dict[str, Any]:
+    """DEPRECATED — NOT called by the production evaluation path.
+
+    This function hand-constructs a control-profile row by transcribing the
+    negative case registry's ``expected_failed_checks`` and
+    ``expected_gate_label`` fields directly into the output.  That made the
+    detection matrix tautological: the runner would echo what the registry
+    declared rather than independently discovering failures from artifact
+    content.
+
+    The production path now calls
+    ``validator_driven_run.evaluate_aa_run()``, which runs the real
+    validator chain on the perturbed AA artifacts on disk.  The registry is
+    consulted only *after* evaluation, inside ``build_detection_matrix()``,
+    to compare validator-emitted checks against the oracle.
+
+    This function is retained here solely for archaeological reference during
+    the v1 paper review period.  It must not be reinstated on the
+    ``create_negative_run`` call path.  Removal is tracked as a post-paper
+    cleanup item.
+
+    See also: ``tests/test_negative_run.py::test_negative_run_is_not_control_row_transcription``
+    """
     route = route_for_gate(case["expected_gate_label"])
     failed_checks = list(case["expected_failed_checks"])
     severity = "blocker" if route == "blocked" else ("review_trigger" if route == "review" else "pass")

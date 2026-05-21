@@ -25,7 +25,7 @@
     "track_3_result",
     "ev_subsystem",
     "source_docs",
-    "d_class_eng_entity",
+    "verified_engineering_entity",
     "extraction_domain",
     "agent_stage",
     "extraction_timestamp",
@@ -174,7 +174,7 @@
       "minItems": 1,
       "description": "All source_doc filenames from PTA, PRA, DA records that informed this candidate"
     },
-    "d_class_eng_entity": {
+    "verified_engineering_entity": {
       "type": "string",
       "pattern": "^ent_",
       "description": "The engineering handoff entity this classification is for"

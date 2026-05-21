@@ -1,0 +1,17 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_011",
+  "authority_status": "pass",
+  "component_ref": "dc-dc-converter",
+  "evaluated_artifact": "NEG_AA_NEG_011",
+  "failed_checks": [
+    "quote_anchor_unresolved",
+    "source_anchor_not_resolved"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "fail",
+  "negative_case_id": "NEG_011",
+  "provenance_status": "fail",
+  "recommended_route": "blocked",
+  "uncertainty_status": "pass"
+}

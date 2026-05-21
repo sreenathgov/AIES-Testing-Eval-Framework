@@ -1,0 +1,11 @@
+{
+  "component_ref": "integrated-e-axle",
+  "handoff_id": "NEG_HANDOFF_NEG_012",
+  "human_review_required": true,
+  "negative_case_id": "NEG_012",
+  "review_reason_codes": [
+    "product_identity_mixed_with_classification_state"
+  ],
+  "route": "blocked",
+  "source_artifact": "NEG_AA_NEG_012"
+}

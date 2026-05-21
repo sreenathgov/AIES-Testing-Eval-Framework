@@ -56,7 +56,7 @@ Reviewer replay check passed.
 ```
 
 The command is non-mutating by default. It verifies readiness, package imports,
-checked-in paper runs, the integrated 38-artifact result, public-release
+checked-in paper runs, the integrated 40-artifact result, public-release
 guardrails, and the full regression suite.
 
 ## Scope
@@ -78,7 +78,7 @@ data/
   engineering_handoff/ Clean pre-HS engineering inputs for 28 components
   sources/          Anchor excerpts and source notes used by fixtures
   source_corpus/    Cited EU/WCO/BTI originals, parsed outputs, and legal-safe record layers
-  forensic_evidence/Sanitized artifact-origin and graph evidence
+  origin_evidence/  Sanitized artifact-origin and graph evidence
   graph_fixtures/   Curated normalized node/edge snapshot
   fixtures/         Source manifest and gold cases
 protocol/schemas/   JSON Schemas for normalized artifacts
@@ -97,18 +97,20 @@ scripts/
 The active framework is defined in `protocol/control_framework.json` and
 explained in `protocol/CONTROL_FRAMEWORK.md`. It consolidates the paper layer
 framework, the metric mapping CSV, and observed extraction-control failure modes into
-deterministic control families:
+twelve deterministic control families:
 
-- corpus/source integrity,
-- source grounding and quote fidelity,
-- authority and role boundaries,
-- material capture,
-- representation integrity,
-- legal method validity,
-- graph-artifact parity,
-- supported synthesis,
-- uncertainty preservation,
-- handoff and review governance.
+1. `corpus_source_integrity` — corpus and source integrity
+2. `source_grounding_anchor_verification` — source grounding and anchor verification
+3. `quote_span_fidelity` — quote and parsed-source fidelity
+4. `authority_chain_sufficiency` — authority chain sufficiency
+5. `agent_role_boundary_compliance` — agent role boundary compliance
+6. `material_capture_completeness` — material capture completeness
+7. `representation_integrity` — representation integrity
+8. `graph_artifact_parity` — graph-artifact parity
+9. `legal_method_validity` — GRI, HS/CN, ruling, and temporal validity
+10. `supported_synthesis_control` — supported synthesis control
+11. `conflict_uncertainty_gap_preservation` — conflict, uncertainty, and gap preservation
+12. `handoff_review_governance` — handoff and review governance
 
 ## Replay Details
 
@@ -126,14 +128,14 @@ The primary paper result is the validator-driven integrated run:
 ```text
 paper_eval_20260520        positive baseline
 paper_negative_20260520    controlled fault-injection run
-paper_integrated_20260520  primary 38-artifact validator-driven paper run
+paper_integrated_20260520  primary 40-artifact validator-driven paper run
 ```
 
 The expected paper-level result is:
 
-- 38 integrated artifacts.
-- 28 baseline artifacts and 10 fault-injection artifacts.
-- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 6
+- 40 integrated artifacts.
+- 28 baseline artifacts and 12 fault-injection artifacts.
+- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 8
   `blocked_pending_research`, 2 `blocked_pending_rerun`.
 - Fault-injection detection: gate accuracy 1.0, micro recall 1.0, and zero
   false negatives against the registry oracle.
@@ -339,5 +341,5 @@ PYTHONPATH=src python3 scripts/build_review_bundle.py --source-repo-root /path/t
 After building, inspect:
 
 - `data/source_corpus/SOURCE_ASSET_MANIFEST.json`
-- `data/forensic_evidence/FORENSIC_EXPORT_MANIFEST.json`
+- `data/origin_evidence/ORIGIN_EXPORT_MANIFEST.json`
 - `data/fixtures/FIXTURE_LINEAGE_MAP.json`

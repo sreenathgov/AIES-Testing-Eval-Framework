@@ -1,18 +1,18 @@
 {
   "artifact_counts": {
-    "aa": 10,
-    "audit": 10,
-    "graph_entities": 26,
-    "graph_relationships": 10,
-    "handoff": 10,
-    "negative_bundles": 10,
-    "pra": 10,
-    "pta": 10
+    "aa": 12,
+    "audit": 12,
+    "graph_entities": 31,
+    "graph_relationships": 12,
+    "handoff": 12,
+    "negative_bundles": 12,
+    "pra": 12,
+    "pta": 12
   },
   "base_run": "paper_eval_20260520",
-  "case_count": 10,
-  "component_count": 10,
-  "created_at": "2026-05-20T19:37:18+00:00",
+  "case_count": 12,
+  "component_count": 12,
+  "created_at": "2026-05-21T13:15:43+00:00",
   "expected_metric_coverage": [
     "abstention_rate",
     "authority_boundary_compliance",

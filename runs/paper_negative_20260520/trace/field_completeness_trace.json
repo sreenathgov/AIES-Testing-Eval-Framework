@@ -349,6 +349,76 @@
       "component_slug": "neg_010",
       "field": "required_field_4",
       "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_slug": "neg_011",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_slug": "neg_011",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_slug": "neg_011",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_slug": "neg_011",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_slug": "neg_011",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_slug": "neg_012",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_slug": "neg_012",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_slug": "neg_012",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_slug": "neg_012",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_slug": "neg_012",
+      "field": "required_field_4",
+      "present": true
     }
   ],
   "run_id": "paper_negative_20260520"

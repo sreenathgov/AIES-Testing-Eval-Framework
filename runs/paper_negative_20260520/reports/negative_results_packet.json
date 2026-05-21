@@ -1,48 +1,48 @@
 {
   "base_run": "paper_eval_20260520",
-  "generated_at": "2026-05-20T19:37:18+00:00",
+  "generated_at": "2026-05-21T13:15:43+00:00",
   "interpretation_boundary": "Controlled deterministic negative evaluation for a bounded HS legal extraction trajectory. It tests fault-line detection and gate routing; it does not certify legal correctness or adversarial robustness.",
   "metric_fault_detection": [
     {
-      "denominator": 12,
+      "denominator": 14,
       "metric_id": "authority_boundary_compliance",
-      "numerator": 10,
-      "score": 0.8333,
+      "numerator": 12,
+      "score": 0.8571,
       "status": "review_trigger"
     },
     {
-      "denominator": 53,
+      "denominator": 63,
       "metric_id": "material_legal_capture",
-      "numerator": 50,
-      "score": 0.9434,
-      "status": "review_trigger"
+      "numerator": 60,
+      "score": 0.9524,
+      "status": "warning"
     },
     {
-      "denominator": 10,
+      "denominator": 12,
       "metric_id": "provenance_sufficiency",
-      "numerator": 8,
-      "score": 0.8,
-      "status": "review_trigger"
-    },
-    {
-      "denominator": 10,
-      "metric_id": "primary_authority_sufficiency",
       "numerator": 9,
-      "score": 0.9,
+      "score": 0.75,
+      "status": "blocker"
+    },
+    {
+      "denominator": 12,
+      "metric_id": "primary_authority_sufficiency",
+      "numerator": 11,
+      "score": 0.9167,
       "status": "review_trigger"
     },
     {
-      "denominator": 11,
+      "denominator": 13,
       "metric_id": "critical_omission_rate",
       "numerator": 1,
-      "score": 0.9091,
+      "score": 0.9231,
       "status": "review_trigger"
     },
     {
-      "denominator": 22,
+      "denominator": 26,
       "metric_id": "unsupported_synthesis_rate",
       "numerator": 2,
-      "score": 0.9091,
+      "score": 0.9231,
       "status": "review_trigger"
     },
     {
@@ -74,17 +74,17 @@
       "status": "blocker"
     },
     {
-      "denominator": 2,
+      "denominator": 3,
       "metric_id": "human_review_trigger_correctness",
       "numerator": 0,
       "score": 0.0,
       "status": "blocker"
     },
     {
-      "denominator": 50,
+      "denominator": 60,
       "metric_id": "field_completeness_rate",
-      "numerator": 48,
-      "score": 0.96,
+      "numerator": 58,
+      "score": 0.9667,
       "status": "warning"
     },
     {
@@ -95,16 +95,16 @@
       "status": "blocker"
     },
     {
-      "denominator": 30,
+      "denominator": 36,
       "metric_id": "graph_artifact_parity",
-      "numerator": 29,
-      "score": 0.9667,
+      "numerator": 35,
+      "score": 0.9722,
       "status": "warning"
     },
     {
-      "denominator": 10,
+      "denominator": 12,
       "metric_id": "human_research_burden",
-      "numerator": 10,
+      "numerator": 12,
       "score": 0.0,
       "status": "diagnostic"
     },
@@ -491,14 +491,83 @@
         "description": "A baseline-comparable output changes in a controlled comparison trace.",
         "kind": "comparison_delta"
       }
+    },
+    {
+      "artifact_delta": {
+        "description": "The AA artifact cites a non-resolving anchor for a material legal proposition.",
+        "kind": "misquoted_anchor"
+      },
+      "base_component": "dc-dc-converter",
+      "candidate_cn_code": "8504.40",
+      "case_bundle": "Broken Quote Anchor Resolution",
+      "expected_failed_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ],
+      "expected_failed_metrics": [
+        "provenance_sufficiency"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the quote-fidelity fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "provenance_sufficiency"
+      ],
+      "legal_rationale": "A source citation is not legally useful unless the quoted span or row locator resolves to the parsed source record used by the artifact.",
+      "negative_case_id": "NEG_011",
+      "paper_failure_class": "quote_span_fidelity_failure",
+      "perturbation_layer": [
+        "source",
+        "artifact"
+      ],
+      "source_delta": {
+        "description": "The source ID remains in scope, but the cited quote/row anchor cannot be resolved against the checked-in source manifest and parsed-source layer.",
+        "kind": "parsed_anchor_mismatch"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "The artifact mixes product-identity assertions with a classification-state representation.",
+        "kind": "representation_role_mismatch"
+      },
+      "base_component": "integrated-e-axle",
+      "candidate_cn_code": "8501.53",
+      "case_bundle": "Classification State Mixed With Product Identity",
+      "expected_failed_checks": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "expected_failed_metrics": [
+        "human_review_trigger_correctness"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the representation fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "human_review_trigger_correctness"
+      ],
+      "legal_rationale": "A product identity assertion and a legal classification state must remain distinct; collapsing them can make downstream graph and handoff consumers treat factual identity as legal status.",
+      "negative_case_id": "NEG_012",
+      "paper_failure_class": "representation_integrity_failure",
+      "perturbation_layer": [
+        "artifact",
+        "handoff"
+      ],
+      "source_delta": {
+        "description": "Source materials remain available.",
+        "kind": "none"
+      }
     }
   ],
   "negative_detection_aggregates": {
-    "case_count": 10,
+    "case_count": 12,
     "false_negative_total": 0,
     "false_positive_total": 10,
     "gate_accuracy": 1.0,
-    "gate_match_count": 10,
+    "gate_match_count": 12,
     "held_out_cases": {
       "case_count": 0,
       "gate_accuracy": 0.0,
@@ -507,19 +576,19 @@
       "macro_recall": 0.0
     },
     "known_cases": {
-      "case_count": 10,
+      "case_count": 12,
       "gate_accuracy": 1.0,
-      "macro_f1": 0.81,
-      "macro_precision": 0.7033,
+      "macro_f1": 0.8417,
+      "macro_precision": 0.7528,
       "macro_recall": 1.0
     },
-    "macro_f1": 0.81,
-    "macro_precision": 0.7033,
+    "macro_f1": 0.8417,
+    "macro_precision": 0.7528,
     "macro_recall": 1.0,
-    "micro_f1": 0.8077,
-    "micro_precision": 0.6774,
+    "micro_f1": 0.8276,
+    "micro_precision": 0.7059,
     "micro_recall": 1.0,
-    "true_positive_total": 21
+    "true_positive_total": 24
   },
   "negative_detection_matrix": [
     {
@@ -841,11 +910,66 @@
       "true_positive_checks": [
         "over_escalation_burden"
       ]
+    },
+    {
+      "case_bundle": "Broken Quote Anchor Resolution",
+      "expected_failed_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A source citation is not legally useful unless the quoted span or row locator resolves to the parsed source record used by the artifact.",
+      "negative_case_id": "NEG_011",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "quote_span_fidelity_failure",
+      "perturbation_layer": "source;artifact",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "quote_anchor_unresolved",
+        "source_anchor_not_resolved"
+      ]
+    },
+    {
+      "case_bundle": "Classification State Mixed With Product Identity",
+      "expected_failed_checks": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A product identity assertion and a legal classification state must remain distinct; collapsing them can make downstream graph and handoff consumers treat factual identity as legal status.",
+      "negative_case_id": "NEG_012",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "product_identity_mixed_with_classification_state"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "representation_integrity_failure",
+      "perturbation_layer": "artifact;handoff",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "product_identity_mixed_with_classification_state"
+      ]
     }
   ],
   "negative_gate_distribution": {
     "blocked_pending_rerun": 2,
-    "blocked_pending_research": 6,
+    "blocked_pending_research": 8,
     "pass_with_notes": 2
   },
   "positive_baseline_summary": {

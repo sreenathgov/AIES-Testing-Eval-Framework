@@ -49,6 +49,8 @@ def classify_gate(row: dict[str, Any]) -> dict[str, Any]:
         "evidence_gap",
         "corpus_gap",
         "unsupported_promotion",
+        "product_identity_mixed_with_classification_state",
+        "representation_scope_broadened",
     }
 
     if failed_checks & rerun_checks or row.get("graph_parity_status") == "fail":

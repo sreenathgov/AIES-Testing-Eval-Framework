@@ -1347,6 +1347,48 @@
         }
       ],
       "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_011",
+      "claim_id": "claim:NEG_011:classification",
+      "claim_text": "Broken Quote Anchor Resolution",
+      "claim_type": "material_legal_proposition",
+      "cohort": "fault_injection",
+      "component_id": "dc-dc-converter",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_MISQUOTED",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_012",
+      "claim_id": "claim:NEG_012:classification",
+      "claim_text": "Classification State Mixed With Product Identity",
+      "claim_type": "material_legal_proposition",
+      "cohort": "fault_injection",
+      "component_id": "integrated-e-axle",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
     }
   ],
   "run_id": "paper_integrated_20260520"

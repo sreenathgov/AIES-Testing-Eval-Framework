@@ -175,6 +175,38 @@
       "support_type": "source_and_rule_chain",
       "supported": true,
       "to": "candidate_code"
+    },
+    {
+      "component_id": "dc-dc-converter",
+      "edge_id": "inference:NEG_011:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "dc-dc-converter",
+      "edge_id": "inference:NEG_011:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "integrated-e-axle",
+      "edge_id": "inference:NEG_012:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "integrated-e-axle",
+      "edge_id": "inference:NEG_012:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
     }
   ],
   "required_rule_items": [
@@ -364,6 +396,42 @@
       "decisive": false,
       "rule_id": "WCO_GRI_6",
       "rule_item_id": "NEG_010:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_id": "dc-dc-converter",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_011:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_id": "dc-dc-converter",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_011:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_id": "integrated-e-axle",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_012:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_id": "integrated-e-axle",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_012:WCO_GRI_6",
       "used": true,
       "weight": 2
     }

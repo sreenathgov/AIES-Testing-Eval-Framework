@@ -1,8 +1,8 @@
 {
   "run_id": "paper_negative_20260520",
   "summary": {
-    "review_or_block_tickets": 10,
-    "total_artifacts": 10
+    "review_or_block_tickets": 12,
+    "total_artifacts": 12
   },
   "tickets": [
     {
@@ -74,6 +74,20 @@
       "route": "review",
       "ticket_required": true,
       "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_011",
+      "component_id": "dc-dc-converter",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_012",
+      "component_id": "integrated-e-axle",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
     }
   ]
 }

@@ -1875,6 +1875,32 @@
           "source_type": "primary_legal_text"
         }
       ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_011",
+      "cohort": "fault_injection",
+      "component_id": "dc-dc-converter",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_012",
+      "cohort": "fault_injection",
+      "component_id": "integrated-e-axle",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
     }
   ],
   "run_id": "paper_integrated_20260520"

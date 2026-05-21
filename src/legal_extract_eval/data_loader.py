@@ -19,7 +19,7 @@ def fixture_paths(repo_root: Path) -> dict[str, Path]:
         "gold_cases": repo_root / "data" / "fixtures" / "gold_cases.json",
         "lineage_map": repo_root / "data" / "fixtures" / "FIXTURE_LINEAGE_MAP.json",
         "source_asset_manifest": repo_root / "data" / "source_corpus" / "SOURCE_ASSET_MANIFEST.json",
-        "forensic_manifest": repo_root / "data" / "forensic_evidence" / "FORENSIC_EXPORT_MANIFEST.json",
+        "forensic_manifest": repo_root / "data" / "origin_evidence" / "ORIGIN_EXPORT_MANIFEST.json",
         "control_framework": repo_root / "protocol" / "control_framework.json",
     }
 
