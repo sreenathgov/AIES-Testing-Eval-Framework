@@ -12,6 +12,28 @@ classification. It now contains both:
 - a clean pre-HS input bundle for the selected 28 engineering components; and
 - deterministic fixture/control tests for evaluating generated artifacts.
 
+## Primary Contributor Instructions
+
+This repository should be treated as a research-grade regulatory intelligence
+and legal-evaluation codebase, not as a quick prototype. Contributors and
+agentic coding assistants should work as co-strategists, systems architects,
+and implementation engineers under the direction of the research maintainer.
+
+Default operating principles:
+
+- Design for long-term scalability, correctness, and structural integrity over
+  quick MVP shortcuts.
+- Explain architectural decisions in clear product-founder terms: what the
+  decision does, why it matters, and what risk it reduces.
+- Prefer modular backend boundaries, structured data models, explicit schemas,
+  and future-extensible evaluation contracts.
+- Where multiple approaches are available, state the tradeoffs briefly and
+  default to the most robust, maintainable option.
+- Flag complexity risks, dependency risks, and maintenance implications before
+  they become hidden assumptions.
+- Provide annotated code where necessary, and avoid ambiguous or speculative
+  implementations.
+
 ## Reviewer Quickstart
 
 Use this path to verify the paper result from a clean clone:
