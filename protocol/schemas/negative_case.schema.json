@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "negative_case.schema.json",
+  "title": "Negative Fault-Injection Case",
+  "type": "object",
+  "required": [
+    "negative_case_id",
+    "case_bundle",
+    "paper_failure_class",
+    "perturbation_layer",
+    "base_component",
+    "source_delta",
+    "artifact_delta",
+    "graph_delta",
+    "expected_failed_metrics",
+    "expected_failed_checks",
+    "expected_gate_label",
+    "legal_rationale",
+    "knowledge_evidence_registry_links"
+  ],
+  "properties": {
+    "negative_case_id": {"type": "string", "pattern": "^NEG_[0-9]{3}$"},
+    "case_bundle": {"type": "string"},
+    "paper_failure_class": {"type": "string"},
+    "perturbation_layer": {
+      "type": "array",
+      "items": {"enum": ["source", "input", "artifact", "trace", "graph", "handoff", "route", "comparison"]}
+    },
+    "base_component": {"type": "string"},
+    "candidate_cn_code": {"type": "string"},
+    "source_delta": {"type": "object"},
+    "artifact_delta": {"type": "object"},
+    "graph_delta": {"type": "object"},
+    "expected_failed_metrics": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "expected_failed_checks": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "expected_gate_label": {
+      "enum": ["pass", "pass_with_notes", "blocked_pending_research", "blocked_pending_rerun"]
+    },
+    "legal_rationale": {"type": "string"},
+    "knowledge_evidence_registry_links": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+  }
+}

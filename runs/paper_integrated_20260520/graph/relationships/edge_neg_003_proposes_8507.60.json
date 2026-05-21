@@ -1,0 +1,10 @@
+{
+  "cohort_origin": "fault_injection",
+  "component_ref": "high-voltage-battery-pack-assembly",
+  "direction_valid": true,
+  "edge_id": "edge:neg_003:proposes:8507.60",
+  "edge_type": "proposes_code",
+  "negative_case_id": "NEG_003",
+  "source_node_id": "NEG_AA_NEG_003",
+  "target_node_id": "hs_code:8507.60:EU"
+}

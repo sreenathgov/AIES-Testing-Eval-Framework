@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_silicon-alloyed-electrical-steel-core-noes",
+  "authority_status": "pass",
+  "component_ref": "ent_tb3_07",
+  "component_slug": "silicon-alloyed-electrical-steel-core-noes",
+  "evaluated_artifact": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

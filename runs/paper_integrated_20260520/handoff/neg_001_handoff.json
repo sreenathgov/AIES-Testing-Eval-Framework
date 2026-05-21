@@ -1,0 +1,13 @@
+{
+  "component_ref": "dc-dc-converter",
+  "handoff_id": "NEG_HANDOFF_NEG_001",
+  "human_review_required": false,
+  "negative_case_id": "NEG_001",
+  "review_reason_codes": [
+    "internal_source_as_authority",
+    "missing_external_authority",
+    "unsupported_promotion"
+  ],
+  "route": "promote",
+  "source_artifact": "NEG_AA_NEG_001"
+}

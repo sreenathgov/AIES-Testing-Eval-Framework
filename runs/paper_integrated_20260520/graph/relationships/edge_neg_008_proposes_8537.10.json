@@ -1,0 +1,10 @@
+{
+  "cohort_origin": "fault_injection",
+  "component_ref": "battery-management-system-(bms)",
+  "direction_valid": true,
+  "edge_id": "edge:neg_008:proposes:8537.10",
+  "edge_type": "proposes_code",
+  "negative_case_id": "NEG_008",
+  "source_node_id": "NEG_AA_NEG_008",
+  "target_node_id": "hs_code:8537.10:EU"
+}

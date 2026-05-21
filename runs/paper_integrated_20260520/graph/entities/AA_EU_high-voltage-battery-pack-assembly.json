@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_100",
+  "component_slug": "high-voltage-battery-pack-assembly",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_high-voltage-battery-pack-assembly",
+  "node_type": "classification_candidate"
+}

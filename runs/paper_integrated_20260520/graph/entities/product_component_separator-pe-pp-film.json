@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Separator (PE/PP Film)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_04",
+  "node_id": "product_component:separator-pe-pp-film",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

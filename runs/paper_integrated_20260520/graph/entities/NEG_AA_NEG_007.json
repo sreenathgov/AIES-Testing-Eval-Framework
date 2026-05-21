@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NEG_AA_NEG_007",
+  "cohort_origin": "fault_injection",
+  "component_ref": "silicon-alloyed-electrical-steel-core-noes",
+  "jurisdiction": "EU",
+  "node_id": "NEG_AA_NEG_007",
+  "node_type": "classification_candidate"
+}

@@ -32,7 +32,9 @@ def classify_gate(row: dict[str, Any]) -> dict[str, Any]:
         "missing_graph_relationship",
         "graph_parity_failure",
         "edge_direction_invalid",
+        "edge_endpoint_unresolved",
         "malformed_graph_node",
+        "missing_required_handoff_field",
         "rerun_delta_threshold_breach",
     }
     research_checks = {
@@ -40,6 +42,10 @@ def classify_gate(row: dict[str, Any]) -> dict[str, Any]:
         "missing_external_authority",
         "missing_source_anchor",
         "source_anchor_not_resolved",
+        "document_level_only_source_anchor",
+        "internal_source_as_authority",
+        "required_authority_class_missing",
+        "secondary_only_authority_chain",
         "evidence_gap",
         "corpus_gap",
         "unsupported_promotion",

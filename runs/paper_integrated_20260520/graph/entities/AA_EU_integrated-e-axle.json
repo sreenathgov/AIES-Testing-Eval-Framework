@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_integrated-e-axle",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_187",
+  "component_slug": "integrated-e-axle",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_integrated-e-axle",
+  "node_type": "classification_candidate"
+}

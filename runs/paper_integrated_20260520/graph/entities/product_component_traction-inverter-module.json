@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Traction Inverter Module",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_196",
+  "node_id": "product_component:traction-inverter-module",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

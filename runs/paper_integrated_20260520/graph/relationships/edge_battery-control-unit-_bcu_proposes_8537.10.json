@@ -1,0 +1,9 @@
+{
+  "cohort_origin": "baseline",
+  "component_ref": "ent_169",
+  "direction_valid": true,
+  "edge_id": "edge:battery-control-unit-(bcu):proposes:8537.10",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_battery-control-unit-(bcu)",
+  "target_node_id": "hs_code:8537.10:EU"
+}

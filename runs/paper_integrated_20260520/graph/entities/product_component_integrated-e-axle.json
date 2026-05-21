@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Integrated E-Axle",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_187",
+  "node_id": "product_component:integrated-e-axle",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

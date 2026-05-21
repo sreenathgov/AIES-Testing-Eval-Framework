@@ -1,0 +1,37 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_009",
+  "candidate_cn_code": "8504.40",
+  "component_ref": "on-board-charger-(obc)",
+  "component_slug": "neg_009",
+  "confidence": "controlled_negative",
+  "handoff_route": "blocked",
+  "jurisdiction": "EU",
+  "known_issue_tags": [],
+  "legal_authority_chain": [
+    {
+      "anchor_id": "WCO_GRI_1",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "anchor_id": "EU_CN_8504_40_90",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "Graph Meaning Corruption controlled negative candidate for on-board-charger-(obc).",
+  "negative_case_id": "NEG_009",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [],
+  "requires_human_review": true,
+  "review_reason_codes": [
+    "edge_direction_invalid",
+    "edge_endpoint_unresolved",
+    "graph_parity_failure"
+  ],
+  "stability": "unstable"
+}

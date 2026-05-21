@@ -1,0 +1,18 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_009",
+  "authority_status": "pass",
+  "component_ref": "on-board-charger-(obc)",
+  "evaluated_artifact": "NEG_AA_NEG_009",
+  "failed_checks": [
+    "edge_direction_invalid",
+    "edge_endpoint_unresolved",
+    "graph_parity_failure"
+  ],
+  "graph_parity_status": "fail",
+  "handoff_status": "fail",
+  "negative_case_id": "NEG_009",
+  "provenance_status": "pass",
+  "recommended_route": "blocked",
+  "uncertainty_status": "pass"
+}

@@ -1,0 +1,9 @@
+{
+  "component_ref": "silicon-alloyed-electrical-steel-core-noes",
+  "direction_valid": true,
+  "edge_id": "edge:neg_007:proposes:7226.19",
+  "edge_type": "proposes_code",
+  "negative_case_id": "NEG_007",
+  "source_node_id": "NEG_AA_NEG_007",
+  "target_node_id": "hs_code:7226.19:EU"
+}

@@ -1,0 +1,8 @@
+{
+  "canonical_name": "DC-DC Converter",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_216",
+  "node_id": "product_component:dc-dc-converter",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

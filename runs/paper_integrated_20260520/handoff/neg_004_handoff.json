@@ -1,0 +1,12 @@
+{
+  "component_ref": "combo-power-electronics-unit",
+  "handoff_id": "NEG_HANDOFF_NEG_004",
+  "human_review_required": true,
+  "negative_case_id": "NEG_004",
+  "review_reason_codes": [
+    "required_gri_path_element_missing",
+    "critical_omission"
+  ],
+  "route": "review",
+  "source_artifact": "NEG_AA_NEG_004"
+}

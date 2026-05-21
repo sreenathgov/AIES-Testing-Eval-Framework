@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_tb3_06",
+  "component_slug": "anode-substrate-cu-foil",
+  "handoff_id": "HANDOFF_EU_anode-substrate-cu-foil",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_anode-substrate-cu-foil"
+}

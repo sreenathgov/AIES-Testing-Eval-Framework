@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Electrolyte (LiPF6 Solution)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_03",
+  "node_id": "product_component:electrolyte-lipf6-solution",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

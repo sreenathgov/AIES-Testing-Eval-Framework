@@ -1,0 +1,8 @@
+{
+  "anchor_role": "classification_anchor",
+  "code": "3824.99",
+  "cohort_origin": "baseline",
+  "jurisdiction": "EU",
+  "node_id": "hs_code:3824.99:EU",
+  "node_type": "hs_code"
+}

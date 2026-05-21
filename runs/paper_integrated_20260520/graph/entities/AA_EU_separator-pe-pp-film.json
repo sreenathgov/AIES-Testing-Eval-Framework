@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_separator-pe-pp-film",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_04",
+  "component_slug": "separator-pe-pp-film",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_separator-pe-pp-film",
+  "node_type": "classification_candidate"
+}

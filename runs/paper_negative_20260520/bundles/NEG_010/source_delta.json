@@ -1,0 +1,4 @@
+{
+  "description": "A baseline-comparable output changes in a controlled comparison trace.",
+  "kind": "comparison_delta"
+}

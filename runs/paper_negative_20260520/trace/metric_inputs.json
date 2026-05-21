@@ -1,0 +1,157 @@
+{
+  "decisions": [
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "has_primary_or_interpretive_authority": false,
+      "has_ruling_or_precedent": true,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "review"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "blocked"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "has_primary_or_interpretive_authority": true,
+      "has_ruling_or_precedent": false,
+      "route": "review"
+    }
+  ],
+  "run_id": "paper_negative_20260520",
+  "stress_tests": [
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "authority_boundary_compliance",
+      "stress_test_type": "cross_source_agent_misuse"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "material_legal_capture",
+      "stress_test_type": "missing_decisive_gri_rule"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "provenance_sufficiency",
+      "stress_test_type": "missing_source_anchor"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "primary_authority_sufficiency",
+      "stress_test_type": "secondary_only_authority_chain"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "critical_omission_rate",
+      "stress_test_type": "counterfactual_rule_removal"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "unsupported_synthesis_rate",
+      "stress_test_type": "ungrounded_therefore_inference"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "false_certainty_rate",
+      "stress_test_type": "high_confidence_ambiguous_case"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "conflict_preservation",
+      "stress_test_type": "collapsed_conflict"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "evidence_gap_detection",
+      "stress_test_type": "missing_material_composition"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "handoff_safety",
+      "stress_test_type": "unsafe_promotion"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "human_review_trigger_correctness",
+      "stress_test_type": "missing_review_trigger"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "field_completeness_rate",
+      "stress_test_type": "missing_required_handoff_field"
+    },
+    {
+      "expected_control_state": "review",
+      "expected_failed_metric": "abstention_rate",
+      "stress_test_type": "corpus_gap_requires_abstention"
+    },
+    {
+      "expected_control_state": "blocked",
+      "expected_failed_metric": "graph_artifact_parity",
+      "stress_test_type": "malformed_graph_edge"
+    },
+    {
+      "expected_control_state": "diagnostic",
+      "expected_failed_metric": "human_research_burden",
+      "stress_test_type": "over_escalation_burden"
+    },
+    {
+      "expected_control_state": "comparison_only",
+      "expected_failed_metric": "rerun_delta_rate",
+      "stress_test_type": "rerun_delta_threshold_breach"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Hyper-Integrated E-Axle",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_269",
+  "node_id": "product_component:hyper-integrated-e-axle",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NEG_AA_NEG_001",
+  "component_ref": "dc-dc-converter",
+  "jurisdiction": "EU",
+  "node_id": "NEG_AA_NEG_001",
+  "node_type": "classification_candidate"
+}

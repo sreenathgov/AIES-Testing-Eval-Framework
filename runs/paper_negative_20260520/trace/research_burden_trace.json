@@ -1,0 +1,79 @@
+{
+  "run_id": "paper_negative_20260520",
+  "summary": {
+    "review_or_block_tickets": 10,
+    "total_artifacts": 10
+  },
+  "tickets": [
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "route": "blocked",
+      "ticket_required": true,
+      "ticket_type": "blocking_ticket"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "route": "review",
+      "ticket_required": true,
+      "ticket_type": "human_review"
+    }
+  ]
+}

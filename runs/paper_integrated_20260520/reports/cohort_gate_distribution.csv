@@ -1,0 +1,13 @@
+cohort,gate_label,count,share
+baseline,blocked_pending_rerun,0,0.0
+baseline,blocked_pending_research,0,0.0
+baseline,pass,22,0.7857
+baseline,pass_with_notes,6,0.2143
+fault_injection,blocked_pending_rerun,2,0.2
+fault_injection,blocked_pending_research,6,0.6
+fault_injection,pass,0,0.0
+fault_injection,pass_with_notes,2,0.2
+integrated,blocked_pending_rerun,2,0.0526
+integrated,blocked_pending_research,6,0.1579
+integrated,pass,22,0.5789
+integrated,pass_with_notes,8,0.2105

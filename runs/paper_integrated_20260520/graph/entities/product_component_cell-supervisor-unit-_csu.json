@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Cell Supervisor Unit (CSU)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_170",
+  "node_id": "product_component:cell-supervisor-unit-(csu)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

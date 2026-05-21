@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_on-board-charger-(obc)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_215",
+  "component_slug": "on-board-charger-(obc)",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_on-board-charger-(obc)",
+  "node_type": "classification_candidate"
+}

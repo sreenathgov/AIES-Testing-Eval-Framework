@@ -1,0 +1,504 @@
+{
+  "decisions": [
+    {
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_02",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_anode-active-material-graphite",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_06",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_anode-substrate-cu-foil",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "cohort": "baseline",
+      "component_id": "ent_169",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_battery-control-unit-(bcu)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "cohort": "baseline",
+      "component_id": "ent_171",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "cohort": "baseline",
+      "component_id": "ent_217",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_battery-management-system-(bms)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_01",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_cathode-active-material-nmc",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_05",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_cathode-substrate-al-foil",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "cohort": "baseline",
+      "component_id": "ent_170",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_cell-supervisor-unit-(csu)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "cohort": "baseline",
+      "component_id": "ent_267",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_combo-power-electronics-unit",
+      "intercepted": true,
+      "reason_codes": [
+        "gri_3b_requires_adjudication_review"
+      ],
+      "requires_escalation": true,
+      "route": "review",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "cohort": "baseline",
+      "component_id": "ent_216",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_dc-dc-converter",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_03",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_electrolyte-lipf6-solution",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "cohort": "baseline",
+      "component_id": "ent_133",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_high-voltage-battery-module",
+      "intercepted": true,
+      "reason_codes": [
+        "gri_3b_requires_adjudication_review"
+      ],
+      "requires_escalation": true,
+      "route": "review",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "cohort": "baseline",
+      "component_id": "ent_100",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_high-voltage-battery-pack-assembly",
+      "intercepted": true,
+      "reason_codes": [
+        "gri_3b_requires_adjudication_review"
+      ],
+      "requires_escalation": true,
+      "route": "review",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "cohort": "baseline",
+      "component_id": "ent_182",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_high-voltage-connectors",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "cohort": "baseline",
+      "component_id": "ent_144",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_high-voltage-contactor",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "cohort": "baseline",
+      "component_id": "ent_269",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_hyper-integrated-e-axle",
+      "intercepted": true,
+      "reason_codes": [
+        "gri_3b_requires_adjudication_review"
+      ],
+      "requires_escalation": true,
+      "route": "review",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "cohort": "baseline",
+      "component_id": "ent_187",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_integrated-e-axle",
+      "intercepted": true,
+      "reason_codes": [
+        "gri_3b_requires_adjudication_review"
+      ],
+      "requires_escalation": true,
+      "route": "review",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "cohort": "baseline",
+      "component_id": "ent_147",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_lithium-ion-battery-cell",
+      "intercepted": true,
+      "reason_codes": [
+        "gri_3b_requires_adjudication_review"
+      ],
+      "requires_escalation": true,
+      "route": "review",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "cohort": "baseline",
+      "component_id": "ent_207",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_ndfeb-permanent-magnets",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "cohort": "baseline",
+      "component_id": "ent_215",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_on-board-charger-(obc)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "cohort": "baseline",
+      "component_id": "ent_219",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_power-distribution-unit-(pdu)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_04",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_separator-pe-pp-film",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "cohort": "baseline",
+      "component_id": "ent_tb3_07",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_silicon-alloyed-electrical-steel-core-noes",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "cohort": "baseline",
+      "component_id": "ent_209",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_silicon-carbide-(sic)-mosfets",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_silicon-igbts",
+      "cohort": "baseline",
+      "component_id": "ent_210",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_silicon-igbts",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "cohort": "baseline",
+      "component_id": "ent_196",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_traction-inverter-module",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_traction-motor",
+      "cohort": "baseline",
+      "component_id": "ent_221",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_traction-motor",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "cohort": "baseline",
+      "component_id": "ent_218",
+      "correct_escalation": true,
+      "handoff_id": "HANDOFF_EU_vehicle-control-unit-(vcu)",
+      "intercepted": true,
+      "reason_codes": [],
+      "requires_escalation": false,
+      "route": "promote",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "cohort": "fault_injection",
+      "component_id": "dc-dc-converter",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_001",
+      "intercepted": true,
+      "reason_codes": [
+        "internal_source_as_authority",
+        "missing_external_authority",
+        "unsupported_promotion"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "cohort": "fault_injection",
+      "component_id": "on-board-charger-(obc)",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_002",
+      "intercepted": true,
+      "reason_codes": [
+        "missing_source_anchor",
+        "source_anchor_not_resolved"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "cohort": "fault_injection",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_003",
+      "intercepted": true,
+      "reason_codes": [
+        "required_authority_class_missing",
+        "secondary_only_authority_chain"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "cohort": "fault_injection",
+      "component_id": "combo-power-electronics-unit",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_004",
+      "intercepted": true,
+      "reason_codes": [
+        "required_gri_path_element_missing",
+        "critical_omission"
+      ],
+      "requires_escalation": false,
+      "route": "review",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "cohort": "fault_injection",
+      "component_id": "traction-inverter-module",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_005",
+      "intercepted": false,
+      "reason_codes": [
+        "unsupported_promotion"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "cohort": "fault_injection",
+      "component_id": "separator-pe-pp-film",
+      "correct_escalation": false,
+      "handoff_id": "NEG_HANDOFF_NEG_006",
+      "intercepted": true,
+      "reason_codes": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "review_trigger_missing_route"
+      ],
+      "requires_escalation": true,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "cohort": "fault_injection",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_007",
+      "intercepted": false,
+      "reason_codes": [
+        "evidence_gap",
+        "corpus_gap",
+        "unsupported_promotion"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "cohort": "fault_injection",
+      "component_id": "battery-management-system-(bms)",
+      "correct_escalation": false,
+      "handoff_id": "NEG_HANDOFF_NEG_008",
+      "intercepted": true,
+      "reason_codes": [
+        "missing_required_handoff_field"
+      ],
+      "requires_escalation": true,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "cohort": "fault_injection",
+      "component_id": "on-board-charger-(obc)",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_009",
+      "intercepted": true,
+      "reason_codes": [
+        "edge_direction_invalid",
+        "edge_endpoint_unresolved",
+        "graph_parity_failure"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "cohort": "fault_injection",
+      "component_id": "high-voltage-connectors",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_010",
+      "intercepted": true,
+      "reason_codes": [
+        "over_escalation_burden"
+      ],
+      "requires_escalation": false,
+      "route": "review",
+      "unsafe_output": false
+    }
+  ],
+  "run_id": "paper_integrated_20260520"
+}

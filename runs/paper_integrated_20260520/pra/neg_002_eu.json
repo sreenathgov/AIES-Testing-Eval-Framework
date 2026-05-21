@@ -1,0 +1,20 @@
+{
+  "agent": "PRA",
+  "bti_records_considered": [
+    "controlled_negative_bti_probe"
+  ],
+  "component_ref": "on-board-charger-(obc)",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    },
+    {
+      "anchor_id": "UNRESOLVED_DOCUMENT_LEVEL_ANCHOR",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "negative_case_id": "NEG_002"
+}

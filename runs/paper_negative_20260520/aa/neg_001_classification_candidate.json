@@ -1,0 +1,32 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_001",
+  "candidate_cn_code": "8504.40",
+  "component_ref": "dc-dc-converter",
+  "component_slug": "neg_001",
+  "confidence": "controlled_negative",
+  "handoff_route": "promote",
+  "jurisdiction": "EU",
+  "known_issue_tags": [],
+  "legal_authority_chain": [
+    {
+      "anchor_id": "INTERNAL_CANDIDATE_FILE",
+      "authority_class": "internal_generated_candidate",
+      "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "Internal Authority Substitution controlled negative candidate for dc-dc-converter.",
+  "negative_case_id": "NEG_001",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [],
+  "requires_human_review": false,
+  "review_reason_codes": [
+    "internal_source_as_authority",
+    "missing_external_authority",
+    "unsupported_promotion"
+  ],
+  "stability": "diagnostic"
+}

@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_tb3_02",
+  "component_slug": "anode-active-material-graphite",
+  "handoff_id": "HANDOFF_EU_anode-active-material-graphite",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_anode-active-material-graphite"
+}

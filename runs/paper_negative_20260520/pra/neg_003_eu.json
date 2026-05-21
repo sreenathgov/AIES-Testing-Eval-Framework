@@ -1,0 +1,16 @@
+{
+  "agent": "PRA",
+  "bti_records_considered": [
+    "controlled_negative_bti_probe"
+  ],
+  "component_ref": "high-voltage-battery-pack-assembly",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "anchor_id": "BTI_ROW_DEBTI45911_25_1",
+      "authority_class": "ruling_or_precedent",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    }
+  ],
+  "negative_case_id": "NEG_003"
+}

@@ -1,0 +1,9 @@
+{
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_04",
+  "direction_valid": true,
+  "edge_id": "edge:separator-pe-pp-film:proposes:3920.10",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_separator-pe-pp-film",
+  "target_node_id": "hs_code:3920.10:EU"
+}

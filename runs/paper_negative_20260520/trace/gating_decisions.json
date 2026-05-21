@@ -1,0 +1,146 @@
+{
+  "decisions": [
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_001",
+      "intercepted": true,
+      "reason_codes": [
+        "internal_source_as_authority",
+        "missing_external_authority",
+        "unsupported_promotion"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_002",
+      "intercepted": true,
+      "reason_codes": [
+        "missing_source_anchor",
+        "source_anchor_not_resolved"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_003",
+      "intercepted": true,
+      "reason_codes": [
+        "required_authority_class_missing",
+        "secondary_only_authority_chain"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_004",
+      "intercepted": true,
+      "reason_codes": [
+        "required_gri_path_element_missing",
+        "critical_omission"
+      ],
+      "requires_escalation": false,
+      "route": "review",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_005",
+      "intercepted": false,
+      "reason_codes": [
+        "unsupported_promotion"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "correct_escalation": false,
+      "handoff_id": "NEG_HANDOFF_NEG_006",
+      "intercepted": true,
+      "reason_codes": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "review_trigger_missing_route"
+      ],
+      "requires_escalation": true,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_007",
+      "intercepted": false,
+      "reason_codes": [
+        "evidence_gap",
+        "corpus_gap",
+        "unsupported_promotion"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "correct_escalation": false,
+      "handoff_id": "NEG_HANDOFF_NEG_008",
+      "intercepted": true,
+      "reason_codes": [
+        "missing_required_handoff_field"
+      ],
+      "requires_escalation": true,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_009",
+      "intercepted": true,
+      "reason_codes": [
+        "edge_direction_invalid",
+        "edge_endpoint_unresolved",
+        "graph_parity_failure"
+      ],
+      "requires_escalation": false,
+      "route": "blocked",
+      "unsafe_output": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "correct_escalation": true,
+      "handoff_id": "NEG_HANDOFF_NEG_010",
+      "intercepted": true,
+      "reason_codes": [
+        "over_escalation_burden"
+      ],
+      "requires_escalation": false,
+      "route": "review",
+      "unsafe_output": false
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

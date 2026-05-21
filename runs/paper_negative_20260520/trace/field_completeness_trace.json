@@ -1,0 +1,355 @@
+{
+  "checks": [
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_slug": "neg_001",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_slug": "neg_001",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_slug": "neg_001",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_slug": "neg_001",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_slug": "neg_001",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_slug": "neg_002",
+      "field": "required_field_0",
+      "present": false
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_slug": "neg_002",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_slug": "neg_002",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_slug": "neg_002",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_slug": "neg_002",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_slug": "neg_003",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_slug": "neg_003",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_slug": "neg_003",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_slug": "neg_003",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_slug": "neg_003",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_slug": "neg_004",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_slug": "neg_004",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_slug": "neg_004",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_slug": "neg_004",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_slug": "neg_004",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_slug": "neg_005",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_slug": "neg_005",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_slug": "neg_005",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_slug": "neg_005",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_slug": "neg_005",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_slug": "neg_006",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_slug": "neg_006",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_slug": "neg_006",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_slug": "neg_006",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_slug": "neg_006",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_slug": "neg_007",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_slug": "neg_007",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_slug": "neg_007",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_slug": "neg_007",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_slug": "neg_007",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_slug": "neg_008",
+      "field": "required_field_0",
+      "present": false
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_slug": "neg_008",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_slug": "neg_008",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_slug": "neg_008",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_slug": "neg_008",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_slug": "neg_009",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_slug": "neg_009",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_slug": "neg_009",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_slug": "neg_009",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_slug": "neg_009",
+      "field": "required_field_4",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_slug": "neg_010",
+      "field": "required_field_0",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_slug": "neg_010",
+      "field": "required_field_1",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_slug": "neg_010",
+      "field": "required_field_2",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_slug": "neg_010",
+      "field": "required_field_3",
+      "present": true
+    },
+    {
+      "agent_stage": "NEGATIVE_BUNDLE",
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_slug": "neg_010",
+      "field": "required_field_4",
+      "present": true
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

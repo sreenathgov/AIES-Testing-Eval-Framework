@@ -12,6 +12,31 @@ classification. It now contains both:
 - a clean pre-HS input bundle for the selected 28 engineering components; and
 - deterministic fixture/control tests for evaluating generated artifacts.
 
+## Reviewer Quickstart
+
+Use this path to verify the paper result from a clean clone:
+
+```bash
+git clone https://github.com/sreenathgov/AIES-Testing-Eval-Framework.git
+cd AIES-Testing-Eval-Framework
+
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -e '.[test]'
+python scripts/reviewer_replay_check.py --repo-root .
+```
+
+Expected result:
+
+```text
+Reviewer replay check passed.
+```
+
+The command is non-mutating by default. It verifies readiness, package imports,
+checked-in paper runs, the integrated 38-artifact result, public-release
+guardrails, and the full regression suite.
+
 ## Scope
 
 - Evaluated jurisdictions and authorities: EU, WCO, and EU BTI only.
@@ -63,39 +88,60 @@ deterministic control families:
 - uncertainty preservation,
 - handoff and review governance.
 
-## Run
+## Replay Details
 
-Check readiness without creating or evaluating a run:
+If you cannot install the package, use the source-tree fallback:
 
 ```bash
 PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root .
+PYTHONPATH=src python3 -m pytest -q
+```
+
+## Paper Replay Runs
+
+The primary paper result is the validator-driven integrated run:
+
+```text
+paper_eval_20260520        positive baseline
+paper_negative_20260520    controlled fault-injection run
+paper_integrated_20260520  primary 38-artifact validator-driven paper run
+```
+
+The expected paper-level result is:
+
+- 38 integrated artifacts.
+- 28 baseline artifacts and 10 fault-injection artifacts.
+- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 6
+  `blocked_pending_research`, 2 `blocked_pending_rerun`.
+- Fault-injection detection: gate accuracy 1.0, micro recall 1.0, and zero
+  false negatives against the registry oracle.
+
+To regenerate reviewer-local copies without overwriting the canonical paper
+runs:
+
+```bash
+python scripts/reviewer_replay_check.py --repo-root . --regenerate
+```
+
+This creates `runs/reviewer_negative_replay/` and
+`runs/reviewer_integrated_replay/`, then checks the same paper-level
+invariants.
+
+Individual commands are also available:
+
+```bash
+PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root . --json
+PYTHONPATH=src python3 -m legal_extract_eval.negative_run --repo-root . --run-id reviewer_negative_replay --base-run paper_eval_20260520 --force
+PYTHONPATH=src python3 -m legal_extract_eval.integrated_run --repo-root . --run-id reviewer_integrated_replay --positive-run paper_eval_20260520 --negative-run reviewer_negative_replay --force
 ```
 
 For public replay, omit `--source-repo-root`; readiness will validate the
 checked-in bounded source bundle without inspecting a private upstream export.
 
-Evaluate the frozen paper run:
-
-```bash
-PYTHONPATH=src python3 -m legal_extract_eval.runner --repo-root . --run-id paper_frozen_run
-```
-
-Create a new deterministic harness run:
-
-```bash
-PYTHONPATH=src python3 -m legal_extract_eval.live_run --repo-root . --run-id fresh_eu_run
-```
-
-Run the curated fixture regression evaluator:
-
-```bash
-PYTHONPATH=src python3 -m legal_extract_eval.runner --repo-root .
-```
-
 For tests:
 
 ```bash
-python3 -m pytest
+python -m pytest -q
 ```
 
 The run evaluator writes:
@@ -112,9 +158,10 @@ The run evaluator writes:
 - `runs/<run_id>/reports/metric_stress_test_catalog.json`
 - `runs/<run_id>/reports/metric_stress_test_catalog.md`
 
-The runner prints a control-profile table. It does not produce an accuracy
-score because the protocol is designed to identify legally unsafe extraction
-behavior even when a candidate code appears plausible.
+The integrated result packets are under
+`runs/paper_integrated_20260520/reports/`. The evaluator does not produce a
+generic accuracy score because the protocol is designed to identify legally
+unsafe extraction behavior even when a candidate code appears plausible.
 
 The readiness command is the correct command to use before a paper test run. It
 checks the checked-in bounded HS source bundle and, when supplied, the exported
@@ -186,12 +233,12 @@ PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
   --harness-root .
 ```
 
-This creates:
+This maintainer-only rebuild creates:
 
 - `data/engineering_handoff/selected_28_components.json`
 - `protocol/agent_specs/*.md`
 - `protocol/schemas/hs_slice/*.json`
-- `runs/paper_frozen_run/`
+- a legacy local replay workspace
 
 The builder never writes into the private source repository.
 

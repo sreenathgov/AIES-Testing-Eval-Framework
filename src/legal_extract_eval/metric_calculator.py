@@ -281,14 +281,12 @@ def rerun_delta_rate(trace: dict[str, Any]) -> Fraction:
 
 
 def metric_status(metric_id: str, score: float | None, denominator: float | None = None) -> str:
-    if metric_id == "rerun_delta_rate" and denominator == 0:
+    if metric_id == "rerun_delta_rate":
         return "comparison_only"
     if denominator == 0:
         return "not_applicable"
     if metric_id == "human_research_burden":
         return "diagnostic"
-    if metric_id == "rerun_delta_rate" and score >= 1.0:
-        return "comparison_only"
     if metric_id in {"critical_omission_rate", "unsupported_synthesis_rate", "false_certainty_rate", "rerun_delta_rate"}:
         # These are normalized safety scores after inverse-rate conversion.
         pass

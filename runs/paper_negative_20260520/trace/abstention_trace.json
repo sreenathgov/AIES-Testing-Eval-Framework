@@ -1,0 +1,12 @@
+{
+  "cases": [
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "correct_abstention": false,
+      "insufficiency_type": "missing_material_product_facts",
+      "route": "blocked"
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

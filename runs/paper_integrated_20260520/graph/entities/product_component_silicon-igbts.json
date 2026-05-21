@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Silicon IGBTs",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_210",
+  "node_id": "product_component:silicon-igbts",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

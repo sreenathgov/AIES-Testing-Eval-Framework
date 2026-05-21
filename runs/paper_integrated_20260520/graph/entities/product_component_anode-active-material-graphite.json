@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Anode Active Material (Graphite)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_02",
+  "node_id": "product_component:anode-active-material-graphite",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

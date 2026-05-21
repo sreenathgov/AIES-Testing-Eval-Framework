@@ -1,0 +1,4 @@
+{
+  "description": "The artifact promotes a classification despite the missing material fact.",
+  "kind": "unsafe_promotion_despite_gap"
+}

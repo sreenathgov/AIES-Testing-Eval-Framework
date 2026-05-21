@@ -1,0 +1,9 @@
+{
+  "component_ref": "traction-inverter-module",
+  "direction_valid": true,
+  "edge_id": "edge:neg_005:proposes:8504.40",
+  "edge_type": "proposes_code",
+  "negative_case_id": "NEG_005",
+  "source_node_id": "NEG_AA_NEG_005",
+  "target_node_id": "hs_code:8504.40:EU"
+}

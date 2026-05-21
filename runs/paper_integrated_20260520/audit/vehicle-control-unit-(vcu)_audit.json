@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_vehicle-control-unit-(vcu)",
+  "authority_status": "pass",
+  "component_ref": "ent_218",
+  "component_slug": "vehicle-control-unit-(vcu)",
+  "evaluated_artifact": "AA_EU_vehicle-control-unit-(vcu)",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

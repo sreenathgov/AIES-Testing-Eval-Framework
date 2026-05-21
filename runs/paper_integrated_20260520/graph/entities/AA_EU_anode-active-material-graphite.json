@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_anode-active-material-graphite",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_02",
+  "component_slug": "anode-active-material-graphite",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_anode-active-material-graphite",
+  "node_type": "classification_candidate"
+}

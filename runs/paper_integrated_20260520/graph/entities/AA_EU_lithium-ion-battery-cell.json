@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_lithium-ion-battery-cell",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_147",
+  "component_slug": "lithium-ion-battery-cell",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_lithium-ion-battery-cell",
+  "node_type": "classification_candidate"
+}

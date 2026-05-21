@@ -1,0 +1,13 @@
+{
+  "component_ref": "silicon-alloyed-electrical-steel-core-noes",
+  "handoff_id": "NEG_HANDOFF_NEG_007",
+  "human_review_required": false,
+  "negative_case_id": "NEG_007",
+  "review_reason_codes": [
+    "evidence_gap",
+    "corpus_gap",
+    "unsupported_promotion"
+  ],
+  "route": "promote",
+  "source_artifact": "NEG_AA_NEG_007"
+}

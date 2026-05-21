@@ -1,0 +1,42 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_007",
+  "candidate_cn_code": "7226.19",
+  "component_ref": "silicon-alloyed-electrical-steel-core-noes",
+  "component_slug": "neg_007",
+  "confidence": "controlled_negative",
+  "handoff_route": "promote",
+  "jurisdiction": "EU",
+  "known_issue_tags": [
+    "evidence_gap",
+    "corpus_gap",
+    "unsupported_promotion",
+    "client_fact_required"
+  ],
+  "legal_authority_chain": [
+    {
+      "anchor_id": "WCO_GRI_1",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "anchor_id": "EU_CN_8504_40_90",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "Missing Material Product Facts controlled negative candidate for silicon-alloyed-electrical-steel-core-noes.",
+  "negative_case_id": "NEG_007",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [],
+  "requires_human_review": false,
+  "review_reason_codes": [
+    "evidence_gap",
+    "corpus_gap",
+    "unsupported_promotion"
+  ],
+  "stability": "diagnostic"
+}

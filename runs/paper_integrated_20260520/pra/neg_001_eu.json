@@ -1,0 +1,16 @@
+{
+  "agent": "PRA",
+  "bti_records_considered": [
+    "controlled_negative_bti_probe"
+  ],
+  "component_ref": "dc-dc-converter",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "anchor_id": "INTERNAL_CANDIDATE_FILE",
+      "authority_class": "internal_generated_candidate",
+      "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT"
+    }
+  ],
+  "negative_case_id": "NEG_001"
+}

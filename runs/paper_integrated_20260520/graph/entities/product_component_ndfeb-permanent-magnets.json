@@ -1,0 +1,8 @@
+{
+  "canonical_name": "NdFeB Permanent Magnets",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_207",
+  "node_id": "product_component:ndfeb-permanent-magnets",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

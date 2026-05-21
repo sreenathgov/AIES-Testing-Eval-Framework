@@ -1,0 +1,16 @@
+{
+  "agent": "PTA",
+  "component_ref": "dc-dc-converter",
+  "gri_path_taken": "GRI_1 > GRI_6",
+  "hs_code_candidate": "8504.40",
+  "jurisdiction": "EU",
+  "legal_authority_chain": [
+    {
+      "anchor_id": "INTERNAL_CANDIDATE_FILE",
+      "authority_class": "internal_generated_candidate",
+      "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT"
+    }
+  ],
+  "negative_case_id": "NEG_001",
+  "source_doc": "controlled_negative_case_bundle"
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_008",
+  "authority_status": "pass",
+  "component_ref": "battery-management-system-(bms)",
+  "evaluated_artifact": "NEG_AA_NEG_008",
+  "failed_checks": [
+    "missing_required_handoff_field"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "fail",
+  "negative_case_id": "NEG_008",
+  "provenance_status": "pass",
+  "recommended_route": "blocked",
+  "uncertainty_status": "pass"
+}

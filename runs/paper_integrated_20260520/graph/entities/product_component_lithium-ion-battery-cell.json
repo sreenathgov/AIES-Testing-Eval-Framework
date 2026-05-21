@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Lithium-Ion Battery Cell",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_147",
+  "node_id": "product_component:lithium-ion-battery-cell",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

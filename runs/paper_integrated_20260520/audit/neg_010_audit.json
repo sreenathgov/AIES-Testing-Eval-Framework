@@ -1,0 +1,16 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_010",
+  "authority_status": "pass",
+  "component_ref": "high-voltage-connectors",
+  "evaluated_artifact": "NEG_AA_NEG_010",
+  "failed_checks": [
+    "over_escalation_burden"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "review",
+  "negative_case_id": "NEG_010",
+  "provenance_status": "pass",
+  "recommended_route": "review",
+  "uncertainty_status": "pass"
+}

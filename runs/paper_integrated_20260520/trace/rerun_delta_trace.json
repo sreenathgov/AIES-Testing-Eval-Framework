@@ -1,0 +1,20 @@
+{
+  "comparison_enabled": true,
+  "items": [
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "baseline_value": "8536.69",
+      "changed": true,
+      "cohort": "fault_injection",
+      "comparison_role": "controlled_negative_delta",
+      "negative_run_value": "8536.90"
+    }
+  ],
+  "run_id": "paper_integrated_20260520",
+  "summary": {
+    "changed_outputs": 1,
+    "comparable_outputs": 2,
+    "comparison_enabled": true,
+    "source": "integrated baseline plus controlled negative rerun delta probe"
+  }
+}

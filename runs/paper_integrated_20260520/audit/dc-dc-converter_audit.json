@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_dc-dc-converter",
+  "authority_status": "pass",
+  "component_ref": "ent_216",
+  "component_slug": "dc-dc-converter",
+  "evaluated_artifact": "AA_EU_dc-dc-converter",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

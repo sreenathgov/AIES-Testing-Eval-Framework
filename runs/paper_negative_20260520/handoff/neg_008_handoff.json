@@ -1,0 +1,11 @@
+{
+  "component_ref": "battery-management-system-(bms)",
+  "handoff_id": "NEG_HANDOFF_NEG_008",
+  "human_review_required": true,
+  "negative_case_id": "NEG_008",
+  "review_reason_codes": [
+    "missing_required_handoff_field"
+  ],
+  "route": "",
+  "source_artifact": "NEG_AA_NEG_008"
+}

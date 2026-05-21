@@ -1,0 +1,9 @@
+{
+  "cohort_origin": "baseline",
+  "component_ref": "ent_221",
+  "direction_valid": true,
+  "edge_id": "edge:traction-motor:proposes:8501.53",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_traction-motor",
+  "target_node_id": "hs_code:8501.53:EU"
+}

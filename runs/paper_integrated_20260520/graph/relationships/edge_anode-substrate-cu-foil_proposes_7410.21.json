@@ -1,0 +1,9 @@
+{
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_06",
+  "direction_valid": true,
+  "edge_id": "edge:anode-substrate-cu-foil:proposes:7410.21",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_anode-substrate-cu-foil",
+  "target_node_id": "hs_code:7410.21:EU"
+}

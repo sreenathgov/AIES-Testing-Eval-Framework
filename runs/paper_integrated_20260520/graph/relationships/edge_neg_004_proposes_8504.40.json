@@ -1,0 +1,10 @@
+{
+  "cohort_origin": "fault_injection",
+  "component_ref": "combo-power-electronics-unit",
+  "direction_valid": true,
+  "edge_id": "edge:neg_004:proposes:8504.40",
+  "edge_type": "proposes_code",
+  "negative_case_id": "NEG_004",
+  "source_node_id": "NEG_AA_NEG_004",
+  "target_node_id": "hs_code:8504.40:EU"
+}

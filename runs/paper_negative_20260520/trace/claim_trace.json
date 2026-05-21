@@ -1,0 +1,195 @@
+{
+  "claims": [
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "claim_id": "claim:NEG_001:classification",
+      "claim_text": "Internal Authority Substitution",
+      "claim_type": "material_legal_proposition",
+      "component_id": "dc-dc-converter",
+      "source_trace": [
+        {
+          "record_id": "INTERNAL_CANDIDATE_FILE",
+          "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT",
+          "source_type": "internal_generated_candidate"
+        }
+      ],
+      "verifiable_source_trace": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "claim_id": "claim:NEG_002:classification",
+      "claim_text": "Missing Granular Source Anchor",
+      "claim_type": "material_legal_proposition",
+      "component_id": "on-board-charger-(obc)",
+      "source_trace": [
+        {
+          "record_id": null,
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "UNRESOLVED_DOCUMENT_LEVEL_ANCHOR",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": false
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "claim_id": "claim:NEG_003:classification",
+      "claim_text": "BTI-Only Authority Chain",
+      "claim_type": "material_legal_proposition",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "source_trace": [
+        {
+          "record_id": "BTI_ROW_DEBTI45911_25_1",
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "claim_id": "claim:NEG_004:classification",
+      "claim_text": "Decisive GRI Omitted",
+      "claim_type": "material_legal_proposition",
+      "component_id": "combo-power-electronics-unit",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "claim_id": "claim:NEG_005:classification",
+      "claim_text": "Unsupported Therefore Inference",
+      "claim_type": "material_legal_proposition",
+      "component_id": "traction-inverter-module",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "claim_id": "claim:NEG_006:classification",
+      "claim_text": "Collapsed Conflict With High Confidence",
+      "claim_type": "material_legal_proposition",
+      "component_id": "separator-pe-pp-film",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "claim_id": "claim:NEG_007:classification",
+      "claim_text": "Missing Material Product Facts",
+      "claim_type": "material_legal_proposition",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "claim_id": "claim:NEG_008:classification",
+      "claim_text": "Required Handoff Field Missing",
+      "claim_type": "material_legal_proposition",
+      "component_id": "battery-management-system-(bms)",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8537_10_91",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "claim_id": "claim:NEG_009:classification",
+      "claim_text": "Graph Meaning Corruption",
+      "claim_type": "material_legal_proposition",
+      "component_id": "on-board-charger-(obc)",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8504_40_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "claim_id": "claim:NEG_010:classification",
+      "claim_text": "Over-Escalation And Rerun Delta",
+      "claim_type": "material_legal_proposition",
+      "component_id": "high-voltage-connectors",
+      "source_trace": [
+        {
+          "record_id": "WCO_GRI_1",
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "record_id": "EU_CN_8536_69_90",
+          "source_id": "SRC_EU_CN_2025_1926_EVS",
+          "source_type": "primary_legal_text"
+        }
+      ],
+      "verifiable_source_trace": true
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

@@ -1,0 +1,6 @@
+{
+  "component_ref": "high-voltage-connectors",
+  "node_id": "product_component:neg_010",
+  "node_type": "product_component",
+  "source": "controlled_negative_case_bundle"
+}

@@ -1,0 +1,31 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_003",
+  "candidate_cn_code": "8507.60",
+  "component_ref": "high-voltage-battery-pack-assembly",
+  "component_slug": "neg_003",
+  "confidence": "controlled_negative",
+  "handoff_route": "blocked",
+  "jurisdiction": "EU",
+  "known_issue_tags": [],
+  "legal_authority_chain": [
+    {
+      "anchor_id": "BTI_ROW_DEBTI45911_25_1",
+      "authority_class": "ruling_or_precedent",
+      "source_id": "SRC_EU_BTI_SAMPLE"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "BTI-Only Authority Chain controlled negative candidate for high-voltage-battery-pack-assembly.",
+  "negative_case_id": "NEG_003",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [],
+  "requires_human_review": true,
+  "review_reason_codes": [
+    "required_authority_class_missing",
+    "secondary_only_authority_chain"
+  ],
+  "stability": "unstable"
+}

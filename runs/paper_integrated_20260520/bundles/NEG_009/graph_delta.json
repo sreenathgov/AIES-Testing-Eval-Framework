@@ -1,0 +1,4 @@
+{
+  "description": "The graph reverses or misdirects the classification relationship.",
+  "kind": "edge_corruption"
+}

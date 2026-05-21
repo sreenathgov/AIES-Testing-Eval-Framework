@@ -1,0 +1,146 @@
+[
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "authority_boundary_compliance",
+    "linked_metric_id": "authority_boundary_compliance",
+    "linked_validator": "agent_role_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "cross_source_agent_misuse"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "material_legal_capture",
+    "linked_metric_id": "material_legal_capture",
+    "linked_validator": "material_capture_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "missing_decisive_gri_rule"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "provenance_sufficiency",
+    "linked_metric_id": "provenance_sufficiency",
+    "linked_validator": "provenance_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "missing_source_anchor"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "primary_authority_sufficiency",
+    "linked_metric_id": "primary_authority_sufficiency",
+    "linked_validator": "authority_boundary_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "secondary_only_authority_chain"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "critical_omission_rate",
+    "linked_metric_id": "critical_omission_rate",
+    "linked_validator": "material_capture_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "counterfactual_rule_removal"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "unsupported_synthesis_rate",
+    "linked_metric_id": "unsupported_synthesis_rate",
+    "linked_validator": "supported_synthesis_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "ungrounded_therefore_inference"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "false_certainty_rate",
+    "linked_metric_id": "false_certainty_rate",
+    "linked_validator": "uncertainty_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "high_confidence_ambiguous_case"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "conflict_preservation",
+    "linked_metric_id": "conflict_preservation",
+    "linked_validator": "uncertainty_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "collapsed_conflict"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "evidence_gap_detection",
+    "linked_metric_id": "evidence_gap_detection",
+    "linked_validator": "review_trigger_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "missing_material_composition"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "handoff_safety",
+    "linked_metric_id": "handoff_safety",
+    "linked_validator": "handoff_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "unsafe_promotion"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "human_review_trigger_correctness",
+    "linked_metric_id": "human_review_trigger_correctness",
+    "linked_validator": "review_trigger_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "missing_review_trigger"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "field_completeness_rate",
+    "linked_metric_id": "field_completeness_rate",
+    "linked_validator": "schema_and_required_field_trace",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "missing_required_handoff_field"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "review",
+    "expected_failed_metric": "abstention_rate",
+    "linked_metric_id": "abstention_rate",
+    "linked_validator": "handoff_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "corpus_gap_requires_abstention"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "blocked",
+    "expected_failed_metric": "graph_artifact_parity",
+    "linked_metric_id": "graph_artifact_parity",
+    "linked_validator": "graph_adapter",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "malformed_graph_edge"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "diagnostic",
+    "expected_failed_metric": "human_research_burden",
+    "linked_metric_id": "human_research_burden",
+    "linked_validator": "review_trigger_validator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "over_escalation_burden"
+  },
+  {
+    "deterministic_detection_rule": true,
+    "expected_control_state": "comparison_only",
+    "expected_failed_metric": "rerun_delta_rate",
+    "linked_metric_id": "rerun_delta_rate",
+    "linked_validator": "reference_baseline_comparator",
+    "notes": "Synthetic perturbation contract for reviewer-facing measurement validation.",
+    "stress_test_type": "rerun_delta_threshold_breach"
+  }
+]

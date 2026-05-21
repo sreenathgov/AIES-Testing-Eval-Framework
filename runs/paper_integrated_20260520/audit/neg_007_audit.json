@@ -1,0 +1,18 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_007",
+  "authority_status": "pass",
+  "component_ref": "silicon-alloyed-electrical-steel-core-noes",
+  "evaluated_artifact": "NEG_AA_NEG_007",
+  "failed_checks": [
+    "evidence_gap",
+    "corpus_gap",
+    "unsupported_promotion"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "negative_case_id": "NEG_007",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "review"
+}

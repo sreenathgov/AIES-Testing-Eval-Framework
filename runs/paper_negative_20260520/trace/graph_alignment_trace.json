@@ -1,0 +1,215 @@
+{
+  "items": [
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_001",
+      "failure_category": null,
+      "item_id": "graph:NEG_001:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_001",
+      "failure_category": null,
+      "item_id": "graph:NEG_001:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_001",
+      "failure_category": null,
+      "item_id": "graph:NEG_001:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_002",
+      "failure_category": null,
+      "item_id": "graph:NEG_002:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_002",
+      "failure_category": null,
+      "item_id": "graph:NEG_002:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_002",
+      "failure_category": null,
+      "item_id": "graph:NEG_002:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_003",
+      "failure_category": null,
+      "item_id": "graph:NEG_003:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_003",
+      "failure_category": null,
+      "item_id": "graph:NEG_003:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_003",
+      "failure_category": null,
+      "item_id": "graph:NEG_003:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_004",
+      "failure_category": null,
+      "item_id": "graph:NEG_004:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_004",
+      "failure_category": null,
+      "item_id": "graph:NEG_004:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_004",
+      "failure_category": null,
+      "item_id": "graph:NEG_004:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_005",
+      "failure_category": null,
+      "item_id": "graph:NEG_005:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_005",
+      "failure_category": null,
+      "item_id": "graph:NEG_005:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_005",
+      "failure_category": null,
+      "item_id": "graph:NEG_005:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "failure_category": null,
+      "item_id": "graph:NEG_006:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "failure_category": null,
+      "item_id": "graph:NEG_006:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "failure_category": null,
+      "item_id": "graph:NEG_006:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_007",
+      "failure_category": null,
+      "item_id": "graph:NEG_007:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_007",
+      "failure_category": null,
+      "item_id": "graph:NEG_007:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_007",
+      "failure_category": null,
+      "item_id": "graph:NEG_007:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_008",
+      "failure_category": null,
+      "item_id": "graph:NEG_008:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_008",
+      "failure_category": null,
+      "item_id": "graph:NEG_008:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_008",
+      "failure_category": null,
+      "item_id": "graph:NEG_008:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_009",
+      "failure_category": null,
+      "item_id": "graph:NEG_009:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_009",
+      "failure_category": null,
+      "item_id": "graph:NEG_009:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": false,
+      "artifact_id": "NEG_AA_NEG_009",
+      "failure_category": "edge_direction_invalid",
+      "item_id": "graph:NEG_009:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_010",
+      "failure_category": null,
+      "item_id": "graph:NEG_010:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_010",
+      "failure_category": null,
+      "item_id": "graph:NEG_010:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_010",
+      "failure_category": null,
+      "item_id": "graph:NEG_010:classification_edge",
+      "item_type": "classification_edge"
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

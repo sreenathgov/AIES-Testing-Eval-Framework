@@ -1,0 +1,17 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_004",
+  "authority_status": "pass",
+  "component_ref": "combo-power-electronics-unit",
+  "evaluated_artifact": "NEG_AA_NEG_004",
+  "failed_checks": [
+    "required_gri_path_element_missing",
+    "critical_omission"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "review",
+  "negative_case_id": "NEG_004",
+  "provenance_status": "pass",
+  "recommended_route": "review",
+  "uncertainty_status": "pass"
+}

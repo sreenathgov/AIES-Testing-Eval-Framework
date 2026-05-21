@@ -1,0 +1,878 @@
+{
+  "base_run": "paper_eval_20260520",
+  "generated_at": "2026-05-20T19:37:18+00:00",
+  "interpretation_boundary": "Controlled deterministic negative evaluation for a bounded HS legal extraction trajectory. It tests fault-line detection and gate routing; it does not certify legal correctness or adversarial robustness.",
+  "metric_fault_detection": [
+    {
+      "denominator": 12,
+      "metric_id": "authority_boundary_compliance",
+      "numerator": 10,
+      "score": 0.8333,
+      "status": "review_trigger"
+    },
+    {
+      "denominator": 53,
+      "metric_id": "material_legal_capture",
+      "numerator": 50,
+      "score": 0.9434,
+      "status": "review_trigger"
+    },
+    {
+      "denominator": 10,
+      "metric_id": "provenance_sufficiency",
+      "numerator": 8,
+      "score": 0.8,
+      "status": "review_trigger"
+    },
+    {
+      "denominator": 10,
+      "metric_id": "primary_authority_sufficiency",
+      "numerator": 9,
+      "score": 0.9,
+      "status": "review_trigger"
+    },
+    {
+      "denominator": 11,
+      "metric_id": "critical_omission_rate",
+      "numerator": 1,
+      "score": 0.9091,
+      "status": "review_trigger"
+    },
+    {
+      "denominator": 22,
+      "metric_id": "unsupported_synthesis_rate",
+      "numerator": 2,
+      "score": 0.9091,
+      "status": "review_trigger"
+    },
+    {
+      "denominator": 1,
+      "metric_id": "false_certainty_rate",
+      "numerator": 1,
+      "score": 0.0,
+      "status": "blocker"
+    },
+    {
+      "denominator": 1,
+      "metric_id": "conflict_preservation",
+      "numerator": 0,
+      "score": 0.0,
+      "status": "blocker"
+    },
+    {
+      "denominator": 1,
+      "metric_id": "evidence_gap_detection",
+      "numerator": 0,
+      "score": 0.0,
+      "status": "blocker"
+    },
+    {
+      "denominator": 2,
+      "metric_id": "handoff_safety",
+      "numerator": 0,
+      "score": 0.0,
+      "status": "blocker"
+    },
+    {
+      "denominator": 2,
+      "metric_id": "human_review_trigger_correctness",
+      "numerator": 0,
+      "score": 0.0,
+      "status": "blocker"
+    },
+    {
+      "denominator": 50,
+      "metric_id": "field_completeness_rate",
+      "numerator": 48,
+      "score": 0.96,
+      "status": "warning"
+    },
+    {
+      "denominator": 1,
+      "metric_id": "abstention_rate",
+      "numerator": 0,
+      "score": 0.0,
+      "status": "blocker"
+    },
+    {
+      "denominator": 30,
+      "metric_id": "graph_artifact_parity",
+      "numerator": 29,
+      "score": 0.9667,
+      "status": "warning"
+    },
+    {
+      "denominator": 10,
+      "metric_id": "human_research_burden",
+      "numerator": 10,
+      "score": 0.0,
+      "status": "diagnostic"
+    },
+    {
+      "denominator": 2,
+      "metric_id": "rerun_delta_rate",
+      "numerator": 1,
+      "score": 0.5,
+      "status": "comparison_only"
+    }
+  ],
+  "negative_case_design": [
+    {
+      "artifact_delta": {
+        "description": "The AA artifact cites an internal candidate artifact as legal support.",
+        "kind": "internal_authority_chain"
+      },
+      "base_component": "dc-dc-converter",
+      "candidate_cn_code": "8504.40",
+      "case_bundle": "Internal Authority Substitution",
+      "expected_failed_checks": [
+        "internal_source_as_authority",
+        "missing_external_authority",
+        "unsupported_promotion"
+      ],
+      "expected_failed_metrics": [
+        "authority_boundary_compliance",
+        "provenance_sufficiency",
+        "unsupported_synthesis_rate"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains structurally valid so the authority fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "authority_boundary_compliance",
+        "provenance_sufficiency",
+        "unsupported_synthesis_rate"
+      ],
+      "legal_rationale": "Generated intermediate artifacts may evidence system origin, but they cannot supply legal authority for a material HS proposition.",
+      "negative_case_id": "NEG_001",
+      "paper_failure_class": "authority_and_provenance_failure",
+      "perturbation_layer": [
+        "artifact",
+        "source"
+      ],
+      "source_delta": {
+        "description": "An internal generated artifact is substituted for external legal authority.",
+        "kind": "authority_substitution"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "The claim refers to an unresolved or document-level anchor.",
+        "kind": "unresolved_anchor"
+      },
+      "base_component": "on-board-charger-(obc)",
+      "candidate_cn_code": "8504.40",
+      "case_bundle": "Missing Granular Source Anchor",
+      "expected_failed_checks": [
+        "missing_source_anchor",
+        "source_anchor_not_resolved"
+      ],
+      "expected_failed_metrics": [
+        "provenance_sufficiency",
+        "field_completeness_rate"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the source-anchor fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "provenance_sufficiency",
+        "field_completeness_rate"
+      ],
+      "legal_rationale": "A legal proposition must be traceable to a heading, rule, note, ruling row, or equivalent locator rather than merely to a broad document.",
+      "negative_case_id": "NEG_002",
+      "paper_failure_class": "source_grounding_failure",
+      "perturbation_layer": [
+        "source",
+        "artifact"
+      ],
+      "source_delta": {
+        "description": "The source ID remains present but the material legal claim cannot be resolved below document level.",
+        "kind": "anchor_removal"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "The artifact treats a ruling-like record as sufficient without primary or interpretive authority.",
+        "kind": "ruling_only_chain"
+      },
+      "base_component": "high-voltage-battery-pack-assembly",
+      "candidate_cn_code": "8507.60",
+      "case_bundle": "BTI-Only Authority Chain",
+      "expected_failed_checks": [
+        "required_authority_class_missing",
+        "secondary_only_authority_chain"
+      ],
+      "expected_failed_metrics": [
+        "primary_authority_sufficiency",
+        "authority_boundary_compliance"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the authority-chain fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "primary_authority_sufficiency",
+        "authority_boundary_compliance"
+      ],
+      "legal_rationale": "BTI material may support comparison or fact-specific analysis, but it cannot replace the primary CN/WCO authority chain for a reusable artifact.",
+      "negative_case_id": "NEG_003",
+      "paper_failure_class": "primary_authority_failure",
+      "perturbation_layer": [
+        "source",
+        "artifact"
+      ],
+      "source_delta": {
+        "description": "BTI-style material is retained while CN/WCO primary support is removed.",
+        "kind": "primary_authority_removed"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "A composite or subheading analysis omits a required GRI path element.",
+        "kind": "decisive_rule_omitted"
+      },
+      "base_component": "combo-power-electronics-unit",
+      "candidate_cn_code": "8504.40",
+      "case_bundle": "Decisive GRI Omitted",
+      "expected_failed_checks": [
+        "required_gri_path_element_missing",
+        "critical_omission"
+      ],
+      "expected_failed_metrics": [
+        "material_legal_capture",
+        "critical_omission_rate"
+      ],
+      "expected_gate_label": "pass_with_notes",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the material-capture fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "material_legal_capture",
+        "critical_omission_rate"
+      ],
+      "legal_rationale": "A missing decisive GRI path element can make an otherwise plausible artifact unsafe or review-dependent.",
+      "negative_case_id": "NEG_004",
+      "paper_failure_class": "material_legal_capture_failure",
+      "perturbation_layer": [
+        "artifact"
+      ],
+      "source_delta": {
+        "description": "Source materials remain available.",
+        "kind": "none"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "The AA artifact bridges product facts to a legal conclusion without a rule/source-supported inference.",
+        "kind": "unsupported_bridge"
+      },
+      "base_component": "traction-inverter-module",
+      "candidate_cn_code": "8504.40",
+      "case_bundle": "Unsupported Therefore Inference",
+      "expected_failed_checks": [
+        "unsupported_promotion"
+      ],
+      "expected_failed_metrics": [
+        "unsupported_synthesis_rate",
+        "handoff_safety"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the synthesis fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "unsupported_synthesis_rate",
+        "handoff_safety"
+      ],
+      "legal_rationale": "A conclusion that looks plausible but is unsupported by legal method or source anchors must be blocked before downstream use.",
+      "negative_case_id": "NEG_005",
+      "paper_failure_class": "unsupported_synthesis_failure",
+      "perturbation_layer": [
+        "artifact",
+        "trace"
+      ],
+      "source_delta": {
+        "description": "Source materials remain available.",
+        "kind": "none"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "A contested classification is emitted as stable and high-confidence.",
+        "kind": "conflict_collapsed"
+      },
+      "base_component": "separator-pe-pp-film",
+      "candidate_cn_code": "3920.10",
+      "case_bundle": "Collapsed Conflict With High Confidence",
+      "expected_failed_checks": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "review_trigger_missing_route"
+      ],
+      "expected_failed_metrics": [
+        "false_certainty_rate",
+        "conflict_preservation",
+        "human_review_trigger_correctness"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the uncertainty fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "false_certainty_rate",
+        "conflict_preservation",
+        "human_review_trigger_correctness"
+      ],
+      "legal_rationale": "Contested or ambiguous legal states must be preserved or routed to review rather than promoted as clean certainty.",
+      "negative_case_id": "NEG_006",
+      "paper_failure_class": "uncertainty_preservation_failure",
+      "perturbation_layer": [
+        "artifact",
+        "handoff"
+      ],
+      "source_delta": {
+        "description": "Source materials remain available.",
+        "kind": "none"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "The artifact promotes a classification despite the missing material fact.",
+        "kind": "unsafe_promotion_despite_gap"
+      },
+      "base_component": "silicon-alloyed-electrical-steel-core-noes",
+      "candidate_cn_code": "7226.19",
+      "case_bundle": "Missing Material Product Facts",
+      "expected_failed_checks": [
+        "evidence_gap",
+        "corpus_gap",
+        "unsupported_promotion"
+      ],
+      "expected_failed_metrics": [
+        "evidence_gap_detection",
+        "abstention_rate",
+        "handoff_safety"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the evidence-gap fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "evidence_gap_detection",
+        "abstention_rate",
+        "handoff_safety"
+      ],
+      "legal_rationale": "Where product facts or corpus evidence are insufficient, review or abstention is the safe behavior.",
+      "negative_case_id": "NEG_007",
+      "paper_failure_class": "evidence_gap_failure",
+      "perturbation_layer": [
+        "source",
+        "input",
+        "artifact"
+      ],
+      "source_delta": {
+        "description": "Necessary product-composition or function facts are absent from the input bundle.",
+        "kind": "fact_gap"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "The handoff package lacks a mandatory route, reason, or source field.",
+        "kind": "handoff_field_removed"
+      },
+      "base_component": "battery-management-system-(bms)",
+      "candidate_cn_code": "8537.10",
+      "case_bundle": "Required Handoff Field Missing",
+      "expected_failed_checks": [
+        "missing_required_handoff_field"
+      ],
+      "expected_failed_metrics": [
+        "field_completeness_rate",
+        "human_review_trigger_correctness"
+      ],
+      "expected_gate_label": "blocked_pending_rerun",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the handoff fault is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "field_completeness_rate",
+        "human_review_trigger_correctness"
+      ],
+      "legal_rationale": "A structurally incomplete handoff package cannot be safely evaluated or routed downstream.",
+      "negative_case_id": "NEG_008",
+      "paper_failure_class": "handoff_schema_failure",
+      "perturbation_layer": [
+        "artifact",
+        "handoff"
+      ],
+      "source_delta": {
+        "description": "Source materials remain available.",
+        "kind": "none"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "Artifact content remains otherwise plausible.",
+        "kind": "none"
+      },
+      "base_component": "on-board-charger-(obc)",
+      "candidate_cn_code": "8504.40",
+      "case_bundle": "Graph Meaning Corruption",
+      "expected_failed_checks": [
+        "edge_direction_invalid",
+        "edge_endpoint_unresolved",
+        "graph_parity_failure"
+      ],
+      "expected_failed_metrics": [
+        "graph_artifact_parity"
+      ],
+      "expected_gate_label": "blocked_pending_rerun",
+      "graph_delta": {
+        "description": "The graph reverses or misdirects the classification relationship.",
+        "kind": "edge_corruption"
+      },
+      "knowledge_evidence_registry_links": [
+        "graph_artifact_parity"
+      ],
+      "legal_rationale": "A graph edge can change the legal meaning of the artifact; corrupted graph semantics require rerun or repair.",
+      "negative_case_id": "NEG_009",
+      "paper_failure_class": "graph_artifact_parity_failure",
+      "perturbation_layer": [
+        "graph"
+      ],
+      "source_delta": {
+        "description": "Source materials remain available.",
+        "kind": "none"
+      }
+    },
+    {
+      "artifact_delta": {
+        "description": "A clean-enough artifact is routed to review, increasing human research burden.",
+        "kind": "unnecessary_review"
+      },
+      "base_component": "high-voltage-connectors",
+      "candidate_cn_code": "8536.69",
+      "case_bundle": "Over-Escalation And Rerun Delta",
+      "expected_failed_checks": [
+        "over_escalation_burden"
+      ],
+      "expected_failed_metrics": [
+        "human_research_burden",
+        "rerun_delta_rate"
+      ],
+      "expected_gate_label": "pass_with_notes",
+      "graph_delta": {
+        "description": "Graph shape remains valid so the diagnostic route effect is isolated.",
+        "kind": "none"
+      },
+      "knowledge_evidence_registry_links": [
+        "human_research_burden",
+        "rerun_delta_rate"
+      ],
+      "legal_rationale": "Operational burden and rerun deltas are important diagnostics, but they do not override a legally required gate in v1.",
+      "negative_case_id": "NEG_010",
+      "paper_failure_class": "diagnostic_and_comparison_signal",
+      "perturbation_layer": [
+        "source",
+        "route",
+        "comparison"
+      ],
+      "source_delta": {
+        "description": "A baseline-comparable output changes in a controlled comparison trace.",
+        "kind": "comparison_delta"
+      }
+    }
+  ],
+  "negative_detection_aggregates": {
+    "case_count": 10,
+    "false_negative_total": 0,
+    "false_positive_total": 10,
+    "gate_accuracy": 1.0,
+    "gate_match_count": 10,
+    "held_out_cases": {
+      "case_count": 0,
+      "gate_accuracy": 0.0,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0
+    },
+    "known_cases": {
+      "case_count": 10,
+      "gate_accuracy": 1.0,
+      "macro_f1": 0.81,
+      "macro_precision": 0.7033,
+      "macro_recall": 1.0
+    },
+    "macro_f1": 0.81,
+    "macro_precision": 0.7033,
+    "macro_recall": 1.0,
+    "micro_f1": 0.8077,
+    "micro_precision": 0.6774,
+    "micro_recall": 1.0,
+    "true_positive_total": 21
+  },
+  "negative_detection_matrix": [
+    {
+      "case_bundle": "Internal Authority Substitution",
+      "expected_failed_checks": [
+        "internal_source_as_authority",
+        "missing_external_authority",
+        "unsupported_promotion"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "Generated intermediate artifacts may evidence system origin, but they cannot supply legal authority for a material HS proposition.",
+      "negative_case_id": "NEG_001",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "internal_source_as_authority",
+        "missing_external_authority",
+        "unsupported_promotion"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "authority_and_provenance_failure",
+      "perturbation_layer": "artifact;source",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "internal_source_as_authority",
+        "missing_external_authority",
+        "unsupported_promotion"
+      ]
+    },
+    {
+      "case_bundle": "Missing Granular Source Anchor",
+      "expected_failed_checks": [
+        "missing_source_anchor",
+        "source_anchor_not_resolved"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 0.6667,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "quote_anchor_unresolved",
+        "required_source_anchor_not_captured"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A legal proposition must be traceable to a heading, rule, note, ruling row, or equivalent locator rather than merely to a broad document.",
+      "negative_case_id": "NEG_002",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "missing_source_anchor",
+        "quote_anchor_unresolved",
+        "required_source_anchor_not_captured",
+        "source_anchor_not_resolved"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "source_grounding_failure",
+      "perturbation_layer": "source;artifact",
+      "precision": 0.5,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "missing_source_anchor",
+        "source_anchor_not_resolved"
+      ]
+    },
+    {
+      "case_bundle": "BTI-Only Authority Chain",
+      "expected_failed_checks": [
+        "required_authority_class_missing",
+        "secondary_only_authority_chain"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 0.8,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "blocked_route_declared"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "BTI material may support comparison or fact-specific analysis, but it cannot replace the primary CN/WCO authority chain for a reusable artifact.",
+      "negative_case_id": "NEG_003",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "blocked_route_declared",
+        "required_authority_class_missing",
+        "secondary_only_authority_chain"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "primary_authority_failure",
+      "perturbation_layer": "source;artifact",
+      "precision": 0.6667,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "required_authority_class_missing",
+        "secondary_only_authority_chain"
+      ]
+    },
+    {
+      "case_bundle": "Decisive GRI Omitted",
+      "expected_failed_checks": [
+        "critical_omission",
+        "required_gri_path_element_missing"
+      ],
+      "expected_gate_label": "pass_with_notes",
+      "f1": 0.8,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "capture_gap_requires_review"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A missing decisive GRI path element can make an otherwise plausible artifact unsafe or review-dependent.",
+      "negative_case_id": "NEG_004",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "capture_gap_requires_review",
+        "critical_omission",
+        "required_gri_path_element_missing"
+      ],
+      "observed_gate_label": "pass_with_notes",
+      "paper_failure_class": "material_legal_capture_failure",
+      "perturbation_layer": "artifact",
+      "precision": 0.6667,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "critical_omission",
+        "required_gri_path_element_missing"
+      ]
+    },
+    {
+      "case_bundle": "Unsupported Therefore Inference",
+      "expected_failed_checks": [
+        "unsupported_promotion"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A conclusion that looks plausible but is unsupported by legal method or source anchors must be blocked before downstream use.",
+      "negative_case_id": "NEG_005",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "unsupported_promotion"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "unsupported_synthesis_failure",
+      "perturbation_layer": "artifact;trace",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "unsupported_promotion"
+      ]
+    },
+    {
+      "case_bundle": "Collapsed Conflict With High Confidence",
+      "expected_failed_checks": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "review_trigger_missing_route"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 0.75,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "representation_scope_broadened",
+        "unsupported_promotion"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "Contested or ambiguous legal states must be preserved or routed to review rather than promoted as clean certainty.",
+      "negative_case_id": "NEG_006",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "representation_scope_broadened",
+        "review_trigger_missing_route",
+        "unsupported_promotion"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "uncertainty_preservation_failure",
+      "perturbation_layer": "artifact;handoff",
+      "precision": 0.6,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "confidence_inflation",
+        "divergence_collapsed",
+        "review_trigger_missing_route"
+      ]
+    },
+    {
+      "case_bundle": "Missing Material Product Facts",
+      "expected_failed_checks": [
+        "corpus_gap",
+        "evidence_gap",
+        "unsupported_promotion"
+      ],
+      "expected_gate_label": "blocked_pending_research",
+      "f1": 0.75,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "client_fact_required",
+        "review_trigger_missing_route"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "Where product facts or corpus evidence are insufficient, review or abstention is the safe behavior.",
+      "negative_case_id": "NEG_007",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "client_fact_required",
+        "corpus_gap",
+        "evidence_gap",
+        "review_trigger_missing_route",
+        "unsupported_promotion"
+      ],
+      "observed_gate_label": "blocked_pending_research",
+      "paper_failure_class": "evidence_gap_failure",
+      "perturbation_layer": "source;input;artifact",
+      "precision": 0.6,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "corpus_gap",
+        "evidence_gap",
+        "unsupported_promotion"
+      ]
+    },
+    {
+      "case_bundle": "Required Handoff Field Missing",
+      "expected_failed_checks": [
+        "missing_required_handoff_field"
+      ],
+      "expected_gate_label": "blocked_pending_rerun",
+      "f1": 0.6667,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "blocked_route_declared"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A structurally incomplete handoff package cannot be safely evaluated or routed downstream.",
+      "negative_case_id": "NEG_008",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "blocked_route_declared",
+        "missing_required_handoff_field"
+      ],
+      "observed_gate_label": "blocked_pending_rerun",
+      "paper_failure_class": "handoff_schema_failure",
+      "perturbation_layer": "artifact;handoff",
+      "precision": 0.5,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "missing_required_handoff_field"
+      ]
+    },
+    {
+      "case_bundle": "Graph Meaning Corruption",
+      "expected_failed_checks": [
+        "edge_direction_invalid",
+        "edge_endpoint_unresolved",
+        "graph_parity_failure"
+      ],
+      "expected_gate_label": "blocked_pending_rerun",
+      "f1": 1.0,
+      "false_negative_checks": [],
+      "false_positive_checks": [],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "A graph edge can change the legal meaning of the artifact; corrupted graph semantics require rerun or repair.",
+      "negative_case_id": "NEG_009",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "edge_direction_invalid",
+        "edge_endpoint_unresolved",
+        "graph_parity_failure"
+      ],
+      "observed_gate_label": "blocked_pending_rerun",
+      "paper_failure_class": "graph_artifact_parity_failure",
+      "perturbation_layer": "graph",
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "edge_direction_invalid",
+        "edge_endpoint_unresolved",
+        "graph_parity_failure"
+      ]
+    },
+    {
+      "case_bundle": "Over-Escalation And Rerun Delta",
+      "expected_failed_checks": [
+        "over_escalation_burden"
+      ],
+      "expected_gate_label": "pass_with_notes",
+      "f1": 0.6667,
+      "false_negative_checks": [],
+      "false_positive_checks": [
+        "review_route_declared"
+      ],
+      "gate_match": true,
+      "held_out": false,
+      "legal_rationale": "Operational burden and rerun deltas are important diagnostics, but they do not override a legally required gate in v1.",
+      "negative_case_id": "NEG_010",
+      "negative_test_passed": true,
+      "observed_failed_checks": [
+        "over_escalation_burden",
+        "review_route_declared"
+      ],
+      "observed_gate_label": "pass_with_notes",
+      "paper_failure_class": "diagnostic_and_comparison_signal",
+      "perturbation_layer": "source;route;comparison",
+      "precision": 0.5,
+      "recall": 1.0,
+      "true_positive_checks": [
+        "over_escalation_burden"
+      ]
+    }
+  ],
+  "negative_gate_distribution": {
+    "blocked_pending_rerun": 2,
+    "blocked_pending_research": 6,
+    "pass_with_notes": 2
+  },
+  "positive_baseline_summary": {
+    "artifact_count": 28,
+    "base_run": "paper_eval_20260520",
+    "gate_distribution": {
+      "pass": 22,
+      "pass_with_notes": 6
+    },
+    "metric_statuses": {
+      "abstention_rate": "pass",
+      "authority_boundary_compliance": "pass",
+      "conflict_preservation": "pass",
+      "critical_omission_rate": "pass",
+      "evidence_gap_detection": "not_applicable",
+      "false_certainty_rate": "pass",
+      "field_completeness_rate": "pass",
+      "graph_artifact_parity": "pass",
+      "handoff_safety": "pass",
+      "human_research_burden": "diagnostic",
+      "human_review_trigger_correctness": "pass",
+      "material_legal_capture": "pass",
+      "primary_authority_sufficiency": "pass",
+      "provenance_sufficiency": "pass",
+      "rerun_delta_rate": "comparison_only",
+      "unsupported_synthesis_rate": "pass"
+    }
+  },
+  "run_id": "paper_negative_20260520"
+}

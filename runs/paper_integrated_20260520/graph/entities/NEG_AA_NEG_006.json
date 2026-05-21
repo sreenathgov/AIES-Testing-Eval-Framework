@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NEG_AA_NEG_006",
+  "cohort_origin": "fault_injection",
+  "component_ref": "separator-pe-pp-film",
+  "jurisdiction": "EU",
+  "node_id": "NEG_AA_NEG_006",
+  "node_type": "classification_candidate"
+}

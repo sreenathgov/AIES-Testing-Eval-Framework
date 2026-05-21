@@ -59,24 +59,24 @@ This packet reports a deterministic minimum evaluation protocol for a bounded EU
 
 ## Table 5. Metric Summary
 
-| Metric ID | Numerator | Denominator | Score | Status |
-| --- | --- | --- | --- | --- |
-| authority_boundary_compliance | 168 | 168 | 1.0 | pass |
-| material_legal_capture | 158 | 158 | 1.0 | pass |
-| provenance_sufficiency | 28 | 28 | 1.0 | pass |
-| primary_authority_sufficiency | 28 | 28 | 1.0 | pass |
-| critical_omission_rate | 0 | 34 | 1.0 | pass |
-| unsupported_synthesis_rate | 0 | 56 | 1.0 | pass |
-| false_certainty_rate | 0 | 6 | 1.0 | pass |
-| conflict_preservation | 6 | 6 | 1.0 | pass |
-| evidence_gap_detection | 0 | 0 | None | not_applicable |
-| handoff_safety | 6 | 6 | 1.0 | pass |
-| human_review_trigger_correctness | 6 | 6 | 1.0 | pass |
-| field_completeness_rate | 812 | 812 | 1.0 | pass |
-| abstention_rate | 6 | 6 | 1.0 | pass |
-| graph_artifact_parity | 84 | 84 | 1.0 | pass |
-| human_research_burden | 6 | 28 | 0.7857 | diagnostic |
-| rerun_delta_rate | 0 | 0 | None | comparison_only |
+| Metric ID                        | Numerator | Denominator | Score  | Status          |
+| -------------------------------- | --------- | ----------- | ------ | --------------- |
+| authority_boundary_compliance    | 168       | 168         | 1.0    | pass            |
+| material_legal_capture           | 158       | 158         | 1.0    | pass            |
+| provenance_sufficiency           | 28        | 28          | 1.0    | pass            |
+| primary_authority_sufficiency    | 28        | 28          | 1.0    | pass            |
+| critical_omission_rate           | 0         | 34          | 1.0    | pass            |
+| unsupported_synthesis_rate       | 0         | 56          | 1.0    | pass            |
+| false_certainty_rate             | 0         | 6           | 1.0    | pass            |
+| conflict_preservation            | 6         | 6           | 1.0    | pass            |
+| evidence_gap_detection           | 0         | 0           | None   | not_applicable  |
+| handoff_safety                   | 6         | 6           | 1.0    | pass            |
+| human_review_trigger_correctness | 6         | 6           | 1.0    | pass            |
+| field_completeness_rate          | 812       | 812         | 1.0    | pass            |
+| abstention_rate                  | 6         | 6           | 1.0    | pass            |
+| graph_artifact_parity            | 84        | 84          | 1.0    | pass            |
+| human_research_burden            | 6         | 28          | 0.7857 | diagnostic      |
+| rerun_delta_rate                 | 0         | 0           | None   | comparison_only |
 
 ## Table 6. Component-Level Control Profile
 

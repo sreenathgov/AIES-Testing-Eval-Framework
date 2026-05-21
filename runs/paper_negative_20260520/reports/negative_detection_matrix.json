@@ -1,0 +1,322 @@
+[
+  {
+    "case_bundle": "Internal Authority Substitution",
+    "expected_failed_checks": [
+      "internal_source_as_authority",
+      "missing_external_authority",
+      "unsupported_promotion"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 1.0,
+    "false_negative_checks": [],
+    "false_positive_checks": [],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "Generated intermediate artifacts may evidence system origin, but they cannot supply legal authority for a material HS proposition.",
+    "negative_case_id": "NEG_001",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "internal_source_as_authority",
+      "missing_external_authority",
+      "unsupported_promotion"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "authority_and_provenance_failure",
+    "perturbation_layer": "artifact;source",
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "internal_source_as_authority",
+      "missing_external_authority",
+      "unsupported_promotion"
+    ]
+  },
+  {
+    "case_bundle": "Missing Granular Source Anchor",
+    "expected_failed_checks": [
+      "missing_source_anchor",
+      "source_anchor_not_resolved"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 0.6667,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "quote_anchor_unresolved",
+      "required_source_anchor_not_captured"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A legal proposition must be traceable to a heading, rule, note, ruling row, or equivalent locator rather than merely to a broad document.",
+    "negative_case_id": "NEG_002",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "missing_source_anchor",
+      "quote_anchor_unresolved",
+      "required_source_anchor_not_captured",
+      "source_anchor_not_resolved"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "source_grounding_failure",
+    "perturbation_layer": "source;artifact",
+    "precision": 0.5,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "missing_source_anchor",
+      "source_anchor_not_resolved"
+    ]
+  },
+  {
+    "case_bundle": "BTI-Only Authority Chain",
+    "expected_failed_checks": [
+      "required_authority_class_missing",
+      "secondary_only_authority_chain"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 0.8,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "blocked_route_declared"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "BTI material may support comparison or fact-specific analysis, but it cannot replace the primary CN/WCO authority chain for a reusable artifact.",
+    "negative_case_id": "NEG_003",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "blocked_route_declared",
+      "required_authority_class_missing",
+      "secondary_only_authority_chain"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "primary_authority_failure",
+    "perturbation_layer": "source;artifact",
+    "precision": 0.6667,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "required_authority_class_missing",
+      "secondary_only_authority_chain"
+    ]
+  },
+  {
+    "case_bundle": "Decisive GRI Omitted",
+    "expected_failed_checks": [
+      "critical_omission",
+      "required_gri_path_element_missing"
+    ],
+    "expected_gate_label": "pass_with_notes",
+    "f1": 0.8,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "capture_gap_requires_review"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A missing decisive GRI path element can make an otherwise plausible artifact unsafe or review-dependent.",
+    "negative_case_id": "NEG_004",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "capture_gap_requires_review",
+      "critical_omission",
+      "required_gri_path_element_missing"
+    ],
+    "observed_gate_label": "pass_with_notes",
+    "paper_failure_class": "material_legal_capture_failure",
+    "perturbation_layer": "artifact",
+    "precision": 0.6667,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "critical_omission",
+      "required_gri_path_element_missing"
+    ]
+  },
+  {
+    "case_bundle": "Unsupported Therefore Inference",
+    "expected_failed_checks": [
+      "unsupported_promotion"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 1.0,
+    "false_negative_checks": [],
+    "false_positive_checks": [],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A conclusion that looks plausible but is unsupported by legal method or source anchors must be blocked before downstream use.",
+    "negative_case_id": "NEG_005",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "unsupported_promotion"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "unsupported_synthesis_failure",
+    "perturbation_layer": "artifact;trace",
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "unsupported_promotion"
+    ]
+  },
+  {
+    "case_bundle": "Collapsed Conflict With High Confidence",
+    "expected_failed_checks": [
+      "confidence_inflation",
+      "divergence_collapsed",
+      "review_trigger_missing_route"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 0.75,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "representation_scope_broadened",
+      "unsupported_promotion"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "Contested or ambiguous legal states must be preserved or routed to review rather than promoted as clean certainty.",
+    "negative_case_id": "NEG_006",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "confidence_inflation",
+      "divergence_collapsed",
+      "representation_scope_broadened",
+      "review_trigger_missing_route",
+      "unsupported_promotion"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "uncertainty_preservation_failure",
+    "perturbation_layer": "artifact;handoff",
+    "precision": 0.6,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "confidence_inflation",
+      "divergence_collapsed",
+      "review_trigger_missing_route"
+    ]
+  },
+  {
+    "case_bundle": "Missing Material Product Facts",
+    "expected_failed_checks": [
+      "corpus_gap",
+      "evidence_gap",
+      "unsupported_promotion"
+    ],
+    "expected_gate_label": "blocked_pending_research",
+    "f1": 0.75,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "client_fact_required",
+      "review_trigger_missing_route"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "Where product facts or corpus evidence are insufficient, review or abstention is the safe behavior.",
+    "negative_case_id": "NEG_007",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "client_fact_required",
+      "corpus_gap",
+      "evidence_gap",
+      "review_trigger_missing_route",
+      "unsupported_promotion"
+    ],
+    "observed_gate_label": "blocked_pending_research",
+    "paper_failure_class": "evidence_gap_failure",
+    "perturbation_layer": "source;input;artifact",
+    "precision": 0.6,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "corpus_gap",
+      "evidence_gap",
+      "unsupported_promotion"
+    ]
+  },
+  {
+    "case_bundle": "Required Handoff Field Missing",
+    "expected_failed_checks": [
+      "missing_required_handoff_field"
+    ],
+    "expected_gate_label": "blocked_pending_rerun",
+    "f1": 0.6667,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "blocked_route_declared"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A structurally incomplete handoff package cannot be safely evaluated or routed downstream.",
+    "negative_case_id": "NEG_008",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "blocked_route_declared",
+      "missing_required_handoff_field"
+    ],
+    "observed_gate_label": "blocked_pending_rerun",
+    "paper_failure_class": "handoff_schema_failure",
+    "perturbation_layer": "artifact;handoff",
+    "precision": 0.5,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "missing_required_handoff_field"
+    ]
+  },
+  {
+    "case_bundle": "Graph Meaning Corruption",
+    "expected_failed_checks": [
+      "edge_direction_invalid",
+      "edge_endpoint_unresolved",
+      "graph_parity_failure"
+    ],
+    "expected_gate_label": "blocked_pending_rerun",
+    "f1": 1.0,
+    "false_negative_checks": [],
+    "false_positive_checks": [],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "A graph edge can change the legal meaning of the artifact; corrupted graph semantics require rerun or repair.",
+    "negative_case_id": "NEG_009",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "edge_direction_invalid",
+      "edge_endpoint_unresolved",
+      "graph_parity_failure"
+    ],
+    "observed_gate_label": "blocked_pending_rerun",
+    "paper_failure_class": "graph_artifact_parity_failure",
+    "perturbation_layer": "graph",
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "edge_direction_invalid",
+      "edge_endpoint_unresolved",
+      "graph_parity_failure"
+    ]
+  },
+  {
+    "case_bundle": "Over-Escalation And Rerun Delta",
+    "expected_failed_checks": [
+      "over_escalation_burden"
+    ],
+    "expected_gate_label": "pass_with_notes",
+    "f1": 0.6667,
+    "false_negative_checks": [],
+    "false_positive_checks": [
+      "review_route_declared"
+    ],
+    "gate_match": true,
+    "held_out": false,
+    "legal_rationale": "Operational burden and rerun deltas are important diagnostics, but they do not override a legally required gate in v1.",
+    "negative_case_id": "NEG_010",
+    "negative_test_passed": true,
+    "observed_failed_checks": [
+      "over_escalation_burden",
+      "review_route_declared"
+    ],
+    "observed_gate_label": "pass_with_notes",
+    "paper_failure_class": "diagnostic_and_comparison_signal",
+    "perturbation_layer": "source;route;comparison",
+    "precision": 0.5,
+    "recall": 1.0,
+    "true_positive_checks": [
+      "over_escalation_burden"
+    ]
+  }
+]

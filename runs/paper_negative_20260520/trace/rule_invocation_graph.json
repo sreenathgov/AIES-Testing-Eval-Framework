@@ -1,0 +1,372 @@
+{
+  "inference_edges": [
+    {
+      "component_id": "dc-dc-converter",
+      "edge_id": "inference:NEG_001:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "dc-dc-converter",
+      "edge_id": "inference:NEG_001:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "dc-dc-converter",
+      "edge_id": "inference:NEG_001:unsupported-therefore",
+      "from": "engineering_identity",
+      "support_type": "unsupported_bridge",
+      "supported": false,
+      "to": "8504.40"
+    },
+    {
+      "component_id": "on-board-charger-(obc)",
+      "edge_id": "inference:NEG_002:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "on-board-charger-(obc)",
+      "edge_id": "inference:NEG_002:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "high-voltage-battery-pack-assembly",
+      "edge_id": "inference:NEG_003:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "high-voltage-battery-pack-assembly",
+      "edge_id": "inference:NEG_003:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "combo-power-electronics-unit",
+      "edge_id": "inference:NEG_004:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "combo-power-electronics-unit",
+      "edge_id": "inference:NEG_004:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "traction-inverter-module",
+      "edge_id": "inference:NEG_005:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "traction-inverter-module",
+      "edge_id": "inference:NEG_005:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "traction-inverter-module",
+      "edge_id": "inference:NEG_005:unsupported-therefore",
+      "from": "engineering_identity",
+      "support_type": "unsupported_bridge",
+      "supported": false,
+      "to": "8504.40"
+    },
+    {
+      "component_id": "separator-pe-pp-film",
+      "edge_id": "inference:NEG_006:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "separator-pe-pp-film",
+      "edge_id": "inference:NEG_006:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "edge_id": "inference:NEG_007:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "edge_id": "inference:NEG_007:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "battery-management-system-(bms)",
+      "edge_id": "inference:NEG_008:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "battery-management-system-(bms)",
+      "edge_id": "inference:NEG_008:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "on-board-charger-(obc)",
+      "edge_id": "inference:NEG_009:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "on-board-charger-(obc)",
+      "edge_id": "inference:NEG_009:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    },
+    {
+      "component_id": "high-voltage-connectors",
+      "edge_id": "inference:NEG_010:facts-to-method",
+      "from": "engineering_identity",
+      "support_type": "legal_method",
+      "supported": true,
+      "to": "legal_method"
+    },
+    {
+      "component_id": "high-voltage-connectors",
+      "edge_id": "inference:NEG_010:method-to-conclusion",
+      "from": "legal_method",
+      "support_type": "source_and_rule_chain",
+      "supported": true,
+      "to": "candidate_code"
+    }
+  ],
+  "required_rule_items": [
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_001:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_001:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_002:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_002:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_003:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_003:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_004:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_004:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "decisive": true,
+      "rule_id": "WCO_GRI_3B",
+      "rule_item_id": "NEG_004:WCO_GRI_3B_OMITTED",
+      "used": false,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_005:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_005:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_006:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_006:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_007:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_007:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_008:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_008:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_009:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_009:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "decisive": true,
+      "rule_id": "WCO_GRI_1",
+      "rule_item_id": "NEG_010:WCO_GRI_1",
+      "used": true,
+      "weight": 3
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "decisive": false,
+      "rule_id": "WCO_GRI_6",
+      "rule_item_id": "NEG_010:WCO_GRI_6",
+      "used": true,
+      "weight": 2
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

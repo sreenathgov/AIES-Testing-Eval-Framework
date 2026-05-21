@@ -1,0 +1,8 @@
+{
+  "canonical_name": "On-Board Charger (OBC)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_215",
+  "node_id": "product_component:on-board-charger-(obc)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

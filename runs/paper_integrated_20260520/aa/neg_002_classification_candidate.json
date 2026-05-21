@@ -1,0 +1,37 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_002",
+  "candidate_cn_code": "8504.40",
+  "component_ref": "on-board-charger-(obc)",
+  "component_slug": "neg_002",
+  "confidence": "controlled_negative",
+  "handoff_route": "blocked",
+  "jurisdiction": "EU",
+  "known_issue_tags": [],
+  "legal_authority_chain": [
+    {
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    },
+    {
+      "anchor_id": "UNRESOLVED_DOCUMENT_LEVEL_ANCHOR",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "Missing Granular Source Anchor controlled negative candidate for on-board-charger-(obc).",
+  "negative_case_id": "NEG_002",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [
+    "EU_CN_8504_40_90"
+  ],
+  "requires_human_review": true,
+  "review_reason_codes": [
+    "missing_source_anchor",
+    "source_anchor_not_resolved"
+  ],
+  "stability": "unstable"
+}

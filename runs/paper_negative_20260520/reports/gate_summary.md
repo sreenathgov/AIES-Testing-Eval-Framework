@@ -1,0 +1,19 @@
+# Four-Gate Handoff Summary
+
+| scenario_id | artifact_id | component_id | actual_route | severity | gate_id | gate_label | gate_reason_codes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SCN_fault_injection_NEG_AA_NEG_001 | NEG_AA_NEG_001 | dc-dc-converter | blocked | blocker | gate_3 | blocked_pending_research | internal_source_as_authority;missing_external_authority;unsupported_promotion |
+| SCN_fault_injection_NEG_AA_NEG_002 | NEG_AA_NEG_002 | on-board-charger-(obc) | blocked | blocker | gate_3 | blocked_pending_research | missing_source_anchor;source_anchor_not_resolved |
+| SCN_fault_injection_NEG_AA_NEG_003 | NEG_AA_NEG_003 | high-voltage-battery-pack-assembly | blocked | blocker | gate_3 | blocked_pending_research | required_authority_class_missing;secondary_only_authority_chain |
+| SCN_fault_injection_NEG_AA_NEG_004 | NEG_AA_NEG_004 | combo-power-electronics-unit | review | review_trigger | gate_2 | pass_with_notes | capture_gap_requires_review;critical_omission;required_gri_path_element_missing |
+| SCN_fault_injection_NEG_AA_NEG_005 | NEG_AA_NEG_005 | traction-inverter-module | blocked | blocker | gate_3 | blocked_pending_research | unsupported_promotion |
+| SCN_fault_injection_NEG_AA_NEG_006 | NEG_AA_NEG_006 | separator-pe-pp-film | review | review_trigger | gate_3 | blocked_pending_research | unsupported_promotion |
+| SCN_fault_injection_NEG_AA_NEG_007 | NEG_AA_NEG_007 | silicon-alloyed-electrical-steel-core-noes | blocked | blocker | gate_3 | blocked_pending_research | corpus_gap;evidence_gap;unsupported_promotion |
+| SCN_fault_injection_NEG_AA_NEG_008 | NEG_AA_NEG_008 | battery-management-system-(bms) | blocked | blocker | gate_4 | blocked_pending_rerun | missing_required_handoff_field |
+| SCN_fault_injection_NEG_AA_NEG_009 | NEG_AA_NEG_009 | on-board-charger-(obc) | blocked | blocker | gate_4 | blocked_pending_rerun | edge_direction_invalid;edge_endpoint_unresolved;graph_parity_failure |
+| SCN_fault_injection_NEG_AA_NEG_010 | NEG_AA_NEG_010 | high-voltage-connectors | review | review_trigger | gate_2 | pass_with_notes | over_escalation_burden;review_route_declared |
+
+## Counts
+- blocked_pending_rerun: 2
+- blocked_pending_research: 6
+- pass_with_notes: 2

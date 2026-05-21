@@ -4,44 +4,70 @@ This repository evaluates a governed legal extraction pipeline through a
 minimum evaluation protocol. It does not claim that the system solves HS
 classification end to end.
 
-The evaluation question is whether a legal extraction pipeline preserves controls while transforming parsed legal materials into structured, decision-bearing artifacts. The controls are authority preservation, provenance sufficiency, agent role boundaries, graph parity, uncertainty preservation, contradiction handling, and handoff safety.
+The evaluation question is whether a legal extraction pipeline preserves
+controls while transforming parsed legal materials into structured,
+decision-bearing artifacts. The controls are authority preservation,
+provenance sufficiency, agent role boundaries, graph parity, uncertainty
+preservation, contradiction handling, and handoff safety.
 
 ## What To Inspect
 
-- `data/engineering_handoff/` contains the clean 28-component pre-HS input bundle.
-- `protocol/agent_specs/` contains the bounded PTA/PRA/DA/AA/KA role specs used by the public run.
-- `data/source_corpus/` contains the cited EU/WCO/BTI source subset and parsed outputs.
-- `runs/paper_frozen_run/` contains the deterministic paper replay run.
-- `data/graph_fixtures/` contains normalized good, bad, and borderline fixture artifacts.
-- `data/fixtures/gold_cases.json` defines expected legal-control outcomes.
-- `data/fixtures/FIXTURE_LINEAGE_MAP.json` maps each fixture to source assets, parsed anchors, forensic artifacts, graph nodes, graph edges, and expected route.
-- `data/forensic_evidence/` contains a small sanitized sample of internal origin artifacts and graph artifacts.
+- `data/engineering_handoff/` contains the clean 28-component pre-HS input
+  bundle.
+- `data/source_corpus/` contains the cited EU/WCO/BTI source subset and parsed
+  outputs.
+- `protocol/agent_specs/` contains the bounded PTA/PRA/DA/AA/KA role specs.
+- `data/negative_cases/negative_case_registry.json` contains the fault
+  injection oracle used after validation.
+- `runs/paper_eval_20260520/` contains the positive baseline run.
+- `runs/paper_negative_20260520/` contains the controlled fault-injection run.
+- `runs/paper_integrated_20260520/` contains the primary 38-artifact
+  validator-driven paper run.
+- `runs/paper_integrated_20260520/reports/integrated_results_packet.md`
+  summarizes the paper result.
 
 ## Scope Rule
 
-Only EU, WCO, and EU BTI claims affect pass/fail outcomes in this paper run. US and India references are preserved only as `comparison_only` metadata where needed to demonstrate divergence handling.
+Only EU, WCO, and EU BTI claims affect pass/fail outcomes in this paper run. US
+and India references are preserved only as `comparison_only` metadata where
+needed to demonstrate divergence handling.
 
-Internal extraction artifacts may explain fixture origin, but they are not legal authority. Legal authority must come from source anchors in `legal_authority_chain`.
+Internal extraction artifacts may explain artifact origin, but they are not
+legal authority. Legal authority must come from source anchors in
+`legal_authority_chain`.
 
 ## Running The Harness
 
+Recommended reviewer path:
+
 ```bash
-PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root .
-PYTHONPATH=src python3 -m legal_extract_eval.runner --repo-root . --run-id paper_frozen_run
-python3 -m pytest
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -e '.[test]'
+python scripts/reviewer_replay_check.py --repo-root .
 ```
 
-Use the readiness command before any paper test run. It checks that the bounded
-HS source bundle, EU/WCO/BTI sources, graph artifacts, and metric registry are
-ready without generating or evaluating a run. Maintainers can optionally add
-`--source-repo-root /path/to/private-source-repo` to check a private upstream
-export.
+This verifies the checked-in paper result without mutating the canonical runs.
 
-The runner emits a control-profile report rather than a generic accuracy score.
-It also emits a diagnostic metric summary. The metric summary gives formulaic
-numerators and denominators for each evaluation family, but it does not override
-the control profile. A blocker remains a blocker even if aggregate scores are
-high.
+To regenerate reviewer-local runs:
+
+```bash
+python scripts/reviewer_replay_check.py --repo-root . --regenerate
+```
+
+The regeneration path creates `reviewer_negative_replay` and
+`reviewer_integrated_replay`, then checks them against the same paper-level
+invariants.
+
+Expected integrated result:
+
+- 38 artifacts.
+- 28 baseline artifacts and 10 fault-injection artifacts.
+- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 6
+  `blocked_pending_research`, 2 `blocked_pending_rerun`.
+- Fault-injection detection: gate accuracy 1.0, micro recall 1.0, and zero
+  false negatives against the registry oracle.
 
 ## Handoff And Metrics
 

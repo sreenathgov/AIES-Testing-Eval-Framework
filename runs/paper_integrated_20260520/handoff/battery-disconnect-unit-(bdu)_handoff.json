@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_171",
+  "component_slug": "battery-disconnect-unit-(bdu)",
+  "handoff_id": "HANDOFF_EU_battery-disconnect-unit-(bdu)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_battery-disconnect-unit-(bdu)"
+}

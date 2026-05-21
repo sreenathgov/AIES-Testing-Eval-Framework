@@ -1,0 +1,917 @@
+{
+  "items": [
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:anode-active-material-graphite:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:anode-active-material-graphite:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_anode-active-material-graphite",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:anode-active-material-graphite:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:anode-substrate-cu-foil:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:anode-substrate-cu-foil:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_anode-substrate-cu-foil",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:anode-substrate-cu-foil:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-control-unit-(bcu):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-control-unit-(bcu):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-control-unit-(bcu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-control-unit-(bcu):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-disconnect-unit-(bdu):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-disconnect-unit-(bdu):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-disconnect-unit-(bdu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-disconnect-unit-(bdu):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-management-system-(bms):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-management-system-(bms):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_battery-management-system-(bms)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:battery-management-system-(bms):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cathode-active-material-nmc:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cathode-active-material-nmc:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cathode-active-material-nmc",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cathode-active-material-nmc:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cathode-substrate-al-foil:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cathode-substrate-al-foil:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cathode-substrate-al-foil",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cathode-substrate-al-foil:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cell-supervisor-unit-(csu):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cell-supervisor-unit-(csu):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_cell-supervisor-unit-(csu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:cell-supervisor-unit-(csu):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:combo-power-electronics-unit:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:combo-power-electronics-unit:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:combo-power-electronics-unit:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:dc-dc-converter:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:dc-dc-converter:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_dc-dc-converter",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:dc-dc-converter:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:electrolyte-lipf6-solution:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:electrolyte-lipf6-solution:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_electrolyte-lipf6-solution",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:electrolyte-lipf6-solution:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-battery-module:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-battery-module:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-battery-module:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-battery-pack-assembly:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-battery-pack-assembly:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-battery-pack-assembly:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-connectors:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-connectors:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-connectors",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-connectors:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-contactor:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-contactor:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_high-voltage-contactor",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:high-voltage-contactor:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:hyper-integrated-e-axle:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:hyper-integrated-e-axle:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:hyper-integrated-e-axle:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:integrated-e-axle:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:integrated-e-axle:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:integrated-e-axle:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:lithium-ion-battery-cell:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:lithium-ion-battery-cell:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:lithium-ion-battery-cell:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:ndfeb-permanent-magnets:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:ndfeb-permanent-magnets:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_ndfeb-permanent-magnets",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:ndfeb-permanent-magnets:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:on-board-charger-(obc):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:on-board-charger-(obc):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_on-board-charger-(obc)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:on-board-charger-(obc):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:power-distribution-unit-(pdu):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:power-distribution-unit-(pdu):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_power-distribution-unit-(pdu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:power-distribution-unit-(pdu):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:separator-pe-pp-film:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:separator-pe-pp-film:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_separator-pe-pp-film",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:separator-pe-pp-film:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-alloyed-electrical-steel-core-noes:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-alloyed-electrical-steel-core-noes:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-alloyed-electrical-steel-core-noes",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-alloyed-electrical-steel-core-noes:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-carbide-(sic)-mosfets:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-carbide-(sic)-mosfets:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-carbide-(sic)-mosfets",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-carbide-(sic)-mosfets:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-igbts",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-igbts:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-igbts",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-igbts:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_silicon-igbts",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:silicon-igbts:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:traction-inverter-module:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:traction-inverter-module:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_traction-inverter-module",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:traction-inverter-module:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_traction-motor",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:traction-motor:product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_traction-motor",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:traction-motor:cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_traction-motor",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:traction-motor:proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:vehicle-control-unit-(vcu):product_component",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:vehicle-control-unit-(vcu):cn_code",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "AA_EU_vehicle-control-unit-(vcu)",
+      "cohort": "baseline",
+      "failure_category": null,
+      "item_id": "graph:vehicle-control-unit-(vcu):proposes_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_001",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_001:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_001",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_001:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_001",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_001:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_002",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_002:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_002",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_002:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_002",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_002:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_003",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_003:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_003",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_003:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_003",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_003:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_004",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_004:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_004",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_004:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_004",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_004:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_005",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_005:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_005",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_005:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_005",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_005:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_006:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_006:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_006:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_007",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_007:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_007",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_007:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_007",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_007:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_008",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_008:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_008",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_008:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_008",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_008:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_009",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_009:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_009",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_009:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": false,
+      "artifact_id": "NEG_AA_NEG_009",
+      "cohort": "fault_injection",
+      "failure_category": "edge_direction_invalid",
+      "item_id": "graph:NEG_009:classification_edge",
+      "item_type": "classification_edge"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_010",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_010:product_component_node",
+      "item_type": "product_component_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_010",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_010:hs_code_node",
+      "item_type": "hs_code_node"
+    },
+    {
+      "aligned": true,
+      "artifact_id": "NEG_AA_NEG_010",
+      "cohort": "fault_injection",
+      "failure_category": null,
+      "item_id": "graph:NEG_010:classification_edge",
+      "item_type": "classification_edge"
+    }
+  ],
+  "run_id": "paper_integrated_20260520"
+}

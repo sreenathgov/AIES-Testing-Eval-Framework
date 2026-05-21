@@ -1,0 +1,11 @@
+{
+  "component_ref": "high-voltage-connectors",
+  "handoff_id": "NEG_HANDOFF_NEG_010",
+  "human_review_required": true,
+  "negative_case_id": "NEG_010",
+  "review_reason_codes": [
+    "over_escalation_burden"
+  ],
+  "route": "review",
+  "source_artifact": "NEG_AA_NEG_010"
+}

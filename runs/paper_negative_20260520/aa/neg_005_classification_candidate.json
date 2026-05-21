@@ -1,0 +1,37 @@
+{
+  "agent": "AA",
+  "artifact_id": "NEG_AA_NEG_005",
+  "candidate_cn_code": "8504.40",
+  "component_ref": "traction-inverter-module",
+  "component_slug": "neg_005",
+  "confidence": "controlled_negative",
+  "handoff_route": "promote",
+  "jurisdiction": "EU",
+  "known_issue_tags": [
+    "unsupported_promotion"
+  ],
+  "legal_authority_chain": [
+    {
+      "anchor_id": "WCO_GRI_1",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_WCO_GRI_2017"
+    },
+    {
+      "anchor_id": "EU_CN_8504_40_90",
+      "authority_class": "primary_legal_text",
+      "source_id": "SRC_EU_CN_2025_1926_EVS"
+    }
+  ],
+  "legal_hierarchy_expectations": {
+    "source_to_rule_to_code": true
+  },
+  "legal_proposition": "Unsupported Therefore Inference controlled negative candidate for traction-inverter-module.",
+  "negative_case_id": "NEG_005",
+  "required_gri_path_elements": [],
+  "required_source_anchors": [],
+  "requires_human_review": false,
+  "review_reason_codes": [
+    "unsupported_promotion"
+  ],
+  "stability": "diagnostic"
+}

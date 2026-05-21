@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_215",
+  "component_slug": "on-board-charger-(obc)",
+  "handoff_id": "HANDOFF_EU_on-board-charger-(obc)",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_on-board-charger-(obc)"
+}

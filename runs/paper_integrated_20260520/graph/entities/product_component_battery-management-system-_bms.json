@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Battery Management System (BMS)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_217",
+  "node_id": "product_component:battery-management-system-(bms)",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

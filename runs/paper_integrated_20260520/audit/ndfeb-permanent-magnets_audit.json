@@ -1,0 +1,14 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_ndfeb-permanent-magnets",
+  "authority_status": "pass",
+  "component_ref": "ent_207",
+  "component_slug": "ndfeb-permanent-magnets",
+  "evaluated_artifact": "AA_EU_ndfeb-permanent-magnets",
+  "failed_checks": [],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "pass"
+}

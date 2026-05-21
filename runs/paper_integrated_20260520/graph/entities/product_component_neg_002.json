@@ -1,0 +1,7 @@
+{
+  "cohort_origin": "fault_injection",
+  "component_ref": "on-board-charger-(obc)",
+  "node_id": "product_component:neg_002",
+  "node_type": "product_component",
+  "source": "controlled_negative_case_bundle"
+}

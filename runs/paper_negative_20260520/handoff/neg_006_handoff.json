@@ -1,0 +1,13 @@
+{
+  "component_ref": "separator-pe-pp-film",
+  "handoff_id": "NEG_HANDOFF_NEG_006",
+  "human_review_required": false,
+  "negative_case_id": "NEG_006",
+  "review_reason_codes": [
+    "confidence_inflation",
+    "divergence_collapsed",
+    "review_trigger_missing_route"
+  ],
+  "route": "promote",
+  "source_artifact": "NEG_AA_NEG_006"
+}

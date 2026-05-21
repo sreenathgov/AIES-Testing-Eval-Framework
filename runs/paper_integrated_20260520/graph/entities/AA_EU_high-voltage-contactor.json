@@ -1,0 +1,9 @@
+{
+  "artifact_id": "AA_EU_high-voltage-contactor",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_144",
+  "component_slug": "high-voltage-contactor",
+  "jurisdiction": "EU",
+  "node_id": "AA_EU_high-voltage-contactor",
+  "node_type": "classification_candidate"
+}

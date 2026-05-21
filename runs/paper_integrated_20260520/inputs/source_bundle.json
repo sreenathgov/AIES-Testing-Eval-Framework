@@ -1,0 +1,2986 @@
+{
+  "source_record_manifest": "data/source_corpus/source_record_manifest.json",
+  "source_records": [
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI58842/24-1",
+      "record_id": "EU_BTI_DEBTI58842_24_1",
+      "source_excerpt": "DEBTI58842/24-1 84672110************** AV 1 / AV 6 / AV 3 b) / AV 5 a) ZAnm 1 ABS XVI Akku-Bohrschrauber (Abbildung siehe Anlage) - bestehend aus einem von Hand zu f\u00fchrenden Ger\u00e4t mit eingebautem Elektromotor, Schnell- spannbohrfutter, Drehmomenteinstellring, Ein-/Ausschalter, Drehrichtungsschalter, LED-Arbeitslicht, Akkumulator mit Ladezustandsanzeige, - zum Bohren in verschiedene Materialien (z.B. Holz, Metall, Kunststoff) und Eindrehen sowie L\u00f6sen von Schrauben, - geliefert mit verschiedenen auswechselbaren Werkzeugen (40 x Schraub-Bit, 14 x Metallbohrer, 5 x Holzbohrer, 8 x Steckschl\u00fcssel, 1 x Versenker), - in einer gemeinsamen Verkaufsumschlie\u00dfung mit Bithalter, Zimmermannsbleistift mit Ersatz- minen, Cuttermesser, Ank\u00f6rner, Ma\u00dfband, Ladeger\u00e4t und Betriebsanleitung (Beipack), - in einem f\u00fcr den dauerhaften Gebrauch geeigneten Transportkoffer. \"Von Hand zu f\u00fchrendes Werkzeug mit eingebautem Elektromotor, Bohrmaschinen aller Art, zum Betrieb ohne externe Energiequelle, mit auswechselbarem Werkzeug, in Warenzusammenstellung in Aufmachung f\u00fcr den Einzelverkauf mit nicht charakterbestimmendem Beipack - Akku-Bohrschrauber\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 2,
+        "row_id": "DEBTI58842/24-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "CZBTI34/018997/2025-580000-04/01",
+      "record_id": "EU_BTI_CZBTI34_018997_2025_580000_04_01",
+      "source_excerpt": "CZBTI34/018997/2025-580000-04/01 8501535010************ V\u0161eobecn\u00e1 pravidla 1 a 6 pro v\u00fdklad kombinovan\u00e9 nomenklatury. Pozn\u00e1mka 3 ke t\u0159\u00edd\u011b XVI. Vysv\u011btlivky k HS k \u010d\u00edslu 8501. Zn\u011bn\u00ed k\u00f3d\u016f 8501, 8501 53, 8501 53 50 kombinovan\u00e9 nomenklatury a Taric k\u00f3du 8501 53 50 10. Dle deklarovan\u00fdch \u00fadaj\u016f se jedn\u00e1 o trak\u010dn\u00ed elektrick\u00fd asynchronn\u00ed motor s v\u00fdkonovou elektronikou, kter\u00fd je ur\u010den k pohonu elektromobilu. Pohonn\u00e1 jednotka obsahuje tak\u00e9 invertor a pracuje jak se stejnosm\u011brn\u00fdm (vstup), tak i se st\u0159\u00eddav\u00fdm proudem (v\u00fdstup). Motor pracuje na st\u0159\u00eddav\u00fd proud a jedn\u00e1 se o t\u0159\u00edf\u00e1zovou soustavu. Technick\u00e9 \u00fadaje: - st\u0159\u00eddav\u00fd proud v rozsahu 210 - 470 V; - maxim\u00e1ln\u00ed proud je 380 A; - maxim\u00e1ln\u00ed v\u00fdkon motoru je 80 kW; - pou\u017eit\u00ed jen pro vozy BEV (\u010dist\u011b elektrick\u00e9).",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 3,
+        "row_id": "CZBTI34/018997/2025-580000-04/01"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "CZBTI46/175517/2025-300000-ZI/01",
+      "record_id": "EU_BTI_CZBTI46_175517_2025_300000_ZI_01",
+      "source_excerpt": "CZBTI46/175517/2025-300000-ZI/01 87089997************** V\u0161eobecn\u00e1 pravidla 1, 3 c) a 6 pro v\u00fdklad kombinovan\u00e9 nomenklatury. Pozn\u00e1mka 3 ke t\u0159\u00edd\u011b XVII. Z\u00e1v\u011br z jedn\u00e1n\u00ed V\u00fdboru pro celn\u00ed kodex k sazebn\u00edmu za\u0159azen\u00ed zbo\u017e\u00ed k podpolo\u017ece 8708 99 97 p\u0159ijat\u00e9 na 265. zased\u00e1n\u00ed V\u00fdboru pro celn\u00ed kodex. Vysv\u011btlivky k HS k \u010d\u00edslu 8708. V\u0161eobecn\u00e9 vysv\u011btlivky k HS ke t\u0159\u00edd\u011b XVII, odst. III). Zn\u011bn\u00ed k\u00f3d\u016f 8708, 8708 99, 8708 99 97 kombinovan\u00e9 nomenklatury. Do \u017eadatelem navr\u017een\u00e9ho k\u00f3du 8708 80 99 nelze p\u0159edm\u011btn\u00e9 zbo\u017e\u00ed za\u0159adit, nebo\u0165 se dle celn\u00ed nomenklatury nejedn\u00e1 o \u010d\u00e1st a sou\u010d\u00e1st z\u00e1v\u011bsn\u00e9ho syst\u00e9mu motorov\u00fdch vozidel \u010d\u00edsel 8701 a\u017e 8705. Dle poskytnut\u00fdch \u00fadaj\u016f se jedn\u00e1 o izol\u00e1tor vibrac\u00ed (silentblock), kter\u00fd je vyroben\u00fd z vulkanick\u00e9ho kau\u010duku spojen\u00e9ho s kovem. V\u00fdrobek absorbuje vibrace a sni\u017euje hluk v r\u016fzn\u00fdch za\u0159\u00edzen\u00edch, nap\u0159\u00edklad tlum\u00ed vibrace p\u0159en\u00e1\u0161en\u00e9 do karos\u00e9rie a interi\u00e9ru naklada\u010d\u016f a rypadel. Lze jej tak\u00e9 pou\u017e\u00edt v r\u016fzn\u00fdch za\u0159\u00edzen\u00edch, jako jsou nap\u0159. \u010derpadla, kompresory, gener\u00e1tory, spalovac\u00ed motory, p\u0159evodovky, kabiny stroj\u016f, atd.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 4,
+        "row_id": "CZBTI46/175517/2025-300000-ZI/01"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI45911/25-1",
+      "record_id": "EU_BTI_DEBTI45911_25_1",
+      "source_excerpt": "DEBTI45911/25-1 8507600090************ AV 1 / AV 6 Anm 3 Kap 85 Hochvoltbatterie (Abbildung siehe Anlage), - aus einem Lithium-Ionen-Akkumulator mit 184 Akkumulatorzellen in einem spezifisch geformten Geh\u00e4use mit den Abmessungen (LxBxH) ca. 2122\ufeff,\ufeff4 mm x 1501 mm x 290\ufeff,\ufeff1 mm, - mit einer Nennkapazit\u00e4t von 139 Ah, einer Nennspannung von 581\ufeff,\ufeff44 V und einem Gewicht von ca. 652\ufeff,\ufeff8 kg, - zur Verwendung als Energiequelle in einem E-Fahrzeug. \"Elektrischer Akkumulator, Lithium-Ionen-Akkumulator, keine Ware der TARIC-Codes 8507 6000 10 bis 8507 6000 83\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 5,
+        "row_id": "DEBTI45911/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI54632/24-1",
+      "record_id": "EU_BTI_DEBTI54632_24_1",
+      "source_excerpt": "DEBTI54632/24-1 8544429090************ AV 1 / AV 6 ErlKN Pos 8544 (HS) RZ 01.0 Isoliertes elektrisches Kabel, sog. \"EU-Ladekabel\", - an einem Ende mit einem Eurostecker, am anderen Ende mit einem ger\u00e4tespezifischen Anschlussst\u00fcck ausgestattet, - f\u00fcr eine Spannung von weniger als 1000 V, - zur Verwendung als Stromversorgungskabel f\u00fcr ein Akkumulatorenladeger\u00e4t (nicht Gegenstand dieser vZTA-Entscheidung). Die Ware ist als \"isoliertes elektrisches Kabel, keine Ware der Unterpositionen (HS) 8544 11 bis 8544 30, f\u00fcr eine Spannung von 1000 V oder weniger, mit Anschlussst\u00fccken versehen, nicht von den TARIC-Unterpositionen 8544 4210 00 bis 8544 4290 70 erfasst\" einzureihen.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 6,
+        "row_id": "DEBTI54632/24-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI45872/25-1",
+      "record_id": "EU_BTI_DEBTI45872_25_1",
+      "source_excerpt": "DEBTI45872/25-1 8507600090************ AV 1 / AV 6 Anm 3 Kap 85 Hochvoltbatterie (Abbildung siehe Anlage), - aus einem Lithium-Ionen-Akkumulator mit 180 Akkumulatorzellen in einem spezifisch geformten Geh\u00e4use mit den Abmessungen (LxBxH) ca. 2155 mm x ca. 1536 mm x ca. 253 mm, - mit einer Nennkapazit\u00e4t von 139 Ah, einer Nennspannung von 568\ufeff,\ufeff8 V und einem Gewicht von 605 kg, - zur Verwendung als Energiequelle in einem E-Fahrzeug. \"Elektrischer Akkumulator, Lithium-Ionen-Akkumulator, keine Ware der TARIC-Codes 8507 6000 10 bis 8507 6000 83\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 7,
+        "row_id": "DEBTI45872/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI12351/25-1",
+      "record_id": "EU_BTI_DEBTI12351_25_1",
+      "source_excerpt": "DEBTI12351/25-1 8424897000************ AV 1 / AV 6 / AV 3 b) Akku-Farbspr\u00fchsystem (Abbildung siehe Anlage) - bestehend aus einem abnehmbaren Spr\u00fchkopf, zwei D\u00fcsen f\u00fcr unterschiedliche Lack- und Lasurviskosit\u00e4ten, Farbmengenregulierung, verstellbarer Luftkappe f\u00fcr Vertikal-, Horizontal- und Rundstrahl, Softgriff sowie Farbbeh\u00e4lter mit Deckel und Messskala, - im ma\u00dfgebenden Zeitpunkt ohne Akku und Ladeger\u00e4t, - dient zum Aufbringen (Spr\u00fchen) von Lacken und Lasuren auf kleinen und mittelgro\u00dfen Arbeitsfl\u00e4chen, - in einer gemeinsamen Verkaufsumschlie\u00dfung mit Reinigungsb\u00fcrste, Reinigungsnadel, Beh\u00e4lter zur Viskosit\u00e4tspr\u00fcfung und einer Bedienungsanleitung (Beipack). Das Farbspr\u00fchger\u00e4t bestimmt den Charakter des Ganzen. \"Mechanischer Apparat zum Verspr\u00fchen von Fl\u00fcssigkeiten (Warenzusammenstellung in Aufmachung f\u00fcr den Einzelverkauf aus einem Farbspr\u00fchger\u00e4t - charakterbestimmend - und Beipack) - Akku-Farbspr\u00fchsystem\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 8,
+        "row_id": "DEBTI12351/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI4106/25-1",
+      "record_id": "EU_BTI_DEBTI4106_25_1",
+      "source_excerpt": "DEBTI4106/25-1 84818085************** AV 1 / AV 6 Regel-Absperrklappe - aus einem zylindrischen Geh\u00e4use aus Kunststoff in Form eines Rohrabschnitts mit innenliegendem Anschlag sowie integrierter Regelmechanik aus Regel- element (Klappenblatt), Lagerung und Bet\u00e4tigungsvorrichtung mit Motorhalte- platte f\u00fcr Stellmotor, - zur Integration in die Rohrleitung einer Abluftanlage, zum Regeln des Luft- Volumenstroms. \"Armatur und \u00e4hnliche Apparate f\u00fcr Rohr- oder Schlauchleitungen, keine Ware der Unterpositionen (KN) 8481 1005 bis 8481 8081, Klappe - Regel-Absperrklappe\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 9,
+        "row_id": "DEBTI4106/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI45897/25-1",
+      "record_id": "EU_BTI_DEBTI45897_25_1",
+      "source_excerpt": "DEBTI45897/25-1 8507600090************ AV 1 / AV 6 Anm 3 Kap 85 Hochvoltbatterie (Abbildung siehe Anlage), - aus einem Lithium-Ionen-Akkumulator mit 184 Akkumulatorzellen in einem spezifisch geformten Geh\u00e4use mit den Abmessungen (LxBxH) ca. 2122\ufeff,\ufeff4 mm x 1501 mm x 290\ufeff,\ufeff1 mm, - mit einer Nennkapazit\u00e4t von 139 Ah, einer Nennspannung von 581\ufeff,\ufeff44 V und einem Gewicht von ca. 653\ufeff,\ufeff1 kg, - zur Verwendung als Energiequelle in einem E-Fahrzeug. \"Elektrischer Akkumulator, Lithium-Ionen-Akkumulator, keine Ware der TARIC-Codes 8507 6000 10 bis 8507 6000 83\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 10,
+        "row_id": "DEBTI45897/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI34105/25-1",
+      "record_id": "EU_BTI_DEBTI34105_25_1",
+      "source_excerpt": "DEBTI34105/25-1 85044095************** AV 1 / AV 6 Anm 3 ABS XVI ErlKN Pos 8504 (HS) RZ 08.0, 09.0 Elektrischer Stromrichter, sog. \"Sanftanlasser\", als kombinierte Maschine aus einem Stromrichter (kennzeichnende Hauptt\u00e4tigkeit) und einer Steuerung, im Wesentlichen bestehend aus - einer Steuereinheit, Thyristoren, Transformatoren, Netzschalter, Bypassschalter sowie weiteren elektronischen Schaltungen in einem Metallschrank als Geh\u00e4use, mit Vakuumsch\u00fctze, mit Anzeige- und Bedienelementen (u.a. Display, Notaus, Status-LEDs), mit f\u00fcnf digitalen Eing\u00e4ngen (zwei programmierbar), sieben Relaisausg\u00e4ngen (drei programmierbar), einem Analogausgang, mit Kommunikationsschnittstellen f\u00fcr verschiedene industrielle Datenbusse und Ethernet, mit Datenlogger (Datenerfassung und - aufzeichnung f\u00fcr Diagnosezwecke z.B. von internen Sensoren), nach Anschluss externer Motoren dient die Ware zum - Umformen einer Eingangswechselspannung von 3300 V AC / 300 A / 50-60 Hz in eine mittels Phasenanschnitt modulierte dreiphasige Ausgangsspannung zum Antrieb, Begrenzen der Anlauf- sowie der Auslaufspannung angeschlossener Motoren, - zum Schalten externer Ger\u00e4te mittels der Relaisausg\u00e4ngen. Die Ware ist als \"elektrischer Stromrichter, kein Akkumulatorenladeger\u00e4t, kein Gleichrichter, kein Wechselrichter\" einzureihen.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 11,
+        "row_id": "DEBTI34105/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI45891/25-1",
+      "record_id": "EU_BTI_DEBTI45891_25_1",
+      "source_excerpt": "DEBTI45891/25-1 8507600090************ AV 1 / AV 6 Anm 3 Kap 85 Hochvoltbatterie (Abbildung siehe Anlage), - aus einem Lithium-Ionen-Akkumulator mit 212 Akkumulatorzellen in einem spezifisch geformten Geh\u00e4use mit den Abmessungen (LxBxH) ca. 2155 mm x 1536 mm x 253 mm, - mit einer Nennkapazit\u00e4t von 139 Ah, einer Nennspannung von 568\ufeff,\ufeff8 V und einem Gewicht von ca. 685 kg, - zur Verwendung als Energiequelle in einem E-Fahrzeug. \"Elektrischer Akkumulator, Lithium-Ionen-Akkumulator, keine Ware der TARIC-Codes 8507 6000 10 bis 8507 6000 83\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 12,
+        "row_id": "DEBTI45891/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI25507/24-1",
+      "record_id": "EU_BTI_DEBTI25507_24_1",
+      "source_excerpt": "DEBTI25507/24-1 85371091************** AV 1 / AV 6 / AV 3 b) / AV 5 b) ErlKN Pos 8537 (HS) RZ 03.0, 06.0 Sog. \"Niederspannungssanftanlasser\" (Softstarter), im Wesentlichen bestehend aus einer mit aktiven und passiven Bauelementen best\u00fcckten gedruckten Schaltung (u.a. Mikrocontroller) und drei Thyristormodulen in einem nahezu quaderf\u00f6rmigen Geh\u00e4use aus Kunststoff, an der Unterseite mit sechs massiven Anschlussstellen f\u00fcr eine dreiphasige Ein- und Ausgangsspannung von 400 VAC / 410 A / 50-60 Hz, mit elektrischen Anschl\u00fcssen (u.a. analoge und digitale Ein- und Ausg\u00e4nge, Ausgangsrelais), mit Software (=speicherprogrammierbar), mit einem LED-Display mit vier Bedientasten und Status-LED\u00b4s, mit Sensoren (u.a. Temperaturf\u00fchler, Strom- und Spannungssensoren), nach Einbau und Parametrierung dient die Ware zum materialschonenden Starten und Stoppen angeschlossener externer Ger\u00e4te (z.B. Pumpen, Motoren, nicht Gegenstand dieser vZTA-Entscheidung), - ohne Stromrichtert\u00e4tigkeit der Position 8504, - zum Parametrieren und Anzeigen von Betriebsinformationen mittels LED-Anzeige und Bedientasten, - zum Begrenzen des Anlaufs- und Auslaufsstroms mittels Schalten der Thyristormodule, - zum Schalten und Steuern mittels der programmierbaren Ausgangsrelais und Ausgabe analoger und digitaler Signale an externe Ger\u00e4te (z.B. Steuerungen oder Anzeigen, nicht Gegenstand dieser vZTA-Entscheidung), - mit einer nicht charakterbestimmenden Bedienungsanleitung f\u00fcr den Einzelverkauf in einem Pappkarton aufgemacht. Die Ware ist als \"Tr\u00e4ger mit mehreren Ger\u00e4ten der Position 8536 ausger\u00fcstet, zum elektrischen Schalten und Steuern, einschlie\u00dflich solcher mit eingebauten Ger\u00e4ten des Katipels 90, keine Vermittlungseinrichtung der Position 8517, f\u00fcr eine Spannung von 1000 V oder weniger, kein Steuerschrank f\u00fcr numerische Steuerungen mit eingebauter automatischer Datenverarbeitungsmaschine, speicherprogrammierbare Steuerung, nicht von den TARIC-Unterpositionen 8537 1091 10 bis 8537 1091 73 erfasst\" einzureihen.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 13,
+        "row_id": "DEBTI25507/24-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2025-03118",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2025_03118",
+      "source_excerpt": "FRBTIFR-BTI-2025-03118 8504408390************ R\u00e8gles g\u00e9n\u00e9rales 1 et 6 : le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. Note 2.a) de la section XVI : les parties consistant en articles compris dans l'une quelconque des positions des chapitres 84 ou 85 (\u00e0 l'exception des nos 8409, 8431, 8448, 8466, 8473, 8487, 8503, 8522, 8529, 8538 et 8548) rel\u00e8vent de ladite position, quelle que soit la machine \u00e0 laquelle elles sont destin\u00e9es. Avis de classement 850440/ 1- Appareil d'alimentation \u00e9lectrique ininterrompue, par analogie. NESH de la position tarifaire 8504, paragraphe II, alin\u00e9a A) : les redresseurs qui permettent de transformer un courant alternatif mono\u2011 ou polyphas\u00e9 en courant continu, g\u00e9n\u00e9ralement avec modification simultan\u00e9e de la tension. NENC de la position tarifaire 8504 publi\u00e9es au JOUE n\u00b0 C119/346 du 29/03/19, reprenant les redresseurs. Redresseur, ayant pour fonction de transformer le courant alternatif g\u00e9n\u00e9r\u00e9 par un moteur \u00e9lectrique (alternateurs) en courant continu pour alimenter la batterie de la voiture, sous forme de bo\u00eetier moul\u00e9 en plastique de forme rectangulaire contenant une trace de cuivre et une plaque en aluminium rivet\u00e9e. Bo\u00eetier rempli de gel silicone comportant une carte de circuit imprim\u00e9 compos\u00e9 de 4 semis conducteurs \u00e0 cristal de silicium (MOSFET) et d\u2019un capteur de temp\u00e9rature. Destin\u00e9 \u00e0 \u00eatre int\u00e9gr\u00e9 dans un onduleur/redresseur de courant suivant le mode de fonctionnement (regen/motor).",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 14,
+        "row_id": "FRBTIFR-BTI-2025-03118"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2022-08440",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2022_08440",
+      "source_excerpt": "FRBTIFR-BTI-2022-08440 85044086************** R\u00e8gles g\u00e9n\u00e9rales 1 et 6 : le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. Note 3 de la section XVI : Sauf dispositions contraires, les combinaisons de machines d'esp\u00e8ces diff\u00e9rentes destin\u00e9es \u00e0 fonctionner ensemble et ne constituant qu'un seul corps, ainsi que les machines con\u00e7ues pour assurer deux ou plusieurs fonctions diff\u00e9rentes, alternatives ou compl\u00e9mentaires, sont class\u00e9es suivant la fonction principale qui caract\u00e9rise l'ensemble, ici la fonction d'onduleur. NESH de la position tarifaire 8504, partie II, paragraphe B) qui reprennent les onduleurs qui permettent de transformer un courant continu en courant alternatif. Armoire de conversion d'\u00e9nergie. L'armoire permet la conversion de courant continu (DC) en courant alternatif (AC). L\u2019onduleur a une puissance de conversion de 120kW. L'armoire peut \u00eatre connect\u00e9e \u00e0 des batteries (c\u00f4t\u00e9 DC) et \u00e0 un transformateur de tension (BT/BT). Les batteries et le transformateur seront transport\u00e9s s\u00e9par\u00e9ment. L'armoire est compos\u00e9e d'un filtre, d'un convertisseur et d'organes de coupures (disjoncteurs, fusibles).",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 15,
+        "row_id": "FRBTIFR-BTI-2022-08440"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2023-00324",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2023_00324",
+      "source_excerpt": "FRBTIFR-BTI-2023-00324 8504408590************ R\u00e8gles g\u00e9n\u00e9rales 1 et 6 : le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. NESH de la position tarifaire 8504, paragraphe II, alin\u00e9a B, reprenant les onduleurs. Onduleur \u00e0 double conversion au format tour ou rack, \u00e9quip\u00e9 de batteries au plomb et de cartes \u00e9lectroniques. Ils sont destin\u00e9s \u00e0 prot\u00e9ger les serveurs, data centers, les \u00e9quipements industriels, les stations de travail ou les dispositifs de vid\u00e9o surveillance. Plage de tension d\u2019entr\u00e9e : 110 \u00e0 300 VAC. Puissance \u00e9lectrique de sortie : 1 KVA \u00e0 6 KVA.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 16,
+        "row_id": "FRBTIFR-BTI-2023-00324"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI12366/25-1",
+      "record_id": "EU_BTI_DEBTI12366_25_1",
+      "source_excerpt": "DEBTI12366/25-1 8467292000************ AV 1 / AV 6 / AV 3 b) / AV 5 a) ZAnm 1 ABS XVI Akku-Oberfr\u00e4se/ -Kantenfr\u00e4se (Abbildung siehe Anlage) - bestehend aus einem von Hand zu f\u00fchrenden Ger\u00e4t mit eingebautem Elektromotor, Drehzahl- Regelelektronik, stufenlos einstellbarer Fr\u00e4stiefe mit zus\u00e4tzlicher Feinjustierung, Doppelrohr- f\u00fchrung, Spindelarretierung, LED-Arbeitslicht, Handgriff mit Softgrip, Parallelanschlag, Kopier- h\u00fclse, Zirkelspitze, Sp\u00e4neschild, Zweihand-Aufsatz, Kantenfr\u00e4saufsatz, Maulschl\u00fcssel sowie Spannzangen 6 mm und 8 mm, - im ma\u00dfgebenden Zeitpunkt ohne Akku und Ladeger\u00e4t, - dient zum Fr\u00e4sen von Nuten, Kanten, Profilen und Langl\u00f6chern in H\u00f6lzer, - in einer gemeinsamen, zum dauernden Gebrauch geeigneten Aufbewahrungstasche mit einem Absaugadapter und einer Bedienungsanleitung (Beipack). Die Akku-Oberfr\u00e4se/ -Kantenfr\u00e4se bestimmt den Charakter des Ganzen. \"Von Hand zu f\u00fchrendes Werkzeug mit eingebautem Elektromotor, keine Bohrmaschine oder S\u00e4ge, zum Betrieb ohne externe Energiequelle (Warenzusammenstellung in Auf- machung f\u00fcr den Einzelverkauf aus einer Akku-Oberfr\u00e4se/ -Kantenfr\u00e4se - charakterbe- stimmend - und Beipack)\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 17,
+        "row_id": "DEBTI12366/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2024-04077",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2024_04077",
+      "source_excerpt": "FRBTIFR-BTI-2024-04077 8507600038************ R\u00e8gles g\u00e9n\u00e9rales 1 et 6 : le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. Chapitre 85, Note 3): reprenant et pr\u00e9sentant les accumulateurs \u00e9lectriques. NESH de la position 8507: reprenant les accumulateurs \u00e9lectriques. Modules pour l\u2019assemblage de batteries d\u2019accumulateurs \u00e9lectriques au lithium-ion ayant les caract\u00e9ristiques suivantes: -Longueur: 355mm -Largeur: 151,3mm -Hauteur: 108,1mm -Poids: 12,2Kg La puissance des modules est de 458Wh ou plus mais n\u2019exc\u00e8de pas 3510Wh. Les modules peuvent se d\u00e9cliner sous deux r\u00e9f\u00e9rences avec des puissances et des tensions diff\u00e9rentes: - Puissance pour le mod\u00e8le 2P6S: 2254,32 Wh avec capacit\u00e9 de 116Ah. - Tension pour le mod\u00e8le 2P6S: 22,02V - Puissance pour le mod\u00e8le 3P4S: 2554 Wh avec capacit\u00e9 de 174Ah - Tension pour le mod\u00e8le 3P4S: 14,68V",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 18,
+        "row_id": "FRBTIFR-BTI-2024-04077"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI42101/24-2",
+      "record_id": "EU_BTI_DEBTI42101_24_2",
+      "source_excerpt": "DEBTI42101/24-2 8708999300********0*** AV 1 / AV 6 Anm 1 l) ABS XVI / Anm 3 ABS XVII ErlKN Pos 8708 (HS) RZ 01.1 bis 03.1 Nabe, - in Form eines fahrzeugspezifisch gefertigten kreisf\u00f6rmigen Erzeugnisses mit 16 kreisf\u00f6rmig angeordneten Lochungen und einer zentrischen Lochung, - aus gesenkgeschmiedetem Stahl, - mit einem Au\u00dfendurchmesser von ca. 291 mm und einer H\u00f6he von ca. 90 mm, - wird in Kraftfahrzeugen f\u00fcr den Transport von Waren (Untertage-Muldenkippern) eingebaut und dient als Bestandteil einer elastischen Verbindungskupplung zwischen dem Schwungrad des Dieselmotors und der Eingangswelle des Versatzgetriebes, - nicht f\u00fcr die industrielle Montage, - aufgrund der objektiven Merkmale (u. a. Form, Abmessungen) und Eigenschaften erkennbar haupts\u00e4chlich f\u00fcr Kraftfahrzeuge des Kapitels 87 bestimmt, - keine Ware des Abschnitt XVI, da nach der Anmerkung 1 l) zum Abschnitt XVI Waren des Abschnitt XVII aus dem Abschnitt XVI ausgenommen sind. \"Teil f\u00fcr Kraftfahrzeuge der Position 8704 (Nabe), anderes als in den Unterpositionen 8708 1010 bis 8708 9910 genannte, aus gesenkgeschmiedetem Stahl\"",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 19,
+        "row_id": "DEBTI42101/24-2"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI26959/23-1",
+      "record_id": "EU_BTI_DEBTI26959_23_1",
+      "source_excerpt": "DEBTI26959/23-1 8536699099************ AV 1 / AV 6 Anm 2 a) ABS XVI / Anm 3 ABS XVI sog. gedruckte Schaltung, best\u00fcckt mit Bauteilen, im Wesentlichen bestehend aus einer mit passiven Bauelementen best\u00fcckten, flexiblen gedruckten Schaltung (FPCA) mit insgesamt 16 angebrachten Anschl\u00fcssen f\u00fcr die Kontaktierung an Batteriezellen einerseits und einem Steckverbinder mit 27 belegten Kontakten zur Kontaktierung an ein \u00fcbergeordnetes Batteriemanagementsystem (BMS) eines Fahrzeugs (nicht Gegenstand dieser vZTA-Entscheidung) anderseits, mit Sicherungen zum \u00dcberspannungsschutz und mit NTC-Widerst\u00e4nden zur Erfassung von Temperatur, zum Einbau in eine Fahrzeugbatterie. Die Ware dient nach dem Einbau in eine wiederaufladbare Fahrzeugbatterie und dem Anschluss an das Batteriemanagement (beide Waren nicht Gegenstand dieser vZTA-Entscheidung) eines elektrisch angetriebenen Fahrzeugs dem elektrischen Verbinden von Stromkreisen (kennzeichnende Hauptfunktion). Die Ware ist als \"elektrisches Ger\u00e4t zum Verbinden von elektrischen Stromkreisen, f\u00fcr eine Spannung von 1000 V oder weniger, Steckvorrichtung, nicht f\u00fcr Koaxialkabel oder gedruckte Schaltungen, nicht f\u00fcr bestimmte Luftfahrzeuge, nicht von den TARIC-Codes 8536 6990 82 bis 8536 6990 86 erfasst\" einzureihen. Anhang: 2 Abbildungen",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 20,
+        "row_id": "DEBTI26959/23-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2024-07028",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2024_07028",
+      "source_excerpt": "FRBTIFR-BTI-2024-07028 85414300************** R\u00e8gles g\u00e9n\u00e9rales 1 et 6 : le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. NESH de la position tarifaire 8541, point B paragraphe 2, reprenant les cellules photovolta\u00efques ou photopiles. Panneau solaire sans onduleur et sans c\u00e2ble, d'une puissance maximale de 500 W.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 21,
+        "row_id": "FRBTIFR-BTI-2024-07028"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI17334/25-1",
+      "record_id": "EU_BTI_DEBTI17334_25_1",
+      "source_excerpt": "DEBTI17334/25-1 85371091************** AV 1 / AV 6 / AV 3 c) Anm 3 ABS XVI Sogenanntes \"Energie-Management-System\", kombinierte Maschine in Form einer elektronischen Schaltung (u.a. mit Mikrocontroller und Speicherbausteinen ausger\u00fcstet) in einem Geh\u00e4use mit Status-LED und LC-Display auf der Vorderseite und Halterung zur Montage auf einer Hutschiene an der R\u00fcckseite (Abmessungen: 53,6 mm x 90 mm x 60 mm, siehe Abbildung), mit Anschl\u00fcssen f\u00fcr die Daten-Kommunikation in Netzwerken (RS485, RS422, Ethernet, USB), mit internem Speicher (4 GB), mittels Software-Algorithmus arbeitend und mit M\u00f6glichkeit zu Konfiguration, Back-Up und Firmware-Update via USB, f\u00fcr eine Betriebsspannung von 12...24 V, in drei verschiedenen Ausf\u00fchrungen hinsichtlich der Gr\u00f6\u00dfe der anschlie\u00dfbaren Photovoltaikanlage (bis 15, 100 oder 2000 kWp), nach Anschluss an eine Photovoltaikanlage zum fortlaufenden Messen und Protokollieren der Ausgangsleistung des Wechselrichters dieser Anlage, zum Senden der Daten an einen externen Web-Server und an ein externes Display, zum Begrenzen der Einspeiseleistung der Photovoltaikanlage durch Steuern des Wechselrichters und Abgabe der \u00dcberschussleistung an externe Verbraucher, ohne kennzeichnende Hauptt\u00e4tigkeit. Die Einreihung erfolgt in die letztgenannte der gleicherma\u00dfen in Betracht kommenden Positionen. Die Ware ist als \"speicherprogrammierbare Steuerung, f\u00fcr eine Spannung von 1000 V oder weniger, kein Steuerschrank f\u00fcr numerische Steuerungen mit eingebauter automatischer Datenverarbeitungsmaschine\" einzureihen.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 22,
+        "row_id": "DEBTI17334/25-1"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2024-05679",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2024_05679",
+      "source_excerpt": "FRBTIFR-BTI-2024-05679 84714900************** R\u00e8gles g\u00e9n\u00e9rales 1 et 6 : le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. R\u00e8gle g\u00e9n\u00e9rale 5a : Les \u00e9tuis pour appareils photographiques, pour instruments de musique, pour armes, pour instruments de dessin, les \u00e9crins et les contenants similaires, sp\u00e9cialement am\u00e9nag\u00e9s pour recevoir un article d\u00e9termin\u00e9 ou un assortiment, susceptibles d'un usage prolong\u00e9 et pr\u00e9sent\u00e9s avec les articles auxquels ils sont destin\u00e9s, sont class\u00e9s avec ces articles lorsqu'ils sont du type normalement vendu avec ceux-ci. Note 4 de la section XVI : Lorsqu'une machine ou une combinaison de machines sont constitu\u00e9es par des \u00e9l\u00e9ments distincts (m\u00eame s\u00e9par\u00e9s ou reli\u00e9s entre eux par des conduites, des dispositifs de transmission, des c\u00e2bles \u00e9lectriques ou autre am\u00e9nagement) en vue d'assurer concurremment une fonction bien d\u00e9termin\u00e9e comprise dans l'une des positions du chapitre 84 ou du chapitre 85, l'ensemble est \u00e0 classer dans la position correspondant \u00e0 la fonction qu'il assure. Note 6 A du chapitre 84, d\u00e9finissant les machines automatiques de traitement de l\u2019information. NESH de la position tarifaire 8471, partie I paragraphe A, reprenant les machines automatiques de traitement de l'information et leurs unit\u00e9s. Ensemble destin\u00e9 \u00e0 la formation des forces de polices et forces militaires, compos\u00e9 de : - Un ordinateur portable - Un casque de r\u00e9alit\u00e9 virtuelle - Un routeur WIFI - Une r\u00e9plique d'arme de type airsoft d'une puissance inf\u00e9rieur a 2 joules - D'un tracker pour l'arme (permettant de suivre sa position dans la r\u00e9alit\u00e9 virtuelle) - D'un tracker pour la main ne portant pas l'arme - Chargeurs et c\u00e2bles pour les diff\u00e9rents \u00e9quipements - Multiprise \u00e9lectrique. L\u2019ensemble est conditionn\u00e9 dans une mallette de transport renforc\u00e9e.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 23,
+        "row_id": "FRBTIFR-BTI-2024-05679"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "FRBTIFR-BTI-2025-03194",
+      "record_id": "EU_BTI_FRBTIFR_BTI_2025_03194",
+      "source_excerpt": "FRBTIFR-BTI-2025-03194 8708991090************ R\u00e8gles g\u00e9n\u00e9rales 1 et 6: le classement est d\u00e9termin\u00e9 par les notes de section et de chapitre, ainsi que par le libell\u00e9 de position, de sous-position et de code NC. NESH de la position 8708, Point L) reprenant les p\u00e9dales d\u2019acc\u00e9l\u00e9rateurs. NENC de la position tarifaire du 8708, publi\u00e9es au JOUE n\u00b0 C 119/378 du 29.3.2019, relatives aux parties et accessoires des v\u00e9hicules automobiles des n\u00b0 8701 \u00e0 8705 renvoyant aux NENC de la position tarifaire du 8707 10 10 d\u00e9finissant les articles destin\u00e9s \u00e0 l\u2019industrie du montage. NENC de la position 8708 99 10 \u00e0 8708 99 97 publi\u00e9es au JOUE n\u00b0 C119/379 du 29/03/2019 reprenant les autres parties et accessoires des v\u00e9hicules automobiles des n\u00b0 8701 \u00e0 8705. P\u00e9dale d\u2019acc\u00e9l\u00e9rateur, sp\u00e9cialement con\u00e7ue pour \u00eatre mont\u00e9e dans des v\u00e9hicules de tourisme sans permis avec moteur thermique ou \u00e9lectrique n'exc\u00e9dant pas 500 cm3. Ces p\u00e9dales sont destin\u00e9es \u00e0 l'industrie de l'assemblage automobile. Le produit peut se d\u00e9cliner sous diff\u00e9rents mod\u00e8les.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 24,
+        "row_id": "FRBTIFR-BTI-2025-03194"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "ROBTI2025/005087",
+      "record_id": "EU_BTI_ROBTI2025_005087",
+      "source_excerpt": "ROBTI2025/005087 8544429090************ Regulile generale pentru interpretarea Nomenclaturii combinate: 1 \u0219i 6. Produsele sunt busbaruri de cupru, utilizate ca elemente de leg\u0103tur\u0103 electric\u0103 intern\u0103 \u00een modulele de baterii pentru vehicule electrice. Acestea sunt componente semifabricate care se conecteaz\u0103 la celulele electrice \u0219i echipamentele de management al energiei (BMS \u2013 Battery Management System), \u00een combina\u021bie cu alte elemente electrice \u0219i electronice. Produsul este izolat cu Band\u0103 de fibra de sticla si banda adeziva din PVC. Produsul este echipat cu \u0219uruburi TORX M6 \u0219i capace din plastic la capete, care formeaza un element de conexiune electric\u0103.",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 25,
+        "row_id": "ROBTI2025/005087"
+      }
+    },
+    {
+      "authority_class": "ruling_or_precedent",
+      "jurisdiction": "EU",
+      "legal_anchor": "DEBTI33199/24-1",
+      "record_id": "EU_BTI_DEBTI33199_24_1",
+      "source_excerpt": "DEBTI33199/24-1 8507600090************ AV 1 / AV 6 / AV 3 b) Anm 3 Kap 85 Akku Starter-Kit (Abbildung siehe Anlage), - bestehend aus vier Lithium-Ionen-Akkumulatoren mit den Abmessungen (BxHxT) 99 mm x 131 mm x 87 m, einem Gewicht von 1,36 kg und einer Kapazit\u00e4t von 10 Ah, mit Display zur Ladeanzeige sowie Batteriemanagement-Elektronik, - zur Verwendung als wiederaufladbare Energiequelle f\u00fcr eine Videokamera, - zusammen mit Beipack (Ladeger\u00e4t sowie zwei verschiedenen Akkuadapterplatten) in einer gemeinsamen Verkaufsumschlie\u00dfung. Die Lithium-Ionen-Akkumulatoren bestimmen den Charakter des Ganzen. \"Elektrischer Akkumulator, Lithium-Ionen-Akkumulator, nicht von den TARIC-Codes 8507 6000 10 bis 8507 6000 88 erfasst, in Warenzusammenstellung in Aufmachung f\u00fcr den Einzelverkauf mit nicht charakterbestimmendem Beipack\u201c",
+      "source_id": "SRC_EU_BTI_SAMPLE",
+      "source_locator": {
+        "csv_row_number": 26,
+        "row_id": "DEBTI33199/24-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION I -GENERAL RULES",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0001",
+      "source_excerpt": "SECTION I -GENERAL RULES",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 1,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "A. GENERAL RULES FOR THE INTERPRETATION OF THE COMBINED NOMENCLATURE . . . . . . . . . . . . . . . . . . . . 15",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0002",
+      "source_excerpt": "A. | GENERAL RULES FOR THE INTERPRETATION OF THE COMBINED NOMENCLATURE . . . . . . . . . . . . . . . . . . . . | 15",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 2,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "B. GENERAL RULES CONCERNING DUTIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0003",
+      "source_excerpt": "B. | GENERAL RULES CONCERNING DUTIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 16",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 3,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "C. GENERAL RULES APPLICABLE BOTH TO NOMENCLATURE AND TO DUTIES... . . . . . . . . . . . . . . . . . . . . . . . . . . 17",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0004",
+      "source_excerpt": "C. | GENERAL RULES APPLICABLE BOTH TO NOMENCLATURE AND TO DUTIES... . . . . . . . . . . . . . . . . . . . . . . . . . . | 17",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 4,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION II -SPECIAL PROVISIONS",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0005",
+      "source_excerpt": "SECTION II -SPECIAL PROVISIONS",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 5,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "A. GOODS FOR CERTAIN CATEGORIES OF SHIPS, BOATS AND OTHER VESSELS AND FOR DRILLING OR PRODUCTION PLATFORMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0006",
+      "source_excerpt": "A. | GOODS FOR CERTAIN CATEGORIES OF SHIPS, BOATS AND OTHER VESSELS AND FOR DRILLING OR PRODUCTION PLATFORMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 18",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 6,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "B. CIVIL AIRCRAFTAND GOODS FOR USE IN CIVIL AIRCRAFT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0007",
+      "source_excerpt": "B. | CIVIL AIRCRAFTAND GOODS FOR USE IN CIVIL AIRCRAFT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 19",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 7,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "C. PHARMACEUTICAL PRODUCTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0008",
+      "source_excerpt": "C. | PHARMACEUTICAL PRODUCTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 22",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 8,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "D. STANDARD RATE OF DUTY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0009",
+      "source_excerpt": "D. | STANDARD RATE OF DUTY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 23",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 9,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "E. CONTAINERS AND PACKING MATERIALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0010",
+      "source_excerpt": "E. | CONTAINERS AND PACKING MATERIALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 24",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 10,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "F. FAVOURABLE TARIFF TREATMENT BY REASON OF THE NATURE OF THE GOODS . . . . . . . . . . . . . . . . . . . . . . 24",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0011",
+      "source_excerpt": "F. | FAVOURABLE TARIFF TREATMENT BY REASON OF THE NATURE OF THE GOODS . . . . . . . . . . . . . . . . . . . . . . | 24",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 11,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SIGNS, ABBREVIATIONS AND SYMBOLS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0012",
+      "source_excerpt": "SIGNS, | ABBREVIATIONS AND SYMBOLS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 26",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 12,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SUPPLEMENTARY UNITS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0013",
+      "source_excerpt": "SUPPLEMENTARY UNITS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | . . . . . . . | 27",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 13,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "PARTTWO -SCHEDULE OF CUSTOMS DUTIES",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0014",
+      "source_excerpt": "PARTTWO -SCHEDULE OF CUSTOMS DUTIES",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 14,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "Chapter",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0015",
+      "source_excerpt": "Chapter | Page",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 15,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION I 1 LIVE ANIMALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 2 MEATAND EDIBLE MEAT OFFAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 3 FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES . . . . . . . . . . . . . . . . . . . . . . . . . 54 4 DAIRY PRODUCE; BIRDS ' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 5 PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED . . . . . . . . . . . . . . . . . . . . . . . . . . . 92",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0016",
+      "source_excerpt": "SECTION I",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 16,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION II 6 LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94 7 EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97 8 EDIBLE FRUITAND NUTS; PEEL OF CITRUS FRUIT OR MELONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104 9 COFFEE, TEA, MAT\u00c9 AND SPICES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111 10 CEREALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114 11 PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN . . . . . . . . . . . . . . . . . . 119 12 OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAWAND FODDER........ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124 13 LAC; GUMS, RESINS AND OTHER VEGETABLE SAPSAND EXTRACTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 129 14 VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0017",
+      "source_excerpt": "SECTION II",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          5
+        ],
+        "row_index": 22,
+        "table_id": "table-1"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION III 15 ANIMAL, VEGETABLE OR MICROBIAL FATSANDOILSAND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL ORVEGETABLE WAXES ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL ORVEGETABLE WAXES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0018",
+      "source_excerpt": "SECTION III",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          6
+        ],
+        "row_index": 9,
+        "table_id": "table-2"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION IV 16 PREPARATIONS OF MEAT, OF FISH, OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES, OROF INSECTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 143 17 SUGARS AND SUGAR CONFECTIONERY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150 18 COCOA AND COCOA PREPARATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155 19 PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS ' PRODUCTS . . . . . . . . . . . . . . . . . . 158 20 PREPARATIONS OF VEGETABLES, FRUIT, NUTS OROTHER PARTS OF PLANTS . . . . . . . . . . . . . . . . . . . . . . . . . . . 163 21 MISCELLANEOUS EDIBLE PREPARATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 184 22 BEVERAGES, SPIRITS ANDVINEGAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 188 23 RESIDUES ANDWASTE FROM THE FOOD INDUSTRIES; PREPAREDANIMAL FODDER . . . . . . . . . . . . . . . . . . . 203 24 TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY....... 209",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0019",
+      "source_excerpt": "SECTION IV",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          6
+        ],
+        "row_index": 11,
+        "table_id": "table-2"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION V 25 SALT; SULPHUR; EARTHSAND STONE; PLASTERING MATERIALS, LIME AND CEMENT........ . . . . . . . . . . 212 26 ORES, SLAG ANDASH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218 27 MINERAL FUELS, MINERAL OILS AND PRODUCTS OF THEIR DISTILLATION; BITUMINOUS SUBSTANCES; MINERALWAXES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 221",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0020",
+      "source_excerpt": "SECTION V",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          6
+        ],
+        "row_index": 21,
+        "table_id": "table-2"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION VI",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0021",
+      "source_excerpt": "SECTION VI",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          7
+        ],
+        "row_index": 1,
+        "table_id": "table-3"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "PRODUCTS OF THE CHEMICALOR ALLIED INDUSTRIES 28 INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE- EARTH METALS, OF RADIOACTIVE ELEMENTS OROF ISOTOPES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 232 29 ORGANIC CHEMICALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 247 30 PHARMACEUTICAL PRODUCTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 274 31 FERTILISERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 280 32 TANNING OR DYEING EXTRACTS; TANNINSAND THEIR DERIVATIVES; DYES, PIGMENTSAND OTHER COLOURING MATTER; PAINTS ANDVARNISHES; PUTTYAND OTHER MASTICS; INKS . . . . . . . . . . . . . . . . . . 284 33 ESSENTIAL OILS AND RESINOIDS; PERFUMERY, COSMETIC OR TOILET PREPARATIONS . . . . . . . . . . . . . . . . 289 34 SOAP, ORGANIC SURFACE-ACTIVE AGENTS, WASHING PREPARATIONS, LUBRICATING PREPARATIONS, ARTIFICIAL WAXES, PREPARED WAXES, POLISHING OR SCOURING PREPARATIONS, CANDLES AND SIMILAR ARTICLES, MODELLING PASTES, 'DENTAL WAXES' AND DENTAL PREPARATIONS WITH A BASIS OF PLASTER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 292 35 ALBUMINOIDAL SUBSTANCES; MODIFIED STARCHES; GLUES; ENZYMES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 296 36 EXPLOSIVES; PYROTECHNIC PRODUCTS; MATCHES; PYROPHORIC ALLOYS; CERTAIN COMBUSTIBLE PREPARATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 299 37 PHOTOGRAPHIC ORCINEMATOGRAPHIC GOODS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300 38 MISCELLANEOUS CHEMICAL PRODUCTS.......... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 303",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0022",
+      "source_excerpt": "PRODUCTS OF THE CHEMICALOR ALLIED INDUSTRIES",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          7
+        ],
+        "row_index": 2,
+        "table_id": "table-3"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION VII 39 PLASTICS ANDARTICLES THEREOF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 316 40 RUBBER ANDARTICLES THEREOF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 332",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0023",
+      "source_excerpt": "SECTION VII",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          7
+        ],
+        "row_index": 14,
+        "table_id": "table-3"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "SECTION VIII",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0024",
+      "source_excerpt": "SECTION VIII",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          7
+        ],
+        "row_index": 17,
+        "table_id": "table-3"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "EU",
+      "legal_anchor": "RAWHIDESAND SKINS, LEATHER, FURSKINS ANDARTICLES THEREOF; SADDLERYAND HARNESS; TRAVEL GOODS, HANDBAGSAND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILKWORM GUT) 41 RAW HIDES AND SKINS (OTHER THAN FURSKINS) AND LEATHER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 339 42 ARTICLES OF LEATHER; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILKWORM GUT) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 344 43 FURSKINS ANDARTIFICIAL FUR; MANUFACTURES THEREOF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347",
+      "record_id": "EU_CN_2025_1926_EVS_LABEL_0025",
+      "source_excerpt": "RAWHIDESAND SKINS, LEATHER, FURSKINS ANDARTICLES THEREOF; SADDLERYAND HARNESS; TRAVEL GOODS, HANDBAGSAND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILKWORM GUT)",
+      "source_id": "SRC_EU_CN_2025_1926_EVS",
+      "source_locator": {
+        "pages": [
+          7
+        ],
+        "row_index": 18,
+        "table_id": "table-3"
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "Chapter 1 general",
+      "record_id": "EU_CN_EN_CHAPTER_1_GENERAL",
+      "source_excerpt": "CHAPTER 1 LIVE ANIMALS",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            271.7,
+            130.5,
+            323.5,
+            141.1
+          ],
+          "text_column": [
+            261.8,
+            150.7,
+            333.5,
+            161.3
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0101",
+      "record_id": "EU_CN_EN_0101",
+      "source_excerpt": "0101 Live horses, asses, mules and hinnies",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            187.0,
+            120.0,
+            196.6
+          ],
+          "text_column": [
+            125.0,
+            187.0,
+            299.2,
+            196.6
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0101 29 10 and 0101 29 90",
+      "record_id": "EU_CN_EN_0101_29_10_AND_0101_29_90",
+      "source_excerpt": "0101 29 10 and 0101 29 90 Horses Wild horses, such as the Przewalski horse or tarpan (Mongolian horse), are included in these subheadings. However, zebras (Equus zebra, Equus grevyi, Equus burchelli, Equus quagga, etc.) are classified in subheading 0106 19 00, even though they belong to the Equidae family. Hybrids of the mare and zebra (zebrule) are classified in subheading 0106 19 00.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            218.6,
+            83.2,
+            245.8
+          ],
+          "text_column": [
+            147.5,
+            218.6,
+            172.6,
+            227.1
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0101 30 00",
+      "record_id": "EU_CN_EN_0101_30_00",
+      "source_excerpt": "0101 30 00 Asses Both domestic and non-domestic asses fall in this subheading. Among the latter are Mongolian djiggetai, the Tibetan kiang, the onager and the hemione or half-ass (Equus hemionus). Hybrids of the ass and zebra (zebrass) are classified in subheading 0106 19 00.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            299.4,
+            120.0,
+            307.9
+          ],
+          "text_column": [
+            125.0,
+            299.4,
+            167.7,
+            307.9
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0101 90 00",
+      "record_id": "EU_CN_EN_0101_90_00",
+      "source_excerpt": "0101 90 00 Other This subheading covers the animals described in the final paragraph of the HS Explanatory Note to heading 0101.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            370.8,
+            120.0,
+            379.3
+          ],
+          "text_column": [
+            125.0,
+            370.8,
+            169.0,
+            379.3
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102",
+      "record_id": "EU_CN_EN_0102",
+      "source_excerpt": "0102 Live bovine animals",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            417.2,
+            120.0,
+            426.7
+          ],
+          "text_column": [
+            125.0,
+            417.2,
+            229.4,
+            426.7
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102 21 10 to 0102 29 99",
+      "record_id": "EU_CN_EN_0102_21_10_TO_0102_29_99",
+      "source_excerpt": "0102 21 10 to 0102 29 99 Cattle These subheadings include the animals described in the HS Explanatory Note to heading 0102, first paragraph, (1). Yaks have 14 pairs of ribs, while all the other animals of the bovine species (with the exception of the European and American bison) have only 13 pairs of ribs.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            448.8,
+            83.2,
+            476.0
+          ],
+          "text_column": [
+            147.5,
+            448.8,
+            168.7,
+            457.3
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102 31 00 to 0102 39 90",
+      "record_id": "EU_CN_EN_0102_31_00_TO_0102_39_90",
+      "source_excerpt": "0102 31 00 to 0102 39 90 Buffalo These subheadings include the animals described in the HS Explanatory Note to heading 0102, first paragraph, (2). The European bison (Bison bonasus) and the American bison (Bison bison) have 14 pairs of ribs, while all the other animals of the bovine species (with the exception of yaks) have only 13 pairs of ribs.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            520.2,
+            83.2,
+            547.4
+          ],
+          "text_column": [
+            147.5,
+            520.2,
+            173.3,
+            528.7
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102 39 10",
+      "record_id": "EU_CN_EN_0102_39_10",
+      "source_excerpt": "0102 39 10 Domestic species This subheading covers all the animals of the domestic bovine species of the genus Bubalus, irrespective of their intended use (stock, raising, fattening, breeding, slaughter, etc.), but excluding pure-bred breeding animals (subheading 0102 31 00).",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            591.6,
+            120.0,
+            600.1
+          ],
+          "text_column": [
+            125.0,
+            591.6,
+            210.4,
+            600.1
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102 39 90",
+      "record_id": "EU_CN_EN_0102_39_90",
+      "source_excerpt": "0102 39 90 Other This subheading covers the bovine species of the genera Syncerus and Bison, but excluding pure-bred breeding animals (subheading 0102 31 00).",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            647.2,
+            120.0,
+            655.7
+          ],
+          "text_column": [
+            125.0,
+            647.2,
+            169.0,
+            655.7
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102 90 20 to 0102 90 99",
+      "record_id": "EU_CN_EN_0102_90_20_TO_0102_90_99",
+      "source_excerpt": "0102 90 20 to 0102 90 99 Other These subheadings include the animals described in the HS Explanatory Note to heading 0102, first paragraph, (3).",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            702.9,
+            83.2,
+            730.1
+          ],
+          "text_column": [
+            147.5,
+            702.9,
+            169.0,
+            711.4
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "0102 90 91",
+      "record_id": "EU_CN_EN_0102_90_91",
+      "source_excerpt": "0102 90 91 Domestic species This subheading covers all of the animals of the domestic bovine species not included above, irrespective of their intended use (stock, raising, fattening, breeding, slaughter, etc.), but excluding pure-bred breeding animals (subheading 0102 90 20).",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            752.1,
+            120.0,
+            760.6
+          ],
+          "text_column": [
+            125.0,
+            752.1,
+            210.4,
+            760.6
+          ]
+        },
+        "page": 13,
+        "pages": [
+          13
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "Chapter 84 general",
+      "record_id": "EU_CN_EN_CHAPTER_84_GENERAL",
+      "source_excerpt": "CHAPTER 84 NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF General For the purposes of subheadings 8407 34 10, 8407 90 50 and 8408 20 10, \u2018for the industrial assembly\u2019 applies only to the series- assembly of new vehicles in factories which manufacture or assemble motor vehicles (including subcontractors). These subheadings can be applied only to engines actually used in the production of new vehicles of the kinds referred to in the subheadings. Consequently, they do not cover similar engines used as spare parts.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            268.9,
+            77.4,
+            326.4,
+            88.0
+          ],
+          "text_column": [
+            104.1,
+            97.6,
+            493.3,
+            119.9
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8402",
+      "record_id": "EU_CN_EN_8402",
+      "source_excerpt": "8402 Steam or other vapour generating boilers (other than central heating hot water boilers capable also of producing low pressure steam); superheated water boilers",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            248.0,
+            120.0,
+            268.1
+          ],
+          "text_column": [
+            125.0,
+            248.0,
+            555.3,
+            268.1
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8402 19 90",
+      "record_id": "EU_CN_EN_8402_19_90",
+      "source_excerpt": "8402 19 90 Other This subheading includes hybrid firetube water-tube boilers and also special tank-boiler variants, such as electrically heated steam boilers equipped with electric-heating cartridges instead of firing plant.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            296.9,
+            120.0,
+            305.4
+          ],
+          "text_column": [
+            125.0,
+            296.9,
+            169.0,
+            305.4
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8405",
+      "record_id": "EU_CN_EN_8405",
+      "source_excerpt": "8405 Producer gas or water gas generators, with or without their purifiers; acetylene gas generators and similar water process gas generators, with or without their purifiers",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            359.4,
+            120.0,
+            379.4
+          ],
+          "text_column": [
+            125.0,
+            359.4,
+            555.3,
+            379.4
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8405 10 00",
+      "record_id": "EU_CN_EN_8405_10_00",
+      "source_excerpt": "8405 10 00 Producer gas or water gas generators, with or without their purifiers; acetylene gas generators and similar water process gas generators, with or without their purifiers This subheading does not include: (a) town gas generators (coking ovens), as used in gasworks (heading 8417); (b) electrolytic gas generators (for example, for the generation of nitrogen dioxide, hydrogen sulphide or prussic acid, depending upon the electrolyte used) are to be classified in heading 8543.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            408.2,
+            120.0,
+            426.1
+          ],
+          "text_column": [
+            125.0,
+            408.2,
+            555.1,
+            426.1
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8407",
+      "record_id": "EU_CN_EN_8407",
+      "source_excerpt": "8407 Spark-ignition reciprocating or rotary internal combustion piston engines",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            511.5,
+            120.0,
+            521.1
+          ],
+          "text_column": [
+            125.0,
+            511.5,
+            452.8,
+            521.1
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8407 21 10 to 8407 29 00",
+      "record_id": "EU_CN_EN_8407_21_10_TO_8407_29_00",
+      "source_excerpt": "8407 21 10 to 8407 29 00 Marine propulsion engines These subheadings do not cover engines used on board water craft for purposes other than propulsion.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            549.9,
+            83.2,
+            577.1
+          ],
+          "text_column": [
+            147.5,
+            549.9,
+            245.3,
+            558.4
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8408",
+      "record_id": "EU_CN_EN_8408",
+      "source_excerpt": "8408 Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            606.0,
+            120.0,
+            615.5
+          ],
+          "text_column": [
+            125.0,
+            606.0,
+            511.1,
+            615.5
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8408 10 11 to 8408 10 99",
+      "record_id": "EU_CN_EN_8408_10_11_TO_8408_10_99",
+      "source_excerpt": "8408 10 11 to 8408 10 99 Marine propulsion engines See the explanatory note to subheadings 8407 21 10 to 8407 29 00.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            644.3,
+            83.2,
+            671.6
+          ],
+          "text_column": [
+            147.5,
+            644.3,
+            245.3,
+            652.8
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8409",
+      "record_id": "EU_CN_EN_8409",
+      "source_excerpt": "8409 Parts suitable for use solely or principally with the engines of heading 8407 or 8408 In addition to the exclusions referred to in the HS Explanatory Note to heading 8409, the following are also excluded from this heading: (a) piping and tubing, of unhardened vulcanised rubber (heading 4009); (b) flexible tubing and piping, of base metal (heading 8307); (c) gaskets and similar joints (generally, classified according to their constituent material or in heading 8484).",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            700.4,
+            120.0,
+            710.0
+          ],
+          "text_column": [
+            125.0,
+            700.4,
+            498.9,
+            710.0
+          ]
+        },
+        "page": 14,
+        "pages": [
+          14
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8409 99 00",
+      "record_id": "EU_CN_EN_8409_99_00",
+      "source_excerpt": "8409 99 00 Other This subheading does not include exhaust-gas turbochargers used to compress the atmospheric air needed for combustion in order to boost the power of internal-combustion piston engines. As turbine-driven air compressors driven by an exhaust-gas turbine, they fall in heading 8414.",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            86.2,
+            120.0,
+            94.7
+          ],
+          "text_column": [
+            125.0,
+            86.2,
+            169.0,
+            94.7
+          ]
+        },
+        "page": 15,
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8411",
+      "record_id": "EU_CN_EN_8411",
+      "source_excerpt": "8411 Turbojets, turbopropellers and other gas turbines",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            153.9,
+            120.0,
+            163.5
+          ],
+          "text_column": [
+            125.0,
+            153.9,
+            351.1,
+            163.5
+          ]
+        },
+        "page": 15,
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "authority_class": "interpretive_legal_note",
+      "jurisdiction": "EU",
+      "legal_anchor": "8411 11 00 to 8411 12 80",
+      "record_id": "EU_CN_EN_8411_11_00_TO_8411_12_80",
+      "source_excerpt": "8411 11 00 to 8411 12 80 Turbojets These subheadings do not cover so-called after-burning auxiliary appliances, presented separately (subheading 8411 91 00).",
+      "source_id": "SRC_EU_CN_EXPLANATORY_NOTES_EVS",
+      "source_locator": {
+        "bbox": {
+          "code_column": [
+            41.8,
+            188.1,
+            83.2,
+            215.3
+          ],
+          "text_column": [
+            147.5,
+            188.1,
+            181.8,
+            196.6
+          ]
+        },
+        "page": 15,
+        "pages": [
+          15
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0001",
+      "source_excerpt": "1.- This Chapter does not cover :",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-3",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(a)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0002",
+      "source_excerpt": "(a) Millstones, grindstones or other articles of Chapter 68;",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-4",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(b)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0003",
+      "source_excerpt": "(b) Machinery or appliances (for example, pumps) of ceramic material and ceramic parts of machinery or appliances of any material (Chapter 69);",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-5",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(c)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0004",
+      "source_excerpt": "(c) Laboratory glassware (heading 70.17); machinery, appliances or other articles for technical uses or parts thereof, of glass (heading 70.19 or 70.20);",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-6",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(d)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0005",
+      "source_excerpt": "(d) Articles of heading 73.21 or 73.22 or similar articles of other base metals (Chapters 74 to 76 or 78 to 81);",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-7",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(e)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0006",
+      "source_excerpt": "(e) Vacuum cleaners of heading 85.08;",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-8",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(f)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0007",
+      "source_excerpt": "(f) Electro-mechanical domestic appliances of heading 85.09; digital cameras of heading 85.25;",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-9",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(g)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0008",
+      "source_excerpt": "(g) Radiators for the articles of Section XVII; or",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-10",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 1(h)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0009",
+      "source_excerpt": "(h) Hand-operated mechanical floor sweepers, not motorised (heading 96.03).",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-11",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0010",
+      "source_excerpt": "2.- Subject to the operation of Note 3 to Section XVI and subject to Note 11 to this Chapter, a machine or appliance which answers to a description in one or more of the headings 84.01 to 84.24, or heading 84.86 and at the same time to a description in one or more of the headings 84.25 to 84.80 is to be classified under the appropriate heading of the former group or under heading 84.86, as the case may be, and not the latter group.",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-12",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(A)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0011",
+      "source_excerpt": "(A) Heading 84.19 does not, however, cover :",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-13",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(i)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0012",
+      "source_excerpt": "(i) Germination plant, incubators or brooders (heading 84.36);",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-14",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(ii)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0013",
+      "source_excerpt": "(ii) Grain dampening machines (heading 84.37);",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-15",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(iii)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0014",
+      "source_excerpt": "(iii) Diffusing apparatus for sugar juice extraction (heading 84.38);",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-16",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(iv)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0015",
+      "source_excerpt": "(iv) Machinery for the heat-treatment of textile yarns, fabrics or made up textile articles (heading 84.51); or",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-18",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(v)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0016",
+      "source_excerpt": "(v) Machinery, plant or laboratory equipment designed for a mechanical operation, in which a change of temperature, even if necessary, is subsidiary.",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-19",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(B)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0017",
+      "source_excerpt": "(B) Heading 84.22 does not cover :",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-20",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(i)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0018",
+      "source_excerpt": "(i) Sewing machines for closing bags or similar containers (heading 84.52); or",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-21",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(ii)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0019",
+      "source_excerpt": "(ii) Office machinery of heading 84.72.",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-22",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(C)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0020",
+      "source_excerpt": "(C) Heading 84.24 does not cover :",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-23",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(i)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0021",
+      "source_excerpt": "(i) Ink-jet printing machines (heading 84.43); or",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-24",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 2(ii)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0022",
+      "source_excerpt": "(ii) Water-jet cutting machines (heading 84.56).",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-25",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 3",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0023",
+      "source_excerpt": "3.- A machine-tool for working any material which answers to a description in heading 84.56 and at the same time to a description in heading 84.57, 84.58, 84.59, 84.60, 84.61, 84.64 or 84.65 is to be classified in heading 84.56.",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-26",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 4",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0024",
+      "source_excerpt": "4.- Heading 84.57 applies only to machine-tools for working metal, other than lathes (including turning centres), which can carry out different types of machining operations either :",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-27",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 84 Note 4(a)",
+      "record_id": "WCO_2022_SECTION_84_COMPLEX_NOTE_0025",
+      "source_excerpt": "(a) by automatic tool change from a magazine or the like in conformity with a machining programme (machining centres),",
+      "source_id": "SRC_WCO_SECTION_84",
+      "source_locator": {
+        "block_id": "block-28",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 1",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0001",
+      "source_excerpt": "1.- This Chapter does not cover :",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-4",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 1(a)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0002",
+      "source_excerpt": "(a) Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing, footwear or ear pads or other electrically warmed articles worn on or about the person;",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-5",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 1(b)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0003",
+      "source_excerpt": "(b) Articles of glass of heading 70.11;",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-6",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 1(c)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0004",
+      "source_excerpt": "(c) Machines and apparatus of heading 84.86;",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-7",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 1(d)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0005",
+      "source_excerpt": "(d) Vacuum apparatus of a kind used in medical, surgical, dental or veterinary sciences (heading 90.18); or",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-8",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 1(e)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0006",
+      "source_excerpt": "(e) Electrically heated furniture of Chapter 94.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-9",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 2",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0007",
+      "source_excerpt": "2.- Headings 85.01 to 85.04 do not apply to goods described in heading 85.11, 85.12, 85.40, 85.41 or 85.42.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-10",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 2 continuation 8",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0008",
+      "source_excerpt": "However, metal tank mercury arc rectifiers remain classified in heading 85.04.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-11",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 3",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0009",
+      "source_excerpt": "3.- For the purposes of heading 85.07, the expression \"electric accumulators\" includes those presented with ancillary components which contribute to the accumulator's function of storing and supplying energy or protect it from damage, such as electrical connectors, temperature control devices (for example, thermistors) and circuit protection devices. They may also include a portion of the protective housing of the goods in which they are to be used.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-12",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 4",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0010",
+      "source_excerpt": "4.- Heading 85.09 covers only the following electro-mechanical machines of the kind commonly used for domestic purposes :",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-13",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 4(a)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0011",
+      "source_excerpt": "(a) Floor polishers, food grinders and mixers, and fruit or vegetable juice extractors, of any weight;",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-14",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 4(b)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0012",
+      "source_excerpt": "(b) Other machines provided the weight of such machines does not exceed 20 kg.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-15",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 4 continuation 13",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0013",
+      "source_excerpt": "The heading does not, however, apply to fans or ventilating or recycling hoods incorporating a fan, whether or not fitted with filters (heading 84.14), centrifugal clothes-dryers (heading 84.21), dish washing machines (heading 84.22), household washing machines (heading 84.50), roller or other ironing machines (heading 84.20 or 84.51), sewing machines (heading 84.52), electric scissors (heading 84.67) or to electro-thermic appliances (heading 85.16).",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-16",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 5",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0014",
+      "source_excerpt": "5.- For the purposes of heading 85.17, the term \"smartphones\" means telephones for cellular networks, equipped with a mobile operating system designed to perform the functions of an automatic data processing machine such as downloading and running multiple applications simultaneously, including third-party applications, and whether or not integrating other features such as digital cameras and navigational aid systems.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-17",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 6",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0015",
+      "source_excerpt": "6.- For the purposes of heading 85.23 :",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-18",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 6(a)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0016",
+      "source_excerpt": "(a) \"Solid-state non-volatile storage devices\" (for example, \"flash memory cards\" or \"flash electronic storage cards\") are storage devices with a connecting socket, comprising in the same housing one or more flash memories (for example, \"FLASH E/PROM\") in the form of integrated circuits mounted on a printed circuit board. They may include a controller in the form of an integrated circuit and discrete passive components, such as capacitors and resistors;",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-19",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 6(b)",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0017",
+      "source_excerpt": "(b) The term \"smart cards\" means cards which have embedded in them one or more electronic integrated circuits (a microprocessor, random access memory (RAM) or read-only memory (ROM)) in the form of chips. These cards may contain contacts, a magnetic stripe or an embedded antenna but do not contain any other active or passive circuit elements.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-20",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 7",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0018",
+      "source_excerpt": "7.- For the purposes of heading 85.24, \u201cflat panel display modules\u201d refer to devices or apparatus for the display of information, equipped at a minimum with a display screen, which are designed to be incorporated into articles of other headings prior to use. Display screens for flat panel display modules include, but are not limited to, those which are flat, curved, flexible, foldable or stretchable in form. Flat panel display modules may incorporate additional elements, including those necessary for receiving video signals and the allocation of those signals to pixels on the display. However, heading 85.24 does not include display modules which are equipped with components for converting video signals (e.g., a scaler IC, decoder IC or application processor) or have otherwise assumed the character of goods of other headings.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-21",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 7 continuation 19",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0019",
+      "source_excerpt": "For the classification of flat panel display modules defined in this Note, heading 85.24 shall take precedence over any other heading in the Nomenclature.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-22",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 8",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0020",
+      "source_excerpt": "8.- For the purposes of heading 85.34 \u201cprinted circuits\u201d are circuits obtained by forming on an insulating base, by any printing process (for example, embossing, plating-up, etching) or by the \u201cfilm circuit\u201d technique, conductor elements, contacts or other printed components (for example, inductances, resistors, capacitors) alone or interconnected according to a pre-established pattern, other than elements which can produce, rectify, modulate or amplify an electrical signal (for example, semiconductor elements).",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-23",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 8 continuation 21",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0021",
+      "source_excerpt": "The expression \u201cprinted circuits\u201d does not cover circuits combined with elements other than those obtained during the printing process, nor does it cover individual, discrete resistors, capacitors or inductances. Printed circuits may, however, be fitted with non-printed connecting elements.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-24",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 8 continuation 22",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0022",
+      "source_excerpt": "Thin- or thick-film circuits comprising passive and active elements obtained during the same technological process are to be classified in heading 85.42.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-25",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 9",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0023",
+      "source_excerpt": "9.- For the purpose of heading 85.36, \u201cconnectors for optical fibres, optical fibre bundles or cables\u201d means connectors that simply mechanically align optical fibres end to end in a digital line system. They perform no other function, such as the amplification, regeneration or modification of a signal.",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-26",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 10",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0024",
+      "source_excerpt": "10.- Heading 85.37 does not include cordless infrared devices for the remote control of television receivers or other electrical equipment (heading 85.43).",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-27",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 85 Note 11",
+      "record_id": "WCO_2022_SECTION_85_COMPLEX_NOTE_0025",
+      "source_excerpt": "11.- For the purposes of heading 85.39, the expression \u201clight-emitting diode (LED) light sources\u201d covers:",
+      "source_id": "SRC_WCO_SECTION_85",
+      "source_locator": {
+        "block_id": "block-28",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 1",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0001",
+      "source_excerpt": "1. This Chapter does not cover railway or tramway rolling-stock designed solely for running on rails.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-4",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 2",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0002",
+      "source_excerpt": "2. For the purposes of this Chapter, \u201ctractors\u201d means vehicles constructed essentially for hauling or pushing another vehicle, appliance or load, whether or not they contain subsidiary provision for the transport, in connection with the main use of the tractor, of tools, seeds, fertilisers or other goods.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-5",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 3",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0003",
+      "source_excerpt": "Machines and working tools designed for fitting to tractors of heading 87.01 as interchangeable equipment remain classified in their respective headings even if presented with the tractor, and whether or not mounted on it.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-6",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 4",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0004",
+      "source_excerpt": "3. Motor chassis fitted with cabs fall in headings 87.02 to 87.04, and not in heading 87.06.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-7",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 5",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0005",
+      "source_excerpt": "4. Heading 87.12 includes all children's bicycles. Other children's cycles fall in heading 95.03.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-8",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 6",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0006",
+      "source_excerpt": "1. Subheading 8708.22 covers :",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-10",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 7",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0007",
+      "source_excerpt": "(a) front windscreens (windshields), rear windows and other windows, framed; and",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-11",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 8",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0008",
+      "source_excerpt": "(b) front windscreens (windshields), rear windows and other windows, whether or not framed, incorporating heating devices or other electrical or electronic devices,",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-12",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 87 general note 9",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_NOTE_0009",
+      "source_excerpt": "when suitable for use solely or principally with the motor vehicles of headings 87.01 to 87.05.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "block_id": "block-13",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "8701",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_8701_0010",
+      "source_excerpt": "87.01 | 8701.10 | - Single axle tractors- Road tractors for semi-trailers :",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 1,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870121",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870121_0011",
+      "source_excerpt": " | 8701.21 | -- With only compression-ignition internal combustion piston engine (diesel or semi-diesel)",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 2,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870122",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870122_0012",
+      "source_excerpt": " | 8701.22 | -- With both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 3,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870123",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870123_0013",
+      "source_excerpt": " | 8701.23 | -- With both spark-ignition internal combustion piston engine and electric motor as motors for propulsion",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 4,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870124",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870124_0014",
+      "source_excerpt": " | 8701.24 | -- With only electric motor for propulsion",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 5,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870129",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870129_0015",
+      "source_excerpt": " | 8701.29 | -- Other",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 6,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870130",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870130_0016",
+      "source_excerpt": " | 8701.30 | - Track-laying tractors- Other, of an engine power :",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 7,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870191",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870191_0017",
+      "source_excerpt": " | 8701.91 | -- Not exceeding 18 kW",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 8,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870192",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870192_0018",
+      "source_excerpt": " | 8701.92 | -- Exceeding 18 kW but not exceeding 37 kW",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 9,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870193",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870193_0019",
+      "source_excerpt": " | 8701.93 | -- Exceeding 37 kW but not exceeding 75 kW",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 10,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870194",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870194_0020",
+      "source_excerpt": " | 8701.94 | -- Exceeding 75 kW but not exceeding 130 kW",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 11,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870195",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870195_0021",
+      "source_excerpt": " | 8701.95 | -- Exceeding 130 kW",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          1
+        ],
+        "row_index": 12,
+        "table_id": "tbl-0.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "8702",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_8702_0022",
+      "source_excerpt": "87.02 |  | Motor vehicles for the transport of ten or more persons, including the driver.",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          2
+        ],
+        "row_index": 1,
+        "table_id": "tbl-1.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870210",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870210_0023",
+      "source_excerpt": "8702.10 | - With only compression-ignition internal combustion piston engine (diesel or semi-diesel)",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          2
+        ],
+        "row_index": 2,
+        "table_id": "tbl-1.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870220",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870220_0024",
+      "source_excerpt": "8702.20 | - With both compression-ignition internal combustion piston engine (diesel or semi-diesel) and electric motor as motors for propulsion",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          2
+        ],
+        "row_index": 3,
+        "table_id": "tbl-1.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "870230",
+      "record_id": "WCO_2022_SECTION_87_COMPLEX_870230_0025",
+      "source_excerpt": "8702.30 | - With both spark-ignition internal combustion piston engine and electric motor as motors for propulsion",
+      "source_id": "SRC_WCO_SECTION_87",
+      "source_locator": {
+        "pages": [
+          2
+        ],
+        "row_index": 4,
+        "table_id": "tbl-1.html"
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0001",
+      "source_excerpt": "1.- This Chapter does not cover :",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-4",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(a)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0002",
+      "source_excerpt": "(a) Articles of a kind used in machines, appliances or for other technical uses, of vulcanised rubber other than hard rubber (heading 40.16), of leather or of composition leather (heading 42.05) or of textile material (heading 59.11);",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-5",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(b)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0003",
+      "source_excerpt": "(b) Supporting belts or other support articles of textile material, whose intended effect on the organ to be supported or held derives solely from their elasticity (for example, maternity belts, thoracic support bandages, abdominal support bandages, supports for joints or muscles) (Section XI);",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-6",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(c)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0004",
+      "source_excerpt": "(c) Refractory goods of heading 69.03; ceramic wares for laboratory, chemical or other technical uses, of heading 69.09;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-7",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(d)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0005",
+      "source_excerpt": "(d) Glass mirrors, not optically worked, of heading 70.09, or mirrors of base metal or of precious metal, not being optical elements (heading 83.06 or Chapter 71);",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-8",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(e)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0006",
+      "source_excerpt": "(e) Goods of heading 70.07, 70.08, 70.11, 70.14, 70.15 or 70.17;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-9",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(f)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0007",
+      "source_excerpt": "(f) Parts of general use, as defined in Note 2 to Section XV, of base metal (Section XV) or similar goods of plastics (Chapter 39); however, articles specially designed for use exclusively in implants in medical, surgical, dental or veterinary sciences are to be classified in heading 90.21;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-10",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(g)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0008",
+      "source_excerpt": "(g) Pumps incorporating measuring devices, of heading 84.13; weight-operated counting or checking machinery, or separately presented weights for balances (heading 84.23); lifting or handling machinery (headings 84.25 to 84.28); paper or paperboard cutting machines of all kinds (heading 84.41); fittings for adjusting work or tools on machine-tools or water-jet cutting machines, of heading 84.66, including fittings with optical devices for reading the scale (for example, \"optical\" dividing heads) but not those which are in themselves essentially optical instruments (for example, alignment telescopes); calculating machines (heading 84.70); valves or other appliances of heading 84.81; machines and apparatus (including apparatus for the projection or drawing of circuit patterns on sensitised semiconductor materials) of heading 84.86;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-11",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(h)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0009",
+      "source_excerpt": "(h) Searchlights or spotlights of a kind used for cycles or motor vehicles (heading 85.12); portable electric lamps of heading 85.13; cinematographic sound recording, reproducing or re-recording apparatus (heading 85.19); sound-heads (heading 85.22); television cameras, digital cameras and video camera recorders (heading 85.25); radar apparatus, radio navigational aid apparatus or radio remote control apparatus (heading 85.26); connectors for optical fibres, optical fibre bundles or cables (heading 85.36); numerical control apparatus of heading 85.37; sealed beam lamp units of heading 85.39; optical fibre cables of heading 85.44;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-12",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(i)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0010",
+      "source_excerpt": "(i) Searchlights or spotlights of heading 94.05;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-13",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(k)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0011",
+      "source_excerpt": "(k) Articles of Chapter 95;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-14",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(l)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0012",
+      "source_excerpt": "(l) Monopods, bipods, tripods and similar articles, of heading 96.20;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-15",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(m)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0013",
+      "source_excerpt": "(m) Capacity measures, which are to be classified according to their constituent material; or",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-16",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 1(n)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0014",
+      "source_excerpt": "(n) Spools, reels or similar supports (which are to be classified according to their constituent material, for example, in heading 39.23 or Section XV).",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-17",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 2",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0015",
+      "source_excerpt": "2.- Subject to Note 1 above, parts and accessories for machines, apparatus, instruments or articles of this Chapter are to be classified according to the following rules:",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-18",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 2(a)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0016",
+      "source_excerpt": "(a) Parts and accessories which are goods included in any of the headings of this Chapter or of Chapter 84, 85 or 91 (other than heading 84.87, 85.48 or 90.33) are in all cases to be classified in their respective headings;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-19",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 2(b)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0017",
+      "source_excerpt": "(b) Other parts and accessories, if suitable for use solely or principally with a particular kind of machine, instrument or apparatus, or with a number of machines, instruments or apparatus of the same heading (including a machine, instrument or apparatus of heading 90.10, 90.13 or 90.31) are to be classified with the machines, instruments or apparatus of that kind;",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-20",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 2(c)",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0018",
+      "source_excerpt": "(c) All other parts and accessories are to be classified in heading 90.33.",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-21",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 3",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0019",
+      "source_excerpt": "3.- The provisions of Notes 3 and 4 to Section XVI apply also to this Chapter.",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-22",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 4",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0020",
+      "source_excerpt": "4.- Heading 90.05 does not apply to telescopic sights for fitting to arms, periscopic telescopes for fitting to submarines or tanks, or to telescopes for machines, appliances, instruments or apparatus of this Chapter or Section XVI; such telescopic sights and telescopes are to be classified in heading 90.13.",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-23",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 5",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0021",
+      "source_excerpt": "5.- Measuring or checking optical instruments, appliances or machines which, but for this Note, could be classified both in heading 90.13 and in heading 90.31 are to be classified in heading 90.31.",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-24",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 6",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0022",
+      "source_excerpt": "6.- For the purposes of heading 90.21, the expression \"orthopaedic appliances\" means appliances for:",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-25",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 6 continuation 23",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0023",
+      "source_excerpt": "- Preventing or correcting bodily deformities; or",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-26",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 6 continuation 24",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0024",
+      "source_excerpt": "- Supporting or holding parts of the body following an illness, operation or injury.",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-27",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "Chapter 90 Note 6 continuation 25",
+      "record_id": "WCO_2022_SECTION_90_COMPLEX_NOTE_0025",
+      "source_excerpt": "Orthopaedic appliances include footwear and special insoles designed to correct orthopaedic conditions, provided that they are either (1) made to measure or (2) mass-produced, presented singly and not in pairs and designed to fit either foot equally.",
+      "source_id": "SRC_WCO_SECTION_90",
+      "source_locator": {
+        "block_id": "block-28",
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_1",
+      "record_id": "WCO_GRI_1",
+      "source_excerpt": "1. The titles of Sections, Chapters and sub-Chapters are provided for ease of reference only; for legal purposes, classification shall be determined according to the terms of the headings and any relative Section or Chapter Notes and, provided such headings or Notes do not otherwise require, according to the following provisions :",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          124.8,
+          525.8,
+          172.6
+        ],
+        "block_index": 2,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_2A",
+      "record_id": "WCO_GRI_2A",
+      "source_excerpt": "2. (a) Any reference in a heading to an article shall be taken to include a reference to that article incomplete or unfinished, provided that, as presented, the incomplete or unfinished article has the essential character of the complete or finished article. It shall also be taken to include a reference to that article complete or finished (or falling to be classified as complete or finished by virtue of this Rule), presented unassembled or disassembled.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          176.8,
+          525.8,
+          236.1
+        ],
+        "block_index": 3,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_2B",
+      "record_id": "WCO_GRI_2B",
+      "source_excerpt": "(b) Any reference in a heading to a material or substance shall be taken to include a reference to mixtures or combinations of that material or substance with other materials or substances. Any reference to goods of a given material or substance shall be taken to include a reference to goods consisting wholly or partly of such material or substance. The classification of goods consisting of more than one material or substance shall be according to the principles of Rule 3.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          238.4,
+          525.8,
+          297.6
+        ],
+        "block_index": 4,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_3A",
+      "record_id": "WCO_GRI_3A",
+      "source_excerpt": "(a) The heading which provides the most specific description shall be preferred to headings providing a more general description. However, when two or more headings each refer to part only of the materials or substances contained in mixed or composite goods or to part only of the items in a set put up for retail sale, those headings are to be regarded as equally specific in relation to those goods, even if one of them gives a more complete or precise description of the goods.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          328.9,
+          525.8,
+          388.1
+        ],
+        "block_index": 6,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_3B",
+      "record_id": "WCO_GRI_3B",
+      "source_excerpt": "(b) Mixtures, composite goods consisting of different materials or made up of different components, and goods put up in sets for retail sale, which cannot be classified by reference to 3 (a), shall be classified as if they consisted of the material or component which gives them their essential character, insofar as this criterion is applicable.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          390.3,
+          525.8,
+          438.0
+        ],
+        "block_index": 7,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_3C",
+      "record_id": "WCO_GRI_3C",
+      "source_excerpt": "(c) When goods cannot be classified by reference to 3 (a) or 3 (b), they shall be classified under the heading which occurs last in numerical order among those which equally merit consideration.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          440.4,
+          525.8,
+          465.0
+        ],
+        "block_index": 8,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_4",
+      "record_id": "WCO_GRI_4",
+      "source_excerpt": "4. Goods which cannot be classified in accordance with the above Rules shall be classified under the heading appropriate to the goods to which they are most akin.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          469.3,
+          525.8,
+          494.1
+        ],
+        "block_index": 9,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_5A",
+      "record_id": "WCO_GRI_5A",
+      "source_excerpt": "(a) Camera cases, musical instrument cases, gun cases, drawing instrument cases, necklace cases and similar containers, specially shaped or fitted to contain a specific article or set of articles, suitable for long-term use and presented with the articles for which they are intended, shall be classified with such articles when of a kind normally sold therewith. This Rule does not, however, apply to containers which give the whole its essential character;",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          525.3,
+          525.8,
+          584.6
+        ],
+        "block_index": 11,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_5B",
+      "record_id": "WCO_GRI_5B",
+      "source_excerpt": "(b) Subject to the provisions of Rule 5 (a) above, packing materials and packing containers presented with the goods therein shall be classified with the goods if they are of a kind normally used for packing such goods. However, this provision is not binding when such packing materials or packing containers are clearly suitable for repetitive use.",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          586.9,
+          525.8,
+          634.6
+        ],
+        "block_index": 12,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    },
+    {
+      "authority_class": "primary_legal_text",
+      "jurisdiction": "WCO",
+      "legal_anchor": "GRI_6",
+      "record_id": "WCO_GRI_6",
+      "source_excerpt": "6. For legal purposes, the classification of goods in the subheadings of a heading shall be determined according to the terms of those subheadings and any related Subheading Notes and, mutatis mutandis, to the above Rules, on the understanding that only subheadings at the same level are comparable. For the purposes of this Rule the relative Section and Chapter Notes also apply, unless the context otherwise requires. ______________",
+      "source_id": "SRC_WCO_GRI_2017",
+      "source_locator": {
+        "bbox": [
+          72.0,
+          638.7,
+          525.8,
+          721.4
+        ],
+        "block_index": 13,
+        "block_source": "pymupdf",
+        "page": 1
+      }
+    }
+  ]
+}

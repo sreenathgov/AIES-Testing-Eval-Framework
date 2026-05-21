@@ -1,0 +1,7 @@
+{
+  "cohort_origin": "fault_injection",
+  "component_ref": "dc-dc-converter",
+  "node_id": "product_component:neg_001",
+  "node_type": "product_component",
+  "source": "controlled_negative_case_bundle"
+}

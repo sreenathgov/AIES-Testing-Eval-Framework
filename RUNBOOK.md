@@ -1,22 +1,122 @@
 # Runbook
 
-## Check Readiness Without Running Evaluation
+This runbook is the authoritative reviewer-facing command path for the paper
+experiment. The public replay does not require a private source repository and
+does not call an API.
+
+## Setup
 
 ```bash
-PYTHONPATH=src python3 -m legal_extract_eval.readiness \
-  --repo-root .
+git clone <repo-url>
+cd legal-extraction-eval-harness
+
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -e '.[test]'
 ```
 
-This command is a preflight only. It validates the checked-in bounded HS source
-bundle, source records, source-authority registry, graph artifact schema,
-runtime isolation, and knowledge-evidence registry. It does not create a run,
-evaluate artifacts, call an API, or refresh reports.
+Use exactly `'.[test]'` in zsh. The quotes prevent shell expansion issues.
 
-Maintainers with a private exported source repository can add
-`--source-repo-root /path/to/private-source-repo` to check the upstream slice as
-well. That path is optional for public replay.
+## One-Command Reviewer Check
 
-## Build Or Refresh The Pre-HS Slice
+```bash
+python scripts/reviewer_replay_check.py --repo-root .
+```
+
+This command verifies:
+
+- Python version and package imports.
+- Readiness status for the checked-in bounded HS source bundle.
+- Required paper run directories.
+- The integrated 38-artifact paper result.
+- Public-release denylist guardrails.
+- Full regression tests.
+
+Expected paper-level result:
+
+```text
+paper_eval_20260520        positive baseline
+paper_negative_20260520    controlled fault-injection run
+paper_integrated_20260520  primary 38-artifact validator-driven paper run
+```
+
+Expected integrated result:
+
+- 38 artifacts.
+- 28 baseline artifacts and 10 fault-injection artifacts.
+- Gate distribution: 22 `pass`, 8 `pass_with_notes`, 6
+  `blocked_pending_research`, 2 `blocked_pending_rerun`.
+- Detection aggregates: gate accuracy 1.0, micro recall 1.0, zero false
+  negatives.
+
+## Optional Regeneration
+
+To regenerate reviewer-local runs without overwriting the canonical paper runs:
+
+```bash
+python scripts/reviewer_replay_check.py --repo-root . --regenerate
+```
+
+This creates:
+
+- `runs/reviewer_negative_replay/`
+- `runs/reviewer_integrated_replay/`
+
+The script then checks the regenerated integrated run against the same
+paper-level invariants.
+
+Equivalent manual commands:
+
+```bash
+PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root . --json
+
+PYTHONPATH=src python3 -m legal_extract_eval.negative_run \
+  --repo-root . \
+  --run-id reviewer_negative_replay \
+  --base-run paper_eval_20260520 \
+  --force
+
+PYTHONPATH=src python3 -m legal_extract_eval.integrated_run \
+  --repo-root . \
+  --run-id reviewer_integrated_replay \
+  --positive-run paper_eval_20260520 \
+  --negative-run reviewer_negative_replay \
+  --force
+```
+
+## No-Install Fallback
+
+If editable install is unavailable, run from the repository root:
+
+```bash
+PYTHONPATH=src python3 -m legal_extract_eval.readiness --repo-root .
+PYTHONPATH=src python3 -m pytest -q
+```
+
+The editable install remains preferred because it prevents
+`ModuleNotFoundError: legal_extract_eval` when reviewers run commands from a
+different shell state.
+
+## Troubleshooting
+
+- **Python version error:** use Python 3.11 or newer.
+- **`pytest` missing:** run `python -m pip install -e '.[test]'`.
+- **`ModuleNotFoundError: legal_extract_eval`:** use the editable install or
+  prefix commands with `PYTHONPATH=src` from the repository root.
+- **Wrong working directory:** run commands from `legal-extraction-eval-harness`.
+- **Private source repository requested:** omit `--source-repo-root` for public
+  replay. The checked-in bounded source bundle is sufficient.
+- **Reviewer replay directories already exist:** `--regenerate` overwrites only
+  `reviewer_negative_replay` and `reviewer_integrated_replay`, not the canonical
+  paper runs.
+- **zsh install quoting issue:** use `python -m pip install -e '.[test]'`
+  exactly.
+
+## Maintainer-Only Rebuilds
+
+Maintainers with a private exported source repository can rebuild the pre-HS
+slice in copy-only mode:
 
 ```bash
 PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
@@ -24,67 +124,4 @@ PYTHONPATH=src python3 scripts/build_pre_hs_slice.py \
   --harness-root .
 ```
 
-This reads a private source repository in copy-only mode, creates the clean
-28-component engineering handoff, copies bounded HS agent specs and schemas,
-optionally refreshes local-only comparison baselines, and refreshes
-`runs/paper_frozen_run/`.
-
-## Evaluate The Frozen Paper Run
-
-```bash
-PYTHONPATH=src python3 -m legal_extract_eval.runner --repo-root . --run-id paper_frozen_run
-```
-
-Reports are written to:
-
-- `runs/paper_frozen_run/reports/control_profile.json`
-- `runs/paper_frozen_run/reports/control_profile.csv`
-- `runs/paper_frozen_run/reports/control_profile.md`
-- `runs/paper_frozen_run/reports/gate_summary.json`
-- `runs/paper_frozen_run/reports/gate_summary.csv`
-- `runs/paper_frozen_run/reports/gate_summary.md`
-- `runs/paper_frozen_run/reports/metric_summary.json`
-- `runs/paper_frozen_run/reports/metric_summary.csv`
-- `runs/paper_frozen_run/reports/metric_summary.md`
-- `runs/paper_frozen_run/reports/metric_stress_test_catalog.json`
-- `runs/paper_frozen_run/reports/metric_stress_test_catalog.md`
-
-Trace inputs for the metrics are written under:
-
-- `runs/paper_frozen_run/trace/agent_trace.json`
-- `runs/paper_frozen_run/trace/claim_trace.json`
-- `runs/paper_frozen_run/trace/rule_invocation_graph.json`
-- `runs/paper_frozen_run/trace/gating_decisions.json`
-- `runs/paper_frozen_run/trace/uncertainty_signals.json`
-- `runs/paper_frozen_run/trace/metric_inputs.json`
-- `runs/paper_frozen_run/trace/field_completeness_trace.json`
-- `runs/paper_frozen_run/trace/graph_alignment_trace.json`
-- `runs/paper_frozen_run/trace/abstention_trace.json`
-- `runs/paper_frozen_run/trace/research_burden_trace.json`
-- `runs/paper_frozen_run/trace/rerun_delta_trace.json`
-
-The Four-Gate handoff summary is generated from the same control-profile rows:
-`pass`, `pass_with_notes`, `blocked_pending_research`, and
-`blocked_pending_rerun`. A gate is a reviewer-facing safety route, not an
-accuracy label.
-
-## Create A Fresh Deterministic Run
-
-```bash
-PYTHONPATH=src python3 -m legal_extract_eval.live_run --repo-root . --run-id fresh_eu_run
-```
-
-The current `live_run` entrypoint emits deterministic harness artifacts without API calls.
-API-backed execution is intentionally disabled by default so the paper bundle is
-reviewer-safe and reproducible.
-
-## Regression Tests
-
-```bash
-python3 -m pytest
-```
-
-Tests cover the pre-HS boundary, source-record availability, agent-spec
-presence, optional-baseline isolation, run report shape, metric formulas, trace
-shape, Four-Gate routing, forbidden metric policy, stress-test coverage, and
-the existing fixture evaluator.
+This path is not required for AAAI/reviewer replay.

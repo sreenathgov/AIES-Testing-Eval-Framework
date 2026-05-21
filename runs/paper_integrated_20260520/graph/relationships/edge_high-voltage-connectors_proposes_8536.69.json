@@ -1,0 +1,9 @@
+{
+  "cohort_origin": "baseline",
+  "component_ref": "ent_182",
+  "direction_valid": true,
+  "edge_id": "edge:high-voltage-connectors:proposes:8536.69",
+  "edge_type": "proposes_code",
+  "source_node_id": "AA_EU_high-voltage-connectors",
+  "target_node_id": "hs_code:8536.69:EU"
+}

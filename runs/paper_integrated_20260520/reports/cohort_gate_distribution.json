@@ -1,0 +1,74 @@
+[
+  {
+    "cohort": "baseline",
+    "count": 0,
+    "gate_label": "blocked_pending_rerun",
+    "share": 0.0
+  },
+  {
+    "cohort": "baseline",
+    "count": 0,
+    "gate_label": "blocked_pending_research",
+    "share": 0.0
+  },
+  {
+    "cohort": "baseline",
+    "count": 22,
+    "gate_label": "pass",
+    "share": 0.7857
+  },
+  {
+    "cohort": "baseline",
+    "count": 6,
+    "gate_label": "pass_with_notes",
+    "share": 0.2143
+  },
+  {
+    "cohort": "fault_injection",
+    "count": 2,
+    "gate_label": "blocked_pending_rerun",
+    "share": 0.2
+  },
+  {
+    "cohort": "fault_injection",
+    "count": 6,
+    "gate_label": "blocked_pending_research",
+    "share": 0.6
+  },
+  {
+    "cohort": "fault_injection",
+    "count": 0,
+    "gate_label": "pass",
+    "share": 0.0
+  },
+  {
+    "cohort": "fault_injection",
+    "count": 2,
+    "gate_label": "pass_with_notes",
+    "share": 0.2
+  },
+  {
+    "cohort": "integrated",
+    "count": 2,
+    "gate_label": "blocked_pending_rerun",
+    "share": 0.0526
+  },
+  {
+    "cohort": "integrated",
+    "count": 6,
+    "gate_label": "blocked_pending_research",
+    "share": 0.1579
+  },
+  {
+    "cohort": "integrated",
+    "count": 22,
+    "gate_label": "pass",
+    "share": 0.5789
+  },
+  {
+    "cohort": "integrated",
+    "count": 8,
+    "gate_label": "pass_with_notes",
+    "share": 0.2105
+  }
+]

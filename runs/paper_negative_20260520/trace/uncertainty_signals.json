@@ -1,0 +1,125 @@
+{
+  "run_id": "paper_negative_20260520",
+  "signals": [
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": true,
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "confidence": "high",
+      "conflict_case": true,
+      "conflict_preserved": false,
+      "gap_flagged": false,
+      "high_confidence_promote": true,
+      "incomplete_case": false,
+      "stability": "stable"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": true,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    },
+    {
+      "ambiguous_or_contested": false,
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "confidence": "controlled_negative",
+      "conflict_case": false,
+      "conflict_preserved": true,
+      "gap_flagged": false,
+      "high_confidence_promote": false,
+      "incomplete_case": false,
+      "stability": "controlled_negative"
+    }
+  ]
+}

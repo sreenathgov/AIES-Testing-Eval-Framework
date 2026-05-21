@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Anode Substrate (Cu Foil)",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_tb3_06",
+  "node_id": "product_component:anode-substrate-cu-foil",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

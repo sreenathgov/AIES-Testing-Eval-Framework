@@ -1,0 +1,12 @@
+{
+  "component_ref": "high-voltage-battery-pack-assembly",
+  "handoff_id": "NEG_HANDOFF_NEG_003",
+  "human_review_required": true,
+  "negative_case_id": "NEG_003",
+  "review_reason_codes": [
+    "required_authority_class_missing",
+    "secondary_only_authority_chain"
+  ],
+  "route": "blocked",
+  "source_artifact": "NEG_AA_NEG_003"
+}

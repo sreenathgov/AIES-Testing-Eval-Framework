@@ -1,0 +1,4 @@
+{
+  "description": "The handoff package lacks a mandatory route, reason, or source field.",
+  "kind": "handoff_field_removed"
+}

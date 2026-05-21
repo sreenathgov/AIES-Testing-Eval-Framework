@@ -1,0 +1,6 @@
+{
+  "component_ref": "combo-power-electronics-unit",
+  "node_id": "product_component:neg_004",
+  "node_type": "product_component",
+  "source": "controlled_negative_case_bundle"
+}

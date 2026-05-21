@@ -1,0 +1,18 @@
+{
+  "agent": "KA",
+  "artifact_id": "NEG_AUDIT_NEG_006",
+  "authority_status": "pass",
+  "component_ref": "separator-pe-pp-film",
+  "evaluated_artifact": "NEG_AA_NEG_006",
+  "failed_checks": [
+    "confidence_inflation",
+    "divergence_collapsed",
+    "review_trigger_missing_route"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "pass",
+  "negative_case_id": "NEG_006",
+  "provenance_status": "pass",
+  "recommended_route": "promote",
+  "uncertainty_status": "review"
+}

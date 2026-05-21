@@ -1,0 +1,135 @@
+{
+  "events": [
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_001",
+      "component_id": "dc-dc-converter",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": false,
+          "source_id": "SRC_INTERNAL_CANDIDATE_ARTIFACT",
+          "source_type": "internal_generated_candidate"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_002",
+      "component_id": "on-board-charger-(obc)",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_003",
+      "component_id": "high-voltage-battery-pack-assembly",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        },
+        {
+          "permitted": false,
+          "source_id": "SRC_EU_BTI_SAMPLE",
+          "source_type": "ruling_or_precedent"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_004",
+      "component_id": "combo-power-electronics-unit",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_005",
+      "component_id": "traction-inverter-module",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_006",
+      "component_id": "separator-pe-pp-film",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_007",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_008",
+      "component_id": "battery-management-system-(bms)",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_009",
+      "component_id": "on-board-charger-(obc)",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    },
+    {
+      "agent_id": "AA",
+      "artifact_id": "NEG_AA_NEG_010",
+      "component_id": "high-voltage-connectors",
+      "source_uses": [
+        {
+          "permitted": true,
+          "source_id": "SRC_WCO_GRI_2017",
+          "source_type": "primary_legal_text"
+        }
+      ]
+    }
+  ],
+  "run_id": "paper_negative_20260520"
+}

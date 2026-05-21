@@ -1,0 +1,12 @@
+{
+  "component_ref": "on-board-charger-(obc)",
+  "handoff_id": "NEG_HANDOFF_NEG_002",
+  "human_review_required": true,
+  "negative_case_id": "NEG_002",
+  "review_reason_codes": [
+    "missing_source_anchor",
+    "source_anchor_not_resolved"
+  ],
+  "route": "blocked",
+  "source_artifact": "NEG_AA_NEG_002"
+}

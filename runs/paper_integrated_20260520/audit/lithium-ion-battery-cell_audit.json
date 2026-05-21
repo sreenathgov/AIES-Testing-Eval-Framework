@@ -1,0 +1,16 @@
+{
+  "agent": "KA",
+  "artifact_id": "KA_EU_lithium-ion-battery-cell",
+  "authority_status": "pass",
+  "component_ref": "ent_147",
+  "component_slug": "lithium-ion-battery-cell",
+  "evaluated_artifact": "AA_EU_lithium-ion-battery-cell",
+  "failed_checks": [
+    "gri_3b_requires_adjudication_review"
+  ],
+  "graph_parity_status": "pass",
+  "handoff_status": "review",
+  "provenance_status": "pass",
+  "recommended_route": "review",
+  "uncertainty_status": "review"
+}

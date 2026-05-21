@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "artifact_id": "AA_EU_combo-power-electronics-unit",
+      "cohort": "baseline",
+      "component_id": "ent_267",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-module",
+      "cohort": "baseline",
+      "component_id": "ent_133",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_high-voltage-battery-pack-assembly",
+      "cohort": "baseline",
+      "component_id": "ent_100",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_hyper-integrated-e-axle",
+      "cohort": "baseline",
+      "component_id": "ent_269",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_integrated-e-axle",
+      "cohort": "baseline",
+      "component_id": "ent_187",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "AA_EU_lithium-ion-battery-cell",
+      "cohort": "baseline",
+      "component_id": "ent_147",
+      "correct_abstention": true,
+      "insufficiency_type": "contested_or_gri_3b_review_required",
+      "route": "review"
+    },
+    {
+      "artifact_id": "NEG_AA_NEG_007",
+      "cohort": "fault_injection",
+      "component_id": "silicon-alloyed-electrical-steel-core-noes",
+      "correct_abstention": false,
+      "insufficiency_type": "missing_material_product_facts",
+      "route": "blocked"
+    }
+  ],
+  "run_id": "paper_integrated_20260520"
+}

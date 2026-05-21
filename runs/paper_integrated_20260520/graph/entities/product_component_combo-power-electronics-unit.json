@@ -1,0 +1,8 @@
+{
+  "canonical_name": "Combo Power Electronics Unit",
+  "cohort_origin": "baseline",
+  "component_ref": "ent_267",
+  "node_id": "product_component:combo-power-electronics-unit",
+  "node_type": "product_component",
+  "source": "pre_hs_engineering_input"
+}

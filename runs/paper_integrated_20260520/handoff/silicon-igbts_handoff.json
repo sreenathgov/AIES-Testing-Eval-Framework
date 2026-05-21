@@ -1,0 +1,9 @@
+{
+  "component_ref": "ent_210",
+  "component_slug": "silicon-igbts",
+  "handoff_id": "HANDOFF_EU_silicon-igbts",
+  "human_review_required": false,
+  "review_reason_codes": [],
+  "route": "promote",
+  "source_artifact": "AA_EU_silicon-igbts"
+}
